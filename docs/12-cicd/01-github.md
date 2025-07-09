@@ -15,28 +15,59 @@ description: "گیت هاب برای راه اندازی CI/CD از GitHub Actio
 
 در ابتدا نیاز دارید که در ریشه برنامه‌خود دایرکتوری github. و پوشه workflows را داخل آن ایجاد کنید .github/workflows/. شما در این دایرکتوری تمام Action های خود را تعریف می‌کنید. برای مثال فرض می‌کنیم فایلی به نام deploy.yaml را برای استقرار در چابکان در نظر گرفته اید، در اینجا شما میتوانید در قسمت branches نام branch خود را وارد نمایید.
 
-```yaml
-name: deploy-chabokan
-on:
-  push:
-    branches: [master]
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "18"
-      - name: update-chabokan
-        env:
-          CHABOKAN_TOKEN: ${{ secrets.CHABOKAN_TOKEN }}
-        run: |
-          npm install -g @chabokan.net/cli
-          chabok login -t $CHABOKAN_TOKEN
-          chabok deploy -s my-service
-```
+<Tabs>
+  <TabItem value="chabokan" label="چابکان" default>
+    ```yaml
+    name: deploy-chabokan
+    on:
+      push:
+        branches: [main]
+    jobs:
+      deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+          - uses: actions/checkout@v2
+          - uses: actions/setup-node@v1
+            with:
+              node-version: "18"
+          - name: update-chabokan
+            env:
+              CHABOKAN_TOKEN: ${{ secrets.CHABOKAN_TOKEN }}
+            run: |
+              npm install -g @chabokan.net/cli
+              chabok login -t $CHABOKAN_TOKEN
+              chabok deploy -s my-service
+    ```
+
+  </TabItem>
+  <TabItem value="cloudiva" label="کلودیوا">
+    ```yaml
+    name: deploy-cloudiva
+    on:
+      push:
+        branches: [main]
+    jobs:
+      deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+          - uses: actions/checkout@v2
+          - uses: actions/setup-node@v1
+            with:
+              node-version: "18"
+          - name: update-cloudiva
+            env:
+              CHABOKAN_TOKEN: ${{ secrets.CHABOKAN_TOKEN }}
+            run: |
+              npm install -g @cloudiva.net/cli
+              diva login -t $CHABOKAN_TOKEN
+              diva deploy -s my-service
+    ```
+  </TabItem>
+</Tabs>
+
 
 با ایجاد فایل بالا شما به درستی فرآیند CI و CD را در گیت هاب را فعال کرده اید. همانطور که مشاهده ابتدا CLI چابکان را نصب کردیم و سپس با استفاده از دستور chabok login وارد شدیم و در مرحله بعدی با استفاده از دستور chabok deploy کدهای پروژه را بر روی چابکان دیپلوی کردیم.
 
