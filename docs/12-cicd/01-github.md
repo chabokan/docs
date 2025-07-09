@@ -15,6 +15,8 @@ description: "گیت هاب برای راه اندازی CI/CD از GitHub Actio
 
 در ابتدا نیاز دارید که در ریشه برنامه‌خود دایرکتوری github. و پوشه workflows را داخل آن ایجاد کنید .github/workflows/. شما در این دایرکتوری تمام Action های خود را تعریف می‌کنید. برای مثال فرض می‌کنیم فایلی به نام deploy.yaml را برای استقرار در چابکان در نظر گرفته اید، در اینجا شما میتوانید در قسمت branches نام branch خود را وارد نمایید.
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="chabokan" label="چابکان" default>
