@@ -19,22 +19,47 @@ description: "گیت لب برای راه اندازی CI/CD از Gitlab Pipline
 
 و سپس قطعه‌کد زیر را در این فایل قرار دهید:
 
-```yaml
-image: node:18-alpine
 
-stages:
-  - update-service
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-deploy:
-  stage: update-service
-  only:
-    - main
-  script:
-    - npm install -g @chabokan.net/cli
-    - export CHABOK_API_URL=https://apihub2.chabokan.net/fa/api/v1/
-    - chabok login -t $CHABOKAN_TOKEN
-    - chabok deploy -s my-service
-```
+<Tabs>
+  <TabItem value="chabokan" label="چابکان" default>
+    ```yaml
+    image: node:18-alpine
+
+    stages:
+      - update-service
+
+    deploy:
+      stage: update-service
+      only:
+        - main
+      script:
+        - npm install -g @chabokan.net/cli
+        - chabok login -t $CHABOKAN_TOKEN
+        - chabok deploy -s my-service
+    ```
+  </TabItem>
+  <TabItem value="cloudiva" label="کلودیوا">
+    ```yaml
+    image: node:18-alpine
+
+    stages:
+      - update-service
+
+    deploy:
+      stage: update-service
+      only:
+        - main
+      script:
+        - npm install -g @cloudiva.net/cli
+        - diva login -t $CHABOKAN_TOKEN
+        - diva deploy -s my-service
+    ```
+  </TabItem>
+</Tabs>
+
 
 با ایجاد فایل بالا شما به درستی فرآیند CI و CD را در گیت لب فعال کرده اید. همانطور که در کد بالا مشاهده میکنید، ابتدا CLI چابکان را نصب کرده ایم و سپس با استفاده از دستور chabok login وارد حساب خود شده ایم و در مرحله بعدی با استفاده از دستور chabok deploy کدهای پروژه را بر روی چابکان دیپلوی کردیم.
 

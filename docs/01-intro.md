@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## ویدیو آموزشی
 
-<video controls poster="https://chabokan.net/wp-content/uploads/2023/07/learn-main.jpg" width="300">
+<video controls poster="https://chabokan.net/wp-content/uploads/2024/01/main-1-1.jpg" width="300">
   <source src="https://s1.chabokan.net/docs/videos/intro.m4v" />
 </video>
 

@@ -15,9 +15,22 @@ sidebar_label: "نصب CLI"
 
 بعد از نصب کامل `node.js` و `npm` در سیستم عامل خود کافیست دستور زیر را در خط فرمان یا ترمینال سیستم عامل خود وارد کنید تا `CLI` چابکان نصب شود.
 
-```bash
-npm install -g @chabokan.net/cli
-```
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="chabokan" label="چابکان" default>
+    ```bash
+    npm install -g @chabokan.net/cli
+    ```
+  </TabItem>
+  <TabItem value="cloudiva" label="کلودیوا">
+    ```bash
+    npm install -g @cloudiva.net/cli
+    ```
+  </TabItem>
+</Tabs>
 
 بعد از وارد کردن دستور بالا روند نصب انجام خواهد شد و `CLI` به صورت `global` در سیستم عامل شما نصب خواهد شد. برای مطمئن شدن از نصب کامل `CLI` می توانید دستور زیر را در محیط خط فرمان یا ترمینال وارد کنید:
 

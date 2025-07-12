@@ -24,9 +24,22 @@ n stable
 
 برای بروزرسانی CLI کافیست دستور زیر را در خط فرمان یا ترمینال سیستم عامل خود وارد کنید:
 
-```bash
-npm install -g @chabokan.net/cli
-```
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="chabokan" label="چابکان" default>
+    ```bash
+    npm install -g @chabokan.net/cli
+    ```
+  </TabItem>
+  <TabItem value="cloudiva" label="کلودیوا">
+    ```bash
+    npm install -g @cloudiva.net/cli
+    ```
+  </TabItem>
+</Tabs>
 
 با زدن دستور بالا CLI چابکان به آخرین ورژن منتشر شده بروزرسانی خواهد شد. برای مشاهده ورژن کنونی CLI نصب شده در سیستم عامل خود کافیست دستور زیر را در خط فرمان یا ترمینال سیستم عامل خود وارد کنید:
 
