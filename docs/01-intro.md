@@ -161,6 +161,8 @@ sidebar_position: 1
 
 <a href="/ready-application/formbricks/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/formbricks_logo.jpg" /><br /><span>Formbricks</span></a>
 
+<a href="/ready-application/affine/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/affine_logo.jpg" /><br /><span>Affine</span></a>
+
 
 ## فضای ذخیره سازی
 ---
