@@ -163,6 +163,8 @@ sidebar_position: 1
 
 <a href="/ready-application/affine/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/affine_logo.jpg" /><br /><span>Affine</span></a>
 
+<a href="/ready-application/umami/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/umami-logo.jpg" /><br /><span>Umami</span></a>
+
 
 ## فضای ذخیره سازی
 ---
