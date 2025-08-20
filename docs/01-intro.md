@@ -55,6 +55,8 @@ sidebar_position: 1
 
 <a href="/simple-hosting/adonis/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/adonis-ready-logo-1.jpg" /><br /><span>Adonis</span></a>
 
+<a href="/simple-hosting/go/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/go-logo.jpg" /><br /><span>Go</span></a>
+
 
 ## دیتابیس ابری
 ---
