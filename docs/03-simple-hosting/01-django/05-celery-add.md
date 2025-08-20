@@ -7,7 +7,7 @@ description: "در این بخش می خواهیم آموزش افزودن Celer
 # افزودن Celery به Django
 ---
 
-در این بخش می خواهیم آموزش افزودن `Celery` به `Django` را در [هاست جنگو](https://chabokan.net/cloud-hosting/python/django/) به شما آموزش دهیم.
+در این بخش می خواهیم افزودن `Celery` به `Django` را در [هاست جنگو](https://chabokan.net/cloud-hosting/python/django/) به شما آموزش دهیم.
 
 برای استفاده از `Celery` در برنامه ی `Django` خود ابتدا باید آنرا به برنامه خود معرفی نمایید. مراحل زیر به صورت کامل تا اتصال `Celery` به برنامه ی شما آماده شده است.
 
@@ -102,6 +102,8 @@ user=root
 redirect_stderr=true
 stdout_logfile=/app-worker.log
 ```
+
+برای آشنایی بیشتر با Supervisor می‌توانید این [مستند](https://docs.chabokan.net/features/supervisor/) را مطالعه کنید.
 
 > [مستند رسمی **افزودن Celery** در سرویس **Django**](https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html)
 

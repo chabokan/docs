@@ -13,7 +13,7 @@ description: "در این بخش می خواهیم تنظیمات ایمیل Dja
 
 ## تنظیمات متغییر های محیطی (env)
 
-در ابتدا باید اطلاعات ایمیل را در فایل `settings.py` برنامه خود به صورت زیر معرفی نمایید.
+در ابتدا باید اطلاعات ایمیل را در قسمت متغیر های محیطی پلتفرم مانند نمونه های زیر اضافه نمایید.
 
 ```bash
 EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
@@ -26,7 +26,7 @@ EMAIL_USE_TLS=True
 
 در نهایت می‌توانید در پروژه‌ی خود مانند مثال زیر عمل کرده و با استفاده از دسترسی ایمیل سرویس چابکان به‌صورت امن اقدام به ارسال ایمیل‌های تراکنشی نمایید:
 
-```javascript
+```python
 from django.core.mail import send_mail
 send_mail('Subject here', 'Here is the message.', 'from@example.com', ['to@example.com'], fail_silently=False)
 ```
