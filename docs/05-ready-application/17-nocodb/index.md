@@ -7,7 +7,7 @@ description: "NocoDB یک سیستم مدیریت پایگاه داده (Databas
 # مدیریت پایگاه داده Nocodb
 ---
 
-[NocoDB](https://chabokan.net/services/Nocodb/) یک سیستم مدیریت پایگاه داده (Database Management System) و برنامه توسعه سیستم مدیریت محتوا (Content Management System) است که برپایه کدبیس اوپن‌سورس `NocoDB` با استفاده از تکنولوژی‌های جدید توسعه داده شده است.
+[NocoDB](https://chabokan.net/services/nocodb/) یک سیستم مدیریت پایگاه داده (Database Management System) و برنامه توسعه سیستم مدیریت محتوا (Content Management System) است که برپایه کدبیس اوپن‌سورس `NocoDB` با استفاده از تکنولوژی‌های جدید توسعه داده شده است.
 
 ## نصب و راه اندازی Nocodb
 

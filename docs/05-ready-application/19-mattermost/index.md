@@ -5,7 +5,7 @@ description: "Mattermost یک پلتفرم متن‌باز و متن‌باز ب
 
 # مدیریت کسب و کار با Mattermost
 ---
-[Mattermost](https://chabokan.net/services/Mattermost/) یک پلتفرم متن‌باز و متن‌باز برای مکاتبه تیمی (Team Communication) است که برای سازمان‌ها و تیم‌ها طراحی شده است. این نرم‌افزار، یک جایگزین امن و خصوصی برای خدمات مکاتبه محبوب مانند Slack و Microsoft Teams می‌باشد.
+[Mattermost](https://chabokan.net/services/mattermost/) یک پلتفرم متن‌باز و متن‌باز برای مکاتبه تیمی (Team Communication) است که برای سازمان‌ها و تیم‌ها طراحی شده است. این نرم‌افزار، یک جایگزین امن و خصوصی برای خدمات مکاتبه محبوب مانند Slack و Microsoft Teams می‌باشد.
 
 ## نصب و راه اندازی Mattermost
 

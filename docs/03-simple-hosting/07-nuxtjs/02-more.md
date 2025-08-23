@@ -7,7 +7,7 @@ description: ""
 # نکات تکمیلی NuxtJs
 ---
 
-در این بخش می خواهیم نکات تکمیلی را در [هاست نکست جی اس NuxtJs](https://chabokan.net/cloud-hosting/nodejs/nuxt/) به شما آموزش دهیم.
+در این بخش می خواهیم نکات تکمیلی را در [هاست ناکست جی اس NuxtJs](https://chabokan.net/cloud-hosting/nodejs/nuxt/) به شما آموزش دهیم.
 
 ## تغییر دستور نصب
 
@@ -82,4 +82,4 @@ node versions:
 ![](https://s1.chabokan.net/docs/images/nuxt-node-version.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nuxtjs" ><img src="https://s1.chabokan.net/docs/images/nuxt-banner.png" /></a>
+<a href="https://hub.chabokan.net/fa/services/create/nuxt" ><img src="https://s1.chabokan.net/docs/images/nuxt-banner.png" /></a>

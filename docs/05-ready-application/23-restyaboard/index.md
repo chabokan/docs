@@ -6,7 +6,7 @@ description: "Restyaboard یک نرم‌افزار مدیریت پروژه و ت
 # مدیریت پروژه با Restyaboard
 ---
 
-[Restyaboard](https://chabokan.net/services/Restyaboard/) یک نرم‌افزار مدیریت پروژه و تسک‌بورد اوپن سورس است. در واقع، `Restyaboard` یک سیستم کارت‌بورد مشابه Trello است که به شما امکان می‌دهد پروژه‌ها، وظایف و تسک‌ها را مدیریت کنید.
+[Restyaboard](https://chabokan.net/services/restyaboard/) یک نرم‌افزار مدیریت پروژه و تسک‌بورد اوپن سورس است. در واقع، `Restyaboard` یک سیستم کارت‌بورد مشابه Trello است که به شما امکان می‌دهد پروژه‌ها، وظایف و تسک‌ها را مدیریت کنید.
 
 ## نصب و راه اندازی Restyaboard
 

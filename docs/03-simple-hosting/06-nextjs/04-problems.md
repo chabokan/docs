@@ -77,4 +77,4 @@ export default handler
 > — [CORS Installation documentation](https://expressjs.com/en/resources/middleware/cors.html)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nodejs" ><img src="https://s1.chabokan.net/docs/images/nodejs-banner.png" /></a>
+<a href="https://hub.chabokan.net/fa/services/create/next/" ><img src="https://s1.chabokan.net/docs/images/next-banner.png" /></a>
