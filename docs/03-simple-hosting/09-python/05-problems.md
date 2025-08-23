@@ -19,4 +19,4 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>
+<a href="https://hub.chabokan.net/fa/services/create/python" ><img src="https://s1.chabokan.net/docs/images/python-banner.png" /></a>

@@ -17,4 +17,4 @@ description: "در این بخش می خواهیم آموزش نحوه نصب و
 ![](https://s1.chabokan.net/docs/images/sqlserver-start.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/redis" ><img src="https://s1.chabokan.net/docs/images/sqlserver-banner.png" /></a>
+<a href="https://hub.chabokan.net/fa/services/create/mssql" ><img src="https://s1.chabokan.net/docs/images/sqlserver-banner.png" /></a>

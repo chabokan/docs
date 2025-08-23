@@ -39,4 +39,4 @@ node versions:
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nextjs" ><img src="https://s1.chabokan.net/docs/images/next-banner.png" /></a>
+<a href="https://hub.chabokan.net/fa/services/create/next/" ><img src="https://s1.chabokan.net/docs/images/next-banner.png" /></a>

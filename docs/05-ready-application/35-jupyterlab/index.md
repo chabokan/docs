@@ -6,7 +6,7 @@ description: "JupyterLab یک رابط کاربری تعاملی برای پرو
 # برنامه آماده Jupyter
 ---
 
-[JupyterLab](https://chabokan.net/services/jupyterlab/) یک رابط کاربری تعاملی برای پروژه Jupyter است که به شما امکان می دهد با دفتر یادداشت ها، ترمینال ها، ویرایشگر ها، مرورگر فایل ها و خروجی های کار کنید. `JupyterLab` نسل بعد از Jupyter Notebook است زیرا تجربه‌ای مشابه IDE (Integrated Development Environment) ها را به کاربران ارائه می‌دهد با این تفاوت که JupyterLab یک (Interactive Development Environment) می‌باشد یعنی به کاربران این امکان را می‌دهد که به جای مدیریت ابزارهای پراکنده‌ای که برای علم داده مورد نیاز هستند، تنها از `JupyterLab` استفاده نمایند.
+[JupyterLab](https://chabokan.net/services/Jupyterlab/) یک رابط کاربری تعاملی برای پروژه Jupyter است که به شما امکان می دهد با دفتر یادداشت ها، ترمینال ها، ویرایشگر ها، مرورگر فایل ها و خروجی های کار کنید. `JupyterLab` نسل بعد از Jupyter Notebook است زیرا تجربه‌ای مشابه IDE (Integrated Development Environment) ها را به کاربران ارائه می‌دهد با این تفاوت که JupyterLab یک (Interactive Development Environment) می‌باشد یعنی به کاربران این امکان را می‌دهد که به جای مدیریت ابزارهای پراکنده‌ای که برای علم داده مورد نیاز هستند، تنها از `JupyterLab` استفاده نمایند.
 
 ## نصب و راه اندازی JupyterLab
 

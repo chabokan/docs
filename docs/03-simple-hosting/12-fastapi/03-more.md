@@ -7,7 +7,7 @@ description: "در این بخش می خواهیم نکات تکمیلی را د
 # نکات تکمیلی FastAPI
 ---
 
-در این بخش می خواهیم نکات تکمیلی را در [هاست FastAPI](https://chabokan.net/services/fastapi/) به شما آموزش دهیم.
+در این بخش می خواهیم نکات تکمیلی را در [هاست FastAPI](https://chabokan.net/products/cloud-hosting/fastapi/) به شما آموزش دهیم.
 
 ## تغییر سطح لاگ uvicorn
 

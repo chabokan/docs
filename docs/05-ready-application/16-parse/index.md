@@ -6,7 +6,7 @@ description: "Parse Server یک سرور متن‌باز است که توسط Pa
 # برنامه Parse
 ---
 
-[Parse Server](https://chabokan.net/services/Parse/) یک سرور متن‌باز است که توسط `Parse` توسعه داده شده است و قابلیت ارائه خدمات سروری مشابه Parse.com را دارا می‌باشد.
+[Parse Server](https://chabokan.net/services/parse/) یک سرور متن‌باز است که توسط `Parse` توسعه داده شده است و قابلیت ارائه خدمات سروری مشابه Parse.com را دارا می‌باشد.
 
 ## نصب و راه اندازی Parse
 

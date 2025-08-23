@@ -101,15 +101,18 @@ function minio_get_regions( $regions ) {
 
 ورژن های موجود:
 
-| fpm-5.6 	| 5.6 	|
-|---------	|-----	|
-| fpm-7.1 	| 7.1 	|
-| fpm-7.2 	| 7.2 	|
-| fpm-7.3 	| 7.3 	|
-| fpm-7.4 	| 7.4 	|
-| fpm-8.0 	| 8.0 	|
-| fpm-8.1 	| 8.1 	|
-| fpm-8.2 	| 8.2 	|
+| fpm-5.6 	 | 5.6 	 |
+|-----------|-------|
+| fpm-7.1 	 | 7.1 	 |
+| fpm-7.2 	 | 7.2 	 |
+| fpm-7.3 	 | 7.3 	 |
+| fpm-7.4 	 | 7.4 	 |
+| fpm-8.0 	 | 8.0 	 |
+| fpm-8.1 	 | 8.1 	 |
+| fpm-8.2 	 | 8.2 	 |
+| fpm-8.2 	 | 8.2 	 |
+| fpm-8.3 	 | 8.3 	 |
+| fpm-8.4 	 | 8.4 	 |
 
 ---
 <a href="https://hub.chabokan.net/fa/services/create/wordpress" ><img src="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg" /></a>

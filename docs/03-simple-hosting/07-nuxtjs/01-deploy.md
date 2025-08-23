@@ -1,13 +1,13 @@
 ---
 title: "آموزش استقرار NuxtJs"
 sidebar_label: "استقرار اولیه"
-description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `NuxtJs`  را در هاست نکست جی اس Next به شما آموزش دهیم."
+description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `NuxtJs`  را در هاست ناکست جی اس Next به شما آموزش دهیم."
 ---
 
 # استقرار اولیه NuxtJs
 ---
 
-در این بخش می خواهیم آموزش نحوه استقرار اولیه `NuxtJs` را در [هاست نکست جی اس NuxtJs](https://chabokan.net/cloud-hosting/nodejs/nuxt/) به شما آموزش دهیم.
+در این بخش می خواهیم آموزش نحوه استقرار اولیه `NuxtJs` را در [هاست ناکست جی اس NuxtJs](https://chabokan.net/cloud-hosting/nodejs/nuxt/) به شما آموزش دهیم.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `NuxtJs` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `NuxtJs` می سازیم.
 
 ![](https://s1.chabokan.net/docs/gifs/nuxtjs-inatall.gif)
@@ -41,4 +41,4 @@ node versions:
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nuxtjs" ><img src="https://s1.chabokan.net/docs/images/nuxt-banner.png" /></a>
+<a href="https://hub.chabokan.net/fa/services/create/nuxt" ><img src="https://s1.chabokan.net/docs/images/nuxt-banner.png" /></a>

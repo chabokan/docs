@@ -165,4 +165,4 @@ description: "در ادامه میخواهیم آموزش نحوه ‌Backup و 
 پس از تنظیم تمامی گزینه‌ها، روی دکمه "Restore" کلیک کنید تا عملیات بازیابی آغاز شود. بعد از اتمام عملیات بازیابی، پیغامی با عنوان "Restore completed successfully" نشان داده می‌شود.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/redis" ><img src="https://s1.chabokan.net/docs/images/sqlserver-banner.png" /></a>
+<a href="https://hub.chabokan.net/fa/services/create/mssql" ><img src="https://s1.chabokan.net/docs/images/sqlserver-banner.png" /></a>
