@@ -21,7 +21,7 @@ python manage.py migrate
 
 ## راه‌اندازی Hook برای اجرای خودکار Migration
 
-برای تسهیل فرایند توسعه و جلوگیری از اجرای دستی این دستورات پس از هر بار به‌روزرسانی کد در هاست، می‌توان از قابلیت [Hook](https://docs.chabokan.net/features/hook/) در سرویس هاست چابکان بهره گرفت تا این دستورات به صورت خودکار اجرا شوند.
+برای تسهیل فرایند توسعه و جلوگیری از اجرای دستی این دستورات پس از هر بار به‌روزرسانی کد در هاست، می‌توان از قابلیت [Hook](https://docs.chabokan.net/features/etc/hook/) در سرویس هاست چابکان بهره گرفت تا این دستورات به صورت خودکار اجرا شوند.
 
 در مسیر اصلی پروژه‌تان فایلی با نام `chabok-pre-start.sh` ایجاد کنید و دستورات مربوط به `Migration` را در این فایل قرار دهید.
 
@@ -35,7 +35,7 @@ python manage.py migrate
 
 > [مستند رسمی **اجرای Migration** در سرویس **Django**](https://docs.djangoproject.com/en/5.0/topics/migrations/#workflow)
 
->[استفاده از Hookها در کانتینر ابری](https://docs.chabokan.net/features/hook/)
+>[استفاده از Hookها در کانتینر ابری](https://docs.chabokan.net/features/etc/hook/)
 
 ---
 <a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>
