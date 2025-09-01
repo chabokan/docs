@@ -161,11 +161,13 @@ sidebar_position: 1
 
 <a href="/ready-application/syncthing/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/syncthing_logo.jpg" /><br /><span>Syncthing</span></a>
 
-<a href="/ready-application/umami/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/umami-logo.jpg" /><br /><span>Umami</span></a>
+<a href="/ready-application/formbricks/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/formbricks-logo.jpg" /><br /><span>Formbricks</span></a>
 
 <a href="/ready-application/affine/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/affine-logo.jpg" /><br /><span>Affine</span></a>
 
-<a href="/ready-application/formbricks/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/formbricks-logo.jpg" /><br /><span>Formbricks</span></a>
+<a href="/ready-application/umami/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/umami-logo.jpg" /><br /><span>Umami</span></a>
+
+<a href="/ready-application/flowise/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/flowise-logo.jpg" /><br /><span>Flowise</span></a>
 
 
 
