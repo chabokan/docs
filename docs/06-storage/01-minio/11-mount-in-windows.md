@@ -60,8 +60,9 @@ dir
 cp C:\rclone\rclone-v1.51.0-windows-amd64\*.* C:\rclone\
 ```
 
-[  
-](https://www.nakivo.com/blog/wp-content/uploads/2020/06/Rclone-is-extracted-in-Windows.png)می‌توانید مجدد دستور dir را بزنید تا لیست فایل‌ها نمایش داده شود حالا باید فایل rclone.exe را تنظیم کنیم برای این کار این دستور را وارد کنید:
+![](https://s1.chabokan.net/docs/images/rclone-2.jpg)
+
+می‌توانید مجدد دستور dir را بزنید تا لیست فایل‌ها نمایش داده شود حالا باید فایل rclone.exe را تنظیم کنیم برای این کار این دستور را وارد کنید:
 
 ```powershell
 .\rclone.exe config
@@ -101,7 +102,7 @@ provider> 7
 
 در مرحله بعدی اول ACCESS\_KEY و سپس SECRET\_KEY را وارد کنید:
 
-![](https://s1.chabokan.net/docs/images/rclone-2.jpg)
+![](https://s1.chabokan.net/docs/images/rclone-3.jpg)
 
 مرحله بعدی موقعیت جغرافیایی را خالی یا “” بگذارید:
 
@@ -125,7 +126,7 @@ acl> ""
 
 در پایان بدون این که نیازی به تنظیمات پیشرفته داشته باشید دکمه enter را بزنید تا یک بار اطلاعات وارد شده‌ی خود را ببینید:
 
-![](https://s1.chabokan.net/docs/images/rclone-3.jpg)
+![](https://s1.chabokan.net/docs/images/rclone-4.jpg)
 
 حرف y  را برای تایید تنظیمات وارد کنید. حالا Rclone روی پارتیشن شما تنظیم شده است. حرف q را وارد کنید تا از تنظیمات Rclone خارج شوید.
 
@@ -153,23 +154,22 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install winfsp -y
 ```
 
-[  
-](https://www.nakivo.com/blog/wp-content/uploads/2020/06/Installing-WinFSP.png)پس از نصب پکیج دستور زیربه این صورت وارد کنید توجه داشته باشید  عبارت minio اولی همان نامی است که در ابتدای تنظیمات Rclone وارد کرده ایم و backup دومی به نام باکتی که برای ماونت شدن انتخاب کرده ایم اشتاره دارد ممکن است نام باکت یا نامی که در ابتدای تنظیمات واردکرده اید متفاوت باشد شما باید همان مقدار ها را در این دستور وارد کنید:
+![](https://s1.chabokan.net/docs/images/rclone-5.jpg)
+پس از نصب پکیج دستور زیربه این صورت وارد کنید توجه داشته باشید  عبارت minio اولی همان نامی است که در ابتدای تنظیمات Rclone وارد کرده ایم و backup دومی به نام باکتی که برای ماونت شدن انتخاب کرده ایم اشتاره دارد ممکن است نام باکت یا نامی که در ابتدای تنظیمات واردکرده اید متفاوت باشد شما باید همان مقدار ها را وارد کنید:
 
 ```powershell
 .\rclone mount minio:backup/ S: --vfs-cache-mode full
 ```
 
-![](https://s1.chabokan.net/docs/images/rclone-4.jpg)
+![](https://s1.chabokan.net/docs/images/rclone-6.jpg)
 
-[  
-](https://www.nakivo.com/blog/wp-content/uploads/2020/06/Installing-WinFSP.png)پیام The service rclone has been started. نمایش داده میشود و در درایو های ویندوز من هم یک درایو backup اضافه شده است:
+پیام The service rclone has been started. نمایش داده میشود و در درایو های ویندوز من هم یک درایو backup اضافه شده است:
 
 در درایوهای وییندوز خواهید دید که یک درایو S به عنوان Network Drive در لیست درایو های شما اضافه شده است و هر فایلی که در باکت مورد نظر تان (در این جا باکت من backup نام دارد) وجود دارد در درایو ویندوز شما هم هست.
 
 نکته: اگر کلید‌های _Ctrl+C_ را در پاورشل کلیک کنید یا CMD یا پاورشل را ببندید، ارتباط درایو مانت شده در ویندوز با سرویس ابری Minio قطع خواهد شد.
 
-![](https://s1.chabokan.net/docs/images/rclone-5.jpg)
+![](https://s1.chabokan.net/docs/images/rclone-7.jpg)
 
 فضای ابری یک پتابایت در درایو های ویندوز!
 
