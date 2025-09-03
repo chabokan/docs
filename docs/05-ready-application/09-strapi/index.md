@@ -24,7 +24,7 @@ description: "Strapi یک سیستم مدیریت محتوا (Content Management
 
 ![](https://s1.chabokan.net/docs/images/strapi-4.jpg)
 
-حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Strapi` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/domains/))
+حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Strapi` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
 ![](https://s1.chabokan.net/docs/images/strapi-5.jpg)
 

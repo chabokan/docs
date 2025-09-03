@@ -11,7 +11,7 @@ sidebar_label: "افزودن ایمیل"
 
 ![](https://s1.chabokan.net/docs/gifs/email-install.gif)
 
-در صورتی که پیام زیر را دریافت کردید، ابتدا دامنه خود را به سرویس اضافه کنید. [آموزش اتصال دامنه](https://docs.chabokan.net/domains/)
+در صورتی که پیام زیر را دریافت کردید، ابتدا دامنه خود را به سرویس اضافه کنید. [آموزش اتصال دامنه](https://docs.chabokan.net/features/domains/)
 
 ![](https://s1.chabokan.net/docs/images/email_1.jpg)
 

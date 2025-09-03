@@ -13,7 +13,7 @@ sidebar_label: "نکات تکمیلی"
 
 ```json
 {
-  "service": "php-test",
+  "service": "php-test"
 }
 ```
 

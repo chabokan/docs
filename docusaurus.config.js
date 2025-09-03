@@ -71,7 +71,7 @@ const config = {
                     from: '/simple-hosting/spring/',
                 },
                 {
-                    to: '/domains/add-dns/',
+                    to: '/features/domains/add-dns/',
                     from: '/domains/add/',
                 },
               ],

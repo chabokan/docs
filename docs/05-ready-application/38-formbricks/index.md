@@ -34,7 +34,7 @@ description: "Formbricks یک پلتفرم مدیریت فرم و نظرسنجی
 
 ![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-6.png)
 
-حال برنامه شما آماده استفاده است و می‌توانید با مراجعه به دامنه‌ی خود در داشبورد سرویس `Formbricks` وارد برنامه شوید و یا دامنه‌ی اختصاصی خود را بر روی برنامه تنظیم نمایید.([تنظیم دامنه](https://docs.chabokan.net/domains/))
+حال برنامه شما آماده استفاده است و می‌توانید با مراجعه به دامنه‌ی خود در داشبورد سرویس `Formbricks` وارد برنامه شوید و یا دامنه‌ی اختصاصی خود را بر روی برنامه تنظیم نمایید.([تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
 ![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-7.png)
 

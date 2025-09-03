@@ -27,7 +27,7 @@ Admin UI = domain.com/_/
 
 ![](https://s1.chabokan.net/docs/images/packet_2.jpg)
 
-حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Pocketbase` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/domains/))
+حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Pocketbase` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
 ![](https://s1.chabokan.net/docs/images/packet_3.jpg)
 
