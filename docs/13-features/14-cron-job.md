@@ -11,11 +11,17 @@ description: "در بعضی اوقات نیاز است که سرویس شما ی
 
 برای استفاده از `Cron Job` ها کافیست یک فایل به نام `cron-jobs` در داخل ریشه اصلی برنامه تان ایجاد کنید و دستورات `Cron Job` خود را داخل آن قرار دهید. با این کار هربار که سرویس شما ری استارت شود `Cron Job` سرویس تغییرات شما را اعمال خواهد کرد.
 
-مسیر دقیق فایل:
+برای استفاده از `Cron Job` در سرویس‌های میزبانی آسان می‌بایست فایل `cron-jobs` را در مسیر اصلی پروژه `/app` ایحاد کنید. مسیر کامل فایل به این شکل خواهد بود:
 
 ```bash
-app/cron-jobs
+/app/cron-jobs
 ```
+:::caution توجه
+
+در سرویس‌های `php` و `laravel` مسیر اصلی پروژه برابر است با `/var/www/html`.
+
+:::
+
 
 نمونه فایل cron-jobs:
 
@@ -25,7 +31,7 @@ app/cron-jobs
 
 :::caution توجه
 
-بعد از تنظیم فایل، برای شناسایی کرون جاب توسط برنامه، سرویس خود را ری استارت نمایید.
+بعد از تنظیم فایل، برای شناسایی کرون جاب توسط برنامه، سرویس خود را ری‌استارت نمایید.
 
 :::
 
@@ -41,22 +47,28 @@ app/cron-jobs
 
 - 0 0 \* \* 0       [هر هفته روز یکشنبه](https://crontab.guru/every-week)
 
-با کمک وب‌سایت [crontab.guru](https://crontab.guru/) می‌توانید زمان دلخواه‌تان را بسازید.
+با کمک وب‌سایت [crontab.guru](https://crontab.guru/) می‌توانید زمان دلخواه‌تان را بسازید.
 
-## نمونه فایل cron-jobs در سرویس Laravel
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-```bash
-* * * * * cd /var/www/html && php artisan schedule:run >> /dev/null 2>&1
-```
-
+<Tabs>
+  <TabItem value="laravel" label="Laravel" default>
+    ```bash
+    * * * * * cd /var/www/html && php artisan schedule:run >> /dev/null 2>&1
+    ```
 با استفاده از کامند بالا، scheduler لاراول هر دقیقه اجرا می شود.
-
-## نمونه فایل cron-jobs در سرویس PHP
-
-```bash
-30  3  *  *  * cd /var/www/html && php cron_example.php >> /dev/null 2>&1
-```
-
+  </TabItem>
+  <TabItem value="php" label="PHP">
+    ```bash
+    30 3 * * * cd /var/www/html && php cron_example.php >> /dev/null 2>&1
+    ```
 با استفاده از کامند بالا، فایل php ما در روت پروژه، راس ساعت ۳ و ۳۰ دقیقه صبح هر روز، اجرا خواهد شد.
-
-
+  </TabItem>
+  <TabItem value="django" label="Django">
+    ```bash
+    * * * * * cd /app && python manage.py my_scheduled_task >> /dev/null 2>&1
+    ```
+با استفاده از کامند بالا، scheduler جنگو هر دقیقه اجرا می شود.
+  </TabItem>
+</Tabs>
