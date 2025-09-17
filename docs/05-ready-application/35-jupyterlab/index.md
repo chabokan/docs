@@ -24,7 +24,7 @@ description: "JupyterLab یک رابط کاربری تعاملی برای پرو
 
 ![](https://s1.chabokan.net/docs/images/jupyter-3.png)
 
-حال سرویس شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `JupyterLab` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/domains/))
+حال سرویس شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `JupyterLab` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
 ![](https://s1.chabokan.net/docs/images/jupyter-4.png)
 
