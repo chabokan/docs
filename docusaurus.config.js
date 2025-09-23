@@ -22,7 +22,7 @@ const config = {
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    trailingSlash:true,
+    trailingSlash: true,
 
     // Even if you don't use internalization, you can use this field to set useful
     // metadata like html lang. For example, if your site is Chinese, you may want
@@ -51,7 +51,7 @@ const config = {
                 },
                 googleTagManager: {
                     containerId: 'DOC_TAG_MANAGER_CODE',
-                  },
+                },
             }),
         ],
     ],
@@ -61,23 +61,65 @@ const config = {
         [
             '@docusaurus/plugin-client-redirects',
             {
-              redirects: [
-                {
-                  to: '/general-tips/base-commands/',
-                  from: '/base-commands/',
+                redirects: [
+                    {
+                        to: '/general-tips/base-commands/',
+                        from: '/base-commands/',
+                    },
+                    {
+                        to: '/instruction/spring/',
+                        from: '/simple-hosting/spring/',
+                    },
+                    {
+                        to: '/features/etc/hook/',
+                        from: '/features/hook/',
+                    },
+                    {
+                        to: '/features/etc/supervisor/',
+                        from: '/features/supervisor/',
+                    },
+                    {
+                        to: '/simple-hosting/php/more/',
+                        from: '/features/php-settings/',
+                    },
+                    {
+                        to: '/features/files/ftp/',
+                        from: '/features/ftp/',
+                    },
+                    {
+                        to: '/features/settings/zero-downtime/',
+                        from: '/features/zero-downtime/',
+                    },
+                    {
+                        to: '/features/settings/env/',
+                        from: '/features/env/',
+                    },
+                    {
+                        to: '/features/settings/duplicate/',
+                        from: '/features/duplicate/',
+                    },
+                    {
+                        to: '/features/etc/cron-job/',
+                        from: '/features/cron-job/',
+                    },
+                    {
+                        to: '/features/etc/timezone/',
+                        from: '/features/timezone/',
+                    },
+                ],
+                createRedirects(existingPath) {
+                    if (existingPath.includes('/features/domains/')) {
+                        return [existingPath.replace('/features/domains/', '/domains/')];
+                    }
+                    if (existingPath.includes('/features/email/')) {
+                        return [existingPath.replace('/features/email/', '/email/')];
+                    }
+
+                    return undefined; //no redirect created
                 },
-                {
-                    to: '/instruction/spring/',
-                    from: '/simple-hosting/spring/',
-                },
-                {
-                    to: '/domains/add-dns/',
-                    from: '/domains/add/',
-                },
-              ],
             },
-          ],
-      ],
+        ],
+    ],
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -106,11 +148,11 @@ const config = {
             zoom: {
                 selector: '.theme-doc-markdown p > img',
                 background: {
-                  light: 'rgb(255, 255, 255, 0.7)',
-                  dark: 'rgb(0, 0, 0, 0.7)'
+                    light: 'rgb(255, 255, 255, 0.7)',
+                    dark: 'rgb(0, 0, 0, 0.7)'
                 },
                 config: {
-                  // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+                    // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
                 }
             },
             colorMode: {

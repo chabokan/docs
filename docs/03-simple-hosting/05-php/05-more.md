@@ -15,7 +15,7 @@ description: "در این بخش می خواهیم نکات تکمیلی را د
 
 مثال:
 
-```php
+```ini
 upload_max_filesize = "20M"
 post_max_size = "25M"
 memory_limit = "128M"
@@ -28,6 +28,17 @@ allow_url_fopen = on
 بعد از ایجاد این فایل ابتدا باید یکبار سرویس خود را ری استارت نماییید تا تنظیمات انجام شده در این فایل در php.ini شما اعمال شود.
 
 :::
+
+### غیر فعال کردن Function های خطرناک در php.ini
+
+در فایل `php.ini`، شما می‌توانید از دستور `disable_functions` استفاده کنید تا توابع خاصی در `PHP` غیرفعال شوند. این دستور به شما امکان می‌دهد که کنترل دقیق‌تری بر روی عملکرد `PHP` در سطح سرور خود داشته باشید.
+
+وقتی از این دستور استفاده می‌کنید، می‌توانید توابعی را که برای اجرای کد `PHP` شما غیرضروری یا امن نمی‌باشند، غیرفعال کنید. این کار می‌تواند به شما در امنیت و جلوگیری از استفاده ناخواسته از توابع خطرناک کمک کند.
+به طور پیشفرض در چابکان توابع زیر فعال می باشد. برای این که تابع مد نظر خود را اضافه یا حذف نمایید کافیست یک فایل با نام `chabok-php.ini` در ریشه (root) فایل های سرویس خود ایجاد کنید و کد زیر را اضافه کنید و تغییرات مد نظر را اعمال نمایید.
+
+```ini
+disable_functions =exec,system,passthru,shell_exec,proc_close,proc_open,dl,popen,show_source,posix_kill,posix_mkfifo,posix_getpwuid,posix_setpgid,posix_setsid,posix_setuid,posix_setgid,posix_seteuid,posix_setegid,posix_uname,mail
+```
 
 ## تنظیمات اختصاصی htaccess
 
@@ -55,7 +66,7 @@ ErrorDocument 404 /error.php?q=404
 
 گاهی اوقات نیاز است که یک برنامه یا اسکریپت به صورت تمام وقت در سرویس اجرا باشد و حتی اگر سرویس ریستارت شد آن برنامه دوباره اجرا شود. برای این کار در چابکان از Supervisor استفاده می شود تا اسکریپت شما به صورت تمام وقت در سرویس استقرار داده شده اجرا باشد.  
 Supervisor در سرویس PHP چابکان نصب شده و راهنمای کامل آن را نیز میتوانید از طریق مستند زیر دنبال فرمایید.  
-[فعال سازی Supervisor](https://docs.chabokan.net/features/supervisor/)
+[فعال سازی Supervisor](https://docs.chabokan.net/features/etc/supervisor/)
 
 ## خطای CORS در پی اچ پی
 
