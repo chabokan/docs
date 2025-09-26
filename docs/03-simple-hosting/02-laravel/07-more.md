@@ -66,7 +66,7 @@ display_errors = On
 
 ## تنظیمات Queue ها
 
-برای تنظیمات `Queue` در سرویس ابری لاراول کافیست با استفاده از `Supervisor` دستور زیر را اجرا نمایید تا `Queue` های لاراول به درستی فعال شوند. ([Supervisor چیست و چطور استفاده می شود](https://docs.chabokan.net/features/supervisor/))
+برای تنظیمات `Queue` در سرویس ابری لاراول کافیست با استفاده از `Supervisor` دستور زیر را اجرا نمایید تا `Queue` های لاراول به درستی فعال شوند. ([Supervisor چیست و چطور استفاده می شود](https://docs.chabokan.net/features/etc/supervisor/))
 
 ```php
 php /var/www/html/artisan queue:work
@@ -86,7 +86,7 @@ START_COMMAND=php artisan octane:start --server=swoole --host=0.0.0.0 --port=80
 sudo php artisan octane:status
 ```
 
-برای تنظیمات صف بندی `(queue)` میتوانید [از این مستند](https://docs.chabokan.net/features/supervisor/) کمک بگیرید.
+برای تنظیمات صف بندی `(queue)` میتوانید [از این مستند](https://docs.chabokan.net/features/etc/supervisor/) کمک بگیرید.
 
 
 ## اکستنشن های PHP
