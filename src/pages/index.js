@@ -62,7 +62,7 @@ export default function Home() {
 
 <a href="/ready-application/odoo/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/odoo-platform.jpg" /><br /><span>Odoo</span></a>
 
-<a href="/ready-application/matomo/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/matomoo-platform.jpg" /><br /><span>Matomoo</span></a>
+<a href="/ready-application/matomo/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/matomo-platform.jpg" /><br /><span>Matomo</span></a>
 
 <a href="/ready-application/gitlabrunner/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/gitlab-runner.jpg" /><br /><span>Gitlab Runner</span></a>
 
