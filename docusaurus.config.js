@@ -106,6 +106,26 @@ const config = {
                         to: '/features/etc/timezone/',
                         from: '/features/timezone/',
                     },
+                    {
+                        to: '/domain/register-domain/',
+                        from: '/features/domains/register-domain/',
+                    },
+                    {
+                        to: '/domain/register-international-domain/',
+                        from: '/features/domains/register-international-domain/',
+                    },
+                    {
+                        to: '/domain/transfer-ir/',
+                        from: '/features/domains/transfer-ir/',
+                    },
+                    {
+                        to: '/domain/transfer-international/',
+                        from: '/features/domains/transfer-international/',
+                    },
+                    {
+                        to: '/domain/more/',
+                        from: '/features/domains/more/',
+                    },
                 ],
                 createRedirects(existingPath) {
                     if (existingPath.includes('/features/domains/')) {
