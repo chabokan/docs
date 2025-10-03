@@ -17,7 +17,7 @@ php artisan migrate
 
 ![](https://s1.chabokan.net/docs/images/console-chabokan.jpg)
 
-> [مستند رسمی **اجرای Migration** در سرویس **Laravel**](https://laravel.com/docs/10.x/artisan#introduction)
+> [مستند رسمی **اجرای Migration** در سرویس **Laravel**](https://laravel.com/docs/artisan#introduction)
 
 ---
 <a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
