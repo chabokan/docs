@@ -137,7 +137,7 @@ Route::get('/send-email', [EmailController::class, 'sendEmail']);
 
 حالا هنگامی که https://your-url/send-email را در مرورگر فراخوانی کنید، متد `sendEmail` از کلاس `EmailController` فعال شده و ایمیل ارسال می‌گردد.
 
-> [مستند رسمی **تنظیمات ایمیل** در سرویس **Laravel**](https://laravel.com/docs/10.x/mail#generating-mailables)
+> [مستند رسمی **تنظیمات ایمیل** در سرویس **Laravel**](https://laravel.com/docs/mail#generating-mailables)
 
 ---
 <a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
