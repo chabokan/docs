@@ -113,7 +113,7 @@ sidebar_position: 1
 
 <a href="/ready-application/gitlabrunner/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/gitlab-runner.jpg" /><br /><span>Gitlab Runner</span></a>
 
-<a href="/ready-application/matomo/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/matomoo-platform.jpg" /><br /><span>Matomoo</span></a>
+<a href="/ready-application/matomo/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/matomo-platform.jpg" /><br /><span>Matomo</span></a>
 
 <a href="/ready-application/metabase/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/metabase-platform.jpg" /><br /><span>Metabase</span></a>
 
