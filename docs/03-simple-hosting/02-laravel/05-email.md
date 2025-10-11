@@ -22,7 +22,7 @@ MAIL_DRIVER : smtp
 MAIL_HOST : mail.chabokan.net
 MAIL_PORT : 587
 MAIL_ENCRYPTION : tls
-MAIL_USER : info@example.net
+MAIL_USERNAME : info@example.net
 MAIL_PASSWORD : ********
 
 ```
