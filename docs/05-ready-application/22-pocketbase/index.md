@@ -18,7 +18,7 @@ description: "PocketBase یک پلتفرم مدیریت پایگاه داده و
 
 سپس برای ساخت حساب `superuser` به قسمت لاگ‌های سرویس بروید. و لینک مشخص‌شده را در مرورگر باز کنید.
 
-![](pcketbase-docs-01.png)
+![](https://s1.chabokan.net/docs/images/pcketbase-platform-docs-03.png)
 
 
 :::tip نکته
