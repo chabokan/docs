@@ -32,7 +32,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="mysql" label="Mysql" default>
-    ```bash
+    ```shell
     # name = value
 
     DB_ENGINE = django.db.backends.mysql
@@ -45,7 +45,7 @@ import TabItem from '@theme/TabItem';
 
   </TabItem>
   <TabItem value="postgresql" label="Postgresql">
-    ```bash
+    ```shell
     # name = value
 
     DB_ENGINE = django.db.backends.postgresql

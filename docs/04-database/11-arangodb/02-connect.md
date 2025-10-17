@@ -12,7 +12,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 ![](https://s1.chabokan.net/docs/images/arangodb4.jpg)
 
-```bash
+```properties
 Username : نام کاربری
 Password : رمز عبور
 ```

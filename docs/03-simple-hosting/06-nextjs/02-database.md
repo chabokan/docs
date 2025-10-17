@@ -11,7 +11,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 
 برای اتصال دیتابیس به سرویس Nextjs خود، در صورتی که از Pages router استفاده مینمایید، ابتدا در مسیر زیر میبایست فایل db.js را ایجاد نموده و سپس با توجه به نوع دیتابیس خود، فایل ایجاد شده را کانفیگ نمایید.
 
-```bash
+```shell
 /app/pages/api/
 ```
 
@@ -19,13 +19,13 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 
 برای اتصال دیتابیس Mysql به سرویس Nextjs، ابتدا میبایست پکیج mysql2 را نصب نمایید:
 
-```bash
+```shell
 npm install mysql2
 ```
 
 سپس فایل db.js را در مسیر /app/pages/api/ مانند نمونه زیر تکمیل نمایید:
 
-```bash
+```javascript
 import mysql from 'mysql2/promise';
 
 const dbConfig = {
@@ -53,7 +53,7 @@ export default connectToDatabase;
 حال میتوانید با استفاده از کد زیر در برنامه خود، اتصال دیتابیس به برنامه را بررسی نمایید:
 
 
-```bash
+```javascript
 import connectToDatabase from './api/db.js';
 
 export default function Home({ isConnectedToDB }) {
@@ -87,13 +87,13 @@ export async function getStaticProps() {
 
 برای اتصال دیتابیس Mariadb به سرویس Nextjs، ابتدا میبایست پکیج mariadb را نصب نمایید:
 
-```bash
+```shell
 npm install mariadb
 ```
 
 سپس فایل db.js را در مسیر /app/pages/api/ مانند نمونه زیر تکمیل نمایید:
 
-```bash
+```javascript
 import mariadb from 'mariadb';
 
 const pool = mariadb.createPool({
@@ -125,7 +125,7 @@ export default connectToDatabase;
 حال میتوانید با استفاده از کد زیر در مسیر /app/pages/index.js اتصال دیتابیس به برنامه را بررسی نمایید:
 
 
-```bash
+```javascript
 import connectToDatabase from './api/db.js';
 export default function Home({ isConnectedToDB }) {
   return (
@@ -159,13 +159,13 @@ export async function getStaticProps() {
 
 برای اتصال دیتابیس PostgreSQL به سرویس Nextjs، ابتدا میبایست پکیج pg را نصب نمایید:
 
-```bash
+```shell
 npm install pg
 ```
 
 سپس فایل db.js را در مسیر /app/pages/api/ مانند نمونه زیر تکمیل نمایید:
 
-```bash
+```javascript
 import { Pool } from 'pg';
 
 const pool = new Pool({
@@ -197,8 +197,8 @@ export default connectToDatabase;
 حال میتوانید با استفاده از کد زیر در مسیر /app/pages/index.js اتصال دیتابیس به برنامه را بررسی نمایید:
 
 
-```bash
-mport connectToDatabase from './api/db.js';
+```javascript
+import connectToDatabase from './api/db.js';
 
 export default function Home({ isConnectedToDB }) {
   return (
@@ -231,13 +231,13 @@ export async function getStaticProps() {
 
 برای اتصال دیتابیس SQL Server به سرویس Nextjs، ابتدا میبایست پکیج mssql را نصب نمایید:
 
-```bash
+```shell
 npm install mssql
 ```
 
 سپس فایل db.js را در مسیر /app/pages/api/ مانند نمونه زیر تکمیل نمایید:
 
-```bash
+```javascript
 import { ConnectionPool } from 'mssql';
 
 const config = {
@@ -271,7 +271,7 @@ export default connectToDatabase;
 حال میتوانید با استفاده از کد زیر در مسیر /app/pages/index.js اتصال دیتابیس به برنامه را بررسی نمایید:
 
 
-```bash
+```javascript
 import connectToDatabase from './api/db.js';
 
 export default function Home({ isConnectedToDB }) {
@@ -305,13 +305,13 @@ export async function getStaticProps() {
 
 برای اتصال دیتابیس MongoDB به سرویس Nextjs، ابتدا میبایست پکیج mongodb را نصب نمایید:
 
-```bash
+```shell
 npm install mongodb
 ```
 
 سپس فایل db.js را در مسیر /app/pages/api/ مانند نمونه زیر تکمیل نمایید:
 
-```bash
+```javascript
 import { MongoClient } from 'mongodb';
 
 const MONGODB_URI = process.env.MONGODB_URI;
@@ -347,7 +347,7 @@ export { connectToDatabase, closeDatabaseConnection };
 ```
 حال میبایست در قسمت تنظیمات سرویس، بخش متغیر های محیطی پلتفرم، connection string دیتابیس mongodb خود را معرفی نمایید:
 
-```bash
+```properties
 # name : value
 
 MONGODB_URI : mongodb://USERNASME:PASSWORD@MONGO_SERVER_URL:MONGO_PORT/?authSource=admin
@@ -356,7 +356,7 @@ MONGODB_URI : mongodb://USERNASME:PASSWORD@MONGO_SERVER_URL:MONGO_PORT/?authSour
 حال میتوانید با استفاده از کد زیر در مسیر /app/pages/index.js اتصال دیتابیس به برنامه را بررسی نمایید:
 
 
-```bash
+```javascript
 import connectToDatabase from './api/db.js';
 
 export default function Home({ isConnectedToDB }) {
@@ -390,13 +390,13 @@ export async function getStaticProps() {
 
 برای اتصال دیتابیس Redis به سرویس Nextjs، ابتدا میبایست پکیج ioredis را نصب نمایید:
 
-```bash
+```shell
 npm install ioredis
 ```
 
 سپس فایل db.js را در مسیر /app/pages/api/ مانند نمونه زیر تکمیل نمایید:
 
-```bash
+```javascript
 import Redis from 'ioredis';
 
 const redisConfig = {
@@ -427,7 +427,7 @@ export default connectToDatabase;
 حال میتوانید با استفاده از کد زیر در مسیر /app/pages/index.js اتصال دیتابیس به برنامه را بررسی نمایید:
 
 
-```bash
+```javascript
 import connectToDatabase from './api/db';
 
 export default function Home({ isConnectedToDB }) {

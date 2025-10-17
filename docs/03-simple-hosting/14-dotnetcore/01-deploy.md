@@ -32,13 +32,13 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 
 معرفی فایل `.dll` نهایی برنامه که بعد از بیلدکردن ساخته می‌شود. (بدون پسوند)
 
-```bash
+```properties
 DOTNETCORE_FINALDLLNAME=filename
 ```
 
 معرفی فایل `.csproj` اصلی برنامه. (به صورت نسبی وارد شود)
 
-```bash
+```shell
 DOTNETCORE_CSPROJECTFILE=path/to/folder/my.csproj
 ```
 
@@ -50,19 +50,19 @@ DOTNETCORE_CSPROJECTFILE=path/to/folder/my.csproj
 
 غیرفعال کردن بیلد پروژه
 
-```bash
+```properties
 DOTNETCORE_BUILD=false
 ```
 
 معرفی مسیر دایرکتوری `publish` در چابکان
 
-```bash
+```properties
 DOTNETCORE_PUBLISH_DIR=/app/
 ```
 
 فایل `dll` نهایی برنامه شما
 
-```bash
+```properties
 DOTNETCORE_FINALDLLNAME=myapp.server
 ```
 
@@ -72,7 +72,7 @@ DOTNETCORE_FINALDLLNAME=myapp.server
 
 سرویس `ASP.NET Core` در چابکان از ورژن های زیر پشتیبانی میکند و میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](https://docs.chabokan.net/simple-hosting/dotnetcore/more/#تغییر-ورژن-aspnet-core) مراجعه نمایید.
 
-```php
+```text
 ASP.NET Core versions:
 
 - 2.1

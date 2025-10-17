@@ -13,7 +13,7 @@ description: "در این بخش می خواهیم آموزش اتصال Django 
 
 برای استفاده از سرویس فایل `S3` ابتدا باید با استفاده از دستور زیر کتابخانه های [boto3](https://github.com/boto/boto3) و [django-storages](https://django-storages.readthedocs.io/en/latest/index.html) را در پروژه خود نصب کنید.
 
-```bash
+```shell
 pip install boto3
 pip install django-storages
 ```
@@ -22,7 +22,7 @@ pip install django-storages
 
 حالا که کتابخانه مربوط نصب شد، باید مشخصات سرویس فایل `S3` خود را با استفاده از `ENV` ها به `Django` معرفی کنید. که برای اینکار می توانید از طریق قسمت تنظیمات سرویس خود از قسمت متغیر های محیطی چابکان استفاده کنید. برای آشنایی بیشتر با متغیر‌های محیطی چابکان این [مستند](https://docs.chabokan.net/features/env/) را مطالعه بفرمائید.
 
-```bash
+```properties
 # name : value
 
 ENDPOINT : Bucket-Endpoint

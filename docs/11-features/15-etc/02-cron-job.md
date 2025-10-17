@@ -15,7 +15,7 @@ description: "در بعضی اوقات نیاز است که سرویس شما ی
 
 برای استفاده از `Cron Job` در سرویس‌های میزبانی آسان می‌بایست فایل `cron-jobs` را در مسیر اصلی پروژه `/app` ایحاد کنید. مسیر کامل فایل به این شکل خواهد بود:
 
-```bash
+```shell
 /app/cron-jobs
 ```
 :::caution توجه
@@ -27,7 +27,7 @@ description: "در بعضی اوقات نیاز است که سرویس شما ی
 
 نمونه فایل cron-jobs:
 
-```bash
+```shell
 * * * * * cd /var/www/html && php artisan schedule:run >> /dev/null 2>&1
 ```
 
@@ -56,19 +56,19 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="laravel" label="Laravel" default>
-    ```bash
+    ```shell
     * * * * * cd /var/www/html && php artisan schedule:run >> /dev/null 2>&1
     ```
 با استفاده از کامند بالا، scheduler لاراول هر دقیقه اجرا می شود.
   </TabItem>
   <TabItem value="php" label="PHP">
-    ```bash
+    ```shell
     30 3 * * * cd /var/www/html && php cron_example.php >> /dev/null 2>&1
     ```
 با استفاده از کامند بالا، فایل php ما در روت پروژه، راس ساعت ۳ و ۳۰ دقیقه صبح هر روز، اجرا خواهد شد.
   </TabItem>
   <TabItem value="django" label="Django">
-    ```bash
+    ```shell
     * * * * * cd /app && python manage.py my_scheduled_task >> /dev/null 2>&1
     ```
 با استفاده از کامند بالا، scheduler جنگو هر دقیقه اجرا می شود.
@@ -89,7 +89,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 نمونه فایل `cron-jobs`
-```bash
+```shell
     * * * * * echo "The Docker cronjob ran at $(date)" >> /cron.log 2>&1
     
 ```

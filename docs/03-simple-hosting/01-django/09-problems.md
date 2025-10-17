@@ -54,7 +54,7 @@ CSRF_TRUSTED_ORIGINS = ["https://test.chbk.run"]
 
 در پلتفرم `Django` برای استقرار به فایل `wsgi` نیاز هست تا سرویس بتواند کار خود را انجام دهد. در سرویس `Django` چابکان به صورت خودکار مسیر این فایل شناسایی می شود. اما گاهی اوقات با توجه به ساختار برنامه شما ممکن هست این شناسایی خودکار با مشکل مواجه شود. برای رفع این مشکل شما باید مسیر `wsgi` پروژه تان را از طریق تنظیمات سرویس قسمت متغیر ها به چابکان معرفی کنید.
 
-```bash
+```properties
 # name : value
 
 WSGI_PATH : my_app_name.wsgi
@@ -80,7 +80,7 @@ SECURE_SSL_REDIRECT = False
 
 برای حل مشکل میتوانید از [این پکیج](https://pypi.org/project/django-cors-headers/) استفاده نمایید و بعد از نصب و استفاده از پکیج در برنامه خود، میبایست موارد زیر را نیز در قسمت `settings.py` برنامه خود معرفی نمایید.
 
-```bash
+```python
 
 CORS_ALLOWED_ORIGINS = [
     "https://your-site-url.com",
@@ -100,7 +100,7 @@ CORS_ALLOW_METHODS = [
 
 در صورت مواجه شدن با ارور زیر میتوانید ورژن جنگوی خود را تغییر داده تا مشکل برطرف شود.
 
-```python
+```log
 ImportError: cannot import name 'decodestring' from 'base64' (/usr/local/lib/python3.9/base64.py)
 ```
 

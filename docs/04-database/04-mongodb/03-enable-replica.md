@@ -16,7 +16,7 @@ description: "دیتابیس MongoDB قابلیت این را دارد که دا
 
 در مرحله اول نیاز به ایجاد یک فایل key برای replica می باشد که با وارد کردن دستور زیر در کنسول سرویس خود می توانید یک key فایل با نام replica.key ایجاد بفرمایید. (دقت بفرمایید که این فایل باید با همین اسم و در مسیر /data/db قرار داشته باشد.)
 
-```bash
+```shell
 openssl rand -base64 756 > /data/db/replica.key && chmod 600 /data/db/replica.key
 ```
 
@@ -26,19 +26,19 @@ openssl rand -base64 756 > /data/db/replica.key && chmod 600 /data/db/replica.ke
 
 ابتدا با استفاده از دستور زیر وارد mongo shell می شویم (بجای USERNAME و PASSWORD اطلاعات خود را وارد کنید):
 
-```bash
+```shell
 mongo -u USERNAME -p PASSWORD
 ```
 
  در MongoDB ورژن 6 دستور mongo غیرفعال شده و می توانید از دستور زیر استفاده نمایید
 
-```bash
+```shell
 mongosh -u USERNAME -p PASSWORD
 ```
 
 و سپس دستور زیر را وارد می کنیم (بجای HOST و PORT اطلاعات خود را وارد کنید):
 
-```python
+```javascript
 rs.initiate({
   _id: 'mongo-set',
   protocolVersion: 1,

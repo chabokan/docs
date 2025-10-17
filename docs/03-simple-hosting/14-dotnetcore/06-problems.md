@@ -15,7 +15,7 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 برای حل این مشکل میتوانید در کلاس `Startup` متود `ConfigureServices` را بررسی نمایید:
 
-```bash
+```csharp
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 public void ConfigureServices(IServiceCollection services)
@@ -36,7 +36,7 @@ public void ConfigureServices(IServiceCollection services)
 
 سپس `CORS middleware` را در کلاس `Startup` متود `Configure` اضافه نمایید:
 
-```bash
+```csharp
 public void Configure(IApplicationBuilder app)
 {
     app.UseCors(MyAllowSpecificOrigins);

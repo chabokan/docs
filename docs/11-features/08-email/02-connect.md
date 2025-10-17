@@ -16,7 +16,7 @@ sidebar_label: "اتصال از طریق برنامه مدیریت Mail"
 
 سپس روی Sign in کلیک کرده و به ایمیل خود متصل می شویم.
 
-```bash
+```yaml
 Email adress: ایمیل
 User name: ایمیل
 Password: رمز عبور
@@ -39,7 +39,7 @@ Outgoing (SMTP) email server: سرور
 
 سپس روی Sign in کلیک کرده و به ایمیل خود متصل می شویم.
 
-```bash
+```yaml
 Email Address: ایمیل
 User Name: ایمیل
 Password: رمز عبور

@@ -9,16 +9,16 @@ description: "برای اتصال Laravel به Soketi میبایست ابتدا 
 
 برای اتصال `Laravel` به `Soketi` میبایست ابتدا سرویس `Soketi` را ساخته و سپس مراحل زیر را اجرا نمایید تا سرویس شما با موفقیت متصل شود:
 
-ابتدا در سرویس لاراول خود از طریق مدیریت فایل ها به مسیر `/config` مراجعه کرده و در فایل `app.php` کد زیر را از حالت کامند خارج نمایید.
+ابتدا در سرویس لاراول خود از طریق مدیریت فایل ها به مسیر `/config` مراجعه کرده و در فایل `app.php` کد زیر را از حالت کامنت خارج نمایید.
 
-```bash
+```php
 App\Providers\BroadcastServiceProvider::class
 ```
 
 سپس در همین مسیر `/config` فایل `broadcasting.php`را ادیت کرده و مشخصات مشخص شده زیر را از سرویس `Soketi` خود کپی کرده و در این بخش قرار دهید.
 
 
-```bash
+```php
 'pusher' => [
 'driver' => 'pusher',
 'key' => env('SOKETI_DEFAULT_APP_KEY'), // مطابق مشخصات سرویس سوکتی
@@ -36,7 +36,7 @@ App\Providers\BroadcastServiceProvider::class
 
 سپس میتوانید با استفاده از کد زیر در فرانت سرویس لاراول خود به سرویس `Soketi` متصل شوید:
 
-```bash
+```php
 import Echo from 'laravel-echo';
 
 window.Pusher = require('pusher-js');

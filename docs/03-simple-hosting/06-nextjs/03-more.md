@@ -13,7 +13,7 @@ description: "در این بخش می خواهیم نکات تکمیلی را د
 
 با تنظیم متغییر `NPM_INSTALL_COMMAND` در بخش تنظیمات سرویس، می توانید دستور نصب مورد نظر خودتان را معرفی نمایید.
 
-```bash
+```properties
 # name : value
 
 NPM_INSTALL_COMMAND : "yarn install"
@@ -23,7 +23,7 @@ NPM_INSTALL_COMMAND : "yarn install"
 
 برای تغییر دستور `build` در سرویس خود، می توانید از طریق فایل `package.json`، مقدار دستور `build` را با دستور مورد نظر جایگزین فرمایید.
 
-```bash
+```json
 "scripts": {
     ...
     "build": "your-build-command",
@@ -46,7 +46,7 @@ NPM_INSTALL_COMMAND : "yarn install"
 
 سرویس های `NextJs` چابکان به صورت پیشفرض با استفاده از آخرین ورژن `LTS` نود جی اس اجرا می شود که البته شما می توانید ورژن `Nodejs` خود را از طریق داشبورد سرویس، قسمت تنظیمات تغییر دهید.
 
-```bash
+```text
 node versions:
 
 - 22

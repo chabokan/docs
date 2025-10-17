@@ -19,7 +19,7 @@ description: "برای دریافت لینک مستقیم از FTP ابتدا س
 
 در اینجا نام فایل ما chabokan-test.jpg که به صورت زیر به دامنه پیش فرض خود اضافه کرده و نتیجه را در مرورگر مشاهده مینماییم.
 
-```bash
+```shell
 example.chbk.run/chabokan-test.jpg
 ```
 

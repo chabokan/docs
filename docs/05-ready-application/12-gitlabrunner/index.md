@@ -37,7 +37,7 @@ description: "GitLab Runner، یک سرویس اجرا کننده است که ت
 
 در صورتی که از `gitlab` چابکان و یا از سرور دیگری به جز سرور اصلی `gitlab` استفاده مینمایید، میبایست آدرس سرور را به شکل زیر در قسمت تنظیمات سرویس و متغییر های محیطی معرفی نمایید:
 
-```bash
+```properties
 # name : value
 
 URL : https://your_gitlab_server_URL

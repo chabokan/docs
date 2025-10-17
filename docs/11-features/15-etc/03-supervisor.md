@@ -15,7 +15,7 @@ description: "گاهی اوقات نیاز است که یک برنامه یا ا
 
 مثال:
 
-```bash
+```ini
 [program:app-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/artisan queue:work
@@ -34,7 +34,7 @@ stdout_logfile=/app-worker.log
 
 برای چک کردن اجرا صحیح `supervisor` میتوانید لاگ های آن را در قسمت مشخص شده  `stdout_logfile` بررسی نمایید و یا در کنسول با استفاده از دستور زیر وضعیت اجرایی `supervisor` را بررسی نمایید.
 
-```bash
+```shell
 sudo supervisorctl status
 ```
 
@@ -42,7 +42,7 @@ sudo supervisorctl status
 
 گاهی اوقات نیاز است چندین `supervisor` را با توجه به نیاز خود در یک سرویس استفاده نمایید، برای این کار کافی است یک فولد به نام `supervisor_conf` ایجاد کرده و به ترتیب `supervisor` های خود را درون آن قرار دهید. نام `supervisor` های داخل فایل `supervisor_conf` میتواند هر چیزی باشد اما پسوند آنها باید `.conf` باشد. برای مثال: `supervisor1.conf` , `supervisor2.conf`
 
-```bash
+```text
 supervisor_conf  # فولدر اصلی
 │
 ├── supervisor1.conf

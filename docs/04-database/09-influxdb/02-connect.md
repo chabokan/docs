@@ -12,7 +12,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 ![](https://s1.chabokan.net/docs/images/Connect_influxdb_3.jpg)
 
-```bash
+```properties
 Username:نام کاربری
 Password:رمز عبور
 ```
@@ -28,7 +28,7 @@ Password:رمز عبور
 
 برای نصب influxdb کافیست تا بعد از ایجاد سرویس قطعه کد زیر را اجرا کنید. ([کتابخانه ی influxdb](https://influxdb-client.readthedocs.io/en/latest/))
 
-```bash
+```python
 from datetime import datetime
 
 from influxdb_client import Point, InfluxDBClient

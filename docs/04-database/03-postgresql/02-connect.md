@@ -53,7 +53,7 @@ import TabItem from '@theme/TabItem';
 
 همواره شما می توانید از طریق ترمینال یا کنسول نیز با این سرویس ارتباط برقرار نماید. برای این کار ابتدا باید postgresql-client را بر روی سیستم عامل خود نصب نمایید و با استفاده از دستور زیر به دیتابیس ابری Postgresql متصل شوید.
 
-```bash
+```shell
 psql -h DB_HOST -p DB_PORT -U DB_USERNAME -W DB_NAME
 ```
 

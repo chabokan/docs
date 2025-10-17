@@ -10,7 +10,7 @@ sidebar_label: "کامند CLI"
 
 برای استفاده از راهنمای کامند های مختلف میتوانید از کامند زیر استفاده نمایید تا دسترسی ها و کامند های موجود به شما نمایش داده شود.
 
-```bash
+```shell
 chabok -h
 
 chabok service -h
@@ -22,7 +22,7 @@ chabok account -h
 
 در این بخش میتوانید کامند های قابل استفاده در CLI را مشاهده نمایید.
 
-```bash
+```shell
 TOPICS
 
  chabok account  # display commands for working with accounts
