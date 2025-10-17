@@ -22,7 +22,7 @@ description: "متغیر های محیطی به شما کمک می کند، یک
 
 نمونه‌ای از کد این فایل به صورت زیر است:
 
-```bash
+```shell
 # اجرای migration‌ها
 php artisan migrate --force
 

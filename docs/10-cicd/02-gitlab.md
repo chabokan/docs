@@ -13,7 +13,7 @@ description: "گیت لب برای راه اندازی CI/CD از Gitlab Pipline
 
 در ابتدا نیاز دارید که یک فایل با نام  زیر در مسیر اصلی پروژه‌ی خود ایجاد کنید:
 
-```yaml
+```shell
 .gitlab-ci.yml
 ```
 
@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="chabokan" label="چابکان" default>
-    ```yaml
+    ```properties
     image: node:18-alpine
 
     stages:
@@ -42,7 +42,7 @@ import TabItem from '@theme/TabItem';
     ```
   </TabItem>
   <TabItem value="cloudiva" label="کلودیوا">
-    ```yaml
+    ```properties
     image: node:18-alpine
 
     stages:

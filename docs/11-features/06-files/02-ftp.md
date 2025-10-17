@@ -15,7 +15,7 @@ description: "برای اتصال به پروتکل FTP ابتدا باید یک
 
 سپس با وارد کردن مشخصات در نرم افزار `fillezila` میتوانید به سرویس خود متصل شوید.
 
-```bash
+```properties
 Host = سرور
 Username = نام کاربری FTP
 Password = رمز عبور FTP

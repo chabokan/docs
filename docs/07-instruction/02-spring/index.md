@@ -28,7 +28,7 @@ java 11: FROM adoptopenjdk:11-jre-hotspot
 
 :::
 
-```bash
+```dockerfile
 FROM eclipse-temurin:17-jdk-alpine
 ARG JAR_FILE=/*.jar
 COPY ${JAR_FILE} app.jar

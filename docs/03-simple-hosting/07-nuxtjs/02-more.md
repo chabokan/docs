@@ -13,7 +13,7 @@ description: ""
 
 با تنظیم متغییر `NPM_INSTALL_COMMAND` در بخش تنظیمات سرویس، می توانید دستور نصب مورد نظر خودتان را معرفی نمایید.
 
-```bash
+```properties
 # name : value
 
 NPM_INSTALL_COMMAND : "yarn install"
@@ -23,7 +23,7 @@ NPM_INSTALL_COMMAND : "yarn install"
 
 برای تغییر دستور `build` در سرویس خود، می توانید از طریق فایل `package.json`، مقدار دستور `build` را با دستور مورد نظر جایگزین فرمایید.
 
-```bash
+```javascript
 "scripts": {
     ...
     "build": "your-build-command",
@@ -42,7 +42,7 @@ NPM_INSTALL_COMMAND : "yarn install"
 
 در صورتی که ارور `ossl` را دریافت نمودید، میتوانید با اضافه کردن متغیر محیطی زیر در تنظیمات سرویس خود این مشکل را برطرف نمایید.
 
-```bash
+```properties
 # name: value
 
 NODE_OPTIONS : --openssl-legacy-provider
@@ -52,12 +52,12 @@ NODE_OPTIONS : --openssl-legacy-provider
 
 در صورت برخورد با این ارور میبایست به جای استفاده از پکیج `mysql` از پکیج `mysql2` استفاده نمایید. برای این کار کافیست این پکیج را نصب نمایید:
 
-```bash
+```shell
 npm install mysql2
 ```
 سپس، کد اتصال خود را تغییر دهید و از `mysql2` به جای `mysql` استفاده کنید:
 
-```bash
+```javascript
 const mysql = require('mysql2');
 ```
 
@@ -69,7 +69,7 @@ const mysql = require('mysql2');
 
 سرویس های `NuxtJs` چابکان به صورت پیشفرض با استفاده از آخرین ورژن `LTS` نود جی اس اجرا می شود که البته شما می توانید ورژن `Nodejs` خود را از طریق داشبورد سرویس، قسمت تنظیمات تغییر دهید.
 
-```php
+```text
 node versions:
 
 - 22

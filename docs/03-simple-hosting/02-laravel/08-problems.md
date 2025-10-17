@@ -17,7 +17,7 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 یک فایل با نام `chabok-php.ini` در ریشه (root) فایل های سرویس خود ایجاد کنید و دستور زیر را در آن قرار دهید و بعد از ذخیره کردن فایل یکبار سرویس را ری استارت نمایید تا تغییرات بر روی سرویس اعمال شود.
 
-```bash
+```ini
 disable_functions = system,passthru,proc_close,proc_open,dl,popen,show_source,posix_kill,posix_mkfifo,posix_getpwuid,posix_setpgid,posix_setsid,posix_setuid,posix_setgid,posix_seteuid,posix_setegid,posix_uname,mail
 ```
 
@@ -27,7 +27,7 @@ disable_functions = system,passthru,proc_close,proc_open,dl,popen,show_source,po
 
 برای حل مشکل میتوانید از [این پکیج](https://github.com/fruitcake/laravel-cors) استفاده نمایید و با استفاده از دستور زیر آنرا به پروژه خود اضافه نمایید.
 
-```php
+```shell
 composer require fruitcake/laravel-cors
 ```
 

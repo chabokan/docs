@@ -21,12 +21,12 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="chabokan" label="چابکان" default>
-    ```bash
+    ```shell
     npm install -g @chabokan.net/cli
     ```
   </TabItem>
   <TabItem value="cloudiva" label="کلودیوا">
-    ```bash
+    ```shell
     npm install -g @cloudiva.net/cli
     ```
   </TabItem>
@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 
 بعد از وارد کردن دستور بالا روند نصب انجام خواهد شد و `CLI` به صورت `global` در سیستم عامل شما نصب خواهد شد. برای مطمئن شدن از نصب کامل `CLI` می توانید دستور زیر را در محیط خط فرمان یا ترمینال وارد کنید:
 
-```bash
+```shell
 chabok -v
 ```
 
@@ -44,13 +44,13 @@ chabok -v
 
 اگر در استفاده از `CLI` با مشکل پیدا نشدن `Command` مواجه شدید. می توانید از دستورات `CLI` به صورت زیر استفاده کنید:
 
-```bash
+```shell
 npx chabok -v
 ```
 
 یا
 
-```bash
+```shell
 npx @chabokan.net/chabok -v
 ```
 
@@ -66,7 +66,7 @@ npx @chabokan.net/chabok -v
 
 در صورت برخورد با خطای `AxiosError: Request failed with status code 401` ابتدا کامند زیر را وارد نموده تا کاربر را از cli حذف نمایید:
 
-```bash
+```shell
 chabok account remove
 ```
 

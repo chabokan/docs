@@ -59,11 +59,11 @@ import TabItem from '@theme/TabItem';
 
 ![](https://s1.chabokan.net/docs/images/mysql_backup_7.jpg)
 
-```bash
-1 - Hostname = سرور
-2 - Port = پورت mysql
-3 - Username = نام کاربری
-4 - Connection Name = نام مورد نظر
+```properties
+Hostname = سرور
+Port = پورت mysql
+Username = نام کاربری
+Connection Name = نام مورد نظر
 ```
 
 در نهایت بر روی OK کلیک نمایید و رمز عبور خود را وارد کرده و از سرویس مورد نظر استفاده نمایید.
@@ -72,7 +72,7 @@ import TabItem from '@theme/TabItem';
 
 همواره شما می توانید از طریق ترمینال یا کنسول نیز با این سرویس ارتباط برقرار نماید. برای این کار ابتدا باید mysql-client را بر روی سیستم عامل خود نصب نمایید و با استفاده از دستور زیر به دیتابیس ابری Mysql متصل شوید.
 
-```bash
+```shell
 mysql -u DB_USER -p'DB_PASSWORD' --host DB_HOST --port DB_PORT
 ```
 

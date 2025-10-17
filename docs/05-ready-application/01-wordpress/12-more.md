@@ -36,7 +36,7 @@ $_SERVER['HTTPS'] = 'on';
 خط فرمان وردپرس (wp cli) به صورت پیشفرض روی سرویس وردپرس نصب است و میتوانید از طریق کنسول سرویس دستور را اجرا بفرمایید.
 شروع دستور به شرح زیر میباشد:
 
-```php
+```shell
  wp cli --allow-root
 ```
 برای آشنایی با این دستورات وارید [این لینک](https://developer.wordpress.org/cli/commands) شوید.
@@ -51,7 +51,7 @@ $_SERVER['HTTPS'] = 'on';
 
 ابتدا ACCESS KEY و SECRET KEY سرویس Minio را برای تعریف AS3CF_SETTINGS در فایل wp-config.php سایت خود استفاده نمایید.
 
-```bash
+```php
 
 define( 'AS3CF_SETTINGS', serialize( array(
     'provider' => 'aws',
@@ -62,7 +62,7 @@ define( 'AS3CF_SETTINGS', serialize( array(
 ```
 حال وقت آن رسیده که افزونه Tweaks که در قسمت مشخصات سرویس قرار دارد دانلود و در وردپرس خود فعال نمایید و مقادیر آدرس Endpoint را در آن وارد نمایید.
 
-```bash
+```php
 
 function minio_s3_client_args( $args ) {
     // Example changes endpoint to connect to a local MinIO server configured to use port 54321 (the default MinIO port is 9000).
@@ -77,7 +77,7 @@ function minio_s3_client_args( $args ) {
 ```
 کد زیر برای ارتباط WP Offload Media با url سرویس Minio شما میباشد و برسی میکند که فقط این ارتباط با سرویس شما صورت گیرد.
 
-```bash
+```php
 // Added to __construct()
 add_filter( 'as3cf_aws_get_regions', array( $this, 'minio_get_regions' ) );
 

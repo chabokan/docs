@@ -10,7 +10,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اتصال با استفاده از زبان CQL (Cassandra Query Language) به دیتابیس خود ابتدا به داشبورد سرویس خود مراجعه نمایید و مشخصات سرویس را در کامند زیر وارد نمایید.
 
-```bash
+```shell
 cqlsh server port -u username -p password
 ```
 

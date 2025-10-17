@@ -32,7 +32,7 @@ sidebar_label: "API چابکان"
 
 کلید API خود را به صورت زیر در کادر Value وارد نمایید و گزینه Authorize را کلیک نمایید:
 
-```bash
+```text
 Token your-api-token
 
 # example : Token 4aa88a470b6a32f69f5ffcfdc943ffa95ed30q1

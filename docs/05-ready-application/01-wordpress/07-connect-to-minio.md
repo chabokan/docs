@@ -27,7 +27,7 @@ description: "برای اتصال وردپرس به minio ابتدا سرویس 
 
 سپس از پنل سمت راستی وردپرس خود Media cloud را انتخاب نموده و به قسمت settings مراجعه نمایید. حال طبق تصاویر زیر اطلاعات سرویس minio خود را وارد نموده تا اتصال شما به minio برقرار شود.( بر روی setup wizard کلیک نفرمایید)
 
-```bash
+```yaml
 Enable Cloud Storage: enable
 Storage Provider: Minio
 Access Key: ACCESS KEY

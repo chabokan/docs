@@ -15,7 +15,7 @@ description: "در این بخش می خواهیم نکات تکمیلی را د
 
 مثال:
 
-```bash
+```ini
 upload_max_filesize = "20M"
 post_max_size = "25M"
 memory_limit = "128M"
@@ -57,7 +57,7 @@ class TrustProxies extends Middleware
 
 ابتدا فایل `chabok-php.ini` را در روت فایل هاست خود ساخته و سپس مقدار زیر را درون فایل وارد نمایید. سپس سرویس خود را ری استارت نمایید تا تنظیمات در فایل `php.ini` اعمال گردد.
 
-```bash
+```ini
 display_errors = On
 ```
 
@@ -68,7 +68,7 @@ display_errors = On
 
 برای تنظیمات `Queue` در سرویس ابری لاراول کافیست با استفاده از `Supervisor` دستور زیر را اجرا نمایید تا `Queue` های لاراول به درستی فعال شوند. ([Supervisor چیست و چطور استفاده می شود](https://docs.chabokan.net/features/etc/supervisor/))
 
-```php
+```shell
 php /var/www/html/artisan queue:work
 ```
 
@@ -76,13 +76,13 @@ php /var/www/html/artisan queue:work
 
 برای راه‌اندازی `Laravel octane` با سرور Swoole میتوانید متغییر محیطی `START_COMMAND` را به صورت زیر مقداردهی نمایید و یکبار تنظیمات سرویس را ذخیره کنید. با تنظیم این متغییر مشاهده خواهد کرد که سرویس شما با استفاده از دستور زیر اجرا خواهد شد.
 
-```bash
+```properties
 START_COMMAND=php artisan octane:start --server=swoole --host=0.0.0.0 --port=80
 ```
 
 درنهایت با اجرای دستور زیر در کنسول سرویس خود می‌توانید وضعیت Laravel octane را بررسی کنید:
 
-```php
+```shell
 sudo php artisan octane:status
 ```
 
@@ -93,7 +93,7 @@ sudo php artisan octane:status
 
 اکستنشن های `PHP` موجود در سرویس `Laravel` چابکان:
 
-```bash
+```text
 [PHP Modules]
 apcu
 bcmath
@@ -183,7 +183,7 @@ the ionCube PHP Loader + ionCube24
 در صورتی که قصد دارید ورژن php خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن Laravel سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
 
-```php
+```text
 php versions:
 
 - php 7.1         - php fpm 7.1
