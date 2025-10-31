@@ -1,5 +1,6 @@
 ---
 title: "آموزش افزودن ایمیل در Nodejs"
+icon: "faEnvelopeOpen"
 sidebar_label: "تنظیمات ایمیل"
 description: "در این بخش می خواهیم آموزش نحوه تنظیمات ایمیل `Nodejs` را در هاست  نود جی اس NodeJS به شما آموزش دهیم."
 ---

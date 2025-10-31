@@ -1,5 +1,6 @@
 ---
 title: "سرویس SQL Server"
+icon: "faServer"
 ---
 # سرویس SQL Server
 

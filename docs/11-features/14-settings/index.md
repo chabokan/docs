@@ -1,5 +1,6 @@
 ---
 title: "تنظیمات"
+icon: "faSliders"
 ---
 # تنظیمات
 

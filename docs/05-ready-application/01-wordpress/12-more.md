@@ -1,5 +1,6 @@
 ---
 title: "نکات آموزشی Wordpress"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "نکات تکمیلی"
 ---

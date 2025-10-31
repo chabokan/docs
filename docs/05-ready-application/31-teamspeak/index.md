@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی TeamSpeak"
+icon: "faHeadset"
 description: "phpMyAdmin یک نرم‌افزار متن‌باز است که به منظور مدیریت و مدیریت پایگاه‌داده‌های MySQL و MariaDB طراحی شده است."
 ---
 

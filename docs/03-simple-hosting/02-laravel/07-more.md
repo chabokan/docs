@@ -1,5 +1,6 @@
 ---
 title: "نکات آموزشی Laravel"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی را در هاست لاراول laravel به شما آموزش دهیم."
 ---

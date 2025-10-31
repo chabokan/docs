@@ -1,5 +1,6 @@
 ---
 title: "بروزرسانی CLI"
+icon: "faSync"
 sidebar_label: "بروزرسانی CLI"
 ---
 

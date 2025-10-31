@@ -1,5 +1,6 @@
 ---
 title: "آموزش Backup از دیتابیس SQL Server"
+icon: "faServer"
 sidebar_label: "نحوه ‌Backup و Restore"
 description: "در ادامه میخواهیم آموزش نحوه ‌Backup و Restore در سرویس ابری اس کیو ال سرور را به شما آموزش دهیم."
 ---

@@ -1,5 +1,6 @@
 ﻿---
 title: "آموزش تنظیمات NGINX در سرویس React"
+icon: "faGear"
 sidebar_label: "تنظیمات NGINX"
 description: "در این بخش می خواهیم آموزش نحوه تنظیمات `NGINX` را در هاست ریکت React به شما آموزش دهیم."
 ---

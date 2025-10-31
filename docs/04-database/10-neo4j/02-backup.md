@@ -1,5 +1,6 @@
 ---
 title: "آموزش Backup از دیتابیس Neo4j"
+icon: "faServer"
 sidebar_label: "نحوه ‌Backup و Restore"
 description: "در ادامه میخواهیم آموزش نحوه ‌Backup و Restore در سرویس ابری نئو فور جی را به شما آموزش دهیم."
 ---

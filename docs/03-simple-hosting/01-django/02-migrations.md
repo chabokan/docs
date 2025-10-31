@@ -1,5 +1,6 @@
 ---
-title:  "نحوه migration در Django" 
+title:  "نحوه migration در Django"
+icon: "faRotate"
 sidebar_label: "اجرای Migration ها"
 description: "در این بخش می خواهیم آموزش اجرای Migration ها در Django هاست جنگو به شما آموزش دهیم"
 ---

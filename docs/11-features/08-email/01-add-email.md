@@ -1,5 +1,6 @@
 ---
 title: "افزودن ایمیل"
+icon: "faPlus"
 sidebar_label: "افزودن ایمیل"
 ---
 

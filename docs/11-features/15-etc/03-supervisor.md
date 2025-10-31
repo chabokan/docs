@@ -1,5 +1,6 @@
 ---
 title: "آموزش نحوه کار با Supervisor"
+icon: "faCogs"
 sidebar_label: "Supervisor"
 description: "گاهی اوقات نیاز است که یک برنامه یا اسکریپت به صورت تمام وقت در سرویس اجرا باشد و حتی اگر سرویس ریستارت "
 ---

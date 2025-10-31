@@ -1,5 +1,6 @@
 ---
 title: "ایمیل"
+icon: "faEnvelopeOpen"
 ---
 
 # ایمیل

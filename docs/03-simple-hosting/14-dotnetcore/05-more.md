@@ -1,5 +1,6 @@
 ﻿---
 title: "نکات آموزشی ASP.NET Core"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی را در هاست ASP.NET Core دات نت کور به شما آموزش دهیم."
 ---

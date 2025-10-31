@@ -1,5 +1,6 @@
 ---
 title: "آموزش Backup از دیتابیس ArangoDB"
+icon: "faServer"
 sidebar_label: "نحوه ‌Backup و Restore"
 description: "در ادامه میخواهیم آموزش نحوه ‌Backup و Restore در سرویس ابری ارانگو دی بی را به شما آموزش دهیم."
 ---

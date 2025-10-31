@@ -1,5 +1,6 @@
 ---
 title: "سرویس ArangoDB"
+icon: "faShapes"
 ---
 # سرویس ArangoDB
 

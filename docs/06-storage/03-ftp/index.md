@@ -1,5 +1,6 @@
 ---
 title: "فضای ذخیره سازی FTP"
+icon: "faNetworkWired"
 ---
 # فضای ذخیره سازی FTP
 

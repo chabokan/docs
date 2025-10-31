@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی Gitlabrunner"
+icon: "faPersonRunning"
 description: "GitLab Runner، یک سرویس اجرا کننده است که توسط GitLab ارائه می‌شود. این سرویس امکان اجرای فرآیندهای CI/CD طراحی شده بر روی پلتفرم GitLab را فراهم می‌کند."
 ---
 

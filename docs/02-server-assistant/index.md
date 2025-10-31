@@ -1,5 +1,6 @@
 ---
 title: "دستیار مدیریت سرور"
+icon: "faRocket"
 sidebar_label: "دستیار مدیریت سرور"
 ---
 

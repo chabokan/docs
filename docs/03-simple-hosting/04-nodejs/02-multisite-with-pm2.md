@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Docker"
+icon: "faSitemap"
 sidebar_label: "استقرار چندین پروژه (PM2)"
 description: "در این بخش می خواهیم آموزش نحوه استقرار چندین پروژه `(PM2)` را در NodeJS به شما آموزش دهیم."
 ---

@@ -1,5 +1,6 @@
 ---
 title: "آموزش تنظیمات NGINX در angular"
+icon: "faGear"
 sidebar_label: "تنظیمات NGINX"
 description: "در این بخش می خواهیم آموزش نحوه تنظیمات `NGINX` را در هاست Angular به شما آموزش دهیم."
 ---

@@ -1,5 +1,6 @@
 ---
 title: "سرور ابری"
+icon: "faServer"
 sidebar_label: "سرور ابری"
 ---
 

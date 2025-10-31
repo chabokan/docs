@@ -1,5 +1,6 @@
 ---
 title: "IP واقعی کاربر"
+icon: "faUserSecret"
 sidebar_label: "IP واقعی کاربر "
 description: "برای دریافت آی پی واقعی کاربر میتوانید از روش زیر استفاده نمایید، به دلایل امنیتی و استفاده از `Revers Proxy` "
 ---

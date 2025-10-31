@@ -1,5 +1,6 @@
 ---
 title: "آموزش نصب سرویس Flask"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `Python` را در هاست فلسک Flask به شما آموزش دهیم."
 ---

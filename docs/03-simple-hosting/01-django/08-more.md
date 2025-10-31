@@ -1,5 +1,6 @@
 ﻿---
 title: "نکات آموزشی Django"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی Django را در هاست جنگو به شما آموزش دهیم"
 ---

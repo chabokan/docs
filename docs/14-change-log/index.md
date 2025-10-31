@@ -1,5 +1,6 @@
 ---
 title: "آخرین تغییرات"
+icon: "faHistory"
 sidebar_label: "آخرین تغییرات"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "منطقه زمانی (TimeZone)"
+icon: "faMap"
 sidebar_label: "منطقه زمانی (TimeZone)"
 description: "در پلتفرم ابری چابکان شما می توانید به راحتی منطقه زمانی یا TimeZone سرویس خود را تغییر دهید و هر منطقه "
 ---

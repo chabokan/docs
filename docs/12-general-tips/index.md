@@ -1,5 +1,6 @@
 ---
 title: "نکات عمومی"
+icon: "faLightbulb"
 sidebar_label: "نکات عمومی"
 ---
 

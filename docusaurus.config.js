@@ -58,6 +58,7 @@ const config = {
     themes: ['docusaurus-theme-search-typesense'],
     plugins: [
         require.resolve('docusaurus-plugin-image-zoom'),
+        require.resolve('./src/plugins/chabokan-docusaurus-icon-plugin'),
         [
             '@docusaurus/plugin-client-redirects',
             {

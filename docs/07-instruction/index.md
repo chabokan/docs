@@ -1,5 +1,6 @@
 ---
 title: "دستورالعمل ها"
+icon: "faFileLines"
 sidebar_label: "دستورالعمل ها"
 ---
 

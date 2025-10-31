@@ -1,5 +1,6 @@
 ---
 title: "سرویس Redis"
+icon: "faBolt"
 ---
 # سرویس Redis
 

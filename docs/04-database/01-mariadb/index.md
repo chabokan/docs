@@ -1,5 +1,6 @@
 ---
 title: "سرویس MariaDB"
+icon: "faDatabase"
 ---
 # سرویس MariaDB
 

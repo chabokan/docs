@@ -1,5 +1,6 @@
 ---
 title: "اتصال NodeJs به فایل S3"
+icon: "faCloudArrowUp"
 sidebar_label: "اتصال به سرویس فایل S3"
 description: "در این بخش می خواهیم آموزش نحوه اتصال `NodeJs` به فایل `S3` را در هاست  نود جی اس NodeJS به شما آموزش دهیم."
 ---

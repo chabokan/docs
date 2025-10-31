@@ -1,5 +1,6 @@
 ---
 title: "سرویس Soketi"
+icon: "faBoltLightning"
 ---
 # سرویس Soketi
 

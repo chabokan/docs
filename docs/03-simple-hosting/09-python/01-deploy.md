@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Python"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `Python` را در هاست پایتون Python به شما آموزش دهیم."
 ---

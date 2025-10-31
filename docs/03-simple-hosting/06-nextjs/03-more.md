@@ -1,5 +1,6 @@
 ---
 title: "نکات آموزشی NextJs"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی را در هاست نکست جی اس Next به شما آموزش دهیم."
 ---

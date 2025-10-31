@@ -1,5 +1,6 @@
 ---
 title: "API چابکان"
+icon: "faCode"
 sidebar_label: "API چابکان"
 ---
 

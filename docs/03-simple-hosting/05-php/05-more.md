@@ -1,5 +1,6 @@
 ﻿---
 title: "نکات آموزشی PHP"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی را در هاست php به شما آموزش دهیم."
 ---

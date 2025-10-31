@@ -1,5 +1,6 @@
 ---
 title: "سرویس Static"
+icon: "faFileCode"
 ---
 # سرویس Static
 

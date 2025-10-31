@@ -1,5 +1,6 @@
 ---
 title: "اتصال از طریق S3Browser"
+icon: "faExternalLinkAlt"
 sidebar_label: "اتصال از طریق S3Browser"
 description: "شما می توانید با استفاده از نرم افزار S3Browser به راحتی به فضای ذخیره سازی minio خود متصل شوید و شروع به مدیریت فضای سرویس ذخیره سازی minio شوید. "
 ---

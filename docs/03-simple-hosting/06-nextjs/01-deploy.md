@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار NextJs"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `NextJs`  را در هاست نکست جی اس Next به شما آموزش دهیم."
 ---

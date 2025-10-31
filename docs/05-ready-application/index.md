@@ -1,5 +1,6 @@
 ---
-title: برنامه های آماده
+title: "برنامه های آماده"
+icon: "faCheckCircle"
 sidebar_label: "برنامه های آماده"
 ---
 

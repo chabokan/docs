@@ -1,5 +1,6 @@
 ---
 title: "سرویس Nest"
+icon: "faCircleNodes"
 ---
 # سرویس Nest
 

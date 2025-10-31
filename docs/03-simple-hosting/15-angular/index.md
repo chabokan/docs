@@ -1,5 +1,6 @@
 ---
 title: "سرویس Angular"
+icon: "faAnglesUp"
 ---
 # سرویس Angular
 

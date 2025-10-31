@@ -1,6 +1,7 @@
 ---
 title: "ایجاد سرور ابری"
 sidebar_label: "راه اندازی"
+icon: "faTachometer"
 description: "در این بخش با نحوه ایجاد سرور ابری در چابکان آشنا خواهید شد"
 ---
 

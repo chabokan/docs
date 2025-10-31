@@ -1,5 +1,6 @@
 ---
 title: "سرویس CouchDB"
+icon: "faCouch"
 ---
 # سرویس CouchDB
 

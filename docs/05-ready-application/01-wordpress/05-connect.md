@@ -1,5 +1,6 @@
 ﻿---
 title: "آموزش اتصال سرویس Wordpress به دیتابیس"
+icon: "faPlug"
 sidebar_label: "اتصال به دیتابیس"
 description: "سرویس wordpress کافی است بعد از ساخت سرویس دیتابیس(mariadb/mysql) مشخصات سرویس دیتابیس را در قسمت تنظیمات سرویس wordpress خود وارد کنید."
 ---

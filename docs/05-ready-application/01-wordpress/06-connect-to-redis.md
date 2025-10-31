@@ -1,5 +1,6 @@
 ---
 title: "آموزش اتصال Wordpress به Redis"
+icon: "faBolt"
 sidebar_label: "اتصال به Redis"
 description: "برای اتصال Redis به وردپرس میبایست مراحل زیر را به ترتیب طی کرده تا اتصال سرویس وردپرس شما به Redis تکمیل شود."
 ---

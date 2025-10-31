@@ -1,5 +1,6 @@
 ---
 title: "سرویس Django"
+icon: "faServer"
 ---
 # سرویس Django
 

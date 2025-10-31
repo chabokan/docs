@@ -1,5 +1,6 @@
 ---
 title: "فضای دخیره سازی Nextcloud"
+icon: "faCloud"
 ---
 # فضای دخیره سازی Nextcloud
 

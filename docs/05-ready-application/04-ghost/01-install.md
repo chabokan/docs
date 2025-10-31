@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی Ghost"
+icon: "faRocket"
 sidebar_label: "نصب و راه اندازی"
 description: "سرویس وبلاگ نویسی Ghost یک بستر متن باز برای ساخت و مدیریت وبلاگ هاست"
 ---

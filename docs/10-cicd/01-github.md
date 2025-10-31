@@ -1,5 +1,6 @@
 ---
 title: "راه‌اندازی CI/CD به وسیله GitHub"
+icon: "faCodeBranch"
 sidebar_label: "راه‌اندازی CI/CD به وسیله GitHub"
 description: "گیت هاب برای راه اندازی CI/CD از GitHub Actions استفاده می کند که می توانید مستندات آن را در اینجا مشاهده کنید "
 ---

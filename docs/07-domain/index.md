@@ -1,5 +1,6 @@
 ---
 title: "ثبت و انتقال دامنه"
+icon: "faGlobe"
 sidebar_label: "ثبت و انتقال دامنه"
 ---
 

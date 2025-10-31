@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Django"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه Django هاست جنگو به شما آموزش دهیم."
 ---

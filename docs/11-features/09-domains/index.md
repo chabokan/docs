@@ -1,5 +1,6 @@
 ---
-title: دامنه ها
+title: "دامنه ها"
+icon: "faGlobe"
 sidebar_label: "دامنه ها"
 ---
 

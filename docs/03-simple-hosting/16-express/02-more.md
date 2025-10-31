@@ -1,5 +1,6 @@
 ---
 title: "نکات آموزشی Express"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی را در هاست Express به شما آموزش دهیم."
 ---

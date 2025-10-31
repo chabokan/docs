@@ -1,5 +1,6 @@
 ---
 title: "آموزش نصب ASP.NET Core"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه  `ASP.NET Core` را در هاست ASP.NET Core دات نت کور به شما آموزش دهیم."
 ---

@@ -1,5 +1,6 @@
 ﻿---
 title: "آموزش اتصال Wordpress به پارتیشن Minio"
+icon: "faCloud"
 sidebar_label: "اتصال به پارتیشن Minio"
 description: "برای اتصال وردپرس به minio ابتدا سرویس minio خود را در چابکان ایجاد نمایید آموزش ایجاد سرویس minio و از طریق نرم افزار S3Browser به سرویس "
 ---

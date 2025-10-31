@@ -1,5 +1,6 @@
 ---
-title: "آموزش اتصال NodeJs به دیتابیس"
+title: "آموزش اتصال Nextjs به دیتابیس"
+icon: "faDatabase"
 sidebar_label: "اتصال به دیتابیس"
 description: "در این بخش می خواهیم آموزش نحوه استقرار برنامه `Nextjs` را در هاست  نود جی اس Nextjs به شما آموزش دهیم."
 ---

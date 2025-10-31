@@ -1,5 +1,6 @@
 ---
 title: "راه‌اندازی CI/CD به وسیله Gitlab"
+icon: "faCodeCommit"
 sidebar_label: "راه‌اندازی CI/CD به وسیله Gitlab"
 description: "گیت لب برای راه اندازی CI/CD از Gitlab Piplines استفاده می کند که می توانید"
 ---

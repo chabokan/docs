@@ -1,5 +1,6 @@
 ﻿---
 title: "آموزش افزودن ایمیل در Laravel"
+icon: "faEnvelopeOpen"
 sidebar_label: "تنظیمات ایمیل"
 description: "در این بخش می خواهیم آموزش نحوه تنظیمات ایمیل را در هاست لاراول laravel به شما آموزش دهیم."
 ---

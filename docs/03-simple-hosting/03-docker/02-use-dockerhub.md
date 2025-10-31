@@ -1,5 +1,6 @@
 ---
 title: "آموزش استفاده از Docker Hub"
+icon: "faCloudArrowDown"
 sidebar_label: "استفاده از Docker Hub"
 description: "در این بخش می خواهیم آموزش نحوه استفاده از `Docker Hub` را در هاست داکر Docker به شما آموزش دهیم."
 ---

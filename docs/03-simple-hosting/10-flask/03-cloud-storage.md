@@ -1,5 +1,6 @@
 ﻿---
 title:  "آموزش اتصال سرویس فایل S3 به Flask"
+icon: "faCloudArrowUp"
 sidebar_label: "اتصال به سرویس فایل S3"
 description: "در این بخش می خواهیم آموزش نحوه اتصال `Flask` به سرویس فایل `S3` را در هاست فلسک Flask به شما آموزش دهیم."
 ---

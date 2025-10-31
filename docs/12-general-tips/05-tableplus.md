@@ -1,5 +1,6 @@
 ﻿---
 title: "مدیریت دیتابیس از طریق TablePlus"
+icon: "faDatabase"
 sidebar_label: "مدیریت دیتابیس از طریق TablePlus"
 description: "برای حذف و انتقال دیتابیس با TablePlus، می‌توانید مراحل زیر را دنبال کنید:"
 ---

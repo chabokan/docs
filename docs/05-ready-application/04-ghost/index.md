@@ -1,5 +1,6 @@
 ---
 title: "سرویس Ghost"
+icon: "faGhost"
 ---
 # سرویس Ghost
 

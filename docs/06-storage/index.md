@@ -1,5 +1,6 @@
 ---
-title: فضای ذخیره سازی
+title: "فضای ذخیره سازی"
+icon: "faHdd"
 sidebar_label: "فضای ذخیره سازی"
 ---
 

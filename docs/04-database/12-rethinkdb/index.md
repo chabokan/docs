@@ -1,5 +1,6 @@
 ---
 title: "سرویس RethinkDB"
+icon: "faSync"
 ---
 # سرویس RethinkDB
 

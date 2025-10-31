@@ -1,5 +1,6 @@
 ---
 title: "سرویس InfluxDB"
+icon: "faClock"
 ---
 # سرویس InfluxDB
 

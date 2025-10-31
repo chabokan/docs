@@ -1,5 +1,6 @@
 ---
 title: "سرویس Python"
+icon: "faCode"
 ---
 # سرویس Python
 

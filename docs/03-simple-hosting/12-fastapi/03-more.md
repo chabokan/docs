@@ -1,5 +1,6 @@
 ---
 title: "نکات آموزشی سرویس FastAPI"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی را در هاست FastAPI به شما آموزش دهیم."
 ---

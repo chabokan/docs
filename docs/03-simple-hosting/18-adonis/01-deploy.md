@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Adonis"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `Adonis` را در هاست Adonis به شما آموزش دهیم." 
 ---

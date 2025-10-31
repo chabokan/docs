@@ -1,5 +1,6 @@
 ---
 title: "آموزش تنظیمات NGINX در Django"
+icon: "faGear"
 sidebar_label: "تنظیمات NGINX"
 description: "در این بخش می خواهیم تنظیمات NGINX در Django  را در هاست جنگو به شما آموزش دهیم"
 ---

@@ -1,5 +1,6 @@
 ﻿---
 title: "نکات تکمیلی"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 ---
 

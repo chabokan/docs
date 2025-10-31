@@ -1,5 +1,6 @@
 ---
 title: "اتصال PHP به فایل S3"
+icon: "faCloudArrowUp"
 sidebar_label: "اتصال به S3"
 description: "در این بخش می خواهیم آموزش نحوه اتصال `PHP` به فایل `S3` را در هاست php به شما آموزش دهیم."
 ---

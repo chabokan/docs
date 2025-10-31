@@ -1,5 +1,6 @@
 ---
 title: "نکات تکمیلی"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی سرویس Ghost را به شما آموزش دهیم."
 ---

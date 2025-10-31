@@ -1,5 +1,6 @@
 ---
 title: "آموزش پورت های Docker"
+icon: "faNetworkWired"
 sidebar_label: "پورت ها"
 description: "در این بخش می خواهیم آموزش نحوه مدیریت پورت را در هاست داکر Docker به شما آموزش دهیم."
 ---
