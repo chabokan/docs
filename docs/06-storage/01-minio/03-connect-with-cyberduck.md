@@ -1,5 +1,6 @@
 ---
 title: "اتصال از طریق Cyberduck"
+icon: "faDesktop"
 sidebar_label: "اتصال از طریق Cyberduck"
 description: "شما می توانید با استفاده از نرم افزار Cyberduck به راحتی به فضای ذخیره سازی minio خود متصل شوید و شروع به مدیریت فضای سرویس ذخیره سازی minio شوید."
 ---

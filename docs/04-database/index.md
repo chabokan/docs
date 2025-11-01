@@ -1,5 +1,6 @@
 ---
-title: دیتابیس ابری
+title: "دیتابیس ابری"
+icon: "faDatabase"
 sidebar_label: "دیتابیس ابری"
 ---
 

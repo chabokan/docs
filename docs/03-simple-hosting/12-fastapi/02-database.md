@@ -1,5 +1,6 @@
 ---
 title: "اتصال Fast API به دیتابیس"
+icon: "faDatabase"
 sidebar_label: "اتصال به دیتابیس"
 description: "در این بخش می خواهیم آموزش نحوه اتصال `Fast API` به دیتابیس را در هاست FastAPI به شما آموزش دهیم."
 ---

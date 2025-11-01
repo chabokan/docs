@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی RabbitMQ"
+icon: "faCommentsDollar"
 description: "RabbitMQ یک نرم افزار مدیریت صف است که برای ارسال و دریافت پیام ها از طریق پروتکل‌های مختلف مثل AMQP (Advanced Message Queuing Protocol) استفاده می‌شود."
 ---
 

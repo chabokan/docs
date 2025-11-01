@@ -1,5 +1,6 @@
 ---
 title: "سرویس N8N"
+icon: "faProjectDiagram"
 ---
 # سرویس N8N
 

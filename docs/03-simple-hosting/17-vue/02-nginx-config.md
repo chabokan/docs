@@ -1,5 +1,6 @@
 ---
 title: "آموزش تنظیمات NGINX در Vue"
+icon: "faGear"
 sidebar_label: "تنظیمات NGINX"
 description: "در این بخش می خواهیم آموزش نحوه تنظیمات `NGINX` را در هاست Vue به شما آموزش دهیم."
 ---

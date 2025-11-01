@@ -1,5 +1,6 @@
 ---
 title: "نکات آموزشی Nodejs"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم نکات تکمیلی Nodejs را در هاست  نود جی اس NodeJS به شما آموزش دهیم."
 ---

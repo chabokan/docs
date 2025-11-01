@@ -1,5 +1,6 @@
 ---
 title: "آموزش تنظیمات NGINX در سرویس Static"
+icon: "faGear"
 sidebar_label: "تنظیمات NGINX"
 description: "در این بخش می خواهیم آموزش نحوه اتنظیمات `NGINX` را در هاست Static به شما آموزش دهیم."
 ---

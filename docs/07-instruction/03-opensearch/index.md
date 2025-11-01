@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Opensearch"
+icon: "faMagnifyingGlass"
 description: " "
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Mirror اختصاصی"
+icon: "faCopy"
 sidebar_label: "Mirror اختصاصی"
 description: "در این قسمت با نحوه استفاده از Mirror اختصاصی چابکان آشنا می‌شویم"
 ---

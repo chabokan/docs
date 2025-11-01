@@ -1,5 +1,6 @@
 ---
 title: "آموزش Backup از دیتابیس PostgreSQL"
+icon: "faServer"
 sidebar_label: "نحوه ‌Backup و Restore"
 description: "در ادامه میخواهیم آموزش نحوه ‌Backup و Restore در سرویس ابری پوستگر اس کیو ال را به شما آموزش دهیم."
 ---

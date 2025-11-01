@@ -1,5 +1,6 @@
 ---
 title: "آموزش کار با GIT (Private repository)"
+icon: "faLock"
 sidebar_label: "GIT (Private repository)"
 description: "سرویس های ابری چابکان این امکان را دارند که از طریق git نیز استقرار داده شوند. برای استقرار از طریق git ابتدا باید به کنسول سرویس خود دسترسی پیدا کنید تا بتوانید دستورات زیر را وارد نمایید."
 ---

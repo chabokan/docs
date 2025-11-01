@@ -1,5 +1,6 @@
 ---
 title: "سرویس NuxtJs"
+icon: "faMountain"
 ---
 # سرویس NuxtJs
 

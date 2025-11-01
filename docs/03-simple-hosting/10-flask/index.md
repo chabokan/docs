@@ -1,5 +1,6 @@
 ---
 title: "سرویس Flask"
+icon: "faFlask"
 ---
 # سرویس Flask
 

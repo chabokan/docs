@@ -1,5 +1,6 @@
 ---
 title: "آموزش اتصال به فایل S3 در ASP.NET Core"
+icon: "faCloudArrowUp"
 sidebar_label: "اتصال به فایل S3"
 description: "در این بخش می خواهیم آموزش نحوه اتصال به فایل `S3` در `ASP.NET Core` را در هاست ASP.NET Core دات نت کور به شما آموزش دهیم."
 ---

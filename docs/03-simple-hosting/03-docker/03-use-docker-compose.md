@@ -1,5 +1,6 @@
 ---
 title: "آموزش استفاده از Docker Compose"
+icon: "faLayerGroup"
 sidebar_label: "استفاده از Docker Compose"
 description: "در این بخش می خواهیم آموزش نحوه استفاده از `Docker Compose` را در هاست داکر Docker به شما آموزش دهیم."
 ---

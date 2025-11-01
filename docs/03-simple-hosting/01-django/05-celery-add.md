@@ -1,5 +1,6 @@
 ---
 title:  "آموزش اتصال celery به Django "
+icon: "faTasks"
 sidebar_label: "افزودن Celery"
 description: "در این بخش می خواهیم آموزش افزودن Celery به Django هاست جنگو به شما آموزش دهیم"
 ---

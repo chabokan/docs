@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی Typesense"
+icon: "faMagnifyingGlassChart"
 description: "Typesense یک موتور جستجوی سریع و هوشمند است که به شما کمک می‌کند تا در اطلاعات و محتواهای خود جستجو کنید."
 ---
 

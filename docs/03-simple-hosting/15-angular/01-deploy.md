@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Angular "
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `Angular` را در هاست Angular به شما آموزش دهیم."
 ---

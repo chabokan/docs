@@ -1,5 +1,6 @@
 ---
 title: "Cron Job ها"
+icon: "faTasks"
 sidebar_label: "Cron Job ها"
 description: "در بعضی اوقات نیاز است که سرویس شما یک کار خاصی را به صورت دوره ای انجام دهد. معمولا برای این کار در "
 ---

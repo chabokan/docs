@@ -1,5 +1,6 @@
 ---
 title: "نحوه کار با سرویس FTP"
+icon: "faLightbulb"
 sidebar_label: "نحوه کار با سرویس FTP"
 description: "برای دریافت لینک مستقیم از FTP ابتدا سرویس FTP را ساخته و با استفاده از نرم افزار Fillzila به آن متصل شوید."
 ---

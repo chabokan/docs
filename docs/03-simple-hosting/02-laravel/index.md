@@ -1,5 +1,6 @@
 ---
 title: "سرویس Laravel"
+icon: "faCode"
 ---
 # سرویس Laravel
 

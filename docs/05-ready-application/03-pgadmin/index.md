@@ -1,5 +1,6 @@
 ---
 title: "سرویس PGadmin"
+icon: "faWarehouse"
 ---
 # سرویس PGadmin
 

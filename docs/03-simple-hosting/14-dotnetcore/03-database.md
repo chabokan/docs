@@ -1,5 +1,6 @@
 ---
 title: "آموزش اتصال ASP.NET به دیتابیس"
+icon: "faDatabase"
 sidebar_label: "اتصال به دیتابیس"
 description: "در این بخش می خواهیم آموزش نحوه اتصال `ASP.NET` به دیتابیس را در هاست ASP.NET Core دات نت کور به شما آموزش دهیم."
 ---

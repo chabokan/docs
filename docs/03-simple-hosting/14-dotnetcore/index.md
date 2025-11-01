@@ -1,5 +1,6 @@
 ---
 title: "سرویس ASP.Net Core"
+icon: "faCircleDot"
 ---
 # سرویس ASP.Net Core
 

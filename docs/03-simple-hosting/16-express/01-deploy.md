@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Express"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `Express` را در هاست Express به شما آموزش دهیم."
 ---

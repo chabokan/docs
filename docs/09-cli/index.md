@@ -1,5 +1,6 @@
 ---
 title: "CLI چابکان"
+icon: "faTerminal"
 sidebar_label: "CLI چابکان"
 ---
 

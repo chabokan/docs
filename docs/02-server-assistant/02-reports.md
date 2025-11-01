@@ -1,6 +1,7 @@
 ---
 title: "گزارش مصرف"
 sidebar_label: "گزارش مصرف"
+icon: "faChartLine"
 description: "در این بخش میتوان مصرف آنی یا لحظه ای منابع CPU و RAM سرور خود را بررسی و مشاهده کرد."
 ---
 

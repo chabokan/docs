@@ -1,5 +1,6 @@
 ---
 title: "افزودن باکت به minio"
+icon: "faBucket"
 sidebar_label: "افزودن باکت به minio"
 description: "نحوه افزودن bucket به سرویس minio"
 ---

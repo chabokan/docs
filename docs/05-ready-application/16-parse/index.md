@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی Parse"
+icon: "faCode"
 description: "Parse Server یک سرور متن‌باز است که توسط Parse توسعه داده شده است و قابلیت ارائه خدمات سروری مشابه Parse.com را دارا می‌باشد."
 ---
 

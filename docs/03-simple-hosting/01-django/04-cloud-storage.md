@@ -1,5 +1,6 @@
 ﻿---
 title:  "آموزش اتصال سرویس فایل S3 به Django"
+icon: "faCloudArrowUp"
 sidebar_label: "اتصال به سرویس فایل S3"
 description: "در این بخش می خواهیم آموزش اتصال Django به فایل S3 هاست جنگو به شما آموزش دهیم"
 ---

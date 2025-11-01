@@ -1,5 +1,6 @@
 ---
 title: "نکات آموزشی Nest"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: "در این بخش می خواهیم آنکات تکمیلی  را در هاست نست جی اس NestJs به شما آموزش دهیم."
 ---

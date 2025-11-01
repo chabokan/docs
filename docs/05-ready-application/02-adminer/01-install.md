@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی Adminer"
+icon: "faRocket"
 sidebar_label: "نصب و راه اندازی"
 description: "اسکریپت قدرتمند Adminer مدیریت حرفه ای پایگاه داده های mysql, mongodb, postgres و MS SQL جایگزین مناسب PHPmyAdmin می باشد."
 ---

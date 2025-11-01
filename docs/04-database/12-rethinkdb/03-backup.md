@@ -1,5 +1,6 @@
 ---
 title: "آموزش Backup از دیتابیس Rethinkdb"
+icon: "faServer"
 sidebar_label: "نحوه ‌Backup و Restore"
 description: "در ادامه میخواهیم آموزش نحوه ‌Backup و Restore در سرویس ابری ریسینک دی بی را به شما آموزش دهیم."
 ---

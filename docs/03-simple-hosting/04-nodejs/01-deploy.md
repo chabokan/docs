@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار NodeJs"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار برنامه NodeJs را در هاست  نود جی اس NodeJS به شما آموزش دهیم."
 ---

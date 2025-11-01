@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Spring (java)"
+icon: "faLeaf"
 description: "Spring یک فریمورک (framework) جاوا است که برای توسعه برنامه‌های نرم‌افزاری وب استفاده می‌شود."
 ---
 

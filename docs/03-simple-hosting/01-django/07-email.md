@@ -1,5 +1,6 @@
 ﻿---
 title: "آموزش افزودن ایمیل در Django"
+icon: "faEnvelopeOpen"
 sidebar_label: "تنظیمات ایمیل"
 description: "در این بخش می خواهیم تنظیمات ایمیل Django  را در هاست جنگو به شما آموزش دهیم"
 ---

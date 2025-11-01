@@ -1,5 +1,6 @@
 ﻿---
 title: "آموزش ‌Backup با استفاده از PGadmin"
+icon: "faServer"
 sidebar_label: "نحوه ‌Backup و Restore"
 description: "بعد از  نصب و راه اندازی PGadmin  و اتصال دیتابیس به PGadmin برای ایجاد بکاپ می توانید بر روی دیتابیس خود راست کلیک نموده و سپس بر روی گزینه بکاپ کلیک نمایید"
 ---

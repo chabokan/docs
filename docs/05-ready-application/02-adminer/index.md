@@ -1,5 +1,6 @@
 ---
 title: "سرویس Adminer"
+icon: "faDatabase"
 ---
 # سرویس Adminer
 

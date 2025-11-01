@@ -1,5 +1,6 @@
 ---
 title: "آموزش اتصال Python به دیتابیس"
+icon: "faDatabase"
 sidebar_label: "اتصال به دیتابیس"
 description: "در این بخش می خواهیم آموزش نحوه اتصال `Python` به دیتابیس را در هاست پایتون Python به شما آموزش دهیم."
 ---

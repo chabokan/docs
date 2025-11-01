@@ -1,5 +1,6 @@
 ---
 title: "آموزش استفاده از افزونه Postgis"
+icon: "faLocationDot"
 sidebar_label: "افزونه Postgis"
 description: ""
 ---

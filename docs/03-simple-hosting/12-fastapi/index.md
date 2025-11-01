@@ -1,5 +1,6 @@
 ---
 title: "سرویس FastAPI"
+icon: "faBolt"
 ---
 # سرویس FastAPI
 

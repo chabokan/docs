@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی Mattermost"
+icon: "faComments"
 description: "Mattermost یک پلتفرم متن‌باز و متن‌باز برای مکاتبه تیمی (Team Communication) است که برای سازمان‌ها و تیم‌ها طراحی شده است. این نرم‌افزار، یک جایگزین امن و خصوصی برای خدمات مکاتبه محبوب مانند Slack و Microsoft Teams می‌باشد."
 ---
 

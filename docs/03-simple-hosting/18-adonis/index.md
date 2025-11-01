@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Adonis"
+icon: "faFeatherPointed"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `Adonis` را در هاست Adonis به شما آموزش دهیم." 
 ---
 

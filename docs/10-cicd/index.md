@@ -1,5 +1,6 @@
 ---
 title: "راه‌اندازی CI/CD"
+icon: "faCogs"
 sidebar_label: "راه‌اندازی CI/CD"
 ---
 

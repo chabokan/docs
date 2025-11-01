@@ -1,5 +1,6 @@
 ---
 title: "آموزش نصب سرویس FastAPI"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه  `FastAPI` را در هاست FastAPI به شما آموزش دهیم."
 ---

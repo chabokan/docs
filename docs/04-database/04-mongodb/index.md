@@ -1,5 +1,6 @@
 ---
 title: "سرویس MongoDB"
+icon: "faLeaf"
 ---
 # سرویس MongoDB
 

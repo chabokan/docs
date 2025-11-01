@@ -1,5 +1,6 @@
 ---
 title:  "آموزش اتصال فایل S3 به Laravel"
+icon: "faCloudArrowUp"
 sidebar_label: "اتصال به سرویس فایل S3"
 description: "در این بخش می خواهیم آموزش نحوه اتصال به فایل S3 را در هاست لاراول laravel به شما آموزش دهیم."
 ---

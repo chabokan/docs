@@ -1,5 +1,6 @@
 ﻿---
 title: "نصب CLI"
+icon: "faRocket"
 sidebar_label: "نصب CLI"
 ---
 

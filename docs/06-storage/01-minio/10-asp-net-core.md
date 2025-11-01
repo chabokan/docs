@@ -1,5 +1,6 @@
 ---
 title: "اتصال از طریق ASP.NET Core"
+icon: "faCircleDot"
 sidebar_label: "اتصال از طریق ASP.NET Core"
 description: " برای متصل کردن Flask به سرویس ابری Minio باید یکسری تغییرات در پروژه خود اعمال کنید که این تغییرات در صفحه زیر قدم به قدم خدمت شما"
 ---

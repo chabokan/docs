@@ -1,5 +1,6 @@
 ---
 title: "نکات آموزشی NuxtJs"
+icon: "faLightbulb"
 sidebar_label: "نکات تکمیلی"
 description: ""
 ---

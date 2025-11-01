@@ -1,5 +1,6 @@
 ---
 title: "سرویس Postgresql"
+icon: "faWarehouse"
 ---
 # سرویس Postgresql
 

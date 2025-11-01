@@ -1,5 +1,6 @@
 ---
-title: استقرار اولیه
+title: "استقرار اولیه"
+icon: "faPaperPlane"
 sidebar_label: "استقرار اولیه"
 ---
 

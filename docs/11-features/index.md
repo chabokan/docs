@@ -1,5 +1,6 @@
 ---
 title: "امکانات سرویس ها"
+icon: "faSlidersH"
 sidebar_label: "امکانات سرویس ها"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "سرویس Odoo"
+icon: "faCogs"
 ---
 # سرویس Odoo
 

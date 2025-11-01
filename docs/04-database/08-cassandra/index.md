@@ -1,5 +1,6 @@
 ---
 title: "سرویس Cassandra"
+icon: "faEye"
 ---
 # سرویس Cassandra
 

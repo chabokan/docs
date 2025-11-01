@@ -1,5 +1,6 @@
 ---
 title: "سرویس Vue"
+icon: "faEye"
 ---
 # سرویس Vue
 

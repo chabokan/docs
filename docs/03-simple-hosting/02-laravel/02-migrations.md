@@ -1,5 +1,6 @@
 ---
-title:  "آموزش migration در Laravel" 
+title:  "آموزش migration در Laravel"
+icon: "faRotate"
 sidebar_label: "اجرای Migration ها"
 description: "در این بخش می خواهیم آموزش نحوه اجرای Migration ها را در هاست لاراول laravel به شما آموزش دهیم."
 ---

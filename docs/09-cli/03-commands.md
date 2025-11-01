@@ -1,5 +1,6 @@
 ---
 title: "کامند CLI"
+icon: "faList"
 sidebar_label: "کامند CLI"
 ---
 

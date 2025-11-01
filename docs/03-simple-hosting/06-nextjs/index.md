@@ -1,5 +1,6 @@
 ---
 title: "سرویس NextJs"
+icon: "faArrowRight"
 ---
 # سرویس NextJs
 

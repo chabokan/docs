@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار NuxtJs"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `NuxtJs`  را در هاست ناکست جی اس Next به شما آموزش دهیم."
 ---

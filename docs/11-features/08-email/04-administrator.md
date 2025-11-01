@@ -1,5 +1,6 @@
 ---
 title: "مدیریت ایمیل"
+icon: "faUserCog"
 sidebar_label: "مدیریت ادمین ایمیل"
 ---
 

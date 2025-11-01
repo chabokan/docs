@@ -1,5 +1,6 @@
 ---
 title: "آموزش راه اندازی Nocodb"
+icon: "faTable"
 description: "NocoDB یک سیستم مدیریت پایگاه داده (Database Management System) و برنامه توسعه سیستم مدیریت محتوا (Content Management System) است که برپایه کدبیس اوپن‌سورس `NocoDB` با استفاده از تکنولوژی‌های جدید توسعه داده شده است."
 ---
 

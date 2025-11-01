@@ -1,5 +1,6 @@
 ---
 title: "آموزش اتصال از طریق Laravel به Soketi"
+icon: "faComments"
 sidebar_label: "اتصال به Soketi"
 description: "برای اتصال Laravel به Soketi میبایست ابتدا سرئیس Soketi را ساخته و سپس مراحل زیر را اجرا نمایید تا سرویس شما با موفقیت متصل شود:"
 ---

@@ -1,5 +1,6 @@
 ---
 title: "سرویس React"
+icon: "faAtom"
 ---
 # سرویس React
 

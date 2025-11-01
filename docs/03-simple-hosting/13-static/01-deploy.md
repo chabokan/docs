@@ -1,5 +1,6 @@
 ---
 title: "آموزش استقرار Static"
+icon: "faRocket"
 sidebar_label: "استقرار اولیه"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه  `Static` را در هاست Static به شما آموزش دهیم."
 ---

@@ -1,5 +1,6 @@
 ---
-title: میزبانی آسان
+title: "میزبانی آسان"
+icon: "faCloud"
 sidebar_label: "میزبانی آسان"
 ---
 

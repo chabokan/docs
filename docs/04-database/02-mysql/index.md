@@ -1,5 +1,6 @@
 ---
 title: "سرویس Mysql"
+icon: "faDatabase"
 ---
 # سرویس Mysql
 

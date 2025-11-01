@@ -1,5 +1,6 @@
 ---
 title: "Registry"
+icon: "faCube"
 description: "Docker Registry یک سرویس ذخیره‌سازی برای تصاویر Docker است که به شما این امکان را می‌دهد تا تصاویر Docker خود را در اینجا ذخیره کنید و به اشتراک بگذارید."
 ---
 
