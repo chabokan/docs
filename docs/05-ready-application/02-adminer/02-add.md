@@ -12,7 +12,7 @@ description: "بعد از ساخت سرویس Adminer میتوانید دیتا�
 
 برای این کار ابتدا به صفحه ی لاگین `Adminer` خود مراجعه فرمایید و اطلاعات دیتابیس مد نظر خود را وارد نمایید.
 
-```bash
+```properties
 System: Database type
 Server: Host:Port
 Username: User
@@ -20,7 +20,7 @@ Password: Pass
 Database: DB name
 ```
 
-```bash
+```yaml
 Database types:
 - PostgreDB
 - MySQL

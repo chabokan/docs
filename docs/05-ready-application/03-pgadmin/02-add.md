@@ -18,7 +18,7 @@ description: "بعد از ساخت سرویس PGadmin میتوانید دیت�
 
 ## سربرگ General
 
-```bash
+```properties
 name: نام دلخواه
 ```
 ![](https://s1.chabokan.net/docs/images/Screenshot-1402-06-04-at-4.20.22-PM.png)
@@ -27,7 +27,7 @@ name: نام دلخواه
 
 همانند مشخصات سرویس `Postgresql` این قسمت را کامل کرده و سپس روی گزینه ی save کلیک می نمایید.
 
-```bash
+```properties
 Host name/address: Host
 Port: Port
 Maintenance database: Database name

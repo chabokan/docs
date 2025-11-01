@@ -16,7 +16,7 @@ description: "برای دریافت آی پی واقعی کاربر میتوان
 
 ابتدا میبایست از طریق instance که از express ایجاد نموده اید گزینه `trust proxy` را روی `true` تنظیم کنید. این کار به `Express` اعلام میکند که به IP های ارسال شده توسط اعتماد کند.
 
-```bash
+```javascript
 const app = express();
 
 app.set('trust proxy', true);
@@ -24,7 +24,7 @@ app.set('trust proxy', true);
 
 سپس در قسمت هایی که نیاز به ip کاربر دارید از طریق req.ips آیپی کاربر را دریافت نمایید.
 
-```bash
+```javascript
 req.ips.length ? req.ips[0] : req.ip
 ```
 
@@ -32,7 +32,7 @@ req.ips.length ? req.ips[0] : req.ip
 
 برای مشاهده `IP` واقعی کاربر در برنامه `Laravel`،‌ میبایست به مسیر زیر رفته:
 
-```bash
+```shell
 /app/Http/Middleware
 ```
 
@@ -59,7 +59,7 @@ req.ips.length ? req.ips[0] : req.ip
 
 برای گرفتن `IP` اصلی کاربر در `ASP.Net` از تکه کد زیر استفاده می‌کنیم: 
 
-```bash
+```csharp
 Public string function get_real_ip_add (){
 
 if (!IsEmpty(Request.ServerVariables["REAL_IP"])) 
@@ -80,7 +80,7 @@ String ip = get_real_ip_add();
 
 برای گرفتن `IP` اصلی کاربر در `PHP` از تکه کد زیر استفاده می‌کنیم: 
 
-```bash
+```php
 function get_real_ip_addr(){
 
 if (!empty($_SERVER['REAL_IP'])){
@@ -106,7 +106,7 @@ $ip = get_real_ip_addr()
 
 برای گرفتن `IP` اصلی کاربر در `Python` از تکه کد زیر استفاده می‌کنیم: 
 
-```bash
+```python
 import socket
 
 def get_real_ip_addr(request):

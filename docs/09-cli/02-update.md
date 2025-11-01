@@ -11,13 +11,13 @@ sidebar_label: "بروزرسانی CLI"
 
 برای به روزرسانی ورژن Node سیستم خود ابتدا دستور n را از طریق کامند زیر نصب نمایید:
 
-```bash
+```shell
 npm install n -g
 ```
 
 سپس با استفاده از کامند زیر اقدام به آپدیت Node خود نمایید.
 
-```bash
+```shell
 n stable
 ```
 
@@ -31,12 +31,12 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="chabokan" label="چابکان" default>
-    ```bash
+    ```shell
     npm install -g @chabokan.net/cli
     ```
   </TabItem>
   <TabItem value="cloudiva" label="کلودیوا">
-    ```bash
+    ```shell
     npm install -g @cloudiva.net/cli
     ```
   </TabItem>
@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
 
 با زدن دستور بالا CLI چابکان به آخرین ورژن منتشر شده بروزرسانی خواهد شد. برای مشاهده ورژن کنونی CLI نصب شده در سیستم عامل خود کافیست دستور زیر را در خط فرمان یا ترمینال سیستم عامل خود وارد کنید:
 
-```bash
+```shell
 chabok -v
 ```
 

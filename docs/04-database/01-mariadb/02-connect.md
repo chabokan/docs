@@ -60,11 +60,11 @@ import TabItem from '@theme/TabItem';
 
 ![](https://s1.chabokan.net/docs/images/Mariadbpr-1.png)
 
-```bash
-1 - Hostname = سرور
-2 - Port = پورت mariadb
-3 - Username = نام کاربری
-4 - Connection Name = نام مورد نظر
+```properties
+Hostname = سرور
+Port = پورت mariadb
+Username = نام کاربری
+Connection Name = نام مورد نظر
 ```
 
 در نهایت بر روی OK کلیک نمایید و رمز عبور خود را وارد کرده و از سرویس مورد نظر استفاده نمایید.

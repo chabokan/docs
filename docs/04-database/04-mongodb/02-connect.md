@@ -17,13 +17,13 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اتصال از طریق کنسول سرویس خود ابتدا وارد داشبورد سرویس شده و قسمت کنسول را انتخاب می نمایید، با استفاده از دستور زیر وارد mongo shell می شویم (بجای USERNAME و PASSWORD مشخصات سرویس در داشبورد سرویس خود را وارد کنید):
 
-```bash
+```shell
 mongo -u USERNAME -p PASSWORD
 ```
 
 در MongoDB ورژن 6 دستور mongo غیرفعال شده و می توانید از دستور زیر استفاده نمایید:
 
-```bash
+```shell
 mongosh -u USERNAME -p PASSWORD
 ```
 
@@ -64,7 +64,7 @@ import TabItem from '@theme/TabItem';
 
 همواره شما می توانید از طریق ترمینال یا کنسول نیز با این سرویس ارتباط برقرار نماید. برای این کار ابتدا باید mongo را بر روی سیستم عامل خود نصب نمایید و با استفاده از دستور زیر به دیتابیس ابری Mongodb متصل شوید.
 
-```bash
+```shell
 mongo -u DB_USERNAME -p DB_PASSWORD --host DB_HOST --port DB_PORT --authenticationDatabase admin
 ```
 
@@ -72,7 +72,7 @@ mongo -u DB_USERNAME -p DB_PASSWORD --host DB_HOST --port DB_PORT --authenticati
 
 برای اتصال به دیتابیس MongoDB از طریق Connection String می توانید مانند نمونه زیر Connection String خود را ایجاد نمایید:
 
-```bash
+```shell
 mongodb://USERNASME:PASSWORD@MONGO_SERVER_URL:MONGO_PORT/?authSource=admin
 ```
 

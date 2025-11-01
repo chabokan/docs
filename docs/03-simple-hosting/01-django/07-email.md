@@ -16,7 +16,7 @@ description: "در این بخش می خواهیم تنظیمات ایمیل Dja
 
 در ابتدا باید اطلاعات ایمیل را در قسمت متغیر های محیطی پلتفرم مانند نمونه های زیر اضافه نمایید.
 
-```bash
+```properties
 EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
 EMAIL_HOST=mail.chabokan.net
 EMAIL_PORT=587

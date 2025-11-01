@@ -56,22 +56,22 @@ sidebar_label: "نکات تکمیلی"
 #### سرور واسط اول (مناسب اینترنت داخلی)
 
 ویندوز
-```bash
+```shell
 set CHABOK_API_URL=https://apihub.chabokanco.ir/fa/api/v1/
 ```
 لینوکس:
-```bash
+```shell
 export CHABOK_API_URL=https://apihub.chabokanco.ir/fa/api/v1/
 ```
 
 #### سرور واسط دوم (مناسب اینترنت خارج)
 
 ویندوز
-```bash
+```shell
 set CHABOK_API_URL=https://apihub2.chabokan.net/fa/api/v1/
 ```
 لینوکس:
-```bash
+```shell
 export CHABOK_API_URL=https://apihub2.chabokan.net/fa/api/v1/
 ```
 

@@ -24,13 +24,13 @@ description: "برای حذف و انتقال دیتابیس با TablePlus، م
 
 ![](https://s1.chabokan.net/docs/images/Tbl4.jpg)
 
-```bash
-1- Name = نام مدنظر
-2- Host = سرور
-3- Port = پورت
-4- User = نام کاربری
-5- Password = رمز عبور
-6- Database = نام دیتابیس
+```properties
+Name = نام مدنظر
+Host = سرور
+Port = پورت
+User = نام کاربری
+Password = رمز عبور
+Database = نام دیتابیس
 ```
 
 پس از متصل شدن به دیتابیس ، جداول مربوط به دیتابیس شما نمایش داده خواهد شد.

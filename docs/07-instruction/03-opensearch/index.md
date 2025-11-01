@@ -19,7 +19,7 @@ description: " "
 سپس در مرحله بعد یعنی پیکربندی سرویس آدرس زیر را در قسمت آدرس `image` قرار داده و مراحل بعد را تا ساخت سرویس پیش میبریم.
 
 
-```bash
+```shell
 docker.chabokan.net/opensearchproject/opensearch:2.11.0
 ```
 
@@ -31,7 +31,7 @@ docker.chabokan.net/opensearchproject/opensearch:2.11.0
 
 بعد از اتمام ساخت سرویس، به قسمت دیسک ها رفته و دیسک خود را مانند نمونه زیر تعریف میکنیم:
 
-```bash
+```shell
 # مبدا
 data
 
@@ -47,7 +47,7 @@ data
 
 سپس به قسمت تنظیمات رفته و در بخش  متغیرهای محیطی پلتفرم، متغیر های زیر را ست مینماییم. در این قسمت میتوانید متغیر ها `(env)` مد نظر خود را نیز وارد نمایید.
 
-```bash
+```properties
 # name : value
 
 discovery.type : single-node
@@ -71,7 +71,7 @@ DISABLE_SECURITY_PLUGIN : true
 سپس در مرحله بعد یعنی پیکربندی سرویس آدرس زیر را در قسمت آدرس `image` قرار داده و مراحل بعد را تا ساخت سرویس پیش میبریم.
 
 
-```bash
+```shell
 docker.chabokan.net/opensearchproject/opensearch-dashboards:2.11.0
 ```
 
@@ -87,7 +87,7 @@ docker.chabokan.net/opensearchproject/opensearch-dashboards:2.11.0
 
 سپس به قسمت تنظیمات رفته و در بخش  متغیرهای محیطی پلتفرم، متغیر های زیر را ست مینماییم. در این قسمت میتوانید متغیر ها `(env)` مد نظر خود را نیز وارد نمایید.
 
-```bash
+```properties
 # name : value
 
 OPENSEARCH_HOSTS : https://opensearch-URL

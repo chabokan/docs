@@ -24,7 +24,7 @@ description: "در این بخش می خواهیم آموزش نحوه تنظی�
 :::
 
 
-```bash
+```nginx
 server {
         listen 80 default_server;
         listen [::]:80 default_server;

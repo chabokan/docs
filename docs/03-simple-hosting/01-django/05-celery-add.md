@@ -14,13 +14,13 @@ description: "در این بخش می خواهیم آموزش افزودن Celer
 
 ابتدا در ترمینال سرویس `Celery` را با کامند زیر نصب نمایید:
 
-```bash
+```shell
 sudo pip install celery
 ```
 
 سپس در مسیر `/app/app` می بایست فایلی به نام `celery.py` ایجاد نمایید.
 
-```bash
+```shell
 /app/app/celery.py
 ```
 
@@ -55,7 +55,7 @@ def debug_task(self):
 
 سپس میبایست به فایل `__init__.py` در این مسیر `/app/app` بروید.
 
-```bash
+```shell
 /app/app/__init__.py
 ```
 
@@ -80,7 +80,7 @@ CELERY_TIMEZONE = 'Asia/Tehran'
 
 حالا میتوانید task های مد نظر خود را در app معرفی نمایید.
 
-```bash
+```shell
 app/
     > - tasks.py
     >
@@ -89,7 +89,7 @@ app/
 
 در آخر نیز میبایست در root پروژه supervisor.conf را مانند نمونه زیر ایجاد نموده و سپس سرویس را ری استارت نمایید.
 
-```bash
+```ini
 [program:celery]
 process_name=%(program_name)s_%(process_num)02d
 directory=/app

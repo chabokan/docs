@@ -14,9 +14,12 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 در صورتی مواجه با خطای [CORS](https://docs.adonisjs.com/guides/cors) در سرویس `adonis` به مسیر `/config` رفته و فایل `cors.ts` را چک نمایید. در این کانفیگ میبایست کامند های زیر قرار داده شده باشد تا `CORS` به درستی عمل کند:
 
-```bash
-  origin: '*',
-  methods: ['GET', 'HEAD', 'POST', 'PUT', 'DELETE']
+```typescript
+const config = {
+    // other configs
+    origin: '*',
+    methods: ['GET', 'HEAD', 'POST', 'PUT', 'DELETE']
+};
 ```
 
 ---

@@ -16,7 +16,7 @@ description: "در این بخش می خواهیم تنظیمات NGINX در Dja
 
 تنظیمات پیشفرض `Nginx` توسط چابکان:
 
-```bash
+```nginx
 server {
     listen 80;
     server_tokens off;
@@ -40,7 +40,7 @@ server {
 
 برای تغییر حجم آپلود در سرویس `django` میتوانید از طریق nginx به صورت زیر `client_max_body_size` را با حجم مورد نظر تنظیم نمایید.
 
-```bash
+```nginx
 server {
     listen 80;
     client_max_body_size 250M;
@@ -59,7 +59,7 @@ server {
 
 برای رفع این ارور میتوانید در روت سرویس خود یک فایل به نام nginx.conf را ایجاد نموده و تنظیمات زیر را در آن وارد نمایید.
 
-```bash
+```nginx
 server {
     listen 80;
     server_tokens off;

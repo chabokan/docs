@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 
 
 ### Mysql / Mariadb
-```bash
+```properties
 # name : value
 
 DB_CONNECTION : mysql

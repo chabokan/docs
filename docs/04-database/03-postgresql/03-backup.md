@@ -59,7 +59,7 @@ name: نام دلخواه
 
 همانند مشخصات سرویس postgresql این قسمت را کامل کرده و سپس روی گزینه ی save کلیک می نمایید.
 
-```bash
+```properties
 Host name/address: Host
 Port: Port
 Maintenance database: Database name

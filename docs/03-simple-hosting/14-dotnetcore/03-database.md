@@ -16,7 +16,7 @@ description: "در این بخش می خواهیم آموزش نحوه اتصا�
 
 بعد از ایجاد دیتابیس در حساب کاربری خود، باید اطلاعات دیتابیس ایجاد شده را به `ASP.Net Core` معرفی کنید. برای این کار کافیست هاست، نام کاربری، رمزعبور، پورت ایجاد شده را به صورت زیر به `ASP.Net Core` معرفی کنید.
 
-```sql
+```json
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=هاست, پورت;Database=نام دیتابیس;User Id=نام کاربری;Password=رمز عبور;"
@@ -26,7 +26,7 @@ description: "در این بخش می خواهیم آموزش نحوه اتصا�
 
 سپس، در کد برنامه خود، رشته اتصال را از فایل `appsettings.json` بخوانید و از آن برای اتصال به پایگاه داده استفاده کنید. نمونه کد زیر را بررسی کنید:
 
-```sql
+```csharp
 using System;
 using System.Data.SqlClient;
 
@@ -59,7 +59,7 @@ class Program
 
 در کلاس `Startup.cs`، درون سرویس‌ها `(Services)`، اضافه کردن `(Service)` مربوط به اتصال به دیتابیس MySQL را انجام دهید. این کار را با استفاده از رشته اتصال و سرویس `AddDbContext` انجام دهید:
 
-```sql
+```csharp
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -91,7 +91,7 @@ public class Startup
 
 حالا باید اطلاعات مربوط به رشته اتصال را در فایل `appsettings.json` تنظیم کنید:
 
-```sql
+```json
 {
   "ConnectionStrings": {
     "DefaultConnection": "server=HOST,PORT;database=NAME;user=USERNAME;password=PASS"
@@ -103,17 +103,19 @@ public class Startup
 }
 ```
 
-در صورتی که با ارور `unable to connect` برخوردید میتوانید به جای کامند `DefaultConnection` بالا از کامند زیر استفاده نمایید:
+در صورتی که با ارور `unable to connect` برخوردید میتوانید به جای مقدار `DefaultConnection` بالا از مقدار زیر استفاده نمایید:
 
-```bash
-"DefaultConnection": "server=HOST,PORT;database=NAME;user=USERNAME;password=PASS;SslMode=none"
+```json
+{
+  "DefaultConnection": "server=HOST,PORT;database=NAME;user=USERNAME;password=PASS;SslMode=none"
+}
 ```
 
 در این مثال، `DefaultConnection` مبربوط به تنظیمات اتصال به دیتابیس است که از آن در کد استفاده می‌کنیم. شما باید `HOST،` `PORT،` `NAME،` `USERNAME` و `PASS` را با مقادیر سرویس دیتابیس ساخته شده در چابکان جایگزین کنید.
 
 حالا می‌توانید در کلاس‌های `DbContext` خود، به راحتی از اتصال به دیتابیس `MySQL` استفاده کنید. برای مثال، این‌جا `YourDbContext` یک کلاس `DbContext` است که از آن در کد استفاده می‌کنیم:
 
-```sql
+```csharp
 using Microsoft.EntityFrameworkCore;
 
 public class YourDbContext : DbContext

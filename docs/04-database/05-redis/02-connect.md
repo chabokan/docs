@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 
 همواره شما می توانید از طریق ترمینال یا کنسول نیز با این سرویس ارتباط برقرار نماید. برای این کار ابتدا باید `redis-cli` را بر روی سیستم عامل خود نصب نمایید و با استفاده از دستور زیر به دیتابیس ابری `Redis` متصل شوید.
 
-```bash
+```shell
 redis-cli -h REDIS_HOST -p REDIS_PORT -a REDIS_PASSWORD
 ```
 
@@ -42,7 +42,7 @@ redis-cli -h REDIS_HOST -p REDIS_PORT -a REDIS_PASSWORD
 
 برای اتصال به دیتابیس `Redis` از طریق `Connection String` می توانید مانند نمونه زیر `Connection String` خود را ایجاد نمایید:
 
-```bash
+```text
 redis://:<your_password>@<your_host>:<your_port>/<database_number>
 ```
 
@@ -53,10 +53,10 @@ redis://:<your_password>@<your_host>:<your_port>/<database_number>
 
 ```python
 CACHES = {
-"default": {
-"BACKEND": "django.core.cache.backends.redis.RedisCache",
-"LOCATION": "redis://:<your_password>@<your_host>:<your_port>/<database_number>",
-  }
+    "default": {
+        "BACKEND": "django.core.cache.backends.redis.RedisCache",
+        "LOCATION": "redis://:<your_password>@<your_host>:<your_port>/<database_number>",
+    }
 }
 ```
 

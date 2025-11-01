@@ -14,7 +14,7 @@ description: "در این بخش می خواهیم نکات تکمیلی Django 
 
 برای استقرار برنامه های `ASGI` نیاز هست تا متغییر محیطی `ASGI_PATH` را از طریق تنظیمات سرویس با مسیر فایل `asgi.py` مقدار دهی نمایید.
 
-```bash
+```properties
 ASGI_PATH=core.asgi:application
 ```
 
@@ -22,7 +22,7 @@ ASGI_PATH=core.asgi:application
 
 برای رفع این مشکل در برنامه های `ASGI` کافیست کد زیر را در ابتدا فایل `asgi.py` (قبل از import ها) برنامه خودتان قرار دهید.
 
-```bash
+```python
 import django
 django.setup()
 ```
@@ -31,7 +31,7 @@ django.setup()
 
 درصورتی که در سرویس خود با خطای `CRITICAL WORKER TIMEOUT` مواجه شده‌اید و به `WORKER TIMEOUT` بیشتر از ۳۰ ثانیه نیاز دارید می‌توانید وارد تنظیمات سرویس خود شده و در بخش متغیرها، متغیر `GUNICORN_TIMEOUT` با مقدار موردنظر خود مقدار دهی کنید.
 
-```bash
+```properties
 # name : value
 
 GUNICORN_TIMEOUT : 90
@@ -41,7 +41,7 @@ GUNICORN_TIMEOUT : 90
 
 درصورتی که می خواهید Gunicorn با بیش یک Worker کار کند، می‌توانید وارد تنظیمات سرویس خود شده و در بخش متغیرها، متغیر `GUNICORN_WORKERS` با مقدار موردنظر خود مقدار دهی کنید.
 
-```bash
+```properties
 # name : value
 
 GUNICORN_WORKERS : 2
@@ -51,7 +51,7 @@ GUNICORN_WORKERS : 2
 
 درصورتی که می خواهید `Gunicorn` با بیش یک `thread` کار کند، می‌توانید وارد تنظیمات سرویس خود شده و در بخش متغیرها، متغیر `GUNICORN_THREADS` با مقدار موردنظر خود مقدار دهی کنید.
 
-```bash
+```properties
 # name : value
 
 GUNICORN_THREADS : 2
@@ -61,7 +61,7 @@ GUNICORN_THREADS : 2
 
 درصورتی که می خواهید سطح لاگ های `Gunicorn` تغییر دهید، می‌توانید وارد تنظیمات سرویس خود شده و در بخش متغیرها، متغیر `GUNICORN_LOG_LEVEL` با مقدار موردنظر خود مقدار دهی کنید.
 
-```bash
+```properties
 # name : value
 
 GUNICORN_LOG_LEVEL : info
@@ -100,7 +100,7 @@ STATIC_ROOT = BASE_DIR / 'static'
 
 برای فعال نمودن سیستم کشینگ پکیج های سرویس میتوانید متغیر زیر را در بخش تنظیمات سرویس، متغیر های محیطی پلتفرم ست نمایید. اینکار باعث سرعت بخشیدن به روند استارت و ری استارت سرویس می شود.
 
-```bash
+```properties
 # name = value
 
 CHBK_PYTHON_SAVE = true
@@ -113,7 +113,7 @@ CHBK_PYTHON_SAVE = true
 
 برای اتصال دامنه به سرویس جنگو می بایست در فایل `.env` سرویس دامنه اصلی خود را وارد نمایید.
 
-```python
+```properties
 SITE_URL=example.com
 ```
 
@@ -121,7 +121,7 @@ SITE_URL=example.com
 
 شما باید یک فایل با نام `cron-jobs` در سرویس ایجاد کنید و دستور زیر درون اون قرار بدید و سپس یکبار سرویس را ریستارت کنید تا کرون ها اجرا شوند:
 
-```bash
+```shell
 /usr/local/bin/python3 /app/manage.py crontab run ######## >> /app/mylog.log 2>&1 
 
 ```
@@ -130,7 +130,7 @@ SITE_URL=example.com
 
 در صورتی که قصد دارید ورژن python خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن Django سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
-```php
+```text
 python versions:
 
 - 3.6

@@ -17,7 +17,7 @@ description: "در این بخش می خواهیم آموزش نحوه اتصا�
 
 برای استفاده از سرویس فایل `S3` باید ابتدا با استفاده از دستور زیر کتابخانه مربوط به این سرویس را در پروژه خود نصب کنید.
 
-```bash
+```shell
 composer require league/flysystem-aws-s3-v3 "^3.0"
 ```
 
@@ -42,7 +42,7 @@ composer require league/flysystem-aws-s3-v3 "^3.0"
 
 حالا که `FileSystem` ایجاد شد باید مشخصات سرویس فایل `S3` خود را با استفاده از `env` ها به لاراول معرفی کنید. که برای اینکار می توانید از فایل `.env` یا قسمت متغیر های محیطی چابکان استفاده کنید.
 
-```bash
+```properties
 # name = value
 FILESYSTEM_CLOUD = minio
 ENDPOINT_URL = https://minio-url
@@ -90,7 +90,7 @@ class UserAvatarController extends Controller
 
 برای حذف فایل‌‌های آپلود شده، میتوانید از نمونه کد زیر استفاده نمایید:
 
-```bash
+```php
 use Illuminate\Support\Facades\Storage;
 
 Storage::disk('minio')->delete('folder/text.txt');
@@ -100,7 +100,7 @@ Storage::disk('minio')->delete('folder/text.txt');
 
 برای دانلود فایل میتوانید از نمونه کد زیر استفاده نمایید:
 
-```bash
+```php
 use Illuminate\Support\Facades\Storage;
 
 return Storage::download('text.txt');
@@ -110,7 +110,7 @@ return Storage::download('text.txt');
 
 برای بازیابی فایل ها میتوانید از نمونه کد زیر استفاده نمایید:
 
-```bash
+```php
 use Illuminate\Support\Facades\Storage;
 
 $contents = Storage::get('text.txt');
@@ -120,7 +120,7 @@ $contents = Storage::get('text.txt');
 
 برای دریافت لیست فایل‌‌های آپلود شده، میتوانید از نمونه کد زیر استفاده نمایید:
 
-```bash
+```php
 use Illuminate\Support\Facades\Storage;
 
 $files = Storage::allFiles($directory);

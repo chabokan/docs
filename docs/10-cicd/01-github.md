@@ -84,7 +84,7 @@ import TabItem from '@theme/TabItem';
 
 در صورتی که میخواهید به صورت همزمان بر روی چند محیط، برنامه خود را تست و بررسی نموده و نیاز به CI/CD به ازای branch های مختلف در گیت هاب دارید میتوانید مانند نمونه زیر، اقدام به کانفیگ فایل deploy.yaml نمایید.
 
-```bash
+```yaml
 name: deploy-chabokan
 on:
   push:

@@ -24,7 +24,7 @@ description: "Grafana یک ابزار متن‌باز برای نمایش و م�
 
 نام کاربری و رمز عبور پیشفرض `Grafana` شما به شرح زیر می باشد
 
-```bash
+```properties
 username = admin
 password = admin
 ```

@@ -14,7 +14,7 @@ description: "در بعضی موارد نیاز هست تا تنظیمات دا�
 
 متغییر زیر پیشوند جداول وردپرس را مشخص می کند:
 
-```bash
+```properties
 # name : value
 
 WORDPRESS_TABLE_PREFIX : wp_
@@ -22,7 +22,7 @@ WORDPRESS_TABLE_PREFIX : wp_
 
 متغییر زیر وضعیت دیباگ وردپرس را مشخص می کند:
 
-```bash
+```properties
 # name : value
 
 WORDPRESS_DEBUG : true
@@ -30,7 +30,7 @@ WORDPRESS_DEBUG : true
 
 متغییر زیر هاست دیتابیس وردپرس را مشخص می کند:
 
-```bash
+```properties
 # name : value
 
 WORDPRESS_DB_HOST : services.irnx.chabokan.net:34566
@@ -38,7 +38,7 @@ WORDPRESS_DB_HOST : services.irnx.chabokan.net:34566
 
 متغییر زیر نام کاربری دیتابیس وردپرس را مشخص می کند:
 
-```bash
+```properties
 # name : value
 
 WORDPRESS_DB_USER : root
@@ -46,7 +46,7 @@ WORDPRESS_DB_USER : root
 
 متغییر زیر رمزعبور دیتابیس وردپرس را مشخص می کند:
 
-```bash
+```properties
 # name : value
 
 WORDPRESS_DB_PASSWORD : passwrod
@@ -54,7 +54,7 @@ WORDPRESS_DB_PASSWORD : passwrod
 
 متغییر زیر نام دیتابیس وردپرس را مشخص می کند:
 
-```bash
+```properties
 # name : value
 
 WORDPRESS_DB_NAME : mysite

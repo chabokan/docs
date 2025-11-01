@@ -16,7 +16,7 @@ description: "در این بخش می خواهیم آموزش نحوه تنظی�
 
 تنظیمات پیشفرض `Nginx` توسط چابکان:
 
-```bash
+```nginx
 server {
         listen 80 default_server;
         listen [::]:80 default_server;
