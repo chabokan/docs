@@ -30,5 +30,9 @@ description: "NocoDB یک سیستم مدیریت پایگاه داده (Databas
 
 ![](https://s1.chabokan.net/docs/images/nocodb_3.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/nocodb" ><img src="https://s1.chabokan.net/docs/images/nocodb-banner.png" /></a>

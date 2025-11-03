@@ -49,5 +49,9 @@ description: "Metabase یک ابزار تجاری و منبع باز برای س
 
 ![](https://s1.chabokan.net/docs/images/metabase_8.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/metabase" ><img src="https://s1.chabokan.net/docs/images/metabase-banner.png" /></a>

@@ -58,5 +58,9 @@ GITEA__database__NAME = Database name
 - Mysql
 - Mariadb
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/gitea" ><img src="https://s1.chabokan.net/docs/images/gitea-banner.png" /></a>

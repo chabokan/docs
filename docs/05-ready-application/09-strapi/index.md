@@ -29,5 +29,9 @@ description: "Strapi یک سیستم مدیریت محتوا (Content Management
 
 ![](https://s1.chabokan.net/docs/images/strapi-5.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/strapi" ><img src="https://s1.chabokan.net/docs/images/strapi-banner.png" /></a>

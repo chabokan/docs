@@ -46,5 +46,9 @@ description: "PocketBase یک پلتفرم مدیریت پایگاه داده و
 
 ![](https://s1.chabokan.net/docs/images/packet_3.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/pocketbase" ><img src="https://s1.chabokan.net/docs/images/pocketbase-banner.png" /></a>

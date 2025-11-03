@@ -21,5 +21,9 @@ description: "Mosquitto یک نرم‌افزار سرور برای ارتباط�
 
 ![](https://s1.chabokan.net/docs/images/mosqitto.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/mosquitto" ><img src="https://s1.chabokan.net/docs/images/mosquitto-banner.png" /></a>

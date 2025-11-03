@@ -38,5 +38,9 @@ Database: DB name
 
 ![](https://s1.chabokan.net/docs/images/adminer_3.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/adminer" ><img src="https://s1.chabokan.net/docs/images/adminer-banner.png" /></a>

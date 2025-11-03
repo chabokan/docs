@@ -36,5 +36,9 @@ password = admin
 
 ![](https://s1.chabokan.net/docs/images/GRAFANA-4-1.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/grafana" ><img src="https://s1.chabokan.net/docs/images/grafana-banner.png" /></a>

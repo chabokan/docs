@@ -27,5 +27,9 @@ description: "برای نصب و راه اندازی WordPress کافیست از
 - Mariadb
 
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/wordpress" ><img src="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg" /></a>

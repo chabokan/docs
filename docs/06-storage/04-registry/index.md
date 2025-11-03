@@ -22,5 +22,9 @@ description: "Docker Registry یک سرویس ذخیره‌سازی برای ت�
 
 ![](https://s1.chabokan.net/docs/images/registry-start-2.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/registry" ><img src="https://s1.chabokan.net/docs/images/registry-banner.png" /></a>

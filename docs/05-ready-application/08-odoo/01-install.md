@@ -30,5 +30,9 @@ description: "نرم افزار اودو یا (Odoo ERP System) یک نرم‌ا
 
 ![](https://s1.chabokan.net/docs/images/odoo_6.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/odoo" ><img src="https://s1.chabokan.net/docs/images/odoo-banner.png" /></a>

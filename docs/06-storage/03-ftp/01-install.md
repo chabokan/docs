@@ -39,5 +39,9 @@ Port = خالی یا 21
 
 ![](https://s1.chabokan.net/docs/images/FTP_num1.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/ftp" ><img src="https://s1.chabokan.net/docs/images/ftp-banner.png" /></a>

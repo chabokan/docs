@@ -37,5 +37,9 @@ description: "Githubrunner یک سرویس برنامه نویسی مشترک ا
 
 ![](https://s1.chabokan.net/docs/images/githubrunner_4.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/githubrunner" ><img src="https://s1.chabokan.net/docs/images/githubrunner-banner.png" /></a>

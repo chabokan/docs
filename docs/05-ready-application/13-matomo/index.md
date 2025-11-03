@@ -51,5 +51,9 @@ description: "اگر با سرویس گوگل آنالتیکز کار کرده �
 
 - Mariadb
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/matomo" ><img src="https://s1.chabokan.net/docs/images/matomo-docs-banner-1.jpg" /></a>

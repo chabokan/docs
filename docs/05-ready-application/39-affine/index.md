@@ -33,4 +33,8 @@ description: "Affine یک پلتفرم مدیریت پروژه و همکاری �
 
 ![](https://s1.chabokan.net/docs/images/affine-platform-docs-5.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---

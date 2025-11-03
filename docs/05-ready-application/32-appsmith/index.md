@@ -37,4 +37,6 @@ description: "Appsmith یک ابزار توسعه‌ی برنامه مبتنی �
 
 ![](https://s1.chabokan.net/docs/images/appsmith-install-5.jpg)
 
+import Features from '/docs/11-features/_features.md';
 
+<Features />

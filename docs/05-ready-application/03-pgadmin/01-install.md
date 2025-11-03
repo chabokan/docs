@@ -30,5 +30,9 @@ description: "PGadmin یک نرم‌افزار مدیریت دیتابیس اس�
 
 ![](https://s1.chabokan.net/docs/images/pgadmin_13.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/pgadmin" ><img src="https://s1.chabokan.net/docs/images/pgadmin-banner.png" /></a>

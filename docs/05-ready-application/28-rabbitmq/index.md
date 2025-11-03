@@ -29,5 +29,9 @@ description: "RabbitMQ یک نرم افزار مدیریت صف است که بر
 
 ![](https://s1.chabokan.net/docs/images/rabbitmq-4.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/rabbitmq" ><img src="https://s1.chabokan.net/docs/images/rabbitmq-banner.png" /></a>

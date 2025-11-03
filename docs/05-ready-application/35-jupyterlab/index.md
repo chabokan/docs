@@ -29,5 +29,9 @@ description: "JupyterLab یک رابط کاربری تعاملی برای پرو
 
 ![](https://s1.chabokan.net/docs/images/jupyter-4.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/jupyterlab" ><img src="https://s1.chabokan.net/docs/images/jupyter-banner.png" /></a>

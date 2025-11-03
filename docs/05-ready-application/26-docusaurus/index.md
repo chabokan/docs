@@ -23,5 +23,9 @@ description: "Docusaurus یک ابزار ساخت سایت متن باز برا�
 
 ![](https://s1.chabokan.net/docs/images/docusaurus-2.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/docusaurus" ><img src="https://s1.chabokan.net/docs/images/docusaurus-banner.png" /></a>

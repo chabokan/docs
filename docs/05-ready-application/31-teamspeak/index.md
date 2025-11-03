@@ -34,5 +34,9 @@ description: "phpMyAdmin یک نرم‌افزار متن‌باز است که ب
 
 ![](https://s1.chabokan.net/docs/images/teamspeak-4.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/teamspeak" ><img src="https://s1.chabokan.net/docs/images/teamspeak-banner.png" /></a>
