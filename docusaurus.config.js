@@ -59,6 +59,7 @@ const config = {
     plugins: [
         require.resolve('docusaurus-plugin-image-zoom'),
         require.resolve('./src/plugins/chabokan-docusaurus-icon-plugin'),
+        require.resolve('./src/plugins/chabokan-docusaurus-related-docs-plugin'),
         [
             '@docusaurus/plugin-client-redirects',
             {
