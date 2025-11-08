@@ -21,5 +21,9 @@ description: "Imgproxy یک سیستم توزیع‌شده و مبتنی بر و
 
 ![](https://s1.chabokan.net/docs/images/imgproxy_1.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/imgproxy" ><img src="https://s1.chabokan.net/docs/images/imgproxy-banner.png" /></a>

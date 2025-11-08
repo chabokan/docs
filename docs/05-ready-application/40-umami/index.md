@@ -29,4 +29,8 @@ description: "Umami یک ابزار تحلیل وبسایت منبع باز و �
 
 ![](https://s1.chabokan.net/docs/images/umami-platform-docs-4.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---

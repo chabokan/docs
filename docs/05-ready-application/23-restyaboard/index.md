@@ -29,5 +29,9 @@ description: "Restyaboard یک نرم‌افزار مدیریت پروژه و ت
 
 ![](https://s1.chabokan.net/docs/images/restyb_3.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/restyaboard" ><img src="https://s1.chabokan.net/docs/images/restyaboard-banner.png" /></a>

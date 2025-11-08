@@ -27,5 +27,9 @@ description: "Pyroscope یک ابزار کارآمد و قدرتمند برای 
 
 :::
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/pyroscope" ><img src="https://s1.chabokan.net/docs/images/pyroscope-setup-3.jpg" /></a>

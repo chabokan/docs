@@ -26,3 +26,7 @@ description: "پرومتئوس (Prometheus) یک سیستم متن باز و م�
 :::
 
 ![](https://s1.chabokan.net/docs/images/prometheus-setup-3.jpg)
+
+import Features from '/docs/11-features/_features.md';
+
+<Features />

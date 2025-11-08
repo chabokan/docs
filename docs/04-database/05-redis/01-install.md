@@ -17,5 +17,9 @@ description: "در این بخش می خواهیم آموزش نحوه نصب و
 
 ![](https://s1.chabokan.net/docs/images/redis-start.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/redis" ><img src="https://s1.chabokan.net/docs/images/redis-banner.png" /></a>

@@ -41,5 +41,9 @@ node versions:
 - 14
 ```
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/vue" ><img src="https://s1.chabokan.net/docs/images/vue-banner.png" /></a>

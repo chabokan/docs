@@ -39,4 +39,8 @@ description: "Formbricks یک پلتفرم مدیریت فرم و نظرسنجی
 
 ![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-7.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---

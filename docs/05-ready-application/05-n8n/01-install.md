@@ -30,5 +30,9 @@ description: "n8n یک ابزار کدباز و جریان کاری (workflow) �
 
 ![](https://s1.chabokan.net/docs/images/n8n-platform-docs-4.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/n8n" ><img src="https://s1.chabokan.net/docs/images/n8n-banner.png" /></a>

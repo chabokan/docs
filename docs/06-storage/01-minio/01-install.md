@@ -22,5 +22,9 @@ description: "MinIO یک سرویس آماده‌ای همراه با یک سر�
 
 ![](https://s1.chabokan.net/docs/images/minio-start-2.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/minio" ><img src="https://s1.chabokan.net/docs/images/minio-banner.png" /></a>

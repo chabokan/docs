@@ -43,6 +43,9 @@ Python versions:
 - 3.11
 - 3.12
 ```
+import Features from '/docs/11-features/_features.md';
+
+<Features />
 
 ---
 <a href="https://hub.chabokan.net/fa/services/create/python" ><img src="https://s1.chabokan.net/docs/images/python-banner.png" /></a>

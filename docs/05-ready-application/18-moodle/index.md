@@ -70,5 +70,9 @@ description: "Moodle یک سامانه مدیریت یادگیری (LMS) است 
 - Mysql
 - Mariadb
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/moodle" ><img src="https://s1.chabokan.net/docs/images/moodle-banner.png" /></a>

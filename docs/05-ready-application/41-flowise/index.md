@@ -28,4 +28,8 @@ description: "Flowise یک پلتفرم منبع باز و رایگان برای
 
 ![](https://s1.chabokan.net/docs/images/flowise-platform-docs-4.png)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---

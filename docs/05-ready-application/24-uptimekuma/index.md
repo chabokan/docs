@@ -30,5 +30,9 @@ description: "Uptimekuma یک نرم‌افزار متن‌باز است که ب
 
 ![](https://s1.chabokan.net/docs/images/uptimekuma_3.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/uptimekuma" ><img src="https://s1.chabokan.net/docs/images/uptimekuma-banner.png" /></a>

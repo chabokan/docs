@@ -66,5 +66,9 @@ description: "Syncthing یک نرم‌افزار برای همگام‌سازی 
 
 ![](https://s1.chabokan.net/docs/images/syncthing-docs-10.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/syncthing" ><img src="https://s1.chabokan.net/docs/images/syncthing-banner.jpg" /></a>

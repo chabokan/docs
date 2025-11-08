@@ -38,5 +38,9 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 
 همچنین میتوانید `Dockerfile` خود را با استفاده از `CLI` چابکان مستقر نمایید،با استفاده از دستور `chabok deploy` می بایست دایرکتوری پروژه که داخل آن داکرفایل قرار دارد را دیپلوی کنید. [استقرار از طریق CLI](https://docs.chabokan.net/deploy/cli/)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/docker" ><img src="https://s1.chabokan.net/docs/images/docker-banner.png" /></a>

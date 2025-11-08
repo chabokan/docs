@@ -34,5 +34,9 @@ Password: neo4j
 ```
 ![](https://s1.chabokan.net/docs/images/neo4j-install-2.jpg)
 
+import Features from '/docs/11-features/_features.md';
+
+<Features />
+
 ---
 <a href="https://hub.chabokan.net/fa/services/create/neo4j" ><img src="https://s1.chabokan.net/docs/images/neo4j-banner.png" /></a>
