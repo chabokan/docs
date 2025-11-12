@@ -13,20 +13,20 @@ description: "Flowise یک پلتفرم منبع باز و رایگان برای
 
 برای شروع، ابتدا سرویس `Flowise` را از طریق قسمت ساخت سرویس جدید > برنامه‌های آماده > `Flowise` ایجاد کنید.
 
-![](https://s1.chabokan.net/docs/gifs/flowise-install.gif)
-![](https://s1.chabokan.net/docs/images/flowise-platform-docs-1.png)
+![نصب و راه‌اندازی Flowise در چابکان](https://s1.chabokan.net/docs/gifs/flowise-install.gif)
+![نصب و راه‌اندازی Flowise در چابکان](https://s1.chabokan.net/docs/images/flowise-platform-docs-1.png)
 
 پس از چند دقیقه، برنامه شما با موفقیت ساخته می‌شود و می‌توانید با مراجعه به دامنه‌ی اختصاصی خود وارد داشبورد Flowise شوید.
 
-![](https://s1.chabokan.net/docs/images/flowise-platform-docs-2.png)
+![نصب و راه‌اندازی Flowise در چابکان](https://s1.chabokan.net/docs/images/flowise-platform-docs-2.png)
 
 با توجه به اینکه اولین ورود به برنامه را داریم، می‌بایست حساب کاربری `Admin` را تعریف کنیم.
 
-![](https://s1.chabokan.net/docs/images/flowise-platform-docs-3.png)
+![نصب و راه‌اندازی Flowise در چابکان](https://s1.chabokan.net/docs/images/flowise-platform-docs-3.png)
 
 اکنون می‌توانید جریان‌های کاری هوش مصنوعی خود را بسازید، مدیریت کنید و از قابلیت‌های متنوع Flowise بهره‌مند شوید. همچنین امکان تنظیم دامنه اختصاصی برای دسترسی آسان‌تر به برنامه وجود دارد. ([تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/flowise-platform-docs-4.png)
+![نصب و راه‌اندازی Flowise در چابکان](https://s1.chabokan.net/docs/images/flowise-platform-docs-4.png)
 
 import Features from '/docs/13-features/_features.md';
 

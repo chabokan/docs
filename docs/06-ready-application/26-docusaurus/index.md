@@ -14,18 +14,23 @@ description: "Docusaurus یک ابزار ساخت سایت متن باز برا�
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Docusaurus` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Docusaurus` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/docusaurus-install.gif)
+![نصب و راه‌اندازی Docusaurus در چابکان](https://s1.chabokan.net/docs/gifs/docusaurus-install.gif)
 
-![](https://s1.chabokan.net/docs/images/docusaurus-1.jpg)
+![نصب و راه‌اندازی Docusaurus در چابکان](https://s1.chabokan.net/docs/images/docusaurus-1.jpg)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Docusaurus` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 با مراجعه به قسمت مدیریت فایل ها و ادیت فایل های `md` میتوانید مستندات مد نظر خود را ساخته و آنها را ویرایش نمایید.
 
-![](https://s1.chabokan.net/docs/images/docusaurus-2.jpg)
+![نصب و راه‌اندازی Docusaurus در چابکان](https://s1.chabokan.net/docs/images/docusaurus-2.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/docusaurus" ><img src="https://s1.chabokan.net/docs/images/docusaurus-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/docusaurus"
+img="https://s1.chabokan.net/docs/images/docusaurus-banner.png"
+/>

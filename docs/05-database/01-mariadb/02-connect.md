@@ -16,7 +16,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اتصال از طریق phpmyadmin کافیست در داشبورد سرویس از قسمت سرویس های جانبی، روی دکمه **فعال کردن phpmyadmin** کلیک نمایید. با کلیک کردن بر روی این دکمه سرویس جانبی phpmyadmin در کمتر از ۱ دقیقه آماده استفاده می شود و شما می توانید از آن استفاده نماید.
 
-![](https://s1.chabokan.net/docs/images/my_sql_connect_1.jpg)
+![اتصال phpmyadmin به سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_1.jpg)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -28,17 +28,17 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 :::
 
-![](https://s1.chabokan.net/docs/images/my_sql_connect_2.jpg)
+![اتصال phpmyadmin به سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_2.jpg)
 
 بعد از وارد کردن نام کاربری و رمز عبور به phpmyadmin متصل می شوید.
 
-![](https://s1.chabokan.net/docs/images/my_sql_connect_3.png)
+![اتصال phpmyadmin به سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_3.png)
 
 ## اتصال از طریق Adminer
 
 برای اتصال از طریق Adminer کافیست در داشبورد سرویس از قسمت سرویس های جانبی، روی دکمه **فعال کردن Adminer** کلیک نمایید. با کلیک کردن بر روی این دکمه سرویس جانبی Adminer در کمتر از ۱ دقیقه آماده استفاده می شود و شما می توانید از آن استفاده نماید.
 
-![](https://s1.chabokan.net/docs/images/adminer_001-1.jpg)
+![اتصال Adminer به سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/adminer_001-1.jpg)
 
 :::caution توجه
 <Tabs>
@@ -47,18 +47,18 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 :::
 
-![](https://s1.chabokan.net/docs/images/my_sql_connect_5-edited.jpg)
+![اتصال Adminer به سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_5-edited.jpg)
 
 
 ## اتصال از طریق Mysql Workbench
 
 برای اتصال از طریق نرم افزار Mysql Workbench کافیست مشخصات سرویس دیتابیس خود را در قسمت MySQL Connections به ترتیب تصاویر و توضیحات زیر وارد نمایید .
 
-![](https://s1.chabokan.net/docs/images/1.png)
+![اتصال Mysql Workbench به سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/1.png)
 
 به ترتیب تصویر زیر مشخصات سرویس خود را از طریق پنل چابکان وارد نمایید :
 
-![](https://s1.chabokan.net/docs/images/Mariadbpr-1.png)
+![اتصال Mysql Workbench به سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/Mariadbpr-1.png)
 
 ```properties
 Hostname = سرور
@@ -70,4 +70,9 @@ Connection Name = نام مورد نظر
 در نهایت بر روی OK کلیک نمایید و رمز عبور خود را وارد کرده و از سرویس مورد نظر استفاده نمایید.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mariadb" ><img src="https://s1.chabokan.net/docs/images/mariadb-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mariadb"
+img="https://s1.chabokan.net/docs/images/mariadb-banner.png"
+/>

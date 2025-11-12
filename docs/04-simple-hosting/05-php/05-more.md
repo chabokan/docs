@@ -53,15 +53,15 @@ ErrorDocument 404 /error.php?q=404
 
 در صورتی که وبسایت شما با ارور هایی مانند ERR_TOO_MANY_REDIRECTS و INTERNAL ERROR برخورد کرد، میبایست فایل .htaccess را بررسی نمایید.
 
-![](https://s1.chabokan.net/docs/images/htaccess-error-1.jpg)
+![نکات آموزشی سرویس PHP چابکان](https://s1.chabokan.net/docs/images/htaccess-error-1.jpg)
 
 برای اینکار میتوانید به مدیریت فایل سرویس مراجعه نموده و فایل .htaccess را انتخاب کرده و سپس گزینه Edit را فشار دهید. حال تنظیماتی مانند دستورات Redirect، تنظیمات مربوط به HTTPS و همچنین دستورات مرتبط با PHP را از این فایل کات نموده و در سیستم خود به صورت بک آپ نگه دارید. حال که فایل .htaccess شما از موارد بالا حذف شده است، سرویس را یکبار ری استارت کرده و به دامنه خود مراجعه نمایید.
 
-![](https://s1.chabokan.net/docs/images/htaccess-error-4-1.jpg)
+![نکات آموزشی سرویس PHP چابکان](https://s1.chabokan.net/docs/images/htaccess-error-4-1.jpg)
 
 برای مثال در نمونه تصویر زیر تنظیمات https تعریف شده است و با مراجعه به دامنه ما با ارور ERR_TOO_MANY_REDIRECTS روبه رو می شویم که بعد از حذف این تنظیمات ارور مربوطه رفع می شود.
 
-![](https://s1.chabokan.net/docs/images/htaccess-error-3.jpg)
+![نکات آموزشی سرویس PHP چابکان](https://s1.chabokan.net/docs/images/htaccess-error-3.jpg)
 
 ## کار با Queue ها
 
@@ -185,7 +185,12 @@ php versions:
 - php 8.3         - php fpm 8.3
 ```
 
-![](https://s1.chabokan.net/docs/images/php-version.png)
+![تغییر ورژن سرویس PHP چابکان](https://s1.chabokan.net/docs/images/php-version.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/php" ><img src="https://s1.chabokan.net/docs/images/php-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/php"
+img="https://s1.chabokan.net/docs/images/php-banner.png"
+/>

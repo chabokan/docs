@@ -17,7 +17,12 @@ WORDPRESS_DB_USER = نام کاربری
 WORDPRESS_DB_PASSWORD = رمزعبور
 ```
 
-![](https://s1.chabokan.net/docs/images/wordpress_database-2-1.jpg)
+![اتصال به دیتابیس در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/wordpress_database-2-1.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/wordpress" ><img src="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/wordpress"
+img="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg"
+/>

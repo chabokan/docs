@@ -49,4 +49,9 @@ php occ maintenance:mode --off
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nextcloud" ><img src="https://s1.chabokan.net/docs/images/nextcloud-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nextcloud"
+img="https://s1.chabokan.net/docs/images/nextcloud-banner.png"
+/>

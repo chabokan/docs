@@ -16,23 +16,23 @@ description: "GitLab Runner، یک سرویس اجرا کننده است که ت
 
 ابتدا به پروژه ی `Gitlab` خود مراجعه کرده و از قسمت `Settings` به `CI/CD` مراجعه کنید و تب `Runners` را باز کنید و از قسمت `Project runners` در کنار دکمه ی `New project runner` بر روی سه نقطه کلیک کرده و `Registration token` را کپی کنید.
 
-![](https://s1.chabokan.net/docs/images/gitlabrunner_20.jpg)
+![نصب و راه‌اندازی Gitlabrunner در چابکان](https://s1.chabokan.net/docs/images/gitlabrunner_20.jpg)
 
 ### ساخت سرویس
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Gitlabrunner` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Gitlabrunner` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/gitlabrunner-install.gif)
+![نصب و راه‌اندازی Gitlabrunner در چابکان](https://s1.chabokan.net/docs/gifs/gitlabrunner-install.gif)
 
-![](https://s1.chabokan.net/docs/images/gitlabrunner-platform-docs-1.jpg)
+![نصب و راه‌اندازی Gitlabrunner در چابکان](https://s1.chabokan.net/docs/images/gitlabrunner-platform-docs-1.jpg)
 
 در مرحله پیکربندی سرویس نیاز است `Registration token` را که کپی کرده اید در قسمت توکن `Gitlab Runner` جای گذاری نمایید.
 
-![](https://s1.chabokan.net/docs/images/gitlabrunner_2.jpg)
+![نصب و راه‌اندازی Gitlabrunner در چابکان](https://s1.chabokan.net/docs/images/gitlabrunner_2.jpg)
 
 برنامه ی شما آماده ی کار می باشد و میتوانید `Runner` ساخته شده را در قسمت `Runners` پنل کاربری `Gitlab` خود مشاهده نمایید.
 
-![](https://s1.chabokan.net/docs/images/gitlabrunner_3.jpg)
+![نصب و راه‌اندازی Gitlabrunner در چابکان](https://s1.chabokan.net/docs/images/gitlabrunner_3.jpg)
 
 ## استفاده از گیت لب چابکان
 
@@ -44,11 +44,16 @@ description: "GitLab Runner، یک سرویس اجرا کننده است که ت
 URL : https://your_gitlab_server_URL
 ```
 
-![](https://s1.chabokan.net/docs/images/gitlab-env.jpg)
+![نصب و راه‌اندازی Gitlabrunner در چابکان](https://s1.chabokan.net/docs/images/gitlab-env.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/gitlabrunner" ><img src="https://s1.chabokan.net/docs/images/gitlabrunner-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/gitlabrunner"
+img="https://s1.chabokan.net/docs/images/gitlabrunner-banner.png"
+/>

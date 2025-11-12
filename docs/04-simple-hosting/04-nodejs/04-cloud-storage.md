@@ -103,4 +103,9 @@ client.send(new PutObjectCommand(params), (error, data) => {
 > [نمونه های بیشتر از نحوه **اتصال به S3** در سرویس **Nodejs**](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-creating-buckets.html#s3-example-creating-buckets-scenario)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nodejs" ><img src="https://s1.chabokan.net/docs/images/nodejs-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nodejs"
+img="https://s1.chabokan.net/docs/images/nodejs-banner.png"
+/>

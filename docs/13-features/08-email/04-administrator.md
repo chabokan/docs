@@ -7,52 +7,52 @@ sidebar_label: "مدیریت ادمین ایمیل"
 ابتدا به پنل ایمیل خود مراجعه نموده و بر روی Administration کلیک کرده و اطلاعات ورود خود را وارد نمایید.
 قسمت ادمین پنل ایمیل چابکان دارای امکاناتی می باشد که در این مستند می توانید با این امکانات آشنا شوید.
 
-![](https://s1.chabokan.net/docs/images/email_admin_1.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_1.jpg)
 
 ## تغییر رمز عبور
 
 برای تغییر رمز عبور خود می توانید از بخش Basic information رو گزینه Change Password کلیک نموده و رمز عبور جدید برای خود انتخاب نمایید
 
-![](https://s1.chabokan.net/docs/images/email_admin_2.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_2.jpg)
 
 
 ## ریدایرکت ایمیل
 
 برای ریدایرکت ایمیل به ایمیل دیگر می توانید از طریق این قسمت اقدام نمایید. توجه داشته باشید که با تنظیم این قسمت ایمیل های دریافتی فقط به ایمیلی که ثبت می نمایید خواهد آمد.
 
-![](https://s1.chabokan.net/docs/images/email_admin_3.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_3.jpg)
 
 بعد از این که بر روی گزینه Redirect email کلیک کردید به این صفحه ریدایرکت می شوید که با ثبت ایمیل مقصد می توانید از این پس ایمیل های خود را در ایمیلی که ثبت نموده اید دریافت نمایید.
 
-![](https://s1.chabokan.net/docs/images/email_admin_4.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_4.jpg)
 
 ## کپی ایمیل های دریافتی
 
 برای کپی ایمیل به ایمیلی دیگر می توانید از طریق این قسمت اقدام نمایید. توجه داشته باشید که با تنظیم این قسمت ایمیل های دریافتی به ایمیلی که ثبت می نمایید ارسال خواهد شد، همچنین در پنل میل سرور نیز دریافت خواهید کرد.
 
-![](https://s1.chabokan.net/docs/images/email_admin_5.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_5.jpg)
 
 بعد از این که بر روی گزینه Copy incoming emails کلیک کردید به این صفحه ریدایرکت می شوید که با ثبت ایمیل مقصد می توانید از این پس ایمیل های خود را در این ایمیل نیز دریافت نمایید.
 
-![](https://s1.chabokan.net/docs/images/email_admin_7.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_7.jpg)
 
 ## جوابگویی اتوماتیک ایمیل ها
 
 برای جوابدهی اتوماتیک پس از دریافت ایمیل می توانید از قسمت Automatic reply اقدام به این کار نمایید 
 
-![](https://s1.chabokan.net/docs/images/email_admin_9.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_9.jpg)
 
 
 سپس در قسمت Message پیام آماده خود را قرار داده و در قسمت Target addresses filter ایمیل مبدا را قرار داده و روی گزینه Submit کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/email_admin_8.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_8.jpg)
 
 ## جوابگویی به صورت اتوماتیک در بازه تاریخ خاص
 
 برای جوابگویی به صورت اتوماتیک در بازه زمانی خاص می توانید از این قسمت اقدام نمایید. 
 
-![](https://s1.chabokan.net/docs/images/email_admin_10.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_10.jpg)
 
 بعد از انتخاب گزینه Out Of Office در این بخش می توانید بازه زمانی مد نظر را انتخاب نمایید و در باکس Message پیام آماده خود را نوشته و روی گزینه Submit کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/email_admin_11.jpg)
+![مدیریت ایمیل سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_admin_11.jpg)

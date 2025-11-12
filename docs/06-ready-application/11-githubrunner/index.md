@@ -15,31 +15,36 @@ description: "Githubrunner یک سرویس برنامه نویسی مشترک ا
 
 ابتدا به پروژه ی `Github` خود مراجعه کرده و از قسمت `Settings` به قسمت `General` و سپس به تب `Actions` مراجعه کنید و تب `Runners` را باز کنید و بر روی قسمت `New self-hosted runner` کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/githubrunner_1.jpg)
+![نصب و راه‌اندازی Githubrunner در چابکان](https://s1.chabokan.net/docs/images/githubrunner_1.jpg)
 
 سپس در صفحه باز شده به قسمت `Configure` رفته و `URL` و `Token` داده شده را کپی کنید و نزد خود نگه دارید.
 
-![](https://s1.chabokan.net/docs/images/githubrunner_2.jpg)
+![نصب و راه‌اندازی Githubrunner در چابکان](https://s1.chabokan.net/docs/images/githubrunner_2.jpg)
 
 ### ساخت سرویس
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Githubrunner` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Githubrunner` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/githubrunner-install.gif)
+![نصب و راه‌اندازی Githubrunner در چابکان](https://s1.chabokan.net/docs/gifs/githubrunner-install.gif)
 
-![](https://s1.chabokan.net/docs/images/githubrunner-platform-docs-1.jpg)
+![نصب و راه‌اندازی Githubrunner در چابکان](https://s1.chabokan.net/docs/images/githubrunner-platform-docs-1.jpg)
 
 در مرحله ی پیکربندی سرویس نیاز است `TOKEN` و `URL` را که کپی کرده اید را در قسمت های مربوطه جای گذاری نمایید. و مراحل را تا ساخت سرویس ادامه دهید.
 
-![](https://s1.chabokan.net/docs/images/githubrunner_3.jpg)
+![نصب و راه‌اندازی Githubrunner در چابکان](https://s1.chabokan.net/docs/images/githubrunner_3.jpg)
 
 برنامه ی شما آماده ی کار می باشد و میتوانید `Runner` ساخته شده را در قسمت `Runners` پنل کاربری `Github` خود مشاهده نمایید.
 
-![](https://s1.chabokan.net/docs/images/githubrunner_4.jpg)
+![نصب و راه‌اندازی Githubrunner در چابکان](https://s1.chabokan.net/docs/images/githubrunner_4.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/githubrunner" ><img src="https://s1.chabokan.net/docs/images/githubrunner-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/githubrunner"
+img="https://s1.chabokan.net/docs/images/githubrunner-banner.png"
+/>

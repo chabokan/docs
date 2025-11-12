@@ -15,7 +15,7 @@ description: "در ابتدا باید از دیتابیس اشتراکی خود
 
 ابتدا سرویس جانبی phpMyAdmin را از داشبورد سرویس خود فعال نمایید و سپس وارد آن شوید.
 
-![](https://s1.chabokan.net/docs/images/my_sql_connect_1.jpg)
+![تبدیل دیتابیس اشتراکی به اختصاصی در چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_1.jpg)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -26,13 +26,13 @@ import TabItem from '@theme/TabItem';
   <TabItem value="امنیت سرویس" label="امنیت سرویس">برای امنیت بیشتر بر روی سرویس جانبی phpmyadmin نام کاربری و رمزعبور تعیین شده است. (مشخصات ورود در صفحه داشبورد، قسمت سرویس جانبی نمایش داده می شود.)</TabItem>
 </Tabs>
 :::
-![](https://s1.chabokan.net/docs/images/my_sql_connect_2-edited.jpg)
+![تبدیل دیتابیس اشتراکی به اختصاصی در چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_2-edited.jpg)
 
 سپس به دیتابیس مراجعه کرده و از پنل بالایی phpmyadmin قسمت Export را انتخاب کنید.
 
 ابتدا گزینه ی Export method را بر روی Custom قرار داده و سپس تمام گزینه های مربوط به یک آپ برای شما به نمایش در می آید. سپس تنظیمات را تغییر نداده و فقط بخش compression را بر روی gzipped قرار دهید تا حجم فایل بک آپ کاهش پیدا کند و سپس export را زده تا فایل بک آپ شما آماده ی دانلود شود.
 
-![](https://s1.chabokan.net/docs/images/mysql_backup_3.jpg)
+![تبدیل دیتابیس اشتراکی به اختصاصی در چابکان](https://s1.chabokan.net/docs/images/mysql_backup_3.jpg)
 
 شما باید بر اساس نیاز های خودتون نوع دیتابیس اختصاصی خود را از لینک های زیر انتخاب و تهیه نمایید.
 
@@ -47,7 +47,7 @@ import TabItem from '@theme/TabItem';
 
 لطفا تا بازگردانی کامل، صفحه را refresh نفرمایید تا تنظیمات اعمال شود.
 
-![](https://s1.chabokan.net/docs/images/mysql_backup_4.jpg)
+![تبدیل دیتابیس اشتراکی به اختصاصی در چابکان](https://s1.chabokan.net/docs/images/mysql_backup_4.jpg)
 
 توجه داشته باشید که بعد از انجام عملیات بالا باید اطلاعات دیتایس اختصاصی خود را در سرویس مد نظر اعمال نمایید تا اتصال برقرار شود.
 

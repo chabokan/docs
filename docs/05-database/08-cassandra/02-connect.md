@@ -15,11 +15,16 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 cqlsh server port -u username -p password
 ```
 
-![](https://s1.chabokan.net/docs/images/cassandra_6.jpg)
+![اتصال به سرویس دیتابیس Cassandra چابکان](https://s1.chabokan.net/docs/images/cassandra_6.jpg)
 
 سپس به کنسول سرویس خود رفته و کامند کامل شده ی بالا با مشخصات سرویس خود را وارد نمایید تا به دیتابیس خود متصل شوید.
 
-![](https://s1.chabokan.net/docs/images/cassandra_4.jpg)
+![اتصال به سرویس دیتابیس Cassandra چابکان](https://s1.chabokan.net/docs/images/cassandra_4.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/cassandra" ><img src="https://s1.chabokan.net/docs/images/cassandra-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/cassandra"
+img="https://s1.chabokan.net/docs/images/cassandra-banner.png"
+/>

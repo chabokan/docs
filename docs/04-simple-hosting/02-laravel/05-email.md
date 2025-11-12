@@ -141,4 +141,9 @@ Route::get('/send-email', [EmailController::class, 'sendEmail']);
 > [مستند رسمی **تنظیمات ایمیل** در سرویس **Laravel**](https://laravel.com/docs/mail#generating-mailables)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/laravel"
+img="https://s1.chabokan.net/docs/images/laravel-banner.png"
+/>

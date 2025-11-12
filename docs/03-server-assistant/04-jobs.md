@@ -12,7 +12,12 @@ description: "با استفاده از قسمت وظایف، می توانید �
 
 لاگ ها برای مانیتور کردن سرور بسیار کاربردی می باشند و کمک می کنند با کارهایی که در استقرار سرور انجام می شود آشنا شوید.
 
-![](https://s1.chabokan.net/docs/images/server-assistance-jobs.jpg)
+![تنظیم وظایف دستیار سرور چابکان](https://s1.chabokan.net/docs/images/server-assistance-jobs.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/servers/create/" ><img src="https://s1.chabokan.net/docs/images/server-assistance-banner.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/servers/create/"
+img="https://s1.chabokan.net/docs/images/server-assistance-banner.jpg"
+/>

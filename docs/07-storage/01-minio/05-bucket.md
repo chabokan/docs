@@ -16,7 +16,7 @@ description: "نحوه افزودن bucket به سرویس minio"
 
 سپس در نرم افزار بر روی گزینه New bucket کلیک نموده و نام مد نظر را برای باکت وارد نمایید. حال با کلیک بر روی Create new bucket باکت شما ساخته می شود.
 
-![](https://s1.chabokan.net/docs/images/upload_07f90f276605abca62b538a6b76c42f4.png)
+![افزودن Bucket به سرویس Minio چابکان](https://s1.chabokan.net/docs/images/upload_07f90f276605abca62b538a6b76c42f4.png)
 
 **از طریق Cyberduck:**
 
@@ -24,11 +24,16 @@ description: "نحوه افزودن bucket به سرویس minio"
 
 سپس در نرم افزار کلیک راست نموده و بر روی New folder کلیک نموده و نام مد نظر را برای باکت وارد نمایید. حال با کلیک بر روی Create باکت شما ساخته می شود.
 
-![](https://s1.chabokan.net/docs/images/Screenshot-2023-09-23-at-2.13.57-PM.png)
+![افزودن Bucket به سرویس Minio چابکان](https://s1.chabokan.net/docs/images/Screenshot-2023-09-23-at-2.13.57-PM.png)
 
 ## افزودن باکت از طریق برنامه
 
 هم چنین شما میتوانید با توجه به برنامه ای که ساخته اید، ابتدا به minio متصل شده و سپس اقدام به ساخت باکت نمایید که برای این کار میتوانید با توجه به برنامه خود از گوگل استفاده نمایید.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/minio" ><img src="https://s1.chabokan.net/docs/images/minio-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/minio"
+img="https://s1.chabokan.net/docs/images/minio-banner.png"
+/>

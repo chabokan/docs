@@ -12,7 +12,7 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 ## Internal Server Error
 
-![](https://s1.chabokan.net/docs/images/next-cloud-error-1.jpg)
+![مشکلات احتمالی در سرویس NextCloud چابکان](https://s1.chabokan.net/docs/images/next-cloud-error-1.jpg)
 
 در صورت بر خورد با ارور `Internal Server Error` در هنگام بازکردن دامنه سرویس `Nextcloud` خود کافیست در قسمت کنسول سرویس، دستور زیر را اجرا کرده و یکبار سرویس خود را ری استارت نمایید تا برنامه به درستی اجرا شود.
 
@@ -20,7 +20,12 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 chown -R www-data:www-data /var/www/html/
 ```
 
-![](https://s1.chabokan.net/docs/images/next-cloud-error-2.jpg)
+![مشکلات احتمالی در سرویس NextCloud چابکان](https://s1.chabokan.net/docs/images/next-cloud-error-2.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nextcloud" ><img src="https://s1.chabokan.net/docs/images/nextcloud-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nextcloud"
+img="https://s1.chabokan.net/docs/images/nextcloud-banner.png"
+/>

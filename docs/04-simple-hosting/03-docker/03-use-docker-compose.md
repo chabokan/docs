@@ -77,7 +77,7 @@ docker.chabokan.net/odoo:17
 ### اتصال پورت
 حال پورت‌ برنامه را در قسمت پورت‌های سرویس داکر خود باز نمایید.
 
-![](https://s1.chabokan.net/docs/images/compose-port.png)
+![نحوه استفاده از Docker Compose در سرویس Docker چابکان](https://s1.chabokan.net/docs/images/compose-port.png)
 
 :::tip نکته
 
@@ -89,7 +89,7 @@ docker.chabokan.net/odoo:17
 
 سپس به قسمت تنظیمات رفته و در بخش متغیرهای محیطی پلتفرم، متغیرهای داخل داکر کامپوز را ست مینماییم.
 
-![](https://s1.chabokan.net/docs/images/compose-env.png)
+![نحوه استفاده از Docker Compose در سرویس Docker چابکان](https://s1.chabokan.net/docs/images/compose-env.png)
 
 :::caution توجه
 
@@ -111,7 +111,7 @@ docker.chabokan.net/odoo:17
 
 برای تعریف `volumes` در سرویس داکر چابکان می‌بایست از قسمت دیسک‌ها مسیرهای مورد نیاز را تعریف کنیم تا محتوای آن مسیرها در صورت ری‌استارت شدن سرویس از بین نرود.
 
-![](https://s1.chabokan.net/docs/images/compose-volumes.png)
+![نحوه استفاده از Docker Compose در سرویس Docker چابکان](https://s1.chabokan.net/docs/images/compose-volumes.png)
 
 
 :::tip نکته
@@ -121,4 +121,9 @@ docker.chabokan.net/odoo:17
 :::
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/docker" ><img src="https://s1.chabokan.net/docs/images/docker-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/docker"
+img="https://s1.chabokan.net/docs/images/docker-banner.png"
+/>

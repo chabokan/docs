@@ -24,7 +24,7 @@ description: "در این بخش می خواهیم آموزش اتصال Django 
 
 بعد از ایجاد دیتابیس در حساب کاربری خود، باید اطلاعات دیتابیس ایجاد شده را به `Django` معرفی کنید. برای این کار ابتدا به قسمت تنظیمات سرویس `Django` خود مراجعه نمایید.
 
-![](https://s1.chabokan.net/docs/images/python-database-connect-1.jpg)
+![نحوه اتصال به دیتابیس در سرویس Django چابکان](https://s1.chabokan.net/docs/images/python-database-connect-1.jpg)
 
 سپس کافیست هاست، `نام کاربری`، `رمزعبور`، `پورت` و `نوع دیتابیس` ایجاد شده را در قسمت `متغیر های محیطی پلتفرم` مانند نمونه های زیر اضافه نمایید.
 
@@ -81,4 +81,9 @@ DATABASES = {
 > [مستند رسمی **اتصال به دیتابیس** در سرویس **Django**](https://docs.djangoproject.com/en/5.0/ref/databases/)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/django"
+img="https://s1.chabokan.net/docs/images/django-banner.png"
+/>

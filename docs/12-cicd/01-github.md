@@ -118,13 +118,13 @@ jobs:
 
 اگر به فایل deploy.yaml دقت کرده باشید یک secret به نام CHABOKAN\_TOKEN وجود دارد که مقدار آن api token شما در چابکان می باشد که باید آن را به گیت هاب معرفی نمایید. برای به دست آوردن api token شخصی حساب کاربری خود باید وارد صفحه [کلید دسترسی به API](https://hub.chabokan.net/api-token/) شوید و کلید خود را دریافت کنید.
 
-![](https://s1.chabokan.net/docs/images/API_Key.jpg)
+![راه‌اندازی CI/CD از طریق Github در چابکان](https://s1.chabokan.net/docs/images/API_Key.jpg)
 
 ## مرحله سوم
 
 حالا که ما api token را به دست آوردیم باید آن را به گیت هاب معرفی کنیم. برای این کار وارد ریپازیتوری پروژه خود شوید و از منوی بالا روی settings کلیک کنید و در صفحه جدید از منوی سمت چپ روی secrets and variables کلیک کنید. حالا باید با استفاده از دکمه New repository secret بالا سمت راست یک secrets با نام CHABOKAN\_TOKEN ایجاد کنید و مقدار آن را به api token به دست آمده تغییر دهید.
 
-![](https://s1.chabokan.net/docs/images/github_1.jpg)
+![راه‌اندازی CI/CD از طریق Github در چابکان](https://s1.chabokan.net/docs/images/github_1.jpg)
 
 ## مرحله چهارم
 

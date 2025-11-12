@@ -11,7 +11,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 در حال حاضر برنامه‌های [Django](https://docs.chabokan.net/simple-hosting/django/) و [Flask](https://docs.chabokan.net/simple-hosting/flask/) به‌صورت مستقیم در پلتفرم ابری چابکان پشتیبانی می‌شوند اما برای استقرار اسکریپت‌های خام Python بایستی مستندات زیر را دنبال کنید.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Python` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `Python` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/python-install.gif)
+![نحوه استقرار Python در چابکان](https://s1.chabokan.net/docs/gifs/python-install.gif)
 
 ## روش های استقرار برنامه
 
@@ -48,4 +48,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/python" ><img src="https://s1.chabokan.net/docs/images/python-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/python"
+img="https://s1.chabokan.net/docs/images/python-banner.png"
+/>

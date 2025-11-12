@@ -11,7 +11,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 در این بخش می خواهیم آموزش نحوه استقرار اولیه `PHP` را در [هاست php](https://chabokan.net/cloud-hosting/php/) به شما آموزش دهیم.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `PHP` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `PHP` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/php-install.gif)
+![نحوه استقرار PHP در چابکان](https://s1.chabokan.net/docs/gifs/php-install.gif)
 
 سرویس های میزبانی آسان چابکان به روش های مختلفی امکان استقرار را دارا هستند، این شما هستید که می توانید انتخاب کنید کدام روش برای شما مناسب تر می باشد، برای آشنایی با هر کدام از روش های استقرار می توانید از لیست زیر اقدام به مطالعه بیشتر بفرمایید:
 
@@ -54,4 +54,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/php" ><img src="https://s1.chabokan.net/docs/images/php-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/php"
+img="https://s1.chabokan.net/docs/images/php-banner.png"
+/>

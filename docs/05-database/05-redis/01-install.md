@@ -11,15 +11,20 @@ description: "در این بخش می خواهیم آموزش نحوه نصب و
 در این بخش می خواهیم آموزش نحوه نصب و راه اندازی دیتابیس `Redis` را در سرویس [دیتابیس ردیس](https://chabokan.net/services/redis/) به شما آموزش دهیم.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Redis` را از طریق قسمت ساخت سرویس جدید > دیتابیس ابری > `Redis` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/redis-install.gif)
+![نصب و راه‌اندازی دیتابیس Redis در چابکان](https://s1.chabokan.net/docs/gifs/redis-install.gif)
 
 سرویس های ابری چابکان امکان راه اندازی با نسخه های مختلف را نیز دارند که شما می توانید نسخه موردنظر خود را انتخاب کنید.
 
-![](https://s1.chabokan.net/docs/images/redis-start.png)
+![نصب و راه‌اندازی دیتابیس Redis در چابکان](https://s1.chabokan.net/docs/images/redis-start.png)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/redis" ><img src="https://s1.chabokan.net/docs/images/redis-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/redis"
+img="https://s1.chabokan.net/docs/images/redis-banner.png"
+/>

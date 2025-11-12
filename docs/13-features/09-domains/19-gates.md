@@ -24,7 +24,7 @@ description: "در این بخش با قابلیت جدید گیت ها در چ�
 
 :::
 
-![](https://s1.chabokan.net/docs/images/gate-web-1.jpg)
+![تنظیم گیت دامنه سرویس‌های چابکان](https://s1.chabokan.net/docs/images/gate-web-1.jpg)
 
 ## تفاوت گیت ها
 

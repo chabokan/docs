@@ -19,4 +19,4 @@ description: "در این بخش می خواهیم نکات تکمیلی بخش 
 
 در صورت ست دامنه بر روی cdn می بایست با مراجعه به قسمت دامنه های سرویس، رکورد های مربوط به دامنه را در cdn ست نمایید تا ایمیل شما به درستی ایجاد شود.
 
-![](https://s1.chabokan.net/docs/images/email_domain_1.jpg)
+![نکات تکمیلی ایمیل در سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_domain_1.jpg)

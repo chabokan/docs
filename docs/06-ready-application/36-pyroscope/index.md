@@ -13,11 +13,11 @@ description: "Pyroscope یک ابزار کارآمد و قدرتمند برای 
 
 ابتدا سرویس `Pyroscope` را از طریق قسمت ایجاد سرویس جدید > برنامه های آماده > `Pyroscope` می سازیم.
 
-![](https://s1.chabokan.net/docs/images/pyroscope-setup-1.jpg)
+![نصب و راه‌اندازی Pyroscope در چابکان](https://s1.chabokan.net/docs/images/pyroscope-setup-1.jpg)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در سرویس `Pyroscope` وارد برنامه شوید.
 
-![](https://s1.chabokan.net/docs/images/pyroscope-setup-2.jpg)
+![نصب و راه‌اندازی Pyroscope در چابکان](https://s1.chabokan.net/docs/images/pyroscope-setup-2.jpg)
 
 حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Pyroscope` وارد برنامه شوید و پیشنهاد میشود حتما دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
@@ -32,4 +32,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/pyroscope" ><img src="https://s1.chabokan.net/docs/images/pyroscope-setup-3.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/pyroscope"
+img="https://s1.chabokan.net/docs/images/pyroscope-setup-3.jpg"
+/>

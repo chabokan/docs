@@ -13,4 +13,4 @@ description: "فایل های بکاپ چابکان با فرمت 'tar.gz' می 
     example.tar
     example.tar.gz
 
-![](https://s1.chabokan.net/docs/images/tar_format.jpg)
+![تغییر فرمت فایل بکاپ در چابکان](https://s1.chabokan.net/docs/images/tar_format.jpg)

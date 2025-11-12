@@ -13,17 +13,22 @@ description: "Imgproxy یک سیستم توزیع‌شده و مبتنی بر و
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Imgproxy` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Imgproxy` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/imgproxy-install.gif)
+![نصب و راه‌اندازی ImgProxy در چابکان](https://s1.chabokan.net/docs/gifs/imgproxy-install.gif)
 
-![](https://s1.chabokan.net/docs/images/imgproxy-platform-docs-1.jpg)
+![نصب و راه‌اندازی ImgProxy در چابکان](https://s1.chabokan.net/docs/images/imgproxy-platform-docs-1.jpg)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Imgproxy` برنامه خود را مشاهده نمایید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/imgproxy_1.jpg)
+![نصب و راه‌اندازی ImgProxy در چابکان](https://s1.chabokan.net/docs/images/imgproxy_1.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/imgproxy" ><img src="https://s1.chabokan.net/docs/images/imgproxy-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/imgproxy"
+img="https://s1.chabokan.net/docs/images/imgproxy-banner.png"
+/>

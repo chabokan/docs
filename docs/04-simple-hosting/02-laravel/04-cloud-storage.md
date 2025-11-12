@@ -52,7 +52,7 @@ DEFAULT_REGION = us-east-1
 BUCKET_NAME = <Name of you're bucket>
 ```
 
-![](https://s1.chabokan.net/docs/images/env-chabokan.jpg)
+![تنظیم متغیرهای محیطی در سرویس Laravel چابکان](https://s1.chabokan.net/docs/images/env-chabokan.jpg)
 
 ## نحوه‌ی استفاده
 
@@ -126,4 +126,9 @@ use Illuminate\Support\Facades\Storage;
 $files = Storage::allFiles($directory);
 ```
 ---
-<a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/laravel"
+img="https://s1.chabokan.net/docs/images/laravel-banner.png"
+/>

@@ -16,14 +16,14 @@ description: "در صورتی که دامنه ی خود را از ریسجترا
 
 برای انتقال دامنه بین المللی خود میتوانید از منوی داشبورد چابکان خود، گزینه ی ثبت و انتقال دامنه را کلیک کنید و سپس روی گزینه ی خرید دامنه جدید کلیک کرده و دامنه ی خود را وارد کنید.
 
-![](https://s1.chabokan.net/docs/gifs/dashboard-domain/domain-transfer-com-install.gif)
+![انتقال دامنه‌های بین المللی به چابکان](https://s1.chabokan.net/docs/gifs/dashboard-domain/domain-transfer-com-install.gif)
 
-![](https://s1.chabokan.net/docs/images/domain_1.jpg)
+![انتقال دامنه‌های بین المللی به چابکان](https://s1.chabokan.net/docs/images/domain_1.jpg)
 
 در مرحله ی بعد با عبارات دامنه قبلا ثبت شده و هزینه ی تمدید یکساله ی آن مواجه می شوید و با اضافه کردن به سبد خرید خود به گام بعد میروید.
 
-![](https://s1.chabokan.net/docs/images/domain-1402-2.jpg)
+![انتقال دامنه‌های بین المللی به چابکان](https://s1.chabokan.net/docs/images/domain-1402-2.jpg)
 
 حال کافیست کد انتقال(epp) خود را از شرکت ثبت کننده ی کنونی دامنه ی خود دریافت نمایید و در این مرحله وارد نمایید. سپس با رفتن به مرحله ی بعد میتوانید انتقال دامنه ی خود را نهایی کنید. دامنه مد نظر بلافاصله بعد از پرداخت برای شما انتقال می یابد.
 
-![](https://s1.chabokan.net/docs/images/domain-13.jpg)
+![انتقال دامنه‌های بین المللی به چابکان](https://s1.chabokan.net/docs/images/domain-13.jpg)

@@ -40,4 +40,9 @@ os.getenv('DATABASE_URL')
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/fastapi" ><img src="https://s1.chabokan.net/docs/images/fastapi-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/fastapi"
+img="https://s1.chabokan.net/docs/images/fastapi-banner.png"
+/>

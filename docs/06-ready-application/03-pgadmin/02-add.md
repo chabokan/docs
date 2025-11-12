@@ -12,7 +12,7 @@ description: "بعد از ساخت سرویس PGadmin میتوانید دیت�
 
 برای این کار ابتدا به صفحه ی [PGadmin](https://docs.chabokan.net/ready-application/pgadmin/install/) خود مراجعه فرمایید و بر روی `add new server` کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/odoo_1-edited-1.jpg)
+![اتصال به دیتابیس در سرویس PGAdmin چابکان](https://s1.chabokan.net/docs/images/odoo_1-edited-1.jpg)
 
 حالا اطلاعات را مانند نمونه وارد فرمایید.
 
@@ -21,7 +21,7 @@ description: "بعد از ساخت سرویس PGadmin میتوانید دیت�
 ```properties
 name: نام دلخواه
 ```
-![](https://s1.chabokan.net/docs/images/Screenshot-1402-06-04-at-4.20.22-PM.png)
+![اتصال به دیتابیس در سرویس PGAdmin چابکان](https://s1.chabokan.net/docs/images/Screenshot-1402-06-04-at-4.20.22-PM.png)
 
 ## سربرگ Connection
 
@@ -35,11 +35,16 @@ Username: User
 Password: Password
 ```
 
-![](https://s1.chabokan.net/docs/images/odoo_2.jpg)
+![اتصال به دیتابیس در سرویس PGAdmin چابکان](https://s1.chabokan.net/docs/images/odoo_2.jpg)
 
 سپس مشاهده مینمایید که دیتابیس به `PGadmin` متصل شده و دسترسی کامل به دیتابیس خود را دارید. حال برای اضافه کردن دیتابیس های `Postgresql` دیگر نیز میتوانید طبق مراحل بالا پیش بروید تا آنها را نیز به سرویس خود متصل نمایید.
 
-![](https://s1.chabokan.net/docs/images/pgadmin_add_1.jpg)
+![اتصال به دیتابیس در سرویس PGAdmin چابکان](https://s1.chabokan.net/docs/images/pgadmin_add_1.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/pgadmin" ><img src="https://s1.chabokan.net/docs/images/pgadmin-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/pgadmin"
+img="https://s1.chabokan.net/docs/images/pgadmin-banner.png"
+/>

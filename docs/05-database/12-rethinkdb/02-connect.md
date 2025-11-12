@@ -13,15 +13,20 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 ابتدا بر روی نام دامنه کلیک نمایید تا به صفحه login دیتابیس وارد شوید.
 
-![](https://s1.chabokan.net/docs/images/rethinkdb_backup_1.jpg)
+![اتصال به سرویس دیتابیس RethinkDB چابکان](https://s1.chabokan.net/docs/images/rethinkdb_backup_1.jpg)
 
 سپس طبق مشخصات سرویس، نام کاربری و رمز عبور را در صفحه login وارد نمایید.
 
-![](https://s1.chabokan.net/docs/images/rethinkdb_backup_2.jpg)
+![اتصال به سرویس دیتابیس RethinkDB چابکان](https://s1.chabokan.net/docs/images/rethinkdb_backup_2.jpg)
 
 شما با موفقیت به دیتابیس خود متصل شده اید و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس Rethinkdb وارد دیتابیس شوید و یا دامنه ی اختصاصی خود را ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/add-dns/))
 
-![](https://s1.chabokan.net/docs/images/rethinkdb_backup_3.jpg)
+![اتصال به سرویس دیتابیس RethinkDB چابکان](https://s1.chabokan.net/docs/images/rethinkdb_backup_3.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/rethinkdb" ><img src="https://s1.chabokan.net/docs/images/rethinkdb-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/rethinkdb"
+img="https://s1.chabokan.net/docs/images/rethinkdb-banner.png"
+/>

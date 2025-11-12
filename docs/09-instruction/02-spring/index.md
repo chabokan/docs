@@ -15,7 +15,7 @@ description: "Spring یک فریمورک (framework) جاوا است که برا
 
 ابتدا میبایست `Spring` را در سرویس داکر راه اندازی کنیم. برای اینکار ابتدا به پنل کاربری مراجعه کرده و به قسمت ساخت سرویس جدید > میزبانی آسان > `Docker` میرویم.
 
-![](https://s1.chabokan.net/docs/images/elk-elasticsearch-2.jpg)
+![استقرار Spring در چابکان](https://s1.chabokan.net/docs/images/elk-elasticsearch-2.jpg)
 
 حال مراحل ایجاد سرویس را تا انتها پیش میبریم ( درقسمت پیکربندی سرویس گزینه ای را وارد ننمایید).
 
@@ -36,11 +36,16 @@ COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","${JAVA_OPTS}","-jar","/app.jar"]
 ```
 
-![](https://s1.chabokan.net/docs/images/spring-inst-1.png)
+![استقرار Spring در چابکان](https://s1.chabokan.net/docs/images/spring-inst-1.png)
 
 سپس فایل `.jar` برنامه خود را در قسمت اصلی مدیریت فایل خود آپلود مینماییم، سپس به قسمت تنظیمات رفته و یکبار بر روی ذخیره تغییرات کلیک میکنیم تا سروریس ساخته شود.
 
-![](https://s1.chabokan.net/docs/images/spring-inst-2.png)
+![استقرار Spring در چابکان](https://s1.chabokan.net/docs/images/spring-inst-2.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/docker" ><img src="https://s1.chabokan.net/docs/images/spring-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/docker"
+img="https://s1.chabokan.net/docs/images/spring-banner.png"
+/>

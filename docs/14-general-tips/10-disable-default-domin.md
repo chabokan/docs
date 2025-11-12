@@ -9,4 +9,4 @@ description: "نحوه غیر فعال کردن زیر دامنه پیش فرض 
 ---
 از قسمت داشبورد سرویس قسمت تنظیمات میتوانید دامنه پیش فرض سرویس خود را غیر فعال نمایید.
 
-![](https://s1.chabokan.net/docs/images/disable-default-domin.png)
+![غیر فعال کردن دامنه پیش فرض سرویس‌های چابکان](https://s1.chabokan.net/docs/images/disable-default-domin.png)

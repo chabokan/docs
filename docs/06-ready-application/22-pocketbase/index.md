@@ -13,13 +13,13 @@ description: "PocketBase یک پلتفرم مدیریت پایگاه داده و
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Pocketbase` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Pocketbase` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/pocketbase-install.gif)
+![نصب و راه‌اندازی Pocketbase در چابکان](https://s1.chabokan.net/docs/gifs/pocketbase-install.gif)
 
-![](https://s1.chabokan.net/docs/images/pocketbase-platform-docs-1.jpg)
+![نصب و راه‌اندازی Pocketbase در چابکان](https://s1.chabokan.net/docs/images/pocketbase-platform-docs-1.jpg)
 
 سپس برای ساخت حساب `superuser` به قسمت لاگ‌های سرویس بروید. و لینک مشخص‌شده را در مرورگر باز کنید.
 
-![](https://s1.chabokan.net/docs/images/pcketbase-platform-docs-03.png)
+![نصب و راه‌اندازی Pocketbase در چابکان](https://s1.chabokan.net/docs/images/pcketbase-platform-docs-03.png)
 
 
 :::tip نکته
@@ -30,7 +30,7 @@ description: "PocketBase یک پلتفرم مدیریت پایگاه داده و
 
 دامنه سرویس در بخش داشبورد:
 
-![](https://s1.chabokan.net/docs/images/pocketbase-platform-docs-2.jpg)
+![نصب و راه‌اندازی Pocketbase در چابکان](https://s1.chabokan.net/docs/images/pocketbase-platform-docs-2.jpg)
 
 :::caution توجه
 
@@ -40,15 +40,20 @@ description: "PocketBase یک پلتفرم مدیریت پایگاه داده و
 
 وارد لینک شوید. در این صفحه اطلاعات حساب کاربری `superuser` را وارد کنید تا حساب ایجاد شود.
 
-![](https://s1.chabokan.net/docs/images/packet_2.jpg)
+![نصب و راه‌اندازی Pocketbase در چابکان](https://s1.chabokan.net/docs/images/packet_2.jpg)
 
 حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Pocketbase` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/packet_3.jpg)
+![نصب و راه‌اندازی Pocketbase در چابکان](https://s1.chabokan.net/docs/images/packet_3.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/pocketbase" ><img src="https://s1.chabokan.net/docs/images/pocketbase-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/pocketbase"
+img="https://s1.chabokan.net/docs/images/pocketbase-banner.png"
+/>

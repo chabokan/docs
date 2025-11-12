@@ -11,7 +11,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 در این بخش می خواهیم آموزش نحوه استقرار برنامه لاراول را در [هاست لاراول laravel](https://chabokan.net/cloud-hosting/php/laravel/) به شما آموزش دهیم.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Laravel` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `Laravel` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/laravel-install.gif)
+![نحوه استقرار Laravel در چابکان](https://s1.chabokan.net/docs/gifs/laravel-install.gif)
 
 سرویس های میزبانی آسان چابکان به روش های مختلفی امکان استقرار را دارا هستند، این شما هستید که می توانید انتخاب کنید کدام روش برای شما مناسب تر می باشد، برای آشنایی با هر کدام از روش های استقرار می توانید از لیست زیر اقدام به مطالعه بیشتر بفرمایید:
 
@@ -73,4 +73,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/laravel"
+img="https://s1.chabokan.net/docs/images/laravel-banner.png"
+/>

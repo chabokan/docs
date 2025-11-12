@@ -28,4 +28,9 @@ app.enableCors({
 > - methods: این پارامتر مشخص می‌کند که چه روش‌های `HTTP` (مانند `GET`، `POST`، `PUT` و غیره) برای `API` شما مجاز هستند. در مثال بالا، تمام روش‌های `HTTP` مجاز هستند.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nest" ><img src="https://s1.chabokan.net/docs/images/nest-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nest"
+img="https://s1.chabokan.net/docs/images/nest-banner.png"
+/>

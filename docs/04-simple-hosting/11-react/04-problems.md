@@ -12,7 +12,7 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 ## Nginx Error
 
-![](https://s1.chabokan.net/docs/images/react-error-1.PNG)
+![مشکلات احتمالی در سرویس React چابکان](https://s1.chabokan.net/docs/images/react-error-1.PNG)
 
 در صورت مواجه شدن با این ارور 404 `nginx` در برنامه `React` خود میتوانید به مستند زیر مراجعه نموده و بعد از تعریف قطعه کد `nginx` سرویس خود را ری استارت نموده تا تغییرات برای شما ذخیره شود
 
@@ -29,4 +29,9 @@ NPM_INSTALL_COMMAND : "npm install --legacy-peer-deps"
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/react" ><img src="https://s1.chabokan.net/docs/images/react-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/react"
+img="https://s1.chabokan.net/docs/images/react-banner.png"
+/>

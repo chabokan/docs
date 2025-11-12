@@ -28,7 +28,7 @@ description: "راهنمای حذف سرویس و نکات مهم مربوط ب�
 
 :::
 
-![](https://s1.chabokan.net/docs/images/settings-remove.png)
+![حذف سرویس‌های چابکان](https://s1.chabokan.net/docs/images/settings-remove.png)
 
 ## مشارکت در بهبود خدمات
 

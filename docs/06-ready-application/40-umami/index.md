@@ -13,21 +13,21 @@ description: "Umami یک ابزار تحلیل وبسایت منبع باز و �
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Umami` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Umami` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/umami-install.gif)
+![نصب و راه‌اندازی Umami در چابکان](https://s1.chabokan.net/docs/gifs/umami-install.gif)
 
-![](https://s1.chabokan.net/docs/images/umami-platform-docs-1.png)
+![نصب و راه‌اندازی Umami در چابکان](https://s1.chabokan.net/docs/images/umami-platform-docs-1.png)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در سرویس `Umami` وارد برنامه شوید.
 
-![](https://s1.chabokan.net/docs/images/umami-platform-docs-2.png)
+![نصب و راه‌اندازی Umami در چابکان](https://s1.chabokan.net/docs/images/umami-platform-docs-2.png)
 
 پس از مراجعه به دامنه سرویس با دیدن این صفحه متوجه می‌شویم که `Umami` با موفقیت نصب شده است. حساب کاربری `Admin` به صورت پیشفرض ایجاد شده است. برای ورود در قسمت نام کاربری مقدار `admin` و در قسمت گذرواژه مقدار `umami` را وارد کنید.
 
-![](https://s1.chabokan.net/docs/images/umami-platform-docs-3.png)
+![نصب و راه‌اندازی Umami در چابکان](https://s1.chabokan.net/docs/images/umami-platform-docs-3.png)
 
 حال برنامه شما آماده استفاده است و می‌توانید با مراجعه به دامنه‌ی خود در داشبورد سرویس `Umami` وارد برنامه شوید و یا دامنه‌ی اختصاصی خود را بر روی برنامه تنظیم نمایید.([تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/umami-platform-docs-4.png)
+![نصب و راه‌اندازی Umami در چابکان](https://s1.chabokan.net/docs/images/umami-platform-docs-4.png)
 
 import Features from '/docs/13-features/_features.md';
 

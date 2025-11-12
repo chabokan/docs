@@ -11,7 +11,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 در این بخش می خواهیم آموزش نحوه استقرار اولیه `NuxtJs` را در [هاست ناکست جی اس NuxtJs](https://chabokan.net/cloud-hosting/nodejs/nuxt/) به شما آموزش دهیم.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `NuxtJs` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `NuxtJs` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/nuxtjs-inatall.gif)
+![نحوه استقرار NuxtJS در چابکان](https://s1.chabokan.net/docs/gifs/nuxtjs-inatall.gif)
 
 ## روش های استقرار برنامه
 
@@ -45,4 +45,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nuxt" ><img src="https://s1.chabokan.net/docs/images/nuxt-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nuxt"
+img="https://s1.chabokan.net/docs/images/nuxt-banner.png"
+/>

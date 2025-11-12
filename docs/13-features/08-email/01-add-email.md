@@ -10,25 +10,25 @@ sidebar_label: "افزودن ایمیل"
 
 ابتدا به سرویس خود مراجعه کنید و در بخش ایمیل ها بر روی افزودن ایمیل کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/gifs/email-install.gif)
+![افزودن ایمیل در سرویس‌های چابکان](https://s1.chabokan.net/docs/gifs/email-install.gif)
 
 در صورتی که پیام زیر را دریافت کردید، ابتدا دامنه خود را به سرویس اضافه کنید. [آموزش اتصال دامنه](https://docs.chabokan.net/features/domains/)
 
-![](https://s1.chabokan.net/docs/images/email_1.jpg)
+![افزودن ایمیل در سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_1.jpg)
 
 در صورتی که دامنه به سرویس متصل باشد، میتوانید مانند تصویر زیر در فیلد اول نام ایمیل و در فیلد دوم دامنه ی مد نظر را انتخاب کرده و گزینه ی افزودن را بزنید تا ایمیل سرویس شما ساخته شود.
 
-![](https://s1.chabokan.net/docs/images/email_2.jpg)
+![افزودن ایمیل در سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_2.jpg)
 
 ## مشاهده ایمیل
 
 بعد از مراحل بالا میتوانید اطلاعات کلی ایمیل ساخته شده خود را در این بخش مشاهده نمایید.
 
-![](https://s1.chabokan.net/docs/images/email_3.jpg)
+![افزودن ایمیل در سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_3.jpg)
 
 با کلیک بر روی گزینه ی اطلاعات، اطلاعات ایمیل مد نظر نشان داده می شود.
 
-![](https://s1.chabokan.net/docs/images/email_6.jpg)
+![افزودن ایمیل در سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_6.jpg)
 
 ## ورود به پنل ایمیل
 
@@ -39,4 +39,4 @@ Username: ایمیل
 Password: رمز عبور
 ```
 
-![](https://s1.chabokan.net/docs/images/email_99.png)
+![افزودن ایمیل در سرویس‌های چابکان](https://s1.chabokan.net/docs/images/email_99.png)

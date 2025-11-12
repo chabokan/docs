@@ -11,7 +11,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 در این بخش می خواهیم آموزش نحوه استقرار اولیه  `ASP.NET Core` را در [هاست ASP.NET Core دات نت کور](https://chabokan.net/cloud-hosting/aspnet-core/) به شما آموزش دهیم.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `ASP.NET Core` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `ASP.NET Core` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/asp.net-core-install.gif)
+![نحوه استقرار ASP.NET Core در چابکان](https://s1.chabokan.net/docs/gifs/asp.net-core-install.gif)
 
 ## روش های استقرار برنامه
 
@@ -96,4 +96,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/dotnetcore" ><img src="https://s1.chabokan.net/docs/images/asp.net-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/dotnetcore"
+img="https://s1.chabokan.net/docs/images/asp.net-banner.png"
+/>

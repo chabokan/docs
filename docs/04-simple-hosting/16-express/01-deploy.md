@@ -11,7 +11,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 در این بخش می خواهیم آموزش نحوه استقرار اولیه `Express` را در [هاست Express](https://chabokan.net/services/express-js/) به شما آموزش دهیم.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Express` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `Express` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/express-install.gif)
+![نحوه استقرار ExpressJS در چابکان](https://s1.chabokan.net/docs/gifs/express-install.gif)
 
 ## روش های استقرار برنامه
 
@@ -45,4 +45,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/express" ><img src="https://s1.chabokan.net/docs/images/express-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/express"
+img="https://s1.chabokan.net/docs/images/express-banner.png"
+/>

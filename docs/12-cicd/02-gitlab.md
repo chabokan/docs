@@ -75,13 +75,13 @@ import TabItem from '@theme/TabItem';
 
 اگر به فایل .gitlab-ci.yml دقت کرده باشید یک secret به نام CHABOKAN\_TOKEN وجود دارد که مقدار آن api token شما در چابکان می باشد که باید آن را به گیت لب معرفی نمایید. برای به دست آوردن api token شخصی حساب کاربری خود باید وارد صفحه [کلید دسترسی به API](https://hub.chabokan.net/api-token/) شوید و کلید خود را دریافت کنید.
 
-![](https://s1.chabokan.net/docs/images/API_Key.jpg)
+![راه‌اندازی CI/CD از طریق Gitlab در چابکان](https://s1.chabokan.net/docs/images/API_Key.jpg)
 
 ## مرحله سوم
 
 حالا که ما api token را به دست آوردیم باید آن را به گیت لب معرفی کنیم. برای این کار وارد تنظیمات CI/CD ریپازیتوری شوید و کمی به پایین اسکرول کنید. در بخش Variables بر روی گزینه‌ی Expand کلیک کنید تا گزینه‌ی Add Variable نمایش داده شود. حال برای تعریف یک Variable جدید، روی گزینه‌ی **Add Variable** کلیک کنید. نام (Key) این Variable را  **CHABOKAN\_TOKEN**  و مقدار آن را از صفحه‌ی [کلید دسترسی به API](https://hub.chabokan.net/api-token/) کپی کرده و در بخش Value قرار دهید. پس از انتخاب گزینه‌های **Mask variable**، بر روی گزینه‌ی **Add variable** کلیک کنید.
 
-![](https://s1.chabokan.net/docs/images/gitlab_2.jpg)
+![راه‌اندازی CI/CD از طریق Gitlab در چابکان](https://s1.chabokan.net/docs/images/gitlab_2.jpg)
 
 ## مرحله چهارم
 

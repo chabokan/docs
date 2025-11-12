@@ -33,7 +33,7 @@ App\Providers\BroadcastServiceProvider::class
 ],
 ```
 
-![](https://s1.chabokan.net/docs/images/soketi-docs-1.jpg)
+![متغیرهای محیطی سرویس Soketi چابکان](https://s1.chabokan.net/docs/images/soketi-docs-1.jpg)
 
 سپس میتوانید با استفاده از کد زیر در فرانت سرویس لاراول خود به سرویس `Soketi` متصل شوید:
 
@@ -56,4 +56,9 @@ window.Echo = new Echo({
 > [مستند رسمی **اتصال به Soketi** در سرویس **Laravel**](https://docs.soketi.app/getting-started/backend-configuration/laravel-broadcasting)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/laravel"
+img="https://s1.chabokan.net/docs/images/laravel-banner.png"
+/>

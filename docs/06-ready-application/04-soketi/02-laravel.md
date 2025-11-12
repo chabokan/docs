@@ -13,4 +13,9 @@ description: "برای اتصال Laravel به Soketi میبایست ابتدا 
 [اتصال به Soketi از طریق Laravel](https://docs.chabokan.net/simple-hosting/laravel/soketi/)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/soketi" ><img src="https://s1.chabokan.net/docs/images/soketi-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/soketi"
+img="https://s1.chabokan.net/docs/images/soketi-banner.png"
+/>

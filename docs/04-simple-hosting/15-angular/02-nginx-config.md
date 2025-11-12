@@ -39,4 +39,9 @@ server {
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/angular" ><img src="https://s1.chabokan.net/docs/images/angular-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/angular"
+img="https://s1.chabokan.net/docs/images/angular-banner.png"
+/>

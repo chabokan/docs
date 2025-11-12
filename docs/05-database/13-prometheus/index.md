@@ -11,11 +11,11 @@ description: "پرومتئوس (Prometheus) یک سیستم متن باز و م�
 
 ابتدا سرویس `Prometheus` را از طریق قسمت ایجاد سرویس جدید > برنامه های آماده > `Prometheus` می سازیم.
 
-![](https://s1.chabokan.net/docs/images/prometheus-setup-1.jpg)
+![نصب و راه‌اندازی دیتابیس Prometheus در چابکان](https://s1.chabokan.net/docs/images/prometheus-setup-1.jpg)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در سرویس `Prometheus` وارد برنامه شوید.
 
-![](https://s1.chabokan.net/docs/images/prometheus-setup-2.jpg)
+![نصب و راه‌اندازی دیتابیس Prometheus در چابکان](https://s1.chabokan.net/docs/images/prometheus-setup-2.jpg)
 
 حال برنامه شما آماده استفاده است و پیشنهاد میشود حتما دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
@@ -25,7 +25,7 @@ description: "پرومتئوس (Prometheus) یک سیستم متن باز و م�
 
 :::
 
-![](https://s1.chabokan.net/docs/images/prometheus-setup-3.jpg)
+![نصب و راه‌اندازی دیتابیس Prometheus در چابکان](https://s1.chabokan.net/docs/images/prometheus-setup-3.jpg)
 
 import Features from '/docs/13-features/_features.md';
 

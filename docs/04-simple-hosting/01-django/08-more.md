@@ -106,7 +106,7 @@ STATIC_ROOT = BASE_DIR / 'static'
 CHBK_PYTHON_SAVE = true
 ```
 
-![](https://s1.chabokan.net/docs/images/elk-env.jpg)
+![تنظیم متغیرهای محیطی در سرویس Django چابکان](https://s1.chabokan.net/docs/images/elk-env.jpg)
 
 
 ## اتصال دامنه به سرویس Django
@@ -142,7 +142,12 @@ python versions:
 - 3.12
 ```
 
-![](https://s1.chabokan.net/docs/images/django-python-version.png)
+![تغییر ورژن سرویس Django چابکان](https://s1.chabokan.net/docs/images/django-python-version.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/django"
+img="https://s1.chabokan.net/docs/images/django-banner.png"
+/>

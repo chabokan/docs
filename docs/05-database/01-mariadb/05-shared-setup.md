@@ -14,13 +14,13 @@ description: "در این بخش می خواهیم آموزش نحوه نصب و
 
 برای فعال‌سازی دیتابیس اشتراکی `Mariadb`، وارد داشبورد سرویس خود شوید و روی دکمه **فعال‌کردن Mariadb** کلیک کنید:
 
-![](https://s1.chabokan.net/docs/images/mariadb-shared-1.png)
+![نحوه نصب و راه‌اندازی سرویس دیتابیس اشتراکی MariaDB چابکان](https://s1.chabokan.net/docs/images/mariadb-shared-1.png)
 
 پس از تایید، دیتابیس اشتراکی `Mariadb` برای سرویس شما ایجاد می‌شود. برخلاف سرویس‌های اختصاصی، دیتابیس اشتراکی به صورت آنی فعال شده و آماده استفاده است.
 
 با استفاده از مشخصات حساب کاربری پایگاه‌داده `Mariadb` که به شما نمایش داده می‌شود، می‌توانید به دیتابیس متصل شوید:
 
-![](https://s1.chabokan.net/docs/images/mariadb-shared-2.png)
+![نحوه نصب و راه‌اندازی سرویس دیتابیس اشتراکی MariaDB چابکان](https://s1.chabokan.net/docs/images/mariadb-shared-2.png)
 
 :::caution توجه
 
@@ -30,4 +30,9 @@ description: "در این بخش می خواهیم آموزش نحوه نصب و
 :::
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mariadb" ><img src="https://s1.chabokan.net/docs/images/mariadb-banner.png" alt="فعال‌سازی Mariadb در چابکان" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mariadb"
+img="https://s1.chabokan.net/docs/images/mariadb-banner.png"
+/>

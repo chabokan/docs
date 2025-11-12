@@ -12,7 +12,7 @@ description: "برای اتصال به پروتکل FTP ابتدا باید یک
 
 حال میتوانید از طریق داشبورد اصلی سرویس خود مشخصات `FTP` سرویس، مانند **نام کاربری FTP** و **رمز عبور FTP** را مشاهده نمایید.
 
-![](https://s1.chabokan.net/docs/images/FTP_num2.jpg)
+![مدیریت فایل‌ها با FTP چابکان](https://s1.chabokan.net/docs/images/FTP_num2.jpg)
 
 سپس با وارد کردن مشخصات در نرم افزار `fillezila` میتوانید به سرویس خود متصل شوید.
 
@@ -23,4 +23,4 @@ Password = رمز عبور FTP
 Port = خالی یا 21
 ```
 
-![](https://s1.chabokan.net/docs/images/FTP_num1.jpg)
+![مدیریت فایل‌ها با FTP چابکان](https://s1.chabokan.net/docs/images/FTP_num1.jpg)

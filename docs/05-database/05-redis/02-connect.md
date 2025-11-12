@@ -16,7 +16,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اتصال از طریق `phpRedisAdmin` کافیست در داشبورد سرویس از قسمت سرویس های جانبی، روی دکمه **فعال کردن phpRedisAdmin** کلیک نمایید. با کلیک کردن بر روی این دکمه سرویس جانبی `phpRedisAdmin` در کمتر از ۱ دقیقه آماده استفاده می شود و شما می توانید از آن استفاده نماید.
 
-![](https://s1.chabokan.net/docs/images/redis_4.jpg)
+![اتصال phpRedisAdmin به سرویس دیتابیس Redis چابکان](https://s1.chabokan.net/docs/images/redis_4.jpg)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 :::
 
-![](https://s1.chabokan.net/docs/images/redis_5.jpg)
+![اتصال phpRedisAdmin به سرویس دیتابیس Redis چابکان](https://s1.chabokan.net/docs/images/redis_5.jpg)
 
 ## اتصال از طریق Redis CLI
 
@@ -61,4 +61,9 @@ CACHES = {
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/redis" ><img src="https://s1.chabokan.net/docs/images/redis-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/redis"
+img="https://s1.chabokan.net/docs/images/redis-banner.png"
+/>

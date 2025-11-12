@@ -13,25 +13,30 @@ description: "JupyterLab یک رابط کاربری تعاملی برای پرو
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `JupyterLab` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `JupyterLab` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/jupyter-install.gif)
+![نصب و راه‌اندازی JupyterLab در چابکان](https://s1.chabokan.net/docs/gifs/jupyter-install.gif)
 
-![](https://s1.chabokan.net/docs/images/jupyter-setup-1.png)
+![نصب و راه‌اندازی JupyterLab در چابکان](https://s1.chabokan.net/docs/images/jupyter-setup-1.png)
 
 بر روی نام دامنه پیشفرض سیستم که برای شما ایجاد شده کلیک نمایید تا وارد صفحه ورود `JupyterLab` شوید
 
-![](https://s1.chabokan.net/docs/images/jupyter-setup-2.png)
+![نصب و راه‌اندازی JupyterLab در چابکان](https://s1.chabokan.net/docs/images/jupyter-setup-2.png)
 
 وارد سرویس خود شده و از قسمت مشخصات سرویس شماره توکن را کپی کرده و مطابق تصویر وارد کنید. گذرواژه جدیدی را هم برای ورود به برنامه `JupyterLab` وارد کنید
 
-![](https://s1.chabokan.net/docs/images/jupyter-3.png)
+![نصب و راه‌اندازی JupyterLab در چابکان](https://s1.chabokan.net/docs/images/jupyter-3.png)
 
 حال سرویس شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `JupyterLab` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/jupyter-4.png)
+![نصب و راه‌اندازی JupyterLab در چابکان](https://s1.chabokan.net/docs/images/jupyter-4.png)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/jupyterlab" ><img src="https://s1.chabokan.net/docs/images/jupyter-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/jupyterlab"
+img="https://s1.chabokan.net/docs/images/jupyter-banner.png"
+/>

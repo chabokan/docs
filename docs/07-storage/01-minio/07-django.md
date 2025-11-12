@@ -13,4 +13,9 @@ description: " برای متصل کردن جنگو به سرویس ابری Mini
 [اتصال به سرویس فایل S3 در Django](https://docs.chabokan.net/simple-hosting/django/cloud-storage/)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/minio" ><img src="https://s1.chabokan.net/docs/images/minio-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/minio"
+img="https://s1.chabokan.net/docs/images/minio-banner.png"
+/>

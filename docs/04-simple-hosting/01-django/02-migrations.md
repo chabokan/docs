@@ -17,7 +17,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-![](https://s1.chabokan.net/docs/images/console-chabokan.jpg)
+![نحوه migration در سرویس Django چابکان](https://s1.chabokan.net/docs/images/console-chabokan.jpg)
 
 
 ## راه‌اندازی Hook برای اجرای خودکار Migration
@@ -39,4 +39,9 @@ python manage.py migrate
 >[استفاده از Hookها در کانتینر ابری](https://docs.chabokan.net/features/etc/hook/)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/django"
+img="https://s1.chabokan.net/docs/images/django-banner.png"
+/>

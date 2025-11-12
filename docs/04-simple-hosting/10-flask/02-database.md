@@ -45,4 +45,9 @@ os.getenv('DATABASE_URL')
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/flask" ><img src="https://s1.chabokan.net/docs/images/flask-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/flask"
+img="https://s1.chabokan.net/docs/images/flask-banner.png"
+/>

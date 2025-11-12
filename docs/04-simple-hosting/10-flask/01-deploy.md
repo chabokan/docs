@@ -11,7 +11,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 در این بخش می خواهیم آموزش نحوه استقرار اولیه `Flask` را در [هاست فلسک Flask](https://chabokan.net/flask/) به شما آموزش دهیم.
  همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Flask` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `Flask` می سازیم.
 
- ![](https://s1.chabokan.net/docs/gifs/flask-install.gif)
+ ![نحوه استقرار Flask در چابکان](https://s1.chabokan.net/docs/gifs/flask-install.gif)
  
  ## روش های استقرار برنامه
 
@@ -75,4 +75,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/flask" ><img src="https://s1.chabokan.net/docs/images/flask-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/flask"
+img="https://s1.chabokan.net/docs/images/flask-banner.png"
+/>

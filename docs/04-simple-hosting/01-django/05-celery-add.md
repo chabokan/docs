@@ -109,4 +109,9 @@ stdout_logfile=/app-worker.log
 > [مستند رسمی **افزودن Celery** در سرویس **Django**](https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/django"
+img="https://s1.chabokan.net/docs/images/django-banner.png"
+/>

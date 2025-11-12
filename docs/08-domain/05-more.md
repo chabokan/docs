@@ -14,30 +14,30 @@ description: "در این بخش می‌خواهیم نکات تکمیلی دا�
 
 برای ثبت دامنه جدید وارد پنل کاربری خود شده و از منو بالایی سایت وارد گزینه ثبت و انتقال دامنه شوید.
 
-![](https://s1.chabokan.net/docs/images/domine-new-1.png)
+![نکات تکمیلی دامنه‌ها در چابکان](https://s1.chabokan.net/docs/images/domine-new-1.png)
 
 نام دامنه مد نظر خود را وارد و سپس بر روی گزینه کنترل وضعیت ثبت دامنه کلیک نمایید.
 در صفحه نمایش داده شده مدت زمان خرید دامنه از یک سال تا 5 سال را انتخاب و سپس بر روی گزینه افزودن به ثبد خرید کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/domine-new-2.png)
+![نکات تکمیلی دامنه‌ها در چابکان](https://s1.chabokan.net/docs/images/domine-new-2.png)
 
 پس از پرداخت دامنه شما در صف ثبت قرار خواهد گرفت.
 
-![](https://s1.chabokan.net/docs/images/domine-new-3.png)
+![نکات تکمیلی دامنه‌ها در چابکان](https://s1.chabokan.net/docs/images/domine-new-3.png)
 
 ## تمدید دامنه
 
 برای تمدید دامنه از پنل کاربری خود وارد ثبت و تمدید دامنه شده و گزینه تظیمات دامنه مد نظر خود را کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/domin-renew1.png)
+![نکات تکمیلی دامنه‌ها در چابکان](https://s1.chabokan.net/docs/images/domin-renew1.png)
 
 بر روی گزینه تمدید دامنه کلیک نمایید تا به صفحه انتخاب مدت زمان تمدید دامنه و پرداخت هزینه وارد شوید.
 
-![](https://s1.chabokan.net/docs/images/domin-renew2.png)
+![نکات تکمیلی دامنه‌ها در چابکان](https://s1.chabokan.net/docs/images/domin-renew2.png)
 
 پس از انتخاب مدت زمان تمدید دامنه از یک تا پنج سال روی گزینه اعمال کلیک نموده تا فاکتور شما ایجاد شود و پس از پرداخت دامنه شما تمدید خواهد شد.
 
-![](https://s1.chabokan.net/docs/images/domin-renew3.png)
+![نکات تکمیلی دامنه‌ها در چابکان](https://s1.chabokan.net/docs/images/domin-renew3.png)
 
 ## تعرفه ی نیم بها
 

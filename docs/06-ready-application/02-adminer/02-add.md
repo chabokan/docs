@@ -27,11 +27,16 @@ Database types:
 - MongoDB
 ```
 
-![](https://s1.chabokan.net/docs/images/adminer_7.jpg)
+![اتصال به دیتابیس در سرویس Adminer چابکان](https://s1.chabokan.net/docs/images/adminer_7.jpg)
 
 بعد از لاگین کردن میتوانید به صفحه ی اصلی برگشته و دیتابیس های دیگر خود را نیز وارد نمایید. بعد از وارد کردن در ستون سمت چپ برنامه میتوانید دیتابیس های متصل شده ی خود را مشاهده نمایید.
 
-![](https://s1.chabokan.net/docs/images/adminer_6.jpg)
+![اتصال به دیتابیس در سرویس Adminer چابکان](https://s1.chabokan.net/docs/images/adminer_6.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/adminer" ><img src="https://s1.chabokan.net/docs/images/adminer-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/adminer"
+img="https://s1.chabokan.net/docs/images/adminer-banner.png"
+/>

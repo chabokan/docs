@@ -13,31 +13,31 @@ description: "Formbricks یک پلتفرم مدیریت فرم و نظرسنجی
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Formbricks` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Formbricks` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/formbricks-install.gif)
+![نصب و راه‌اندازی Formbricks در چابکان](https://s1.chabokan.net/docs/gifs/formbricks-install.gif)
 
-![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-1.png)
+![نصب و راه‌اندازی Formbricks در چابکان](https://s1.chabokan.net/docs/images/formbricks-platform-docs-1.png)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در سرویس `Formbricks` وارد برنامه شوید.
 
-![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-2.png)
+![نصب و راه‌اندازی Formbricks در چابکان](https://s1.chabokan.net/docs/images/formbricks-platform-docs-2.png)
 
 پس از مراجعه به دامنه سرویس با دیدن این صفحه متوجه می‌شویم که `Formbricks` با موفقیت نصب شده است.
 
-![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-3.png)
+![نصب و راه‌اندازی Formbricks در چابکان](https://s1.chabokan.net/docs/images/formbricks-platform-docs-3.png)
 
 با توجه به اینکه اولین ورود به برنامه را داریم، می‌بایست حساب کاربری `Admin` را تعریف کنیم.
 
-![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-4.png)
+![نصب و راه‌اندازی Formbricks در چابکان](https://s1.chabokan.net/docs/images/formbricks-platform-docs-4.png)
 
-![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-5.png)
+![نصب و راه‌اندازی Formbricks در چابکان](https://s1.chabokan.net/docs/images/formbricks-platform-docs-5.png)
 
 بعد از تنظیم حساب کاربری وارد برنامه شده و نام سازمان را وارد می‌کنیم. 
 
-![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-6.png)
+![نصب و راه‌اندازی Formbricks در چابکان](https://s1.chabokan.net/docs/images/formbricks-platform-docs-6.png)
 
 حال برنامه شما آماده استفاده است و می‌توانید با مراجعه به دامنه‌ی خود در داشبورد سرویس `Formbricks` وارد برنامه شوید و یا دامنه‌ی اختصاصی خود را بر روی برنامه تنظیم نمایید.([تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/formbricks-platform-docs-7.png)
+![نصب و راه‌اندازی Formbricks در چابکان](https://s1.chabokan.net/docs/images/formbricks-platform-docs-7.png)
 
 import Features from '/docs/13-features/_features.md';
 

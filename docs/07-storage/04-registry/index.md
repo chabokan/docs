@@ -14,17 +14,22 @@ description: "Docker Registry یک سرویس ذخیره‌سازی برای ت�
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Registry` را از طریق قسمت ساخت سرویس جدید > فضای ذخیره سازی > `Registry` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/registry-install.gif)
+![نصب و راه‌اندازی Docker Registry در چابکان](https://s1.chabokan.net/docs/gifs/registry-install.gif)
 
-![](https://s1.chabokan.net/docs/images/registry-start-1.png)
+![نصب و راه‌اندازی Docker Registry در چابکان](https://s1.chabokan.net/docs/images/registry-start-1.png)
 
 سرویس `Registry` با موفقیت ایجاد گردید .
 
-![](https://s1.chabokan.net/docs/images/registry-start-2.png)
+![نصب و راه‌اندازی Docker Registry در چابکان](https://s1.chabokan.net/docs/images/registry-start-2.png)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/registry" ><img src="https://s1.chabokan.net/docs/images/registry-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/registry"
+img="https://s1.chabokan.net/docs/images/registry-banner.png"
+/>

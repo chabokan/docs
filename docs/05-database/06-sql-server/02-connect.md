@@ -26,7 +26,7 @@ Password: Pass
 
 توجه داشته باشید در قسمت Server name بعد از وارد کردن آدرس سرور حتما از  **,** استفاده کنید و بعد پورت را وارد کنید.
 
-![](https://s1.chabokan.net/docs/images/SQL_SERVER_1.jpg)
+![اتصال SSMS به سرویس دیتابیس SQL Server چابکان](https://s1.chabokan.net/docs/images/SQL_SERVER_1.jpg)
 
 ## اتصال از طریق ‌A‌D‌S‌ (برای سیستم عامل مک)
 
@@ -41,7 +41,7 @@ User name: sa
 Password: Pass
 ```
 
-![](https://s1.chabokan.net/docs/images/mssql-connect-azure.jpg)
+![اتصال ADS به سرویس دیتابیس SQL Server چابکان](https://s1.chabokan.net/docs/images/mssql-connect-azure.jpg)
 
 ## اتصال از طریق Table Plus
 
@@ -55,7 +55,7 @@ User: sa
 Password: Pass
 ```
 
-![](https://s1.chabokan.net/docs/images/sql_server_2.jpg)
+![اتصال Table Plus به سرویس دیتابیس SQL Server چابکان](https://s1.chabokan.net/docs/images/sql_server_2.jpg)
 
 ## اتصال از طریق SQL CMD
 
@@ -66,4 +66,9 @@ $ sqlcmd -S DB_URL,DB_PORT -Usa -P DB_PASSWORD
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mssql" ><img src="https://s1.chabokan.net/docs/images/sqlserver-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mssql"
+img="https://s1.chabokan.net/docs/images/sqlserver-banner.png"
+/>

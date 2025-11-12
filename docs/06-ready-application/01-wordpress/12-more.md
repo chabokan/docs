@@ -22,15 +22,15 @@ $_SERVER['HTTPS'] = 'on';
 
 در صورتی که وبسایت شما با ارور هایی مانند ERR_TOO_MANY_REDIRECTS و INTERNAL ERROR برخورد کرد، میبایست فایل .htaccess را بررسی نمایید.
 
-![](https://s1.chabokan.net/docs/images/htaccess-error-1.jpg)
+![نکات تکمیلی سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/htaccess-error-1.jpg)
 
 برای اینکار میتوانید به مدیریت فایل سرویس مراجعه نموده و فایل .htaccess را انتخاب کرده و سپس گزینه Edit را فشار دهید. حال تنظیماتی مانند دستورات Redirect، تنظیمات مربوط به HTTPS و همچنین دستورات مرتبط با PHP را از این فایل کات نموده و در سیستم خود به صورت بک آپ نگه دارید. حال که فایل .htaccess شما از موارد بالا حذف شده است، سرویس را یکبار ری استارت کرده و به دامنه خود مراجعه نمایید.
 
-![](https://s1.chabokan.net/docs/images/htaccess-error-4.jpg)
+![نکات تکمیلی سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/htaccess-error-4.jpg)
 
 برای مثال در نمونه تصویر زیر تنظیمات https تعریف شده است و با مراجعه به دامنه ما با ارور ERR_TOO_MANY_REDIRECTS روبه رو می شویم که بعد از حذف این تنظیمات ارور مربوطه رفع می شود.
 
-![](https://s1.chabokan.net/docs/images/htaccess-error-3.jpg)
+![نکات تکمیلی سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/htaccess-error-3.jpg)
 
 ##  خط فرمان وردپرس (wp cli)
 
@@ -98,7 +98,7 @@ function minio_get_regions( $regions ) {
 
 در صورتی که قصد دارید ورژن PHP خود را در سرویس وردپرس تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن PHP سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/wordpress_21.jpg)
+![نکات تکمیلی سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/wordpress_21.jpg)
 
 ورژن های موجود:
 
@@ -116,4 +116,9 @@ function minio_get_regions( $regions ) {
 | fpm-8.4 	 | 8.4 	 |
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/wordpress" ><img src="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/wordpress"
+img="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg"
+/>

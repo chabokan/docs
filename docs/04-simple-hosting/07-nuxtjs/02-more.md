@@ -80,7 +80,12 @@ node versions:
 - 14
 ```
 
-![](https://s1.chabokan.net/docs/images/nuxt-node-version.png)
+![تغییر ورژن سرویس NuxtJS چابکان](https://s1.chabokan.net/docs/images/nuxt-node-version.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nuxt" ><img src="https://s1.chabokan.net/docs/images/nuxt-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nuxt"
+img="https://s1.chabokan.net/docs/images/nuxt-banner.png"
+/>

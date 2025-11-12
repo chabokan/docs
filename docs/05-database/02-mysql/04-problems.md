@@ -21,7 +21,7 @@ User 'user' has exceeded the 'max_queries_per_hour' resource (current value: 300
 
 ## پر شدن حجم هارد
 
-![](https://s1.chabokan.net/docs/images/error-binlog-1.jpg)
+![مشکلات احتمالی در سرویس دیتابیس Mysql چابکان](https://s1.chabokan.net/docs/images/error-binlog-1.jpg)
 
 در صورت پر شدن ناگهانی هارد سرویس دیتابیس `Mysql` خود، میتوانید از طریق کنسول سرویس خود کامند زیر را اجرا نموده و در صورت مشاهده فایل های `binlog` میتوانید از روش گفته شده برای حذف آنها و خالی کردن فضای دیتابیس خود استفاده نمایید، در صورتی که از روش گفته شده استفاده نکنید ممکن است دیتای شما دچار آسیب شود.(قبل از هر گونه تغییر از طریق بخش بکاپ از دیتابیس خود پشتیبان تهیه نمایید.)
 
@@ -30,7 +30,7 @@ User 'user' has exceeded the 'max_queries_per_hour' resource (current value: 300
 du -sh * --total
 ```
 
-![](https://s1.chabokan.net/docs/images/error-binlog-2.jpg)
+![مشکلات احتمالی در سرویس دیتابیس Mysql چابکان](https://s1.chabokan.net/docs/images/error-binlog-2.jpg)
 
 حال میبایست در محیط کنسول سرویس، دستور زیر را با مشخصات دیتابیس خود تکمیل کرده و وارد `Mysql CLI` شده و سپس دستور `purge` را در محیط `mysql` وارد میکنیم تا `binlog` ها حذف شوند.
 
@@ -42,7 +42,12 @@ mysql -u DB_USER -p'DB_PASSWORD' --host DB_HOST --port DB_PORT
 PURGE BINARY LOGS TO 'binlog.000026'; // این عدد میبایست آخرین عدد نشان داده شده در لیست بالا باشد.(binlog.000026)
 ```
 
-![](https://s1.chabokan.net/docs/images/error-binlog-3.jpg)
+![مشکلات احتمالی در سرویس دیتابیس Mysql چابکان](https://s1.chabokan.net/docs/images/error-binlog-3.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mysql" ><img src="https://s1.chabokan.net/docs/images/mysql-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mysql"
+img="https://s1.chabokan.net/docs/images/mysql-banner.png"
+/>

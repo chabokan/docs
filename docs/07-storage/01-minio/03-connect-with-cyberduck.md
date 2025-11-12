@@ -18,9 +18,14 @@ description: "شما می توانید با استفاده از نرم افزا�
 
 پس از نصب برنامه و اجرای آن بر روی Open Connection کلیک نمایید و سپس با استفاده از مشخصات سرویس minio خود اطلاعات درخواستی را تکمیل نموده و بر روی connect کلیک نمایید تا به سرویس minio خود متصل شوید.
 
-![](https://s1.chabokan.net/docs/images/Screenshot-2023-09-23-at-2.46.02-PM.png)
+![اتصال Cyberduck به سرویس Minio چابکان](https://s1.chabokan.net/docs/images/Screenshot-2023-09-23-at-2.46.02-PM.png)
 
 پس از انجام این تنظیمات می‌توان به‌سادگی Bucket ها را مدیریت و فایل های مورد نیاز را با استفاده از Cyberduck آپلود و یا دانلود کنید.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/minio" ><img src="https://s1.chabokan.net/docs/images/minio-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/minio"
+img="https://s1.chabokan.net/docs/images/minio-banner.png"
+/>

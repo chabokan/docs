@@ -18,7 +18,12 @@ description: "در قسمت تنظیمات دستیار مدیریت سرور چ
 
 در این قسمت با استفاده از به روز رسانی هسته، میتوانید هسته مدیریت سرور را به روز رسانی نمایید.
 
-![](https://s1.chabokan.net/docs/images/server-assistance-settings.jpg)
+![تنظیمات دستیار سرور چابکان](https://s1.chabokan.net/docs/images/server-assistance-settings.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/servers/create/" ><img src="https://s1.chabokan.net/docs/images/server-assistance-banner.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/servers/create/"
+img="https://s1.chabokan.net/docs/images/server-assistance-banner.jpg"
+/>

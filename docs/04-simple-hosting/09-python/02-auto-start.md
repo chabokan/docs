@@ -29,4 +29,9 @@ import TabItem from '@theme/TabItem';
 :::
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/python" ><img src="https://s1.chabokan.net/docs/images/python-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/python"
+img="https://s1.chabokan.net/docs/images/python-banner.png"
+/>

@@ -69,4 +69,9 @@ transporter.sendMail({
 > [مستند رسمی **تنظیمات ایمیل** در سرویس **Nodejs**](https://nodemailer.com/smtp/)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nodejs" ><img src="https://s1.chabokan.net/docs/images/nodejs-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nodejs"
+img="https://s1.chabokan.net/docs/images/nodejs-banner.png"
+/>

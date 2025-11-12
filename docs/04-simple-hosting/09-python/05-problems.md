@@ -12,7 +12,7 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 ## مشکل اجرا نشدن سرویس
 
-![](https://s1.chabokan.net/docs/images/structure_error_1.PNG)
+![مشکلات احتمالی در سرویس Python چابکان](https://s1.chabokan.net/docs/images/structure_error_1.PNG)
 
 در صورت برخورد با ارور `Not Found requirements.txt file in /app` و یا `project structure is not correct` میتوانید با استفاده از روش زیر این ارور را برطرف نمایید.
 
@@ -20,4 +20,9 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/python" ><img src="https://s1.chabokan.net/docs/images/python-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/python"
+img="https://s1.chabokan.net/docs/images/python-banner.png"
+/>

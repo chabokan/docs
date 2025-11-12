@@ -23,4 +23,9 @@ const config = {
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/adonis" ><img src="https://s1.chabokan.net/docs/images/adonis-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/adonis"
+img="https://s1.chabokan.net/docs/images/adonis-banner.png"
+/>

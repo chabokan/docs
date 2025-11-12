@@ -17,7 +17,12 @@ description: "برای ایجاد هم تیمی جدید و مدیریت تیم�
 
 :::
 
-![](https://s1.chabokan.net/docs/images/server-assistance-team.jpg)
+![تنظیمات تیم در دستیار سرور چابکان](https://s1.chabokan.net/docs/images/server-assistance-team.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/servers/create/" ><img src="https://s1.chabokan.net/docs/images/server-assistance-banner.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/servers/create/"
+img="https://s1.chabokan.net/docs/images/server-assistance-banner.jpg"
+/>

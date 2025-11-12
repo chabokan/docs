@@ -19,4 +19,9 @@ FROM nginx:latest
 با واردن کردن تنها یک خط در `Dockerfile` و ریستارت کردن سرویس، داکرفایل شما شروع به بیلد شدن خواهد کرد.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/docker" ><img src="https://s1.chabokan.net/docs/images/docker-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/docker"
+img="https://s1.chabokan.net/docs/images/docker-banner.png"
+/>

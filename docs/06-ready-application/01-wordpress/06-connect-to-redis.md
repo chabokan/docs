@@ -16,13 +16,13 @@ description: "برای اتصال Redis به وردپرس میبایست مرا�
 
 در قسمت جستجو، `Redis` را جستجو کرده و افزونه `Redis Object Cache` را پیدا کنید و افزونه را نصب و فعال نمایید.
 
-![](https://s1.chabokan.net/docs/images/redis-connect-1.jpg)
+![اتصال به Redis در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/redis-connect-1.jpg)
 
 ## پیکربندی سرور Redis
 
 ابتدا سرویس [دیتابیس ابری Redis](https://docs.chabokan.net/database/redis/install/) خود را بسازید. سپس در سرویس وردپرس خود به قسمت مدیریت فایل ها رفته و فایل `wp-config.php` را انتخاب کرده و گزینه `Edit` را کلیک کنید.
 
-![](https://s1.chabokan.net/docs/images/redis-connect-2.jpg)
+![اتصال به Redis در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/redis-connect-2.jpg)
 
 کامند های زیر را در `wp-config.php` خود وارد نمایید و سپس بر روی ذخیره تغییرات کلیک نمایید.
 
@@ -38,19 +38,24 @@ define( 'WP_REDIS_TIMEOUT', 1 );
 define( 'WP_REDIS_READ_TIMEOUT', 1 );
 ```
 
-![](https://s1.chabokan.net/docs/images/redis-connect-3.jpg)
+![اتصال به Redis در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/redis-connect-3.jpg)
 
 ## تایید اتصال Redis
 
 برای تأیید اتصال `Redis،` به افزونه `Redis Object Cache` مراجعه نمایید برای اینکار، به بخش **تنظیمات** در پیشخوان وردپرس بروید و `Redis` را انتخاب کنید و سپس در صفحه `Redis Object Cache`، گزینه `Enable object cache` را کلیک کنید.
 
-![](https://s1.chabokan.net/docs/images/redis-connect-4.jpg)
+![اتصال به Redis در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/redis-connect-4.jpg)
 
 در صورتی که همه موارد به درستی پیکربندی شده باشد، مقادیر زیر در صفحه شما به نمایش در می آید.
 
-![](https://s1.chabokan.net/docs/images/redis-connect-5.jpg)
+![اتصال به Redis در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/redis-connect-5.jpg)
 
 پس از اجرای مراحل فوق، ارتباط بین وردپرس و سرور `Redis` برقرار خواهد شد و وردپرس از `Redis` برای حافظه‌پنهان‌سازی و بهینه‌سازی استفاده خواهد کرد.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/wordpress" ><img src="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/wordpress"
+img="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg"
+/>

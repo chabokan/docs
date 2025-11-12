@@ -29,4 +29,9 @@ N8N_EDITOR_BASE_URL : https://your-domain
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/n8n" ><img src="https://s1.chabokan.net/docs/images/n8n-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/n8n"
+img="https://s1.chabokan.net/docs/images/n8n-banner.png"
+/>

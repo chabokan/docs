@@ -18,11 +18,16 @@ description: "شما می توانید با استفاده از نرم افزا�
 
 پس از نصب این برنامه و برای استفاده از آن، باید تنظیمات اولیه‌ی آن‌را‌ انجام دهید. به این منظور، S3Browser را اجرا کرده و از بخش Accounts گزینه Add New Account را انتخاب کنید تا صفحه‌ای مشابه صفحه‌ی زیر برای شما نمایش داده شود.
 
-![](https://s1.chabokan.net/docs/images/add-s3-compatible-storage.png)
+![اتصال S3Browser به سرویس Minio چابکان](https://s1.chabokan.net/docs/images/add-s3-compatible-storage.png)
 
 یک نام برای Account خود وارد کرده و در قسمت Account Type، گزینه‌ی S3 Compatible Storage را انتخاب کنید. اطلاعات مربوط به بخش‌های Access Key ID ،Secret Access Key را با استفاده از اطلاعات سرویس minio خود که در بخش داشبورد اصلی سرویس نمایش داده شده است وارد کنید و در قسمت REST Endpoint آدرس دامنه خود را وارد نمایید. سپس روی گزینه add new account کلیک کنید.
 
 پس از انجام این تنظیمات می‌توان به‌سادگی Bucketها را مدیریت و فایل های مورد نیاز را با استفاده از S3Browser آپلود و یا دانلود کنید.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/minio" ><img src="https://s1.chabokan.net/docs/images/minio-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/minio"
+img="https://s1.chabokan.net/docs/images/minio-banner.png"
+/>

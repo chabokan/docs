@@ -74,4 +74,9 @@ import TabItem from '@theme/TabItem';
 
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/php" ><img src="https://s1.chabokan.net/docs/images/php-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/php"
+img="https://s1.chabokan.net/docs/images/php-banner.png"
+/>

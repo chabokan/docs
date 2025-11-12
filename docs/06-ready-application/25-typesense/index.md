@@ -12,17 +12,22 @@ description: "Typesense یک موتور جستجوی سریع و هوشمند ا
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Typesense` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Typesense` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/typesense-install.gif)
+![نصب و راه‌اندازی Typesense در چابکان](https://s1.chabokan.net/docs/gifs/typesense-install.gif)
 
-![](https://s1.chabokan.net/docs/images/typesense-1.jpg)
+![نصب و راه‌اندازی Typesense در چابکان](https://s1.chabokan.net/docs/images/typesense-1.jpg)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود. برای استفاده از برنامه میتوانید از قسمت مشخصات سرویس `API KEY` را کپی کرده و مورد استفاده قرار دهید. همچنین میتوانید بر روی دامنه پیش فرض سرویس کلیک کرده تا از ساخته شدن برنامه خود اطمینان حاصل نموده و از آن استفاده نمایید.
 
-![](https://s1.chabokan.net/docs/images/typesense-2.jpg)
+![نصب و راه‌اندازی Typesense در چابکان](https://s1.chabokan.net/docs/images/typesense-2.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/typesense" ><img src="https://s1.chabokan.net/docs/images/typesense-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/typesense"
+img="https://s1.chabokan.net/docs/images/typesense-banner.png"
+/>

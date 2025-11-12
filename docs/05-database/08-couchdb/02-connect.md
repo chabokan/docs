@@ -17,11 +17,16 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 https://example.chbk.run/_utils/
 ```
 
-![](https://s1.chabokan.net/docs/images/couchdb_4.jpg)
+![اتصال به سرویس دیتابیس CouchDB چابکان](https://s1.chabokan.net/docs/images/couchdb_4.jpg)
 
 سپس نام کاربری و رمز عبور خود را از مشخصات سرویس، در پنل login وارد کرده تا به دیتابیس خود وارد شوید.
 
-![](https://s1.chabokan.net/docs/images/couchdb_5.jpg)
+![اتصال به سرویس دیتابیس CouchDB چابکان](https://s1.chabokan.net/docs/images/couchdb_5.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/couchdb" ><img src="https://s1.chabokan.net/docs/images/couchdb-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/couchdb"
+img="https://s1.chabokan.net/docs/images/couchdb-banner.png"
+/>

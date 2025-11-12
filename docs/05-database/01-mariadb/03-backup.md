@@ -19,7 +19,7 @@ description: "در ادامه میخواهیم آموزش نحوه ‌Backup و 
 
 برای گرفتن بک آپ از سرویس MariaDB میتوانید در داشبورد سرویس MariaDB خود به قسمت بکاپ ها مراجعه کرده و بر روی گزینه ی ایجاد بک آپ کلیک نمایید تا عملیات بک آپ سرویس شما توسط چابکان انجام شود.
 
-![](https://s1.chabokan.net/docs/images/database_backup_2.jpg)
+![نحوه Backup از سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/database_backup_2.jpg)
 
 ### بازگردانی
 
@@ -29,7 +29,7 @@ description: "در ادامه میخواهیم آموزش نحوه ‌Backup و 
 
 ابتدا سرویس جانبی phpMyAdmin را از داشبورد سرویس دیتابیس خود فعال نمایید و سپس وارد آن شوید.
 
-![](https://s1.chabokan.net/docs/images/my_sql_connect_1.jpg)
+![نحوه Backup از سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_1.jpg)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -42,14 +42,14 @@ import TabItem from '@theme/TabItem';
 :::
 
 
-![](https://s1.chabokan.net/docs/images/my_sql_connect_2-edited.jpg)
+![نحوه Backup از سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_2-edited.jpg)
 
 ### ایجاد بکاپ از دیتابیس
 سپس به دیتابیس مراجعه کرده و از پنل بالایی phpmyadmin قسمت Export را انتخاب کنید.
 
 ابتدا گزینه ی Export method را بر روی Custom قرار داده و سپس تمام گزینه های مربوط به یک آپ برای شما به نمایش در می آید. سپس تنظیمات را تغییر نداده و فقط بخش compression را بر روی gzipped قرار دهید تا حجم فایل بک آپ کاهش پیدا کند و سپس export را زده تا فایل بک آپ شما آماده ی دانلود شود.
 
-![](https://s1.chabokan.net/docs/images/mysql_backup_3.jpg)
+![نحوه Backup از سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/mysql_backup_3.jpg)
 
 ### بازگردانی
 برای بازگردانی فایل بک آپ تهیه شده از phpmyadmin بعد از ورود به پنل phpmyadmin از پنل بالایی قسمت import را انتخاب کنید.
@@ -62,7 +62,12 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-![](https://s1.chabokan.net/docs/images/mysql_backup_4.jpg)
+![نحوه Backup از سرویس دیتابیس MariaDB چابکان](https://s1.chabokan.net/docs/images/mysql_backup_4.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mariadb" ><img src="https://s1.chabokan.net/docs/images/mariadb-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mariadb"
+img="https://s1.chabokan.net/docs/images/mariadb-banner.png"
+/>

@@ -35,4 +35,9 @@ send_mail('Subject here', 'Here is the message.', 'from@example.com', ['to@examp
 > [مستند رسمی **تنظیمات ایمیل** در سرویس **Django**](https://docs.djangoproject.com/en/5.0/topics/email/)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/django"
+img="https://s1.chabokan.net/docs/images/django-banner.png"
+/>

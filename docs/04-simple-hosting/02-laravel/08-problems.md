@@ -12,7 +12,7 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 ## ارور Call to undefined function Laravel
 
-![](https://s1.chabokan.net/docs/images/laravel-migrate-error.jpg)
+![مشکلات احتمالی در سرویس Laravel چابکان](https://s1.chabokan.net/docs/images/laravel-migrate-error.jpg)
 
 ارور **Call to undefined function Laravel\Prompts\shell_exec()** زمانی رخ میدهد که از shell_exec و یا exec استفاده کرده باشیم. به دلایل امنیتی این Function ها غیرفعال هستند.
 
@@ -36,4 +36,9 @@ composer require fruitcake/laravel-cors
 
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/laravel"
+img="https://s1.chabokan.net/docs/images/laravel-banner.png"
+/>

@@ -11,7 +11,7 @@ sidebar_label: "اتصال از طریق برنامه مدیریت Mail"
 
 سپس بر روی گزینه Internet email کلیک کرده و به مرحله معرفی مشخصات وارد می شویم.
 
-![](https://s1.chabokan.net/docs/images/smpt-pic-1.jpg)
+![اتصال به ایمیل چابکان](https://s1.chabokan.net/docs/images/smpt-pic-1.jpg)
 
 حال با توجه به مشخصات ایمیل ساخته شده خود در قسمت ایمیل ها سرویس خود در چابکان، مشخصات را وارد مینماییم.
 
@@ -28,13 +28,13 @@ Account type: IMAP4/POP3
 Outgoing (SMTP) email server: سرور
 ```
 
-![](https://s1.chabokan.net/docs/images/smpt-pic-2.jpg)
+![اتصال به ایمیل چابکان](https://s1.chabokan.net/docs/images/smpt-pic-2.jpg)
 
 ## MAC
 
 ابتدا به اپلیکیشن mail مراجعه کرده و سپس از طریق منو mail روی گزینه add account کلیک مینماییم. سپس گزینه other mail account را کلیک میکنیم.
 
-![](https://s1.chabokan.net/docs/images/smtp-5.jpg)
+![اتصال به ایمیل چابکان](https://s1.chabokan.net/docs/images/smtp-5.jpg)
 
 حال با توجه به مشخصات ایمیل ساخته شده خود در قسمت ایمیل ها سرویس خود در چابکان، مشخصات را وارد مینماییم.
 
@@ -49,4 +49,4 @@ Incoming Mail Server: سرور
 Outgoing Mail Server: سرور
 ```
 
-![](https://s1.chabokan.net/docs/images/smtp-6.jpg)
+![اتصال به ایمیل چابکان](https://s1.chabokan.net/docs/images/smtp-6.jpg)

@@ -12,7 +12,7 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 ## مشکل بالا نیامدن سرویس و ERR_OSSL_EVP
 
-![](https://s1.chabokan.net/docs/images/error-nodejs-1.jpg)
+![مشکلات احتمالی در سرویس NodeJS چابکان](https://s1.chabokan.net/docs/images/error-nodejs-1.jpg)
 
 در صورتی که سرویس شما دارای ارور `502` بود و در لاگ های خود ارور `OSSL` را مشاهده نمودید، میتوانید با روش زیر این مشکل را برطرف نمایید. با اضافه کردن متغیر محیطی زیر در قسمت تنظیمات سرویس خود این مشکل را برطرف نمایید.
 
@@ -24,7 +24,7 @@ NODE_OPTIONS = --openssl-legacy-provider
 
 ## مشکل Client does not support authentication
 
-![](https://s1.chabokan.net/docs/images/error-nodejs-2.jpg)
+![مشکلات احتمالی در سرویس NodeJS چابکان](https://s1.chabokan.net/docs/images/error-nodejs-2.jpg)
 
 در صورتی که برنامه با مشکل در اتصال به پایگاه داده برخورد کرد و یا با ارور `ER_NOT_SUPPORTED_AUTH_MODE` و یا `Handshake.ErrorPacket` مواجه شدید میتوانید از روش زیر برای رفع این مشکل استفاده بفرمایید.
 
@@ -117,4 +117,9 @@ const mysql = require('mysql2');
 
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nodejs" ><img src="https://s1.chabokan.net/docs/images/nodejs-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nodejs"
+img="https://s1.chabokan.net/docs/images/nodejs-banner.png"
+/>

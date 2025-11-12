@@ -14,15 +14,15 @@ description: "برای حذف و انتقال دیتابیس با TablePlus، م
 
 سپس مانند تصویر زیر روی آیکون بعلاوه کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/tbl1-2.jpg)
+![مدیریت دیتابیس از طریق TablePlus](https://s1.chabokan.net/docs/images/tbl1-2.jpg)
 
 دیتابیس مدنظر را انتخاب نمایید
 
-![](https://s1.chabokan.net/docs/images/tbl2-1.jpg)
+![مدیریت دیتابیس از طریق TablePlus](https://s1.chabokan.net/docs/images/tbl2-1.jpg)
 
 در مرحله بعد همانند تصویر زیر اطلاعات مورد نیاز را وارد نمایید و دکمه Connect را بزنید.
 
-![](https://s1.chabokan.net/docs/images/Tbl4.jpg)
+![مدیریت دیتابیس از طریق TablePlus](https://s1.chabokan.net/docs/images/Tbl4.jpg)
 
 ```properties
 Name = نام مدنظر
@@ -39,7 +39,7 @@ Database = نام دیتابیس
 
 برای ایمپورت دیتابیس مد نظر می توانید همانند تصویر زیر به ترتیب کلیک راست < Import < با توجه به نوع بکاپ خود گزینه مربوط را انتخاب نموده و به راحتی عملیات ایمپورت را انجام دهید.
 
-![](https://s1.chabokan.net/docs/images/Screenshot-1402-07-09-at-12.13.00%E2%80%AFPM.jpg)
+![مدیریت دیتابیس از طریق TablePlus](https://s1.chabokan.net/docs/images/Screenshot-1402-07-09-at-12.13.00%E2%80%AFPM.jpg)
 
 ## حذف جداول دیتابیس
 
@@ -49,4 +49,4 @@ Database = نام دیتابیس
 
 برای گرفتن خروجی از دیتابیس خود می توانید جداول را انتخاب نمایید و روی گزینه Export کلیک نمایید و خروجی مد نظرتان را بگیرید همچنین می‌توانید از گزینه “Menu < file < Backup” در منوی بالا استفاده کنید.سپس دیتابیس مد نظر را انتخاب نمایید و روی گزینه “Start” کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/Screenshot-1402-07-09-at-12.27.41%E2%80%AFPM.png)
+![مدیریت دیتابیس از طریق TablePlus](https://s1.chabokan.net/docs/images/Screenshot-1402-07-09-at-12.27.41%E2%80%AFPM.png)

@@ -36,9 +36,14 @@ DB_USERNAME : root
 DB_PASSWORD : Password
 ```
 
-![](https://s1.chabokan.net/docs/images/python-database-connect-1.jpg)
+![تنظیم متغیرهای محیطی در سرویس Laravel چابکان](https://s1.chabokan.net/docs/images/python-database-connect-1.jpg)
 
 > [مستند رسمی **اتصال به دیتابیس** در سرویس **Laravel**](https://laravel.com/docs/database#configuration)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/laravel"
+img="https://s1.chabokan.net/docs/images/laravel-banner.png"
+/>

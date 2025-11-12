@@ -19,7 +19,7 @@ description: "در ادامه میخواهیم آموزش نحوه ‌Backup و 
 ### ایجاد بکاپ از دیتابیس
 برای گرفتن بک آپ از سرویس Mongodb میتوانید در داشبورد سرویس Mongodb خود به قسمت بکاپ ها مراجعه کرده و بر روی گزینه ی ایجاد بک آپ کلیک نمایید تا عملیات بک آپ سرویس شما توسط چابکان انجام شود.
 
-![](https://s1.chabokan.net/docs/images/database_backup_2.jpg)
+![نحوه Backup از سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/database_backup_2.jpg)
 
 ### بازگردانی
 همانطور که مشاهده میکنید امکان دانلود و بازگردانی بک آپ برای شما فراهم گردیده است که میتوانید بک آپ سرویس خود را دانلود فرمایید و یا یک آپ تاریخ موجود سرویس را از طریق دکمه ی بازگردانی Restore کنید که سرویس به آن تاریخ Restore می شود.
@@ -29,19 +29,19 @@ description: "در ادامه میخواهیم آموزش نحوه ‌Backup و 
 ابتدا نرم افزار MongoDB Compass دانلود و نصب نمایید.
 وارد نرم افزار شده و طبق تصویر روی گزینه 1 و سپس 2 کلیک نمایید.
 
-![](https://s1.chabokan.net/docs/images/mongodb-compass11.png)
+![نحوه Backup از سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/mongodb-compass11.png)
 
 اطلاعت داده شده در قسمت مشخصات سرویس خود را در کادر های مشخص شده وارد نمایید.
 
-![](https://s1.chabokan.net/docs/images/mongodb-Compass22.png)
+![نحوه Backup از سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/mongodb-Compass22.png)
 
-![](https://s1.chabokan.net/docs/images/mongodb-Compass333.png)
+![نحوه Backup از سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/mongodb-Compass333.png)
 
 روی گزینه Connect کلیک نموده تا ارتباط شما با دیتابیس MongoDB برقرار شود.
 
 از منو سمت چپ وارد config و سپس settings شوید در این قسمت میتوانید به راحتی اقدام به ‌Backup و Restore دیتابیس خود نمایید.
 
-![](https://s1.chabokan.net/docs/images/mongodb-Compass411.png)
+![نحوه Backup از سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/mongodb-Compass411.png)
 
 ## بکاپ از طریق Mongodump
 
@@ -72,4 +72,9 @@ mongorestore --host=host --port=port --authenticationDatabase="admin" -u="user" 
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mongodb" ><img src="https://s1.chabokan.net/docs/images/mongodb-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mongodb"
+img="https://s1.chabokan.net/docs/images/mongodb-banner.png"
+/>

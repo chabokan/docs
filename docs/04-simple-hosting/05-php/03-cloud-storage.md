@@ -126,4 +126,9 @@ try {
 > [نمونه های بیشتر از نحوه **اتصال به S3** در سرویس **PHP**](https://docs.aws.amazon.com/aws-sdk-php/v3/api/class-Aws.S3.S3Client.html)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/php" ><img src="https://s1.chabokan.net/docs/images/php-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/php"
+img="https://s1.chabokan.net/docs/images/php-banner.png"
+/>

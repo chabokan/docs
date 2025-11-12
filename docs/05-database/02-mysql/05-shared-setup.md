@@ -14,13 +14,13 @@ description: "در این بخش می خواهیم آموزش نحوه نصب و
 
 برای فعال‌سازی دیتابیس اشتراکی `Mysql`، وارد داشبورد سرویس خود شوید و روی دکمه **فعال‌کردن Mysql** کلیک کنید:
 
-![](https://s1.chabokan.net/docs/images/mysql-shared-1.png)
+![نحوه نصب و راه‌اندازی سرویس دیتابیس اشتراکی Mysql چابکان](https://s1.chabokan.net/docs/images/mysql-shared-1.png)
 
 پس از تایید، دیتابیس اشتراکی `Mysql` برای سرویس شما ایجاد می‌شود. برخلاف سرویس‌های اختصاصی، دیتابیس اشتراکی به صورت آنی فعال شده و آماده استفاده است.
 
 با استفاده از مشخصات حساب کاربری پایگاه‌داده `Mysql` که به شما نمایش داده می‌شود، می‌توانید به دیتابیس متصل شوید:
 
-![](https://s1.chabokan.net/docs/images/mysql-shared-2.png)
+![نحوه نصب و راه‌اندازی سرویس دیتابیس اشتراکی Mysql چابکان](https://s1.chabokan.net/docs/images/mysql-shared-2.png)
 
 :::caution توجه
 
@@ -30,4 +30,9 @@ description: "در این بخش می خواهیم آموزش نحوه نصب و
 :::
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mysql" ><img src="https://s1.chabokan.net/docs/images/mysql-banner.png" alt="فعال‌سازی MySQL در چابکان" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mysql"
+img="https://s1.chabokan.net/docs/images/mysql-banner.png"
+/>

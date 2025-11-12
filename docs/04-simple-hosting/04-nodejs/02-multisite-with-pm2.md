@@ -78,4 +78,9 @@ START_COMMAND : "pm2 start ecosystem.config.js"
 > [مستند **استقرار چندین پروژه (PM2)** در سرویس **Nodejs**](https://pm2.keymetrics.io/docs/usage/quick-start/)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nodejs" ><img src="https://s1.chabokan.net/docs/images/nodejs-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nodejs"
+img="https://s1.chabokan.net/docs/images/nodejs-banner.png"
+/>

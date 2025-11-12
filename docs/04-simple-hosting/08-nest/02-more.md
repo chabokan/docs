@@ -80,7 +80,12 @@ node versions:
 - 14
 ```
 
-![](https://s1.chabokan.net/docs/images/nest-node-version.png)
+![تغییر ورژن سرویس NestJS چابکان](https://s1.chabokan.net/docs/images/nest-node-version.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nest" ><img src="https://s1.chabokan.net/docs/images/nest-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nest"
+img="https://s1.chabokan.net/docs/images/nest-banner.png"
+/>

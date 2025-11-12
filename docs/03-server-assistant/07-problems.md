@@ -14,7 +14,12 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 در صورت بروز مشکل در اجرا کامند اتصال به سرور در هنگام ایجاد اتصال بین سرور و دستیار مدیریت سرور، میبایست کامند را یکبار دیگر اجرا نموده و اینبار از یک `Type of connect` دیگر استفاده نمود تا کامند به درستی به اتمام برسد و پیغام زیر را دریافت نمایید.
 
-![](https://s1.chabokan.net/docs/images/server-assistance-4.jpg)
+![مشکلات احتمالی دستیار سرور چابکان](https://s1.chabokan.net/docs/images/server-assistance-4.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/servers/create/" ><img src="https://s1.chabokan.net/docs/images/server-assistance-banner.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/servers/create/"
+img="https://s1.chabokan.net/docs/images/server-assistance-banner.jpg"
+/>

@@ -11,7 +11,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اتصال به سرویس دیتابیس ابری ArangoDB بر روی نام دامنه کلیک کرده سپس اطلاعات ورود را وارد نمایید.
 
-![](https://s1.chabokan.net/docs/images/arangodb4.jpg)
+![اتصال به سرویس دیتابیس ArangoDB چابکان](https://s1.chabokan.net/docs/images/arangodb4.jpg)
 
 ```properties
 Username : نام کاربری
@@ -20,7 +20,12 @@ Password : رمز عبور
 
 بعد از طی کردن مراحل بالا وارد محیط ArangoDB می شوید.
 
-![](https://s1.chabokan.net/docs/images/arangodb5.jpg)
+![اتصال به سرویس دیتابیس ArangoDB چابکان](https://s1.chabokan.net/docs/images/arangodb5.jpg)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/arangodb" ><img src="https://s1.chabokan.net/docs/images/arangodb-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/arangodb"
+img="https://s1.chabokan.net/docs/images/arangodb-banner.png"
+/>

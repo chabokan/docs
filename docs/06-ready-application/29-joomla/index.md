@@ -15,17 +15,17 @@ description: "Joomla یک سیستم مدیریت محتوا (CMS) متن‌با
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Joomla` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Joomla` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/joomla-install.gif)
+![نصب و راه‌اندازی Joomla در چابکان](https://s1.chabokan.net/docs/gifs/joomla-install.gif)
 
-![](https://s1.chabokan.net/docs/images/joomla-1.png)
+![نصب و راه‌اندازی Joomla در چابکان](https://s1.chabokan.net/docs/images/joomla-1.png)
 
 بر روی نام دامنه پیشفرض سیستم که برای شما ایجاد شده کلیک نمایید تا وارد صفحه ورود `Joomla` شوید
 
-![](https://s1.chabokan.net/docs/images/joomla-2.png)
+![نصب و راه‌اندازی Joomla در چابکان](https://s1.chabokan.net/docs/images/joomla-2.png)
 
 اطلاعات خواسته شده شامل نام سایت و اطلاعات حساب کاربری که میخواهید با آن وارد پنل ادمین Joomla شوید را در این قسمت وارد و به مرحله بعد میرویم.
 
-![](https://s1.chabokan.net/docs/images/joomla-3.png)
+![نصب و راه‌اندازی Joomla در چابکان](https://s1.chabokan.net/docs/images/joomla-3.png)
 
 در این مرحله اطلاعات پایگاه داده را لازم است که وارد کنید که چابکان به صورت پیشفرض دیتابیس اشتراکی اختیار شما قرار داده که اطلاعات آن را مطابق تصویر زیر وارد نمایید.
 همچنین میتوانید از دیتابیس اختصاصی استفاده کنید که تفاوت دیتابیس اشتراکی با اختصاصی و همچنین تبدیل دیتابیس اشتراکی به اختصاصی را در لینک های زیر مشاهده کنید
@@ -34,15 +34,15 @@ description: "Joomla یک سیستم مدیریت محتوا (CMS) متن‌با
 
 ([تبدیل دیتابیس اشتراکی به اختصاصی](https://docs.chabokan.net/general-tips/db-converting/))
 
-![](https://s1.chabokan.net/docs/images/joomla-4.jpg)
+![نصب و راه‌اندازی Joomla در چابکان](https://s1.chabokan.net/docs/images/joomla-4.jpg)
 
 در این مرحله شما نمای کلی تنظیمات `Joomla` را مشاهده میکنید.
 
-![](https://s1.chabokan.net/docs/images/joomla-5.png)
+![نصب و راه‌اندازی Joomla در چابکان](https://s1.chabokan.net/docs/images/joomla-5.png)
 
 حال سایت شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Joomla` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/joomla-6.png)
+![نصب و راه‌اندازی Joomla در چابکان](https://s1.chabokan.net/docs/images/joomla-6.png)
 
 ## سرویس های اشتراکی
 
@@ -56,4 +56,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/joomla" ><img src="https://s1.chabokan.net/docs/images/joomla-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/joomla"
+img="https://s1.chabokan.net/docs/images/joomla-banner.png"
+/>

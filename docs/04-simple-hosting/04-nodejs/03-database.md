@@ -133,4 +133,9 @@ MongoClient.connect(url, function(err, client) {
 > [مستند **اتصال به دیتابیس Mongodb** در سرویس **Nodejs**](https://www.npmjs.com/package/mongodb)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nodejs" ><img src="https://s1.chabokan.net/docs/images/nodejs-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nodejs"
+img="https://s1.chabokan.net/docs/images/nodejs-banner.png"
+/>

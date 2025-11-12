@@ -13,37 +13,37 @@ description: "اگر با سرویس گوگل آنالتیکز کار کرده �
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Matomo` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Matomo` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/matomo-install.gif)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/gifs/matomo-install.gif)
 
-![](https://s1.chabokan.net/docs/images/matomo-platform-docs-1.jpg)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/images/matomo-platform-docs-1.jpg)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در سرویس `Matomo` وارد برنامه شوید.
 
-![](https://s1.chabokan.net/docs/images/matomo-platform-docs-2.jpg)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/images/matomo-platform-docs-2.jpg)
 
 در این مرحله نصب اولیه ی `Matomo` شروع می شود که در اینجا مراحل مهم را با هم بررسی میکنیم.
 
-![](https://s1.chabokan.net/docs/images/matomo_2.jpg)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/images/matomo_2.jpg)
 
 در گام `Database Setup` اطلاعات دیتابیس اشتراکی سرویس ساخته شده وارد شده است، در صورتی که از دیتابیس اختصاصی استفاده مینمایید میبایست در اینجا اطلاعات آنرا وارد کنید.
 
-![](https://s1.chabokan.net/docs/images/matomo_4.jpg)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/images/matomo_4.jpg)
 
 در مرحله ی `Superuser` نیز کاربر ادمین ساخته می شود و اطلاعات دلخواه کاربر ادمین را وارد مینماییم.
 
-![](https://s1.chabokan.net/docs/images/matomo_6.jpg)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/images/matomo_6.jpg)
 
 در مرحله ی بعد نیز اطلاعات وبسایت مد نظر برای اتصال به سرویس `Matomo` را وارد میکنیم.
 
-![](https://s1.chabokan.net/docs/images/matomo_7.jpg)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/images/matomo_7.jpg)
 
 سپس `Tracking code` مربوط به سایت وارد شده به نمایش گذاشته می شود و میبایست این کد را در `Header` وبسایت وارد کنیم.
 
-![](https://s1.chabokan.net/docs/images/matomo_8.jpg)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/images/matomo_8.jpg)
 
 حال برنامه شما آماده استفاده است و به محض شناسایی `Tracking code` در `Header` وبسایت برنامه شروع به کار مکیند، میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Matomo` وارد برنامه شوید و یا دامنه ی اختصاصی خود را ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/matomo_9.jpg)
+![نصب و راه‌اندازی Matomo در چابکان](https://s1.chabokan.net/docs/images/matomo_9.jpg)
 
 ## سرویس اشتراکی
 
@@ -56,4 +56,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/matomo" ><img src="https://s1.chabokan.net/docs/images/matomo-docs-banner-1.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/matomo"
+img="https://s1.chabokan.net/docs/images/matomo-docs-banner-1.jpg"
+/>

@@ -80,7 +80,12 @@ node versions:
 - 14
 ```
 
-![](https://s1.chabokan.net/docs/images/vue-node-version11.png)
+![تغییر ورژن سرویس VueJS چابکان](https://s1.chabokan.net/docs/images/vue-node-version11.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/vue" ><img src="https://s1.chabokan.net/docs/images/vue-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/vue"
+img="https://s1.chabokan.net/docs/images/vue-banner.png"
+/>

@@ -9,17 +9,22 @@ description: "در این بخش می خواهیم آموزش نحوه نصب و
 ---
 
 در این بخش می خواهیم آموزش نحوه نصب و راه اندازی دیتابیس SQL Server را در سرویس [دیتابیس اس کیو ال سرور](https://chabokan.net/services/mssql/) به شما آموزش دهیم.
-همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `MariaDB` را از طریق قسمت ساخت سرویس جدید > دیتابیس ابری > `MariaDB` می سازیم.
+همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `MSSQL` را از طریق قسمت ساخت سرویس جدید > دیتابیس ابری > `MSSQL` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/mssql-install.gif)
+![نصب و راه‌اندازی دیتابیس SQL Server در چابکان](https://s1.chabokan.net/docs/gifs/mssql-install.gif)
 
 سرویس های ابری چابکان امکان راه اندازی با نسخه های مختلف را نیز دارند که شما می توانید نسخه موردنظر خود را انتخاب کنید.
 
-![](https://s1.chabokan.net/docs/images/sqlserver-start.png)
+![نصب و راه‌اندازی دیتابیس SQL Server در چابکان](https://s1.chabokan.net/docs/images/sqlserver-start.png)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mssql" ><img src="https://s1.chabokan.net/docs/images/sqlserver-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mssql"
+img="https://s1.chabokan.net/docs/images/sqlserver-banner.png"
+/>

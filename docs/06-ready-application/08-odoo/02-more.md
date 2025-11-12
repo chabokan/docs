@@ -19,4 +19,9 @@ proxy_mode = True
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/odoo" ><img src="https://s1.chabokan.net/docs/images/odoo-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/odoo"
+img="https://s1.chabokan.net/docs/images/odoo-banner.png"
+/>

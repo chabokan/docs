@@ -62,7 +62,7 @@ class TrustProxies extends Middleware
 display_errors = On
 ```
 
-![](https://s1.chabokan.net/docs/images/laravel-migrate-error-3.jpg)
+![نکات آموزشی سرویس Laravel چابکان](https://s1.chabokan.net/docs/images/laravel-migrate-error-3.jpg)
 
 
 ## تنظیمات Queue ها
@@ -197,7 +197,12 @@ php versions:
 - php 8.3         - php fpm 8.3
 ```
 
-![](https://s1.chabokan.net/docs/images/laravel-version1.png)
+![تغییر ورژن سرویس Laravel چابکان](https://s1.chabokan.net/docs/images/laravel-version1.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/laravel" ><img src="https://s1.chabokan.net/docs/images/laravel-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/laravel"
+img="https://s1.chabokan.net/docs/images/laravel-banner.png"
+/>

@@ -24,7 +24,7 @@ description: "برای اتصال وردپرس به minio ابتدا سرویس 
 
 حال به سراغ داشبورد ادمین وردپرس رفته و افزونه (Media Cloud for Amazon S3, Cloudflare R2, Google Cloud Storage, DigitalOcean Spaces and more) را از قسمت افزونه ها دانلود و نصب کنید. بعد از نصب پلاگین به صفحه مربوط به setup wizard منتقل می شوید که میبایست صفحه را بسته و به پنل ادمین سایت خود دوباره مراجعه نمایید.
 
-![](https://s1.chabokan.net/docs/images/wordpress-minio.jpg)
+![اتصال به MinIO در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/wordpress-minio.jpg)
 
 سپس از پنل سمت راستی وردپرس خود Media cloud را انتخاب نموده و به قسمت settings مراجعه نمایید. حال طبق تصاویر زیر اطلاعات سرویس minio خود را وارد نموده تا اتصال شما به minio برقرار شود.( بر روی setup wizard کلیک نفرمایید)
 
@@ -38,9 +38,9 @@ Region: Automatic
 Custom Endpoint: آدرس Endpoint
 ```
 
-![](https://s1.chabokan.net/docs/images/wordpress-minio-2.jpg)
+![اتصال به MinIO در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/wordpress-minio-2.jpg)
 
-![](https://s1.chabokan.net/docs/images/wordpress-minio-3.jpg)
+![اتصال به MinIO در سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/wordpress-minio-3.jpg)
 
 سپس روی گزینه ذخیره تغییرات کلیک نمایید تا اتصال شما برقرار گردد. حال در صورتی که در بخش رسانه خود فایلی آپلود نمایید به باکت شما متصل شده و در آن آپلود می شود.
 
@@ -49,4 +49,9 @@ Custom Endpoint: آدرس Endpoint
 برای اتصال minio از طریق افزونه wp offload media میبایست مانند [این مستند](https://deliciousbrains.com/s3-compatible-storage-provider-minio/)، تنظیمات را انجام داده تا سرویس به minio متصل شود.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/wordpress" ><img src="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/wordpress"
+img="https://s1.chabokan.net/docs/images/wordpress-docs-banner-1.jpg"
+/>

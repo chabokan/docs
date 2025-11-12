@@ -11,7 +11,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اتصال به سرویس دیتابیس ابری InfluxDB بر روی نام دامنه که در بالای داشبورد سرویستان است کلیک کرده تا به صفحه ورود InfluxDB مانند قسمت چپ تصویر زیر ریدایرکت می شوید سپس می توانید با وارد کردن اطلاعات مورد نظر وارد شوید.
 
-![](https://s1.chabokan.net/docs/images/Connect_influxdb_3.jpg)
+![اتصال به سرویس دیتابیس InfluxDB چابکان](https://s1.chabokan.net/docs/images/Connect_influxdb_3.jpg)
 
 ```properties
 Username:نام کاربری
@@ -22,7 +22,7 @@ Password:رمز عبور
 
 از طریق منو Load Data بخش API Tokens میتوانید توکن های جدیدی ایجاد کنید. همچنین می‌ توانید توکن ها را نام ‌گذاری و مجوزها را تعیین کنید.
 
-![](https://s1.chabokan.net/docs/images/token_influxdb_11.jpg)
+![اتصال به سرویس دیتابیس InfluxDB چابکان](https://s1.chabokan.net/docs/images/token_influxdb_11.jpg)
 
 ## اتصال از طریق پایتون
 
@@ -89,4 +89,9 @@ finally:
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/influxdb" ><img src="https://s1.chabokan.net/docs/images/influxdb-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/influxdb"
+img="https://s1.chabokan.net/docs/images/influxdb-banner.png"
+/>

@@ -13,25 +13,25 @@ description: "Affine یک پلتفرم مدیریت پروژه و همکاری �
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Affine` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Affine` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/affine-install.gif)
+![نصب و راه‌اندازی Affine در چابکان](https://s1.chabokan.net/docs/gifs/affine-install.gif)
 
-![](https://s1.chabokan.net/docs/images/affine-platform-docs-1.png)
+![نصب و راه‌اندازی Affine در چابکان](https://s1.chabokan.net/docs/images/affine-platform-docs-1.png)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در سرویس `Affine` وارد برنامه شوید.
 
-![](https://s1.chabokan.net/docs/images/affine-platform-docs-2.png)
+![نصب و راه‌اندازی Affine در چابکان](https://s1.chabokan.net/docs/images/affine-platform-docs-2.png)
 
 پس از مراجعه به دامنه سرویس با دیدن این صفحه متوجه می‌شویم که `Affine` با موفقیت نصب شده است.
 
-![](https://s1.chabokan.net/docs/images/affine-platform-docs-3.png)
+![نصب و راه‌اندازی Affine در چابکان](https://s1.chabokan.net/docs/images/affine-platform-docs-3.png)
 
 با توجه به اینکه اولین ورود به برنامه را داریم، می‌بایست حساب کاربری `Admin` را تعریف کنیم.
 
-![](https://s1.chabokan.net/docs/images/affine-platform-docs-4.png)
+![نصب و راه‌اندازی Affine در چابکان](https://s1.chabokan.net/docs/images/affine-platform-docs-4.png)
 
 حال برنامه شما آماده استفاده است و می‌توانید با مراجعه به دامنه‌ی خود در داشبورد سرویس `Affine` وارد برنامه شوید و یا دامنه‌ی اختصاصی خود را بر روی برنامه تنظیم نمایید.([تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/affine-platform-docs-5.png)
+![نصب و راه‌اندازی Affine در چابکان](https://s1.chabokan.net/docs/images/affine-platform-docs-5.png)
 
 import Features from '/docs/13-features/_features.md';
 

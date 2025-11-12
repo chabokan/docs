@@ -65,7 +65,12 @@ Python versions:
 - 3.12
 ```
 
-![](https://s1.chabokan.net/docs/images/flask-python-version.png)
+![تغییر ورژن سرویس Flask چابکان](https://s1.chabokan.net/docs/images/flask-python-version.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/flask" ><img src="https://s1.chabokan.net/docs/images/flask-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/flask"
+img="https://s1.chabokan.net/docs/images/flask-banner.png"
+/>

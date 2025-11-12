@@ -12,7 +12,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اتصال به سرویس دیتابیس ابری Postgresql می توانید به انتخاب خود یکی از روش های زیر را استفاده نمایید تا به راحتی دیتا های خود را مدیریت نمایید.
 
-![](https://s1.chabokan.net/docs/images/posgresql_conect-01.jpg)
+![اتصال به سرویس دیتابیس PostgreSQL چابکان](https://s1.chabokan.net/docs/images/posgresql_conect-01.jpg)
 
 ## اتصال از طریق **PGAdmin**
 
@@ -22,7 +22,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اطلاعات بیشتر در مورد  **PGAdmin**  می توانید به قسمت  **[PGAdmin](https://docs.chabokan.net/ready-application/pgadmin/)**  در مستندات مراجعه نمایید.
 
-![](https://s1.chabokan.net/docs/images/pgadmin_login_connect_2-edited-scaled-1.png)
+![اتصال PGAdmin به سرویس دیتابیس PostgreSQL چابکان](https://s1.chabokan.net/docs/images/pgadmin_login_connect_2-edited-scaled-1.png)
 
 :::tip توجه
 
@@ -34,7 +34,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 برای اتصال از طریق adminer کافیست در داشبورد سرویس از قسمت سرویس های جانبی، روی دکمه **فعال کردن Adminer** کلیک نمایید. با کلیک کردن بر روی این دکمه سرویس جانبی Adminer در کمتر از ۱ دقیقه آماده استفاده می شود و شما می توانید از آن استفاده نماید.
 
-![](https://s1.chabokan.net/docs/images/adminer_001-1.jpg)
+![اتصال Adminer به سرویس دیتابیس PostgreSQL چابکان](https://s1.chabokan.net/docs/images/adminer_001-1.jpg)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -46,7 +46,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 :::
 
-![](https://s1.chabokan.net/docs/images/my_sql_connect_5-edited.jpg)
+![اتصال Adminer به سرویس دیتابیس PostgreSQL چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_5-edited.jpg)
 
 برای اطلاعات بیشتر در مورد  **Adminer**  می توانید به قسمت  **[**Adminer**](https://docs.chabokan.net/ready-application/adminer/)**  در مستندات مراجعه نمایید.
 
@@ -59,4 +59,9 @@ psql -h DB_HOST -p DB_PORT -U DB_USERNAME -W DB_NAME
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/postgresql" ><img src="https://s1.chabokan.net/docs/images/postgresql-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/postgresql"
+img="https://s1.chabokan.net/docs/images/postgresql-banner.png"
+/>

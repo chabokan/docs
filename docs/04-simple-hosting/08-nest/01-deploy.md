@@ -12,7 +12,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 در این بخش می خواهیم آموزش نحوه استقرار اولیه `Nest` را در [هاست نست جی اس NestJs](https://chabokan.net/services/nestjs/) به شما آموزش دهیم.
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Nest` را از طریق قسمت ساخت سرویس جدید > میزبانی آسان > `Nest` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/nest-install.gif)
+![نحوه استقرار NestJS در چابکان](https://s1.chabokan.net/docs/gifs/nest-install.gif)
 
 ## روش های استقرار برنامه
 
@@ -46,4 +46,9 @@ import Features from '/docs/13-features/_features.md';
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/nest" ><img src="https://s1.chabokan.net/docs/images/nest-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nest"
+img="https://s1.chabokan.net/docs/images/nest-banner.png"
+/>

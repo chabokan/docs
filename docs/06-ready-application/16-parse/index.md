@@ -13,17 +13,22 @@ description: "Parse Server یک سرور متن‌باز است که توسط Pa
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Parse` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Parse` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/parse-install.gif)
+![نصب و راه‌اندازی Parse در چابکان](https://s1.chabokan.net/docs/gifs/parse-install.gif)
 
-![](https://s1.chabokan.net/docs/images/Parse-1.jpg)
+![نصب و راه‌اندازی Parse در چابکان](https://s1.chabokan.net/docs/images/Parse-1.jpg)
 
 بعد از دقایقی برنامه ی شما با موفقیت ساخته می شود و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Parse` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/Parse-2.jpg)
+![نصب و راه‌اندازی Parse در چابکان](https://s1.chabokan.net/docs/images/Parse-2.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/parse" ><img src="https://s1.chabokan.net/docs/images/parse-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/parse"
+img="https://s1.chabokan.net/docs/images/parse-banner.png"
+/>

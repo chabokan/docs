@@ -21,9 +21,14 @@ description: "در این بخش می خواهیم نکات تکمیلی سرو�
 url = https:// نام دامنه
 ```
 
-![](https://s1.chabokan.net/docs/images/ghost-domin11.png)
+![نکات تکمیلی سرویس Ghost چابکان](https://s1.chabokan.net/docs/images/ghost-domin11.png)
 
 پس از افزودن متغییر و وارد کردن مقادیر بر روی گزینه ذخیره تغییرات کلیک نمایید.
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/ghost" ><img src="https://s1.chabokan.net/docs/images/ghost-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/ghost"
+img="https://s1.chabokan.net/docs/images/ghost-banner.png"
+/>

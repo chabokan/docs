@@ -20,7 +20,7 @@ description: "در این بخش می خواهیم نکات تکمیلی را د
 CHBK_PYTHON_SAVE = true
 ```
 
-![](https://s1.chabokan.net/docs/images/elk-env.jpg)
+![نکات آموزشی سرویس Python چابکان](https://s1.chabokan.net/docs/images/elk-env.jpg)
 
 
 ## تغییر ورژن Python
@@ -38,7 +38,12 @@ Python versions:
 - 3.12
 ```
 
-![](https://s1.chabokan.net/docs/images/python-version.png)
+![تغییر ورژن سرویس Python چابکان](https://s1.chabokan.net/docs/images/python-version.png)
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/python" ><img src="https://s1.chabokan.net/docs/images/python-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/python"
+img="https://s1.chabokan.net/docs/images/python-banner.png"
+/>

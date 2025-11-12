@@ -12,7 +12,7 @@ description: "در این قسمت مشکلات احتمالی که ممکن ا�
 
 ## کار نکردن CSS پنل ادمین
 
-![](https://s1.chabokan.net/docs/images/error-django-1.jpg)
+![مشکلات احتمالی در سرویس Django چابکان](https://s1.chabokan.net/docs/images/error-django-1.jpg)
 
 در صورتی که مشکل کار نکردن پنل ادمین را داشتید و یا سی اس اس پنل ادمین یا وبسایت شما دچار مشکل شده و از کار افتاده بود و یا مشکلاتی در JS(کدهای جی اسی) داشته اید، میتوانید با استفاده از روش زیر این مشکل را بر طرف نمایید.
 
@@ -29,7 +29,7 @@ STATIC_ROOT = BASE_DIR / 'static'
 
 ## مشکل Invalid HTTP_HOST
 
-![](https://s1.chabokan.net/docs/images/error-django-3.jpg)
+![مشکلات احتمالی در سرویس Django چابکان](https://s1.chabokan.net/docs/images/error-django-3.jpg)
 
 در صورت برخورد با ارور `404` و یا مشکل `ALLOWED_HOSTS` میتوانید با استفاده از روش زیر این مشکل را بر طرف نمایید.
 
@@ -41,7 +41,7 @@ ALLOWED_HOSTS = ["https://test.chbk.run"]
 
 ## ارور CSRF verification failed
 
-![](https://s1.chabokan.net/docs/images/error-django-csrf.jpg)
+![مشکلات احتمالی در سرویس Django چابکان](https://s1.chabokan.net/docs/images/error-django-csrf.jpg)
 
 در صورت برخورد با ارور csrf و یا مشکل توکن سی آر اس اف میتوانید با استفاده از روش زیر این مشکل را بر طرف نمایید.
 
@@ -65,7 +65,7 @@ WSGI_PATH : my_app_name.wsgi
 
 در صورت برخورد با ارور ERR_TOO_MANY_REDIRECTS در جنگو میتوانید موارد زیر را بررسی بفرمایید تا مشکل رفع شود.
 
-![](https://s1.chabokan.net/docs/images/django-problems-redirect.png)
+![مشکلات احتمالی در سرویس Django چابکان](https://s1.chabokan.net/docs/images/django-problems-redirect.png)
 
 ابتدا در صورتی که دامنه به سرویس خود متصل کرده اید، از قسمت تنظیمات دامنه > تنظیمات `HTTPS` گزینه **انتقال خودکار HTTP به HTTPS** را غیر فعال نمایید و بعد از گذشت چند دقیقه وبسایت خود را چک نمایید.
 
@@ -107,7 +107,7 @@ ImportError: cannot import name 'decodestring' from 'base64' (/usr/local/lib/pyt
 
 ## مشکل اجرا نشدن سرویس
 
-![](https://s1.chabokan.net/docs/images/structure_error_1.PNG)
+![مشکلات احتمالی در سرویس Django چابکان](https://s1.chabokan.net/docs/images/structure_error_1.PNG)
 
 در صورت برخورد با ارور `Not Found requirements.txt file in /app` و یا `project structure is not correct` میتوانید با استفاده از روش زیر این ارور را برطرف نمایید.
 
@@ -115,4 +115,9 @@ ImportError: cannot import name 'decodestring' from 'base64' (/usr/local/lib/pyt
 
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/django"
+img="https://s1.chabokan.net/docs/images/django-banner.png"
+/>

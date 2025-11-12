@@ -14,9 +14,9 @@ description: "نرم افزار اودو یا (Odoo ERP System) یک نرم‌ا
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `Odoo` را از طریق قسمت ساخت سرویس جدید > برنامه های آماده > `Odoo` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/odoo-install.gif)
+![نصب و راه‌اندازی Odoo در چابکان](https://s1.chabokan.net/docs/gifs/odoo-install.gif)
 
-![](https://s1.chabokan.net/docs/images/odoo-platform-docs-1.jpg)
+![نصب و راه‌اندازی Odoo در چابکان](https://s1.chabokan.net/docs/images/odoo-platform-docs-1.jpg)
 
 بعد از ساخت سرویس `Odoo` یک سرویس `Postgresql` (که پیش نیاز سرویس `Odoo` می باشد) نیز به صورت خوردکار برای شما ساخته می شود.
 
@@ -24,15 +24,20 @@ description: "نرم افزار اودو یا (Odoo ERP System) یک نرم‌ا
 
 سپس میتوانید با مراجعه به دامنه ی خود در سرویس `Odoo` وارد برنامه شوید. همچنین میتوانید دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
 
-![](https://s1.chabokan.net/docs/images/odoo-platform-docs-2.jpg)
+![نصب و راه‌اندازی Odoo در چابکان](https://s1.chabokan.net/docs/images/odoo-platform-docs-2.jpg)
 
 حال برنامه آماده استفاده می باشد و میتوانید اطلاعات خود را وارد نمایید و Masteruser را بسازید.
 
-![](https://s1.chabokan.net/docs/images/odoo_6.jpg)
+![نصب و راه‌اندازی Odoo در چابکان](https://s1.chabokan.net/docs/images/odoo_6.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/odoo" ><img src="https://s1.chabokan.net/docs/images/odoo-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/odoo"
+img="https://s1.chabokan.net/docs/images/odoo-banner.png"
+/>

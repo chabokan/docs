@@ -14,19 +14,19 @@ description: "FTP یک پروتکل یا قرارداد (یک‌راه ساده)
 
 همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `FTP` را از طریق قسمت ساخت سرویس جدید > فضای ذخیره سازی > `FTP` می سازیم.
 
-![](https://s1.chabokan.net/docs/gifs/ftp-install.gif)
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/gifs/ftp-install.gif)
 
-![](https://s1.chabokan.net/docs/images/ftp-start-1.png)
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/images/ftp-start-1.png)
 
 سرویس `FTP` با موفقیت ایجاد گردید .
 
-![](https://s1.chabokan.net/docs/images/ftp-start-2.png)
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/images/ftp-start-2.png)
 
 برای اتصال به سرویس FTP ابتدا باید یک نرم افزار بر روی سیستم عامل خود نصب بفرمایید تا بتوانید به FTP سرویس خود متصل شوید. یکی از نرم افزار های محبوب مدیریت FTP نرم افزار FileZilla می باشد که شما می توانید این نرم افزار را از طریق [این لینک](https://filezilla-project.org/download.php) دانلود و نصب بفرمایید.
 
 حال میتوانید از طریق داشبورد اصلی سرویس خود مشخصات FTP سرویس، مانند **نام کاربری FTP** و **رمز عبور FTP** را مشاهده نمایید.
 
-![](https://s1.chabokan.net/docs/images/FTP_num2.jpg)
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/images/FTP_num2.jpg)
 
 سپس با وارد کردن مشخصات در نرم افزار fillezila میتوانید به سرویس خود متصل شوید.
 
@@ -37,11 +37,16 @@ Password = رمز عبور FTP
 Port = خالی یا 21
 ```
 
-![](https://s1.chabokan.net/docs/images/FTP_num1.jpg)
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/images/FTP_num1.jpg)
 
 import Features from '/docs/13-features/_features.md';
 
 <Features />
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/ftp" ><img src="https://s1.chabokan.net/docs/images/ftp-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/ftp"
+img="https://s1.chabokan.net/docs/images/ftp-banner.png"
+/>

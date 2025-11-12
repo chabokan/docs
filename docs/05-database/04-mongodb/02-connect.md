@@ -31,7 +31,7 @@ mongosh -u USERNAME -p PASSWORD
 
 برای اتصال از طریق Mongo Express کافیست در داشبورد سرویس از قسمت سرویس های جانبی، روی دکمه **فعال کردن mongo-express** کلیک نمایید. با کلیک کردن بر روی این دکمه سرویس جانبی Mongo Express در کمتر از ۱ دقیقه آماده استفاده می شود و شما می توانید از آن استفاده نماید.
 
-![](https://s1.chabokan.net/docs/images/mongodb_1-1.jpg)
+![اتصال Mongo Express به سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/mongodb_1-1.jpg)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -43,13 +43,13 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 :::
 
-![](https://s1.chabokan.net/docs/images/mongodb_3.jpg)
+![اتصال Mongo Express به سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/mongodb_3.jpg)
 
 ## اتصال از طریق Adminer
 
 برای اتصال از طریق adminer کافیست در داشبورد سرویس از قسمت سرویس های جانبی، روی دکمه **فعال کردن Adminer** کلیک نمایید. با کلیک کردن بر روی این دکمه سرویس جانبی Adminer در کمتر از ۱ دقیقه آماده استفاده می شود و شما می توانید از آن استفاده نماید.
 
-![](https://s1.chabokan.net/docs/images/mongodb_2-1.jpg)
+![اتصال Adminer به سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/mongodb_2-1.jpg)
 
 :::caution توجه
 <Tabs>
@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 :::
 
-![](https://s1.chabokan.net/docs/images/adminer_001-1.jpg)
+![اتصال Adminer به سرویس دیتابیس MongoDB چابکان](https://s1.chabokan.net/docs/images/adminer_001-1.jpg)
 
 ## اتصال از طریق Mongo CLI
 
@@ -77,4 +77,9 @@ mongodb://USERNASME:PASSWORD@MONGO_SERVER_URL:MONGO_PORT/?authSource=admin
 ```
 
 ---
-<a href="https://hub.chabokan.net/fa/services/create/mongodb" ><img src="https://s1.chabokan.net/docs/images/mongodb-banner.png" /></a>
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/mongodb"
+img="https://s1.chabokan.net/docs/images/mongodb-banner.png"
+/>
