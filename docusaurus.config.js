@@ -305,7 +305,29 @@ const config = {
                 sidebar: {
                     hideable: true,
                 },
-            }
+            },
+            headTags: [
+                {
+                    tagName: 'script',
+                    attributes: { type: 'application/ld+json' },
+                    innerHTML: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "WebSite",
+                        "url": "https://docs.chabokan.net",
+                        "potentialAction": {
+                            "@type": "SearchAction",
+                            "target": "https://docs.chabokan.net/search/?q={search_term_string}",
+                            "query-input": "required name=search_term_string"
+                        }
+                    })
+                }
+            ],
+            metadata: [
+                { name: 'description', content: 'مستندات چابکان | راهنمای جامع برای توسعه‌دهندگان و کاربران جهت استفاده از سرویس‌های چابکان.' },
+                { name: 'keywords', content: 'چابکان, مستندات, cloud, hosting, devops, chabokan docs' },
+                { property: 'og:description', content: 'مستندات رسمی چابکان، شامل آموزش‌ها، راهنماها و نکات کاربردی برای توسعه‌دهندگان.' },
+                { property: 'og:title', content: 'مستندات چابکان' }
+            ]
         }),
 };
 module.exports = config;
