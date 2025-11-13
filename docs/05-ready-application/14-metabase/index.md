@@ -45,7 +45,7 @@ description: "Metabase یک ابزار تجاری و منبع باز برای س
 
 ![](https://s1.chabokan.net/docs/images/metabase_7.jpg)
 
-حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Metabase` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
+حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Metabase` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](/features/domains/))
 
 ![](https://s1.chabokan.net/docs/images/metabase_8.jpg)
 

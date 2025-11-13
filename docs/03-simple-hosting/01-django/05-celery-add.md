@@ -104,7 +104,7 @@ redirect_stderr=true
 stdout_logfile=/app-worker.log
 ```
 
-برای آشنایی بیشتر با Supervisor می‌توانید این [مستند](https://docs.chabokan.net/features/etc/supervisor/) را مطالعه کنید.
+برای آشنایی بیشتر با Supervisor می‌توانید این [مستند](/features/etc/supervisor/) را مطالعه کنید.
 
 > [مستند رسمی **افزودن Celery** در سرویس **Django**](https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html)
 

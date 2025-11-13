@@ -21,8 +21,8 @@ description: "برای افزودن دامنه خود به پلتفرم ابری
 </video>
 
 برای افزودن دامنه خود به پلتفرم ابری چابکان، در صورتی که دامنه خود را خریداری و یا ثبت نکرده اید، کافیست ابتدا [دامنه](https://hub.chabokan.net/fa/domains/) خود را در چابکان ثبت نمایید:
-- [ثبت دامنه IR](https://docs.chabokan.net/features/domains/register-domain/)
-- [ثبت دامنه بین المللی](https://docs.chabokan.net/features/domains/register-international-domain/)
+- [ثبت دامنه IR](/domain/register-domain/)
+- [ثبت دامنه بین المللی](/domain/register-international-domain/)
 
 بعد از ثبت دامنه به حساب کاربری > سرویس مد نظر خود وارد شوید و در بخش دامنه ها، بر روی دکمه افزودن دامنه کلیک نمایید.
 

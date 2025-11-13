@@ -34,7 +34,7 @@ Database: DB name
 
 ![](https://s1.chabokan.net/docs/images/adminer_2.jpg)
 
-حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Adminer` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
+حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Adminer` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](/features/domains/))
 
 ![](https://s1.chabokan.net/docs/images/adminer_3.jpg)
 

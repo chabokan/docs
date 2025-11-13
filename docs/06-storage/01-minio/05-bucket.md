@@ -12,7 +12,7 @@ description: "نحوه افزودن bucket به سرویس minio"
 
 ## افزودن باکت از طریق نرم افزار
 
-**از طریق S3Browser:** ابتدا به نرم افزار متصل شوید.([راهنمای اتصال به minio از طریق نرم افزار S3Browser](https://docs.chabokan.net/storage/minio/connect-with-s3browser/))
+**از طریق S3Browser:** ابتدا به نرم افزار متصل شوید.([راهنمای اتصال به minio از طریق نرم افزار S3Browser](/storage/minio/connect-with-s3browser/))
 
 سپس در نرم افزار بر روی گزینه New bucket کلیک نموده و نام مد نظر را برای باکت وارد نمایید. حال با کلیک بر روی Create new bucket باکت شما ساخته می شود.
 
@@ -20,7 +20,7 @@ description: "نحوه افزودن bucket به سرویس minio"
 
 **از طریق Cyberduck:**
 
-ابتدا به نرم افزار متصل شوید.([راهن](https://docs.chabokan.net/storage/minio/connect-with-cyberduck/)[م](https://docs.chabokan.net/storage/minio/connect-with-cyberduck/)[ای اتصال به minio از طریق نرم افزار **Cyberduck**](https://docs.chabokan.net/storage/minio/connect-with-cyberduck/))
+ابتدا به نرم افزار متصل شوید.([راهن](/storage/minio/connect-with-cyberduck/)[م](/storage/minio/connect-with-cyberduck/)[ای اتصال به minio از طریق نرم افزار **Cyberduck**](/storage/minio/connect-with-cyberduck/))
 
 سپس در نرم افزار کلیک راست نموده و بر روی New folder کلیک نموده و نام مد نظر را برای باکت وارد نمایید. حال با کلیک بر روی Create باکت شما ساخته می شود.
 

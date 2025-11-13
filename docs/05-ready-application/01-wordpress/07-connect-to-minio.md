@@ -8,11 +8,11 @@ description: "برای اتصال وردپرس به minio ابتدا سرویس 
 # اتصال Wordpress به پارتیشن Minio
 ---
 
-\برای اتصال وردپرس به minio ابتدا سرویس minio خود را در چابکان ایجاد نمایید ([آموزش ایجاد سرویس minio](https://docs.chabokan.net/storage/minio/install/)) و از طریق نرم افزار S3Browser به سرویس minio خود متصل شوید.([راهنمای اتصال به s3browser](https://docs.chabokan.net/storage/minio/connect-with-s3browser/))
+\برای اتصال وردپرس به minio ابتدا سرویس minio خود را در چابکان ایجاد نمایید ([آموزش ایجاد سرویس minio](/storage/minio/install/)) و از طریق نرم افزار S3Browser به سرویس minio خود متصل شوید.([راهنمای اتصال به s3browser](/storage/minio/connect-with-s3browser/))
 
-سپس یک باکت ایجاد نمایید که این باکت برای اتصال به وردپرس استفاده می شود و دیتای وردپرس در این باکت قرار میگیرد.([نحوه ایجاد باکت](https://docs.chabokan.net/storage/minio/bucket/))
+سپس یک باکت ایجاد نمایید که این باکت برای اتصال به وردپرس استفاده می شود و دیتای وردپرس در این باکت قرار میگیرد.([نحوه ایجاد باکت](/storage/minio/bucket/))
 
-حال می بایست دسترسی باکت ساخته شده را public نمایید. برای اینکار میتوانید از طریق ابزار mc اقدام نمایید.([راهنمای تغییر سطح دسترسی باکت سرویس minio](https://docs.chabokan.net/storage/minio/connect-with-mc/))
+حال می بایست دسترسی باکت ساخته شده را public نمایید. برای اینکار میتوانید از طریق ابزار mc اقدام نمایید.([راهنمای تغییر سطح دسترسی باکت سرویس minio](/storage/minio/connect-with-mc/))
 
 :::caution توجه
 

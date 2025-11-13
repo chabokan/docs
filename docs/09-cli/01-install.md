@@ -75,6 +75,6 @@ chabok account remove
 
 ### خطای fetch failed
 
-در صورت برخورد با خطا Type error: fetch failed میبایست ورژن node خود را آپدیت نمایید. برای مشاهده نحوه آپدیت میتوانید به [این مستند](https://docs.chabokan.net/cli/update/#%D8%A8%D9%87-%D8%B1%D9%88%D8%B2-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-node-version) مراجعه نماید.
+در صورت برخورد با خطا Type error: fetch failed میبایست ورژن node خود را آپدیت نمایید. برای مشاهده نحوه آپدیت میتوانید به [این مستند](/cli/update/#%D8%A8%D9%87-%D8%B1%D9%88%D8%B2-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-node-version) مراجعه نماید.
 
 
