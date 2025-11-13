@@ -45,11 +45,14 @@ description: "اگر با سرویس گوگل آنالتیکز کار کرده �
 
 ![](https://s1.chabokan.net/docs/images/matomo_9.jpg)
 
-## سرویس اشتراکی
+import SharedServices from '/docs/_shared-services.mdx';
 
-سرویس اشتراکی قابل ایجاد در هاست Matomo به صورت زیر میباشد:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](https://docs.chabokan.net/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
-
-- Mariadb
+<SharedServices
+platform="Matomo"
+services={[
+"Mariadb"
+]}
+/>
 
 import Features from '/docs/11-features/_features.md';
 

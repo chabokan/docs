@@ -43,12 +43,15 @@ description: "Drupal یک سامانه مدیریت محتوا (CMS) متن‌ب
 
 ![](https://s1.chabokan.net/docs/images/drupal-6-1.png)
 
-## سرویس های اشتراکی
+import SharedServices from '/docs/_shared-services.mdx';
 
-سرویس های اشتراکی قابل ایجاد در هاست Drupal به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](https://docs.chabokan.net/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
-
-- Mysql
-- Mariadb
+<SharedServices
+platform="Drupal"
+services={[
+"Mysql",
+"Mariadb"
+]}
+/>
 
 import Features from '/docs/11-features/_features.md';
 

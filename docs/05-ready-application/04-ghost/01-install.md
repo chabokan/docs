@@ -26,12 +26,15 @@ description: "سرویس وبلاگ نویسی Ghost یک بستر متن باز
 
 ![](https://s1.chabokan.net/docs/images/ghost-3.png)
 
-## سرویس های اشتراکی
+import SharedServices from '/docs/_shared-services.mdx';
 
-سرویس های اشتراکی قابل ایجاد در هاست Ghost به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](https://docs.chabokan.net/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
-
-- Mysql
-- Mariadb
+<SharedServices
+platform="Ghost"
+services={[
+"Mysql",
+"Mariadb"
+]}
+/>
 
 import Features from '/docs/11-features/_features.md';
 
