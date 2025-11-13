@@ -27,13 +27,13 @@ description: "phpMyAdmin یک نرم‌افزار متن‌باز است که ب
 
 در این مرحله شما باید اطلاعات سرویس پایگاه داده خود را وارد نمایید تا اتصال بین `PhpMyAdmin` و دیتابیس شما برقرار شود
 
-([نحوه ساخت سرویس MariaDB](https://docs.chabokan.net/database/mariadb/))
+([نحوه ساخت سرویس MariaDB](/database/mariadb/))
 
-([نحوه ساخت سرویس Mysql](https://docs.chabokan.net/database/mysql/))
+([نحوه ساخت سرویس Mysql](/database/mysql/))
 
 ![](https://s1.chabokan.net/docs/images/phpmyadmin-4.png)
 
-حال سرویس شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `PhpMyAdmin` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
+حال سرویس شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `PhpMyAdmin` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](/features/domains/))
 
 ![](https://s1.chabokan.net/docs/images/phpmyadmin-6.png)
 

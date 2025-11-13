@@ -58,7 +58,7 @@ services:
 
 ## راه‌اندازی پایگاه‌داده Postgres
 
-ابتدا سرویس دیتابیس را از طریق قسمت ایجاد سرویس چابکان می‌سازیم.([نحوه ایجاد دیتابیس Postgres](https://docs.chabokan.net/database/postgresql/install/))
+ابتدا سرویس دیتابیس را از طریق قسمت ایجاد سرویس چابکان می‌سازیم.([نحوه ایجاد دیتابیس Postgres](/database/postgresql/install/))
 
 :::tip نکته
 
@@ -68,7 +68,7 @@ services:
 
 ## راه‌اندازی سرویس Odoo
 
-برای ایجاد سرویس `odoo` نیز یک [سرویس داکر](https://docs.chabokan.net/simple-hosting/docker/deploy/) ساخته و `image` مد نظر را به صورت زیر قرار می‌دهیم.
+برای ایجاد سرویس `odoo` نیز یک [سرویس داکر](/simple-hosting/docker/deploy/) ساخته و `image` مد نظر را به صورت زیر قرار می‌دهیم.
 
 ```text
 docker.chabokan.net/odoo:17
@@ -81,7 +81,7 @@ docker.chabokan.net/odoo:17
 
 :::tip نکته
 
-برای دریافت اطلاعات بیشتر درباره **پورت** این [مستند](https://docs.chabokan.net/features/ports/) را مطالعه کنید.
+برای دریافت اطلاعات بیشتر درباره **پورت** این [مستند](/features/ports/) را مطالعه کنید.
 
 :::
 
@@ -99,7 +99,7 @@ docker.chabokan.net/odoo:17
 
 :::tip نکته
 
-برای دریافت اطلاعات بیشتر درباره **متغیرهای محیطی** این [مستند](https://docs.chabokan.net/features/settings/env/) را مطالعه کنید.
+برای دریافت اطلاعات بیشتر درباره **متغیرهای محیطی** این [مستند](/features/settings/env/) را مطالعه کنید.
 
 :::
 
@@ -116,7 +116,7 @@ docker.chabokan.net/odoo:17
 
 :::tip نکته
 
-برای دریافت اطلاعات بیشتر درباره **دیسک‌ها** این [مستند](https://docs.chabokan.net/simple-hosting/docker/disks/) را مطالعه کنید.
+برای دریافت اطلاعات بیشتر درباره **دیسک‌ها** این [مستند](/simple-hosting/docker/disks/) را مطالعه کنید.
 
 :::
 
