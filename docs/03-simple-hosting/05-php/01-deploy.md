@@ -42,12 +42,15 @@ php versions:
 - php 8.3         - php fpm 8.3
 ```
 
-## سرویس های اشتراکی
+import SharedServices from '/docs/_shared-services.mdx';
 
-سرویس های اشتراکی قابل ایجاد در هاست php به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](https://docs.chabokan.net/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
-
-- Mysql
-- Mariadb
+<SharedServices
+platform="PHP"
+services={[
+"Mysql",
+"Mariadb"
+]}
+/>
 
 import Features from '/docs/11-features/_features.md';
 
