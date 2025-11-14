@@ -40,17 +40,9 @@ WSGI_PATH = my_app_name.wsgi
 
 سرویس Django در چابکان از ورژن های زیر پشتیبانی میکند و میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](https://docs.chabokan.net/simple-hosting/django/more/#تغییر-ورژن-django) مراجعه نمایید.
 
-```text
-python versions:
+import Versions from '/docs/03-simple-hosting/09-python/_versions.md';
 
-- 3.6
-- 3.7
-- 3.8
-- 3.9
-- 3.10
-- 3.11
-- 3.12
-```
+<Versions />
 
 ## سرویس های اشتراکی
 
