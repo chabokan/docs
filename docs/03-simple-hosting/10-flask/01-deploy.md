@@ -52,16 +52,9 @@ FLASK_MODULE : blog:app
 
 سرویس `Flask` در چابکان از ورژن های زیر پشتیبانی میکند و میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](https://docs.chabokan.net/simple-hosting/flask/more/#تغییر-ورژن-flask) مراجعه نمایید.
 
-```text
-Python versions:
+import Versions from '/docs/03-simple-hosting/09-python/_versions.md';
 
-- 3.7
-- 3.8
-- 3.9
-- 3.10
-- 3.11
-- 3.12
-```
+<Versions />
 
 ## سرویس های اشتراکی
 

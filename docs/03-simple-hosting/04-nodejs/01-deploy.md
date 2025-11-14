@@ -39,15 +39,9 @@ START_COMMAND="pm2 start"
 
 سرویس `NodeJs` در چابکان از ورژن های زیر پشتیبانی میکند و میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](https://docs.chabokan.net/simple-hosting/nodejs/more/#تغییر-ورژن-nodejs) مراجعه نمایید.
 
-```text
-node versions:
+import Versions from './_versions.md';
 
-- 22
-- 20
-- 18
-- 16
-- 14
-```
+<Versions />
 
 ## سرویس های اشتراکی
 
