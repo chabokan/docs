@@ -7,3 +7,7 @@ icon: "faDatabase"
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+---
+:::info [مستندات رسمی MySql](https://dev.mysql.com/doc)
+:::

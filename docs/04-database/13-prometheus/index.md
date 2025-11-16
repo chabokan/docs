@@ -30,3 +30,7 @@ description: "پرومتئوس (Prometheus) یک سیستم متن باز و م�
 import Features from '/docs/11-features/_features.md';
 
 <Features />
+
+---
+:::info [مستندات رسمی Prometheus](https://prometheus.io/docs)
+:::

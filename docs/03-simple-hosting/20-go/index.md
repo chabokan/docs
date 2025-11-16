@@ -35,3 +35,7 @@ description: "در این بخش می خواهیم آموزش نحوه استق�
 import Features from '/docs/11-features/_features.md';
 
 <Features />
+
+---
+:::info [مستندات رسمی Go](https://go.dev/doc)
+:::
