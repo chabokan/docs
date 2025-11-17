@@ -184,18 +184,9 @@ the ionCube PHP Loader + ionCube24
 در صورتی که قصد دارید ورژن php خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن Laravel سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
 
-```text
-php versions:
+import PhpVersions from '/docs/03-simple-hosting/05-php/_versions.md';
 
-- php 7.1         - php fpm 7.1
-- php 7.2         - php fpm 7.2
-- php 7.3         - php fpm 7.3
-- php 7.4         - php fpm 7.4
-- php 8.0         - php fpm 8.0
-- php 8.1         - php fpm 8.1
-- php 8.2         - php fpm 8.2
-- php 8.3         - php fpm 8.3
-```
+<PhpVersions />
 
 ![](https://s1.chabokan.net/docs/images/laravel-version1.png)
 

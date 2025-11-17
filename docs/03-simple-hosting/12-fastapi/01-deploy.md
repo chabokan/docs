@@ -51,17 +51,10 @@ FASTAPI_MODULE : blog:app
 
 سرویس `FastAPI` در چابکان از ورژن های زیر پشتیبانی میکند و میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](https://docs.chabokan.net/simple-hosting/fastapi/more/#تغییر-ورژن-fastapi) مراجعه نمایید.
 
-```text
-Python versions:
+import Versions from '/docs/03-simple-hosting/09-python/_versions.md';
 
-- 3.6
-- 3.7
-- 3.8
-- 3.9
-- 3.10
-- 3.11
-- 3.12
-```
+<Versions />
+
 import Features from '/docs/11-features/_features.md';
 
 <Features />
