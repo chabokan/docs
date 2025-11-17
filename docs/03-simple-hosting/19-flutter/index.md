@@ -32,4 +32,8 @@ import Features from '/docs/11-features/_features.md';
 <Features />
 
 ---
+:::info [مستندات رسمی Flutter](https://docs.flutter.dev)
+:::
+
+---
 <a href="https://hub.chabokan.net/fa/services/create/flutter" ><img src="https://s1.chabokan.net/docs/images/flutter-banner.png" /></a>
