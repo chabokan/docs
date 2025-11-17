@@ -53,8 +53,8 @@ import TabItem from '@theme/TabItem';
 
 ## مطالب مرتبط:
 
-[اتصال سرویس دیتابیس به WordPress](https://docs.chabokan.net/ready-application/wordpress/connect/)
+[اتصال سرویس دیتابیس به WordPress](/ready-application/wordpress/connect/)
 
-[روش های اتصال در MongoDB](https://docs.chabokan.net/database/mongodb/connect/)
+[روش های اتصال در MongoDB](/database/mongodb/connect/)
 
-[روش های اتصال در MariaDB](https://docs.chabokan.net/database/mariadb/connect/)
+[روش های اتصال در MariaDB](/database/mariadb/connect/)
