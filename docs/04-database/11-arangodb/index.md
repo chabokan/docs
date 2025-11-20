@@ -7,3 +7,7 @@ icon: "faShapes"
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+---
+:::info [مستندات رسمی ArangoDB](https://docs.arango.ai/arangodb)
+:::

@@ -61,22 +61,15 @@ DOTNETCORE_FINALDLLNAME=myapp.server
 
 ## ورژن های ASP.NET Core
 
-سرویس `ASP.NET Core` در چابکان از ورژن های زیر پشتیبانی میکند و میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](https://docs.chabokan.net/simple-hosting/dotnetcore/more/#تغییر-ورژن-aspnet-core) مراجعه نمایید.
+سرویس `ASP.NET Core` در چابکان از ورژن های زیر پشتیبانی میکند و میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](/simple-hosting/dotnetcore/more/#تغییر-ورژن-aspnet-core) مراجعه نمایید.
 
-```text
-ASP.NET Core versions:
+import Versions from './_versions.md';
 
-- 2.1
-- 3.1
-- 5.0
-- 6.0
-- 7.0
-- 8.0
-```
+<Versions />
 
 ## سرویس های اشتراکی
 
-سرویس های اشتراکی قابل ایجاد در هاست ASP.NET Core به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](https://docs.chabokan.net/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
+سرویس های اشتراکی قابل ایجاد در هاست ASP.NET Core به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
 
 - Mysql
 - Mariadb

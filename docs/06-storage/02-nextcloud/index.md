@@ -7,3 +7,7 @@ icon: "faCloud"
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+---
+:::info [مستندات رسمی Nextcloud](https://docs.nextcloud.com)
+:::

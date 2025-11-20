@@ -27,16 +27,9 @@ CHBK_PYTHON_SAVE = true
 
 در صورتی که قصد دارید ورژن Python خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن Python سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
-```text
-Python versions:
+import Versions from './_versions.md';
 
-- 3.7
-- 3.8
-- 3.9
-- 3.10
-- 3.11
-- 3.12
-```
+<Versions />
 
 ![](https://s1.chabokan.net/docs/images/python-version.png)
 

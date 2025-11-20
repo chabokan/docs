@@ -67,7 +67,7 @@ ErrorDocument 404 /error.php?q=404
 
 گاهی اوقات نیاز است که یک برنامه یا اسکریپت به صورت تمام وقت در سرویس اجرا باشد و حتی اگر سرویس ریستارت شد آن برنامه دوباره اجرا شود. برای این کار در چابکان از Supervisor استفاده می شود تا اسکریپت شما به صورت تمام وقت در سرویس استقرار داده شده اجرا باشد.  
 Supervisor در سرویس PHP چابکان نصب شده و راهنمای کامل آن را نیز میتوانید از طریق مستند زیر دنبال فرمایید.  
-[فعال سازی Supervisor](https://docs.chabokan.net/features/etc/supervisor/)
+[فعال سازی Supervisor](/features/etc/supervisor/)
 
 ## خطای CORS در پی اچ پی
 
@@ -172,18 +172,9 @@ the ionCube PHP Loader + ionCube24
 
 در صورتی که قصد دارید ورژن PHP خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن PHP سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
-```text
-php versions:
+import Versions from './_versions.md';
 
-- php 7.1         - php fpm 7.1
-- php 7.2         - php fpm 7.2
-- php 7.3         - php fpm 7.3
-- php 7.4         - php fpm 7.4
-- php 8.0         - php fpm 8.0
-- php 8.1         - php fpm 8.1
-- php 8.2         - php fpm 8.2
-- php 8.3         - php fpm 8.3
-```
+<Versions />
 
 ![](https://s1.chabokan.net/docs/images/php-version.png)
 

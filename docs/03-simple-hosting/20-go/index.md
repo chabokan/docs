@@ -20,3 +20,7 @@ import Deploy from '/docs/08-deploy/_deploy.md';
 import Features from '/docs/11-features/_features.md';
 
 <Features />
+
+---
+:::info [مستندات رسمی Go](https://go.dev/doc)
+:::

@@ -7,3 +7,7 @@ icon: "faLeaf"
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+---
+:::info [مستندات رسمی MongoDB](https://www.mongodb.com/docs)
+:::

@@ -10,7 +10,7 @@ description: "در این بخش می خواهیم آموزش اجرای Migrati
 
 در این بخش می خواهیم آموزش اجرای `Migration` ها در `Django` را در [هاست جنگو](https://chabokan.net/cloud-hosting/python/django/) به شما آموزش دهیم.
 
-بعد از اتصال دیتابیس به سرویس خود، کافیست هربار که در جنگو `Model` ها را تغییر می دهید، ابتدا یکبار دستور زیر را در کنسول اجرا نمایید تا تغییرات در دیتابیس برای شما اعمال شود. ([کنسول چیست](https://docs.chabokan.net/features/console/))
+بعد از اتصال دیتابیس به سرویس خود، کافیست هربار که در جنگو `Model` ها را تغییر می دهید، ابتدا یکبار دستور زیر را در کنسول اجرا نمایید تا تغییرات در دیتابیس برای شما اعمال شود. ([کنسول چیست](/features/console/))
 
 ```shell
 python manage.py makemigrations
@@ -22,7 +22,7 @@ python manage.py migrate
 
 ## راه‌اندازی Hook برای اجرای خودکار Migration
 
-برای تسهیل فرایند توسعه و جلوگیری از اجرای دستی این دستورات پس از هر بار به‌روزرسانی کد در هاست، می‌توان از قابلیت [Hook](https://docs.chabokan.net/features/etc/hook/) در سرویس هاست چابکان بهره گرفت تا این دستورات به صورت خودکار اجرا شوند.
+برای تسهیل فرایند توسعه و جلوگیری از اجرای دستی این دستورات پس از هر بار به‌روزرسانی کد در هاست، می‌توان از قابلیت [Hook](/features/etc/hook/) در سرویس هاست چابکان بهره گرفت تا این دستورات به صورت خودکار اجرا شوند.
 
 در مسیر اصلی پروژه‌تان فایلی با نام `chabok-pre-start.sh` ایجاد کنید و دستورات مربوط به `Migration` را در این فایل قرار دهید.
 
@@ -36,7 +36,7 @@ python manage.py migrate
 
 > [مستند رسمی **اجرای Migration** در سرویس **Django**](https://docs.djangoproject.com/en/5.0/topics/migrations/#workflow)
 
->[استفاده از Hookها در کانتینر ابری](https://docs.chabokan.net/features/etc/hook/)
+>[استفاده از Hookها در کانتینر ابری](/features/etc/hook/)
 
 ---
 <a href="https://hub.chabokan.net/fa/services/create/django" ><img src="https://s1.chabokan.net/docs/images/django-banner.png" /></a>

@@ -27,35 +27,19 @@ import Deploy from '/docs/08-deploy/_deploy.md';
 
 سرویس `Laravel` در چابکان از ورژن های زیر پشتیبانی میکند:
 
-```text
-Laravel versions:
+import Versions from './_versions.md';
 
-Laravel 5.5.^
-Laravel 6.^
-Laravel 7.^
-Laravel 8.^
-Laravel 9.^
-Laravel 10.^
-```
+<Versions />
 
-همچنین میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر PHP را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](https://docs.chabokan.net/simple-hosting/laravel/more/#تغییر-ورژن-laravel) مراجعه نمایید.
+همچنین میتوانید با توجه به نیاز برنامه خود، ورژن مورد نظر PHP را انتخاب نمایید. برای تغییر ورژن میتوانید به [این مستند](/simple-hosting/laravel/more/#تغییر-ورژن-laravel) مراجعه نمایید.
 
-```text
-PHP versions:
+import PhpVersions from '/docs/03-simple-hosting/05-php/_versions.md';
 
-- php 7.1         - php fpm 7.1
-- php 7.2         - php fpm 7.2
-- php 7.3         - php fpm 7.3
-- php 7.4         - php fpm 7.4
-- php 8.0         - php fpm 8.0
-- php 8.1         - php fpm 8.1
-- php 8.2         - php fpm 8.2
-- php 8.3         - php fpm 8.3
-```
+<PhpVersions />
 
 ## سرویس های اشتراکی
 
-سرویس های اشتراکی قابل ایجاد در هاست Laravel به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](https://docs.chabokan.net/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
+سرویس های اشتراکی قابل ایجاد در هاست Laravel به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
 
 - Mysql
 - Mariadb

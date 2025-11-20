@@ -79,13 +79,13 @@ import TabItem from '@theme/TabItem';
 
 ## Cron Jobها در سرویس داکر
 
-ایجاد `Cron Job` در سرویس [Docker](https://docs.chabokan.net/simple-hosting/docker/) چابکان روش متفاوتی دارد که در ادامه به توضیح آن می‌پردازیم.
+ایجاد `Cron Job` در سرویس [Docker](/simple-hosting/docker/) چابکان روش متفاوتی دارد که در ادامه به توضیح آن می‌پردازیم.
 
-برای استفاده از `Cron Job` در سرویس‌ [Docker](https://docs.chabokan.net/simple-hosting/docker/) می‌بایست فایل `cron-jobs` را در مسیر دلخواه ایجاد کنید.
+برای استفاده از `Cron Job` در سرویس‌ [Docker](/simple-hosting/docker/) می‌بایست فایل `cron-jobs` را در مسیر دلخواه ایجاد کنید.
 
 :::tip نکته
 
-در سرویس‌ [Docker](https://docs.chabokan.net/simple-hosting/docker/) فایل `cron-job` را با هر نام و در هر مسیر دلخواهی می‌توانید ایجاد کنید.
+در سرویس‌ [Docker](/simple-hosting/docker/) فایل `cron-job` را با هر نام و در هر مسیر دلخواهی می‌توانید ایجاد کنید.
 
 :::
 
