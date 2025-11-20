@@ -67,7 +67,7 @@ display_errors = On
 
 ## تنظیمات Queue ها
 
-برای تنظیمات `Queue` در سرویس ابری لاراول کافیست با استفاده از `Supervisor` دستور زیر را اجرا نمایید تا `Queue` های لاراول به درستی فعال شوند. ([Supervisor چیست و چطور استفاده می شود](https://docs.chabokan.net/features/etc/supervisor/))
+برای تنظیمات `Queue` در سرویس ابری لاراول کافیست با استفاده از `Supervisor` دستور زیر را اجرا نمایید تا `Queue` های لاراول به درستی فعال شوند. ([Supervisor چیست و چطور استفاده می شود](/features/etc/supervisor/))
 
 ```shell
 php /var/www/html/artisan queue:work
@@ -87,7 +87,7 @@ START_COMMAND=php artisan octane:start --server=swoole --host=0.0.0.0 --port=80
 sudo php artisan octane:status
 ```
 
-برای تنظیمات صف بندی `(queue)` میتوانید [از این مستند](https://docs.chabokan.net/features/etc/supervisor/) کمک بگیرید.
+برای تنظیمات صف بندی `(queue)` میتوانید [از این مستند](/features/etc/supervisor/) کمک بگیرید.
 
 
 ## اکستنشن های PHP
@@ -184,18 +184,9 @@ the ionCube PHP Loader + ionCube24
 در صورتی که قصد دارید ورژن php خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن Laravel سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
 
-```text
-php versions:
+import PhpVersions from '/docs/04-simple-hosting/05-php/_versions.md';
 
-- php 7.1         - php fpm 7.1
-- php 7.2         - php fpm 7.2
-- php 7.3         - php fpm 7.3
-- php 7.4         - php fpm 7.4
-- php 8.0         - php fpm 8.0
-- php 8.1         - php fpm 8.1
-- php 8.2         - php fpm 8.2
-- php 8.3         - php fpm 8.3
-```
+<PhpVersions />
 
 ![تغییر ورژن سرویس Laravel چابکان](https://s1.chabokan.net/docs/images/laravel-version1.png)
 

@@ -7,3 +7,7 @@ icon: "faAnglesUp"
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+---
+:::info [مستندات رسمی Angular](https://angular.dev/docs)
+:::

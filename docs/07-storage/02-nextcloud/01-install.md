@@ -30,7 +30,7 @@ description: "Nextcloud یک سامانه مدیریت ابری (Cloud) اوپن
 
 ![نصب و راه‌اندازی NextCloud در چابکان](https://s1.chabokan.net/docs/images/next_cloud_4.png)
 
-حالا فضای next cloud شما آماده ی استفاده می باشد. بعد از خروج از next cloud کافیست بر روی دامنه ی پیش فرض کلیک کرده تا دوباره به محیط next cloud وارد شوید و یا دامنه ی اختصاصی خود را به سرویس متصل نمایید.([راهنمای اتصال دامنه به سرویس](https://docs.chabokan.net/features/domains/))
+حالا فضای next cloud شما آماده ی استفاده می باشد. بعد از خروج از next cloud کافیست بر روی دامنه ی پیش فرض کلیک کرده تا دوباره به محیط next cloud وارد شوید و یا دامنه ی اختصاصی خود را به سرویس متصل نمایید.([راهنمای اتصال دامنه به سرویس](/features/domains/))
 
 import Features from '/docs/13-features/_features.md';
 

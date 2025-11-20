@@ -10,7 +10,7 @@ description: " برای متصل کردن جنگو به سرویس ابری Mini
 
 برای اتصال به سرویس ابری Minio روش های زیادی وجود دارد که می توانید به راحتی از آن ها برای عملیات های مختلف در Minio استفاده نماید. برای متصل کردن جنگو به سرویس ابری Minio باید یکسری تغییرات در پروژه خود اعمال کنید که این تغییرات در صفحه زیر قدم به قدم خدمت شما شرح داد شده است.
 
-[اتصال به سرویس فایل S3 در Django](https://docs.chabokan.net/simple-hosting/django/cloud-storage/)
+[اتصال به سرویس فایل S3 در Django](/simple-hosting/django/cloud-storage/)
 
 ---
 import ServiceBanner from '@site/src/components/ServiceBanner';

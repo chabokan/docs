@@ -100,7 +100,7 @@ DISABLE_SECURITY_DASHBOARDS_PLUGIN : true
 
 ![استقرار Opensearch در چابکان](https://s1.chabokan.net/docs/images/elk-env.jpg)
 
-حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
+حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](/features/domains/))
 
 ---
 import ServiceBanner from '@site/src/components/ServiceBanner';

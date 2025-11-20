@@ -70,15 +70,9 @@ const mysql = require('mysql2');
 
 سرویس های Vue چابکان به صورت پیشفرض با استفاده از آخرین ورژن LTS نود جی اس اجرا می شود که البته شما می توانید ورژن Nodejs خود را از طریق داشبورد سرویس، قسمت تنظیمات تغییر دهید.
 
-```text
-node versions:
+import Versions from '/docs/04-simple-hosting/04-nodejs/_versions.md';
 
-- 22
-- 20
-- 18
-- 16
-- 14
-```
+<Versions />
 
 ![تغییر ورژن سرویس VueJS چابکان](https://s1.chabokan.net/docs/images/vue-node-version11.png)
 

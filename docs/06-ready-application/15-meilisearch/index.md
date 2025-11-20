@@ -25,7 +25,7 @@ description: "MeiliSearch یک موتور جستجو متن‌باز و قابل
 
 ![نصب و راه‌اندازی MeiliSearch در چابکان](https://s1.chabokan.net/docs/images/meilisearch3.png)
 
-حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Meilisearch` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
+حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Meilisearch` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](/features/domains/))
 
 ![نصب و راه‌اندازی MeiliSearch در چابکان](https://s1.chabokan.net/docs/images/meilisearch2.jpg)
 

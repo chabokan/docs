@@ -7,3 +7,7 @@ icon: "faClock"
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+---
+:::info [مستندات رسمی InfluxDB](https://docs.influxdata.com)
+:::

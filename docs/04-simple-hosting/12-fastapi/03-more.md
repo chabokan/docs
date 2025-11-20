@@ -55,17 +55,9 @@ UVICORN_LOG_LEVEL : info
 
 در صورتی که قصد دارید ورژن FastAPI خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن Python سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
-```text
-Python versions:
+import Versions from '/docs/04-simple-hosting/09-python/_versions.md';
 
-- 3.6
-- 3.7
-- 3.8
-- 3.9
-- 3.10
-- 3.11
-- 3.12
-```
+<Versions />
 
 ![تغییر ورژن سرویس FastAPI چابکان](https://s1.chabokan.net/docs/images/fastapi-python-version.png)
 

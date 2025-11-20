@@ -20,7 +20,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 سپس می توانید با کلیک بر روی، مشاهده pgadmin وارد شده و اطلاعات مورد نظر را مانند تصویر زیر وارد نمایید.
 
-برای اطلاعات بیشتر در مورد  **PGAdmin**  می توانید به قسمت  **[PGAdmin](https://docs.chabokan.net/ready-application/pgadmin/)**  در مستندات مراجعه نمایید.
+برای اطلاعات بیشتر در مورد  **PGAdmin**  می توانید به قسمت  **[PGAdmin](/ready-application/pgadmin/)**  در مستندات مراجعه نمایید.
 
 ![اتصال PGAdmin به سرویس دیتابیس PostgreSQL چابکان](https://s1.chabokan.net/docs/images/pgadmin_login_connect_2-edited-scaled-1.png)
 
@@ -48,7 +48,7 @@ import TabItem from '@theme/TabItem';
 
 ![اتصال Adminer به سرویس دیتابیس PostgreSQL چابکان](https://s1.chabokan.net/docs/images/my_sql_connect_5-edited.jpg)
 
-برای اطلاعات بیشتر در مورد  **Adminer**  می توانید به قسمت  **[**Adminer**](https://docs.chabokan.net/ready-application/adminer/)**  در مستندات مراجعه نمایید.
+برای اطلاعات بیشتر در مورد  **Adminer**  می توانید به قسمت  **[**Adminer**](/ready-application/adminer/)**  در مستندات مراجعه نمایید.
 
 ## اتصال از طریق Postgresql CLI
 

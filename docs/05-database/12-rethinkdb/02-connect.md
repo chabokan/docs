@@ -19,7 +19,7 @@ description: "در ادامه میخواهیم آموزش نحوه اتصال ب
 
 ![اتصال به سرویس دیتابیس RethinkDB چابکان](https://s1.chabokan.net/docs/images/rethinkdb_backup_2.jpg)
 
-شما با موفقیت به دیتابیس خود متصل شده اید و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس Rethinkdb وارد دیتابیس شوید و یا دامنه ی اختصاصی خود را ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/add-dns/))
+شما با موفقیت به دیتابیس خود متصل شده اید و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس Rethinkdb وارد دیتابیس شوید و یا دامنه ی اختصاصی خود را ست نمایید.( [تنظیم دامنه](/features/domains/add-dns/))
 
 ![اتصال به سرویس دیتابیس RethinkDB چابکان](https://s1.chabokan.net/docs/images/rethinkdb_backup_3.jpg)
 

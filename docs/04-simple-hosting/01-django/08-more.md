@@ -130,17 +130,9 @@ SITE_URL=example.com
 
 در صورتی که قصد دارید ورژن python خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن Django سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
-```text
-python versions:
+import Versions from '/docs/04-simple-hosting/09-python/_versions.md';
 
-- 3.6
-- 3.7
-- 3.8
-- 3.9
-- 3.10
-- 3.11
-- 3.12
-```
+<Versions />
 
 ![تغییر ورژن سرویس Django چابکان](https://s1.chabokan.net/docs/images/django-python-version.png)
 

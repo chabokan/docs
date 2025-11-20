@@ -25,7 +25,7 @@ description: "Restyaboard یک نرم‌افزار مدیریت پروژه و ت
 
 ![نصب و راه‌اندازی Restyboard در چابکان](https://s1.chabokan.net/docs/images/restyb_2.jpg)
 
-حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Restyaboard` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](https://docs.chabokan.net/features/domains/))
+حال برنامه شما آماده استفاده است و میتوانید با مراجعه به دامنه ی خود در داشبورد سرویس `Restyaboard` وارد برنامه شوید و یا دامنه ی اختصاصی خود را بر روی برنامه ست نمایید.( [تنظیم دامنه](/features/domains/))
 
 ![نصب و راه‌اندازی Restyboard در چابکان](https://s1.chabokan.net/docs/images/restyb_3.jpg)
 

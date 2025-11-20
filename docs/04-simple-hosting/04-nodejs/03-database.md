@@ -40,7 +40,7 @@ process.env.DB_HOST
 
 ## اتصال به دیتابیس Mysql
 
-برای اتصال `MySQL` به `Node.js` ، ابتدا باید دیتابیس `Mysql` خود را ساخته ([نحوه نصب و راه اندازی Mysql](https://docs.chabokan.net/database/mysql/install/)) و سپس بسته `Mysql` را در سرویس `Node.js` خود نصب کنید. میتوانید از npm استفاده کنید. از طریق دستور زیر این بسته را برای پروژه‌ی خود نصب کنید:
+برای اتصال `MySQL` به `Node.js` ، ابتدا باید دیتابیس `Mysql` خود را ساخته ([نحوه نصب و راه اندازی Mysql](/database/mysql/install/)) و سپس بسته `Mysql` را در سرویس `Node.js` خود نصب کنید. میتوانید از npm استفاده کنید. از طریق دستور زیر این بسته را برای پروژه‌ی خود نصب کنید:
 
 ```shell
 npm install mysql
@@ -93,7 +93,7 @@ connection.end((error) =>{
 
 ## اتصال به دیتابیس Mongodb
 
-برای اتصال `mongodb` به Node.js ، ابتدا باید دیتابیس `mongodb` خود را ساخته ([نحوه نصب و راه اندازی mongodb](https://docs.chabokan.net/database/mongodb/install/)) و سپس بسته `mongodb` را در سرویس `nodejs` خود نصب کنید. میتوانید از `npm` استفاده کنید. از طریق دستور زیر این بسته را برای پروژه‌ی خود نصب کنید:
+برای اتصال `mongodb` به Node.js ، ابتدا باید دیتابیس `mongodb` خود را ساخته ([نحوه نصب و راه اندازی mongodb](/database/mongodb/install/)) و سپس بسته `mongodb` را در سرویس `nodejs` خود نصب کنید. میتوانید از `npm` استفاده کنید. از طریق دستور زیر این بسته را برای پروژه‌ی خود نصب کنید:
 
 ```shell
 npm install mongodb
