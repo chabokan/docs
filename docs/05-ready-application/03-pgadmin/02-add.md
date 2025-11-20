@@ -8,9 +8,9 @@ description: "بعد از ساخت سرویس PGadmin میتوانید دیت�
 # اتصال PGadmin به دیتابیس
 ---
 
-بعد از ساخت [سرویس PGadmin](https://docs.chabokan.net/ready-application/pgadmin/install/) میتوانید دیتابیس های مختلف را به صورت همزمان مدیریت کرده و به [PGadmin](https://docs.chabokan.net/ready-application/pgadmin/install/) اضافه کنید.
+بعد از ساخت [سرویس PGadmin](/ready-application/pgadmin/install/) میتوانید دیتابیس های مختلف را به صورت همزمان مدیریت کرده و به [PGadmin](/ready-application/pgadmin/install/) اضافه کنید.
 
-برای این کار ابتدا به صفحه ی [PGadmin](https://docs.chabokan.net/ready-application/pgadmin/install/) خود مراجعه فرمایید و بر روی `add new server` کلیک نمایید.
+برای این کار ابتدا به صفحه ی [PGadmin](/ready-application/pgadmin/install/) خود مراجعه فرمایید و بر روی `add new server` کلیک نمایید.
 
 ![](https://s1.chabokan.net/docs/images/odoo_1-edited-1.jpg)
 

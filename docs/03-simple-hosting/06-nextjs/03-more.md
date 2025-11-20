@@ -47,15 +47,9 @@ NPM_INSTALL_COMMAND : "yarn install"
 
 سرویس های `NextJs` چابکان به صورت پیشفرض با استفاده از آخرین ورژن `LTS` نود جی اس اجرا می شود که البته شما می توانید ورژن `Nodejs` خود را از طریق داشبورد سرویس، قسمت تنظیمات تغییر دهید.
 
-```text
-node versions:
+import Versions from '/docs/03-simple-hosting/04-nodejs/_versions.md';
 
-- 22
-- 20
-- 18
-- 16
-- 14
-```
+<Versions />
 
 ![](https://s1.chabokan.net/docs/images/next-node-version.png)
 

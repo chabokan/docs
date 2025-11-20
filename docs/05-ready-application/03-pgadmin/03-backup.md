@@ -10,7 +10,7 @@ description: "بعد از  نصب و راه اندازی PGadmin  و اتصال 
 
 ## ایجاد بکاپ از دیتابیس
 
-بعد از  [نصب و راه اندازی PGadmin](https://docs.chabokan.net/ready-application/pgadmin/install/)  و  [اتصال دیتابیس به PGadmin](https://docs.chabokan.net/ready-application/pgadmin/add/)  برای ایجاد بکاپ می توانید بر روی دیتابیس خود راست کلیک نموده و سپس بر روی گزینه بکاپ کلیک نمایید
+بعد از  [نصب و راه اندازی PGadmin](/ready-application/pgadmin/install/)  و  [اتصال دیتابیس به PGadmin](/ready-application/pgadmin/add/)  برای ایجاد بکاپ می توانید بر روی دیتابیس خود راست کلیک نموده و سپس بر روی گزینه بکاپ کلیک نمایید
 
 ![](https://s1.chabokan.net/docs/images/Screenshot-1402-06-04-at-4.58.39-PM-edited.png)
 

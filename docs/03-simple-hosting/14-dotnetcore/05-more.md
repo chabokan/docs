@@ -13,16 +13,9 @@ description: "در این بخش می خواهیم نکات تکمیلی را د
 
 در صورتی که قصد دارید ورژن ASP.NET Core خود را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، ورژن ASP.NET Core سرویس خود را تغییر دهید. بعد از انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
 
-```text
-ASP.NET Core versions:
+import Versions from './_versions.md';
 
-- 2.1
-- 3.1
-- 5.0
-- 6.0
-- 7.0
-- 8.0
-```
+<Versions />
 
 ![](https://s1.chabokan.net/docs/images/asp.net-core-version.png)
 

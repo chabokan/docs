@@ -7,3 +7,7 @@ icon: "faServer"
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+---
+:::info [مستندات رسمی SQL Server](https://learn.microsoft.com/en-us/sql/sql-server)
+:::
