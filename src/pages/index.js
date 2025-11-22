@@ -17,75 +17,87 @@ function HomepageHeader() {
             <div className="container">
                 <h1 className="hero__title">{siteConfig.title}</h1>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <p className="hero__description">
+                    در مستندات پلتفرم ابری چابکان، می‌توانید راهنمای کامل استفاده از سرویس‌ها، استقرار برنامه‌ها و مدیریت زیرساخت ابری را مطالعه کنید.
+                </p>
             </div>
         </header>
     );
 }
 
 export default function Home() {
-    const {siteConfig} = useDocusaurusContext();
     return (
         <Layout
-            title={`صفحه اصلی | ${siteConfig.title}`}
-            description="">
+            title="صفحه اصلی">
+
             <HomepageHeader/>
-            <main class="main-platforms">
+            <main className="main-platforms">
                 {/*<HomepageFeatures />*/}
                 <h2>سرویس های محبوب</h2>
 
-<a href="/simple-hosting/laravel/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/laravel-platform-1.jpeg" /><br /><span>Laravel</span></a>
+                <Service name="Laravel" href="/simple-hosting/laravel/deploy/" imgSrc="https://s1.chabokan.net/docs/images/laravel-platform-1.jpeg"/>
 
-<a href="/simple-hosting/django/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/django-platform.jpeg" /><br /><span>Django</span></a>
+                <Service name="Django" href="/simple-hosting/django/deploy/" imgSrc="https://s1.chabokan.net/docs/images/django-platform.jpeg"/>
 
-<a href="/simple-hosting/docker/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/registry-platform.jpeg" /><br /><span>Docker</span></a>
+                <Service name="Docker" href="/simple-hosting/docker/deploy/" imgSrc="https://s1.chabokan.net/docs/images/registry-platform.jpeg"/>
 
-<a href="/simple-hosting/nodejs/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/node-platform.jpeg" /><br /><span>NodeJs</span></a>
+                <Service name="NodeJs" href="/simple-hosting/nodejs/deploy/" imgSrc="https://s1.chabokan.net/docs/images/node-platform.jpeg"/>
 
-<a href="/simple-hosting/php/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/php-logo-platform-1.jpg" /><br /><span>PHP</span></a>
+                <Service name="PHP" href="/simple-hosting/php/deploy/" imgSrc="https://s1.chabokan.net/docs/images/php-logo-platform-1.jpg"/>
 
-<a href="/simple-hosting/python/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/python-platform.jpeg" /><br /><span>Python</span></a>
+                <Service name="Python" href="/simple-hosting/python/deploy/" imgSrc="https://s1.chabokan.net/docs/images/python-platform.jpeg"/>
 
-<a href="/ready-application/wordpress/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/wordpress-platform.jpeg" /><br /><span>Wordpress</span></a>
+                <Service name="Wordpress" href="/ready-application/wordpress/install/" imgSrc="https://s1.chabokan.net/docs/images/wordpress-platform.jpeg"/>
 
-<a href="/storage/minio/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/minio-platform.jpeg" /><br /><span>Minio (S3)</span></a>
+                <Service name="Minio (S3)" href="/storage/minio/install/" imgSrc="https://s1.chabokan.net/docs/images/minio-platform.jpeg"/>
 
-<a href="/storage/nextcloud/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/next-cloud-platform-logo-1.jpg" /><br /><span>NextCloud</span></a>
+                <Service name="NextCloud" href="/storage/nextcloud/install/" imgSrc="https://s1.chabokan.net/docs/images/next-cloud-platform-logo-1.jpg"/>
 
-<a href="/database/mysql/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/mysql_kJwUntu-1.jpeg" /><br /><span>Mysql</span></a>
+                <Service name="Mysql" href="/database/mysql/install/" imgSrc="https://s1.chabokan.net/docs/images/mysql_kJwUntu-1.jpeg"/>
 
-<a href="/database/postgresql/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/postgresql.jpeg" /><br /><span>PostgreSQL</span></a>
+                <Service name="PostgreSQL" href="/database/postgresql/install/" imgSrc="https://s1.chabokan.net/docs/images/postgresql.jpeg"/>
 
-<a href="/database/redis/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/redis-platform.jpeg" /><br /><span>Redis</span></a>
+                <Service name="Redis" href="/database/redis/install/" imgSrc="https://s1.chabokan.net/docs/images/redis-platform.jpeg"/>
 
-<a href="/database/sql-server/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/mssql-platfrom.jpeg" /><br /><span>SQL Server</span></a>
+                <Service name="SQL Server" href="/database/sql-server/install/" imgSrc="https://s1.chabokan.net/docs/images/mssql-platfrom.jpeg"/>
 
-<a href="/database/mariadb/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/mariadb.jpg" /><br /><span>MariaDB</span></a>
+                <Service name="MariaDB" href="/database/mariadb/install/" imgSrc="https://s1.chabokan.net/docs/images/mariadb.jpg"/>
 
-<a href="/database/mongodb/install/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/mongodb-platform.jpeg" /><br /><span>MongoDB</span></a>
+                <Service name="MongoDB" href="/database/mongodb/install/" imgSrc="https://s1.chabokan.net/docs/images/mongodb-platform.jpeg"/>
 
-<a href="/ready-application/odoo/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/odoo-platform.jpg" /><br /><span>Odoo</span></a>
+                <Service name="Odoo" href="/ready-application/odoo/" imgSrc="https://s1.chabokan.net/docs/images/odoo-platform.jpg"/>
 
-<a href="/ready-application/matomo/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/matomo-platform.jpg" /><br /><span>Matomo</span></a>
+                <Service name="Matomo" href="/ready-application/matomo/" imgSrc="https://s1.chabokan.net/docs/images/matomo-platform.jpg"/>
 
-<a href="/ready-application/gitlabrunner/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/gitlab-runner.jpg" /><br /><span>Gitlab Runner</span></a>
+                <Service name="Gitlab Runner" href="/ready-application/gitlabrunner/" imgSrc="https://s1.chabokan.net/docs/images/gitlab-runner.jpg"/>
 
-<a href="/simple-hosting/dotnetcore/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/dotnetcore-platform.jpeg" /><br /><span>ASP.Net Core</span></a>
+                <Service name="ASP.Net Core" href="/simple-hosting/dotnetcore/deploy/" imgSrc="https://s1.chabokan.net/docs/images/dotnetcore-platform.jpeg"/>
 
-<a href="/simple-hosting/nextjs/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/next-platform.jpeg" /><br /><span>NextJs</span></a>
+                <Service name="NextJs" href="/simple-hosting/nextjs/deploy/" imgSrc="https://s1.chabokan.net/docs/images/next-platform.jpeg"/>
 
-<a href="/simple-hosting/nuxtjs/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/nuxt-platform.jpeg" /><br /><span>NuxtJs</span></a>
+                <Service name="NuxtJs" href="/simple-hosting/nuxtjs/deploy/" imgSrc="https://s1.chabokan.net/docs/images/nuxt-platform.jpeg"/>
 
-<a href="/simple-hosting/nest/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/nest-platform.jpg" /><br /><span>NestJs</span></a>
+                <Service name="NestJs" href="/simple-hosting/nest/deploy/" imgSrc="https://s1.chabokan.net/docs/images/nest-platform.jpg"/>
 
-<a href="/simple-hosting/react/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/react-platform.jpeg" /><br /><span>React</span></a>
+                <Service name="React" href="/simple-hosting/react/deploy/" imgSrc="https://s1.chabokan.net/docs/images/react-platform.jpeg"/>
 
-<a href="/simple-hosting/flask/deploy/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/flask-platform.jpeg" /><br /><span>Flask</span></a>
+                <Service name="Flask" href="/simple-hosting/flask/deploy/" imgSrc="https://s1.chabokan.net/docs/images/flask-platform.jpeg"/>
 
-<a href="/simple-hosting/flutter/" class="platform-icon"><img src="https://s1.chabokan.net/docs/images/flutter-icon.jpg" /><br /><span>Flutter</span></a>
-
-
-
+                <Service name="Flutter" href="/simple-hosting/flutter/" imgSrc="https://s1.chabokan.net/docs/images/flutter-icon.jpg"/>
             </main>
         </Layout>
+    );
+}
+
+function Service({name,href,imgSrc}){
+    return (
+        <a href={href} className="platform-icon" title={name}>
+            <img
+                src={imgSrc}
+                alt={`استقرار و راه‌اندازی ${name} روی چابکان — پلتفرم ابری ایرانی`}
+                loading="lazy"
+            />
+            <br/><span>{name}</span>
+        </a>
     );
 }

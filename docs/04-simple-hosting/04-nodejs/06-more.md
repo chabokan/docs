@@ -1,0 +1,62 @@
+---
+title: "نکات آموزشی Nodejs"
+icon: "faLightbulb"
+sidebar_label: "نکات تکمیلی"
+description: "در این بخش می خواهیم نکات تکمیلی Nodejs را در هاست  نود جی اس NodeJS به شما آموزش دهیم."
+---
+
+# نکات تکمیلی Nodejs
+---
+
+در این بخش می خواهیم نکات تکمیلی `Nodejs` را در [هاست  نود جی اس NodeJS](https://chabokan.net/cloud-hosting/nodejs/) به شما آموزش دهیم.
+
+## تغییر پورت پیشفرض
+
+سرویس `Nodejs` چابکان به صورت پیشفرض پورت `3000` را برای برنامه شما در نظر می گیرد و اگر برنامه شما روی این پورت اجرا شود آنرا نمایش می دهد. اما اگر شما پورت دیگری را برای برنامه خود انتخاب کرده اید، می توانید آن را از طریق داشبورد سرویس، قسمت پورت ها تغییر دهید.
+
+## اجرا مداوم یک فایل در برنامه
+
+در صورتی که نیاز دارید در برنامه ی خود فایل خاصی همیشه در حال اجرا باشد، میتوانید در فایل `package.json` سرویس خود `scripts` برنامه با نام `start` رو با دستور خودتون مقدار دهی کنید.
+
+
+## تغییر دستور نصب
+
+گاهی اوقات نیاز است تا دستور نصب پکیج های `Nodejs` را سفارشی سازی بفرمایید. برای این کار شما باید دستور نصب پکیج های سرویس را از طریق تنظیمات سرویس قسمت متغیر ها به چابکان معرفی کنید.
+
+```shell
+
+NPM_INSTALL_COMMAND : yarn install
+```
+
+## تغییر دستور ساخت
+
+برای تغییر دستور `build` در سرویس خود، می توانید از طریق فایل `package.json`، مقدار دستور `build` را با دستور مورد نظر جایگزین فرمایید.
+
+```json
+"scripts": {
+    ...
+    "build": "your-build-command",
+    ...
+```
+
+## ران کردن prisma
+
+برای ران کردن کافیست تا مسیر فایل `schema.prisma` را در فایل `package.json` قسمت script دستور build قرار داده و آنرا ویرایش بفرمایید.
+
+## تغییر ورژن Nodejs
+
+سرویس های `Nodejs` چابکان به صورت پیشفرض با استفاده از آخرین ورژن `LTS` نود جی اس اجرا می شود که البته شما می توانید ورژن `Nodejs` خود را از طریق داشبورد سرویس، قسمت تنظیمات تغییر دهید.
+
+import Versions from './_versions.md';
+
+<Versions />
+
+![تغییر ورژن سرویس NodeJS چابکان](https://s1.chabokan.net/docs/images/nodejs-node-version1.png)
+
+---
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/nodejs"
+img="https://s1.chabokan.net/docs/images/nodejs-banner.png"
+/>
