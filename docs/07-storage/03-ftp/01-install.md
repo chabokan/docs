@@ -1,0 +1,52 @@
+﻿---
+title: "نصب و راه اندازی FTP"
+icon: "faRocket"
+sidebar_label: "نصب و راه اندازی"
+description: "FTP یک پروتکل یا قرارداد (یک‌راه ساده) برای انتقال فایل و پوشه‌های مختلف در شبکه است که با آن می‌توان فایل‌ها را در یک رایانه به رایانه دیگر منتقل کرد. این پروتکل برای تبادل فایل بین حساب‌های مختلف یک رایانه و یا برای دسترسی آنلاین به بایگانی نرم‌افزارها در یک شبکه مورداستفاده قرار می‌گیرد."
+---
+
+# فضای ذخیره سازی FTP
+---
+
+[FTP](https://chabokan.net/services/ftp/) یک پروتکل یا قرارداد (یک‌راه ساده) برای انتقال فایل و پوشه‌های مختلف در شبکه است که با آن می‌توان فایل‌ها را در یک رایانه به رایانه دیگر منتقل کرد. این پروتکل برای تبادل فایل بین حساب‌های مختلف یک رایانه و یا برای دسترسی آنلاین به بایگانی نرم‌افزارها در یک شبکه مورداستفاده قرار می‌گیرد.
+
+## نصب و راه اندازی FTP
+
+همانطور که در گیف زیر مشاهده میکنید، ابتدا سرویس `FTP` را از طریق قسمت ساخت سرویس جدید > فضای ذخیره سازی > `FTP` می سازیم.
+
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/gifs/ftp-install.gif)
+
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/images/ftp-start-1.png)
+
+سرویس `FTP` با موفقیت ایجاد گردید .
+
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/images/ftp-start-2.png)
+
+برای اتصال به سرویس FTP ابتدا باید یک نرم افزار بر روی سیستم عامل خود نصب بفرمایید تا بتوانید به FTP سرویس خود متصل شوید. یکی از نرم افزار های محبوب مدیریت FTP نرم افزار FileZilla می باشد که شما می توانید این نرم افزار را از طریق [این لینک](https://filezilla-project.org/download.php) دانلود و نصب بفرمایید.
+
+حال میتوانید از طریق داشبورد اصلی سرویس خود مشخصات FTP سرویس، مانند **نام کاربری FTP** و **رمز عبور FTP** را مشاهده نمایید.
+
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/images/FTP_num2.jpg)
+
+سپس با وارد کردن مشخصات در نرم افزار fillezila میتوانید به سرویس خود متصل شوید.
+
+```properties
+Host = سرور
+Username = نام کاربری FTP
+Password = رمز عبور FTP
+Port = خالی یا 21
+```
+
+![نصب و راه‌اندازی FTP در چابکان](https://s1.chabokan.net/docs/images/FTP_num1.jpg)
+
+import Features from '/docs/13-features/_features.md';
+
+<Features />
+
+---
+import ServiceBanner from '@site/src/components/ServiceBanner';
+
+<ServiceBanner
+buyLink="https://hub.chabokan.net/fa/services/create/ftp"
+img="https://s1.chabokan.net/docs/images/ftp-banner.png"
+/>
