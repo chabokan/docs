@@ -43,12 +43,15 @@ import Versions from './_versions.md';
 
 <Versions />
 
-## سرویس های اشتراکی
+import SharedServices from '/docs/_shared-services.mdx';
 
-سرویس های اشتراکی قابل ایجاد در هاست NodeJs به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
-
-- Mysql
-- Mariadb
+<SharedServices
+platform="NodeJS"
+services={[
+"Mysql",
+"Mariadb"
+]}
+/>
 
 import Features from '/docs/13-features/_features.md';
 

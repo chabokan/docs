@@ -45,12 +45,15 @@ import PhpVersions from '/docs/04-simple-hosting/05-php/_versions.md';
 
 <PhpVersions />
 
-## سرویس های اشتراکی
+import SharedServices from '/docs/_shared-services.mdx';
 
-سرویس های اشتراکی قابل ایجاد در هاست Laravel به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
-
-- Mysql
-- Mariadb
+<SharedServices
+platform="Laravel"
+services={[
+"Mysql",
+"Mariadb"
+]}
+/>
 
 import Features from '/docs/13-features/_features.md';
 

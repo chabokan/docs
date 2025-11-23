@@ -44,12 +44,15 @@ description: "Joomla یک سیستم مدیریت محتوا (CMS) متن‌با
 
 ![نصب و راه‌اندازی Joomla در چابکان](https://s1.chabokan.net/docs/images/joomla-6.png)
 
-## سرویس های اشتراکی
+import SharedServices from '/docs/_shared-services.mdx';
 
-سرویس های اشتراکی قابل ایجاد در هاست Joomla به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
-
-- Mysql
-- Mariadb
+<SharedServices
+platform="Joomla"
+services={[
+"Mysql",
+"Mariadb"
+]}
+/>
 
 import Features from '/docs/13-features/_features.md';
 

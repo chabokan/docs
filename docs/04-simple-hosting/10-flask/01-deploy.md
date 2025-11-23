@@ -56,12 +56,15 @@ import Versions from '/docs/04-simple-hosting/09-python/_versions.md';
 
 <Versions />
 
-## سرویس های اشتراکی
+import SharedServices from '/docs/_shared-services.mdx';
 
-سرویس های اشتراکی قابل ایجاد در هاست Flask به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
-
-- Mysql
-- Mariadb
+<SharedServices
+platform="Flask"
+services={[
+"Mysql",
+"Mariadb"
+]}
+/>
 
 import Features from '/docs/13-features/_features.md';
 

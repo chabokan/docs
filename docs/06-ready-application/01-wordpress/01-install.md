@@ -10,6 +10,8 @@ description: "برای نصب و راه اندازی WordPress کافیست از
 
 در این بخش می خواهیم آموزش نحوه استقرار اولیه `WordPress` را در [هاست WordPress](https://chabokan.net/cloud-hosting/php/wordpress/) به شما آموزش دهیم
 
+## نصب و راه اندازی
+
 برای نصب و راه اندازی WordPress کافیست از طریق حساب کاربری خود در چابکان وارد قسمت سرویس ها شوید و از طریق ایجاد سرویس جدید اقدام به ایجاد سرویس وردپرس بفرمایید. بعد از روشن شدن سرویس (ممکن از ۳ دقیقه طول بکشد) وردپرس شما از طریق ساب دامنه پیش فرض سرویس قابل دسترس می باشد.
 
 توجه داشته باشید که سرویس وردپرس برای راه اندازی نیاز به یک سرویس دیتابیس Mariadb دارد که چابکان به صورت خودکار آن را ایجاد می کند و به سرویس وردپرس شما متصل می نماید.
@@ -19,12 +21,16 @@ description: "برای نصب و راه اندازی WordPress کافیست از
   <source src="https://s1.chabokan.net/docs/videos/create-wordpress.mp4" />
 </video>
 
-## سرویس های اشتراکی
 
-سرویس های اشتراکی قابل ایجاد در هاست WordPress به صورت زیر میباشند:(همینطور شما میتوانید تفاوت سرویس های اشتراکی و اختصاصی را در [این مستند](/general-tips/share-db-vs-dedicated-db/) مشاهده بفرمایید)
+import SharedServices from '/docs/_shared-services.mdx';
 
-- Mysql
-- Mariadb
+<SharedServices
+platform="Wordpress"
+services={[
+"Mysql",
+"Mariadb"
+]}
+/>
 
 
 import Features from '/docs/13-features/_features.md';
