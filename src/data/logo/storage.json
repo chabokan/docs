@@ -1,0 +1,26 @@
+{
+  "minio": {
+    "label": "Minio (S3)",
+    "logo": "https://s1.chabokan.net/docs/images/minio-platform.jpeg",
+    "url": "/storage/minio/install/",
+    "alt": "میزبانی ابری Minio (S3) در پلتفرم ابری ایرانی چابکان"
+  },
+  "nextcloud": {
+    "label": "NextCloud",
+    "logo": "https://s1.chabokan.net/docs/images/next-cloud-platform-logo-1.jpg",
+    "url": "/storage/nextcloud/install/",
+    "alt": "میزبانی ابری NextCloud در پلتفرم ابری ایرانی چابکان"
+  },
+  "ftp": {
+    "label": "FTP",
+    "logo": "https://s1.chabokan.net/docs/images/ftp-platform.jpg",
+    "url": "/storage/ftp/install/",
+    "alt": "میزبانی ابری FTP در پلتفرم ابری ایرانی چابکان"
+  },
+  "registry": {
+    "label": "Registry",
+    "logo": "https://s1.chabokan.net/docs/images/registry-platform.jpg",
+    "url": "/storage/registry/",
+    "alt": "میزبانی ابری Registry در پلتفرم ابری ایرانی چابکان"
+  }
+}
