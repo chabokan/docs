@@ -34,7 +34,7 @@ export default function Home() {
             <main className="main-platforms">
                 {/*<HomepageFeatures />*/}
                 <h2>سرویس های محبوب</h2>
-                {popularServices.map(serviceId => <ServiceLogo id={serviceId} linkMode={true}/>)}
+                {popularServices.map(serviceId => <ServiceLogo key={serviceId} id={serviceId} linkMode={true}/>)}
             </main>
         </Layout>
     );
@@ -62,7 +62,7 @@ const popularServices = [
     "dotnetcore",
     "nextjs",
     "nuxtjs",
-    "nestjs",
+    "nest",
     "react",
     "flask",
     "flutter"

@@ -1,87 +1,44 @@
 import React from 'react';
-import Link from '@docusaurus/Link';
 
-import {useDoc, useDocById} from '@docusaurus/plugin-content-docs/client';
+import {useDoc} from '@docusaurus/plugin-content-docs/client';
 import {usePluginData} from "@docusaurus/useGlobalData";
+import ServiceLogo from "../ServiceLogo";
 
 export default function RelatedServices() {
     const {metadata} = useDoc();
 
     const children = usePluginData('related-docs-plugin', 'default');
-    const id = metadata?.id;
+    const id = metadata?.frontMatter?.id;
     const parentId = metadata?.frontMatter?.parentId;
 
-    if (id && !parentId) {
-        return <ChildrenList childrenIds={children[id]} parentId={id}/>;
-    } else if (id && parentId) {
-        return <FamilyList siblingsIds={children[parentId]} selfId={id} parentId={parentId}/>;
-    } else {
+    let content = null;
+
+    if (id && !parentId)
+        content = <List items={children[id]}/>;
+    else if (id && parentId)
+        content = <FamilyList siblingsIds={children[parentId]} selfId={id} parentId={parentId}/>;
+
+    return content;
+
+}
+
+function List({items}) {
+    if (!items?.length)
         return null;
-    }
+
+    return (
+        <>
+            <h2>سرویس‌های مرتبط</h2>
+            {items.map(childId => <ServiceLogo key={childId} id={childId} linkMode="index"/>)}
+        </>
+    );
 }
 
 function FamilyList({siblingsIds, selfId, parentId}) {
-    const parent = useDocById(parentId);
     if (!siblingsIds?.length) return null;
-    const parentLink = (
-        <Link to={'/' + parent.id.replace("index", "")}>
-            {parent.title || parent.id}
-        </Link>
-    );
+    const list = [parentId];
+    siblingsIds.filter(id => id !== selfId)
+        .forEach(sibId => list.push(sibId))
 
-    if (siblingsIds?.length <= 1) {
-        return (
-            <h3>
-                {"قدرت‌گرفته از "}
-                {parentLink}
-            </h3>
-        );
-    } else
-
-        return (
-            <div className="related-services">
-                <h3>
-                    {"دیگر سرویس‌های مبتنی بر "}
-                    {parentLink}
-                </h3>
-
-                <ul>
-                    {siblingsIds.filter(id => id !== selfId).map(sibId => {
-                        const sibling = useDocById(sibId);
-                        if (!sibling) return null;
-                        return (
-                            <li key={sibId}>
-                                <Link to={'/' + sibling.id.replace("index", "")}>
-                                    {sibling.title || sibId}
-                                </Link>
-                            </li>
-                        );
-                    })}
-                </ul>
-            </div>
-        );
-}
-
-function ChildrenList({childrenIds, parentId}) {
-    const parent = useDocById(parentId);
-    if (!childrenIds?.length) return null;
-
-    return (
-        <div className="related-services">
-            <h3>سرویس‌های مبتنی بر {parent.title || parent.id}</h3>
-            <ul>
-                {childrenIds.map(childId => {
-                    const child = useDocById(childId);
-                    if (!child) return null;
-                    return (
-                        <li key={childId}>
-                            <Link to={'/' + child.id.replace("index", "")}>
-                                {child.title || childId}
-                            </Link>
-                        </li>
-                    );
-                })}
-            </ul>
-        </div>
-    );
+    return <List items={list}/>
 }

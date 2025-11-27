@@ -2,19 +2,22 @@
   "elk_stack": {
     "label": "ELK Stack",
     "logo": "https://s1.chabokan.net/docs/images/elk-platform-logo-2.jpg",
-    "url": "/instruction/elk-stack/",
+    "deployUrl": "/instruction/elk-stack/",
+    "indexUrl": "/instruction/elk-stack/",
     "alt": "میزبانی آسان سرویس ELK Stack در پلتفرم ابری ایرانی چابکان"
   },
   "spring": {
     "label": "Spring (Java)",
     "logo": "https://s1.chabokan.net/docs/images/spring-platform.jpg",
-    "url": "/instruction/spring/",
+    "deployUrl": "/instruction/spring/",
+    "indexUrl": "/instruction/spring/",
     "alt": "میزبانی آسان سرویس Spring (Java) در پلتفرم ابری ایرانی چابکان"
   },
   "opensearch": {
     "label": "Opensearch",
     "logo": "https://s1.chabokan.net/docs/images/opensearch-logo.png",
-    "url": "/instruction/opensearch/",
+    "deployUrl": "/instruction/opensearch/",
+    "indexUrl": "/instruction/opensearch/",
     "alt": "میزبانی آسان سرویس Opensearch در پلتفرم ابری ایرانی چابکان"
   }
 }

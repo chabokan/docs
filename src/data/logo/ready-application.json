@@ -2,235 +2,274 @@
   "wordpress": {
     "label": "Wordpress",
     "logo": "https://s1.chabokan.net/docs/images/wordpress-platform.jpeg",
-    "url": "/ready-application/wordpress/install/",
+    "deployUrl": "/ready-application/wordpress/install/",
+    "indexUrl": "/ready-application/wordpress/",
     "alt": "میزبانی ابری برنامه آماده Wordpress در پلتفرم ابری ایرانی چابکان"
   },
   "adminer": {
     "label": "Adminer",
     "logo": "https://s1.chabokan.net/docs/images/adminer-platform_tuoU8Fa.jpg",
-    "url": "/ready-application/adminer/install/",
+    "deployUrl": "/ready-application/adminer/install/",
+    "indexUrl": "/ready-application/adminer/",
     "alt": "میزبانی ابری برنامه آماده Adminer در پلتفرم ابری ایرانی چابکان"
   },
   "pgadmin": {
     "label": "PGadmin",
     "logo": "https://s1.chabokan.net/docs/images/postgresql.jpeg",
-    "url": "/ready-application/pgadmin/install/",
+    "deployUrl": "/ready-application/pgadmin/install/",
+    "indexUrl": "/ready-application/pgadmin/",
     "alt": "میزبانی ابری برنامه آماده PGadmin در پلتفرم ابری ایرانی چابکان"
   },
   "ghost": {
     "label": "Ghost",
     "logo": "https://s1.chabokan.net/docs/images/ghost-platform.jpeg",
-    "url": "/ready-application/ghost/",
+    "deployUrl": "/ready-application/ghost/",
+    "indexUrl": "/ready-application/ghost/",
     "alt": "میزبانی ابری برنامه آماده Ghost در پلتفرم ابری ایرانی چابکان"
   },
   "soketi": {
     "label": "Soketi",
     "logo": "https://s1.chabokan.net/docs/images/soketi-platform.jpg",
-    "url": "/ready-application/soketi/",
+    "deployUrl": "/ready-application/soketi/",
+    "indexUrl": "/ready-application/soketi/",
     "alt": "میزبانی ابری برنامه آماده Soketi در پلتفرم ابری ایرانی چابکان"
   },
   "n8n": {
     "label": "N8N",
     "logo": "https://s1.chabokan.net/docs/images/n8n-platform-logo_HXKvplb.jpg",
-    "url": "/ready-application/n8n/",
+    "deployUrl": "/ready-application/n8n/",
+    "indexUrl": "/ready-application/n8n/",
     "alt": "میزبانی ابری برنامه آماده N8N در پلتفرم ابری ایرانی چابکان"
   },
   "strapi": {
     "label": "Strapi",
     "logo": "https://s1.chabokan.net/docs/images/strapi-platform.jpg",
-    "url": "/ready-application/strapi/",
+    "deployUrl": "/ready-application/strapi/",
+    "indexUrl": "/ready-application/strapi/",
     "alt": "میزبانی ابری برنامه آماده Strapi در پلتفرم ابری ایرانی چابکان"
   },
   "odoo": {
     "label": "Odoo",
     "logo": "https://s1.chabokan.net/docs/images/odoo-platform.jpg",
-    "url": "/ready-application/odoo/",
+    "deployUrl": "/ready-application/odoo/",
+    "indexUrl": "/ready-application/odoo/",
     "alt": "میزبانی ابری برنامه آماده Odoo در پلتفرم ابری ایرانی چابکان"
   },
   "gitea": {
     "label": "Gitea",
     "logo": "https://s1.chabokan.net/docs/images/gitea.platform.jpg",
-    "url": "/ready-application/gitea/",
+    "deployUrl": "/ready-application/gitea/",
+    "indexUrl": "/ready-application/gitea/",
     "alt": "میزبانی ابری برنامه آماده Gitea در پلتفرم ابری ایرانی چابکان"
   },
   "githubrunner": {
     "label": "Github Runner",
     "logo": "https://s1.chabokan.net/docs/images/github-runner.jpg",
-    "url": "/ready-application/githubrunner/",
+    "deployUrl": "/ready-application/githubrunner/",
+    "indexUrl": "/ready-application/githubrunner/",
     "alt": "میزبانی ابری برنامه آماده Github Runner در پلتفرم ابری ایرانی چابکان"
   },
   "gitlabrunner": {
     "label": "Gitlab Runner",
     "logo": "https://s1.chabokan.net/docs/images/gitlab-runner.jpg",
-    "url": "/ready-application/gitlabrunner/",
+    "deployUrl": "/ready-application/gitlabrunner/",
+    "indexUrl": "/ready-application/gitlabrunner/",
     "alt": "میزبانی ابری برنامه آماده Gitlab Runner در پلتفرم ابری ایرانی چابکان"
   },
   "matomo": {
     "label": "Matomo",
     "logo": "https://s1.chabokan.net/docs/images/matomo-platform.jpg",
-    "url": "/ready-application/matomo/",
+    "deployUrl": "/ready-application/matomo/",
+    "indexUrl": "/ready-application/matomo/",
     "alt": "میزبانی ابری برنامه آماده Matomo در پلتفرم ابری ایرانی چابکان"
   },
   "metabase": {
     "label": "Metabase",
     "logo": "https://s1.chabokan.net/docs/images/metabase-platform.jpg",
-    "url": "/ready-application/metabase/",
+    "deployUrl": "/ready-application/metabase/",
+    "indexUrl": "/ready-application/metabase/",
     "alt": "میزبانی ابری برنامه آماده Metabase در پلتفرم ابری ایرانی چابکان"
   },
   "meilisearch": {
     "label": "Meilisearch",
     "logo": "https://s1.chabokan.net/docs/images/meilisearch-platform.jpg",
-    "url": "/ready-application/meilisearch/",
+    "deployUrl": "/ready-application/meilisearch/",
+    "indexUrl": "/ready-application/meilisearch/",
     "alt": "میزبانی ابری برنامه آماده Meilisearch در پلتفرم ابری ایرانی چابکان"
   },
   "parse": {
     "label": "Parse",
     "logo": "https://s1.chabokan.net/docs/images/parse-platform.jpg",
-    "url": "/ready-application/parse/",
+    "deployUrl": "/ready-application/parse/",
+    "indexUrl": "/ready-application/parse/",
     "alt": "میزبانی ابری برنامه آماده Parse در پلتفرم ابری ایرانی چابکان"
   },
   "nocodb": {
     "label": "Nocodb",
     "logo": "https://s1.chabokan.net/docs/images/nokodb_logo_2.jpg",
-    "url": "/ready-application/nocodb/",
+    "deployUrl": "/ready-application/nocodb/",
+    "indexUrl": "/ready-application/nocodb/",
     "alt": "میزبانی ابری برنامه آماده Nocodb در پلتفرم ابری ایرانی چابکان"
   },
   "moodle": {
     "label": "Moodle",
     "logo": "https://s1.chabokan.net/docs/images/moodle-platform.jpg",
-    "url": "/ready-application/moodle/",
+    "deployUrl": "/ready-application/moodle/",
+    "indexUrl": "/ready-application/moodle/",
     "alt": "میزبانی ابری برنامه آماده Moodle در پلتفرم ابری ایرانی چابکان"
   },
   "mattermost": {
     "label": "Mattermost",
     "logo": "https://s1.chabokan.net/docs/images/mattermost-platform.jpg",
-    "url": "/ready-application/mattermost/",
+    "deployUrl": "/ready-application/mattermost/",
+    "indexUrl": "/ready-application/mattermost/",
     "alt": "میزبانی ابری برنامه آماده Mattermost در پلتفرم ابری ایرانی چابکان"
   },
   "imgproxy": {
     "label": "Imgproxy",
     "logo": "https://s1.chabokan.net/docs/images/imgproxy-platform.jpg",
-    "url": "/ready-application/imgproxy/",
+    "deployUrl": "/ready-application/imgproxy/",
+    "indexUrl": "/ready-application/imgproxy/",
     "alt": "میزبانی ابری برنامه آماده Imgproxy در پلتفرم ابری ایرانی چابکان"
   },
   "mosquitto": {
     "label": "Mosquitto",
     "logo": "https://s1.chabokan.net/docs/images/mosquitto-platform_UeOdYtP.jpg",
-    "url": "/ready-application/mosquitto/",
+    "deployUrl": "/ready-application/mosquitto/",
+    "indexUrl": "/ready-application/mosquitto/",
     "alt": "میزبانی ابری برنامه آماده Mosquitto در پلتفرم ابری ایرانی چابکان"
   },
   "pocketbase": {
     "label": "Pocketbase",
     "logo": "https://s1.chabokan.net/docs/images/pocketbase-platform_jBX97bc.jpg",
-    "url": "/ready-application/pocketbase/",
+    "deployUrl": "/ready-application/pocketbase/",
+    "indexUrl": "/ready-application/pocketbase/",
     "alt": "میزبانی ابری برنامه آماده Pocketbase در پلتفرم ابری ایرانی چابکان"
   },
   "restyaboard": {
     "label": "Restyaboard",
     "logo": "https://s1.chabokan.net/docs/images/restyaboard-platform.jpg",
-    "url": "/ready-application/restyaboard/",
+    "deployUrl": "/ready-application/restyaboard/",
+    "indexUrl": "/ready-application/restyaboard/",
     "alt": "میزبانی ابری برنامه آماده Restyaboard در پلتفرم ابری ایرانی چابکان"
   },
   "uptimekuma": {
     "label": "Uptimekuma",
     "logo": "https://s1.chabokan.net/docs/images/uptimekuma-platform.jpg",
-    "url": "/ready-application/uptimekuma/",
+    "deployUrl": "/ready-application/uptimekuma/",
+    "indexUrl": "/ready-application/uptimekuma/",
     "alt": "میزبانی ابری برنامه آماده Uptimekuma در پلتفرم ابری ایرانی چابکان"
   },
   "typesense": {
     "label": "Typesense",
     "logo": "https://s1.chabokan.net/docs/images/typesense-platform-logo.jpg",
-    "url": "/ready-application/typesense/",
+    "deployUrl": "/ready-application/typesense/",
+    "indexUrl": "/ready-application/typesense/",
     "alt": "میزبانی ابری برنامه آماده Typesense در پلتفرم ابری ایرانی چابکان"
   },
   "docusaurus": {
     "label": "Docusaurus",
     "logo": "https://s1.chabokan.net/docs/images/docusaurus-platform-logo.jpg",
-    "url": "/ready-application/docusaurus/",
+    "deployUrl": "/ready-application/docusaurus/",
+    "indexUrl": "/ready-application/docusaurus/",
     "alt": "میزبانی ابری برنامه آماده Docusaurus در پلتفرم ابری ایرانی چابکان"
   },
   "grafana": {
     "label": "Grafana",
     "logo": "https://s1.chabokan.net/docs/images/grafana-platform.jpg",
-    "url": "/ready-application/grafana/",
+    "deployUrl": "/ready-application/grafana/",
+    "indexUrl": "/ready-application/grafana/",
     "alt": "میزبانی ابری برنامه آماده Grafana در پلتفرم ابری ایرانی چابکان"
   },
   "rabbitmq": {
     "label": "Rabbitmq",
     "logo": "https://s1.chabokan.net/docs/images/rabbitmq-platform.jpeg",
-    "url": "/ready-application/rabbitmq/",
+    "deployUrl": "/ready-application/rabbitmq/",
+    "indexUrl": "/ready-application/rabbitmq/",
     "alt": "میزبانی ابری برنامه آماده Rabbitmq در پلتفرم ابری ایرانی چابکان"
   },
   "joomla": {
     "label": "Joomla",
     "logo": "https://s1.chabokan.net/docs/images/joomla-platfrom.jpeg",
-    "url": "/ready-application/joomla/",
+    "deployUrl": "/ready-application/joomla/",
+    "indexUrl": "/ready-application/joomla/",
     "alt": "میزبانی ابری برنامه آماده Joomla در پلتفرم ابری ایرانی چابکان"
   },
   "phpmyadmin": {
     "label": "PhpMyAdmin",
     "logo": "https://s1.chabokan.net/docs/images/phpmyadmin-platform.jpeg",
-    "url": "/ready-application/phpmyadmin/",
+    "deployUrl": "/ready-application/phpmyadmin/",
+    "indexUrl": "/ready-application/phpmyadmin/",
     "alt": "میزبانی ابری برنامه آماده PhpMyAdmin در پلتفرم ابری ایرانی چابکان"
   },
   "teamspeak": {
     "label": "TeamSpeak",
     "logo": "https://s1.chabokan.net/docs/images/teamspeak-platform.jpg",
-    "url": "/ready-application/teamspeak/",
+    "deployUrl": "/ready-application/teamspeak/",
+    "indexUrl": "/ready-application/teamspeak/",
     "alt": "میزبانی ابری برنامه آماده TeamSpeak در پلتفرم ابری ایرانی چابکان"
   },
   "appsmith": {
     "label": "Appsmith",
     "logo": "https://s1.chabokan.net/docs/images/appsmith-logo-platform_SHyBmPh.jpg",
-    "url": "/ready-application/appsmith/",
+    "deployUrl": "/ready-application/appsmith/",
+    "indexUrl": "/ready-application/appsmith/",
     "alt": "میزبانی ابری برنامه آماده Appsmith در پلتفرم ابری ایرانی چابکان"
   },
   "drupal": {
     "label": "Drupal",
     "logo": "https://s1.chabokan.net/docs/images/drupal-platform.jpeg",
-    "url": "/ready-application/drupal/",
+    "deployUrl": "/ready-application/drupal/",
+    "indexUrl": "/ready-application/drupal/",
     "alt": "میزبانی ابری برنامه آماده Drupal در پلتفرم ابری ایرانی چابکان"
   },
   "jupyterlab": {
     "label": "JupyterLab",
     "logo": "https://s1.chabokan.net/docs/images/jupyter-platform_rE1YXpe.jpg",
-    "url": "/ready-application/jupyterlab/",
+    "deployUrl": "/ready-application/jupyterlab/",
+    "indexUrl": "/ready-application/jupyterlab/",
     "alt": "میزبانی ابری برنامه آماده JupyterLab در پلتفرم ابری ایرانی چابکان"
   },
   "pyroscope": {
     "label": "Pyroscope",
     "logo": "https://s1.chabokan.net/docs/images/pyroscope-platform.jpg",
-    "url": "/ready-application/pyroscope/",
+    "deployUrl": "/ready-application/pyroscope/",
+    "indexUrl": "/ready-application/pyroscope/",
     "alt": "میزبانی ابری برنامه آماده Pyroscope در پلتفرم ابری ایرانی چابکان"
   },
   "syncthing": {
     "label": "Syncthing",
     "logo": "https://s1.chabokan.net/docs/images/syncthing_logo.jpg",
-    "url": "/ready-application/syncthing/",
+    "deployUrl": "/ready-application/syncthing/",
+    "indexUrl": "/ready-application/syncthing/",
     "alt": "میزبانی ابری برنامه آماده Syncthing در پلتفرم ابری ایرانی چابکان"
   },
   "formbricks": {
     "label": "Formbricks",
     "logo": "https://s1.chabokan.net/docs/images/formbricks-logo.jpg",
-    "url": "/ready-application/formbricks/",
+    "deployUrl": "/ready-application/formbricks/",
+    "indexUrl": "/ready-application/formbricks/",
     "alt": "میزبانی ابری برنامه آماده Formbricks در پلتفرم ابری ایرانی چابکان"
   },
   "affine": {
     "label": "Affine",
     "logo": "https://s1.chabokan.net/docs/images/affine-logo.jpg",
-    "url": "/ready-application/affine/",
+    "deployUrl": "/ready-application/affine/",
+    "indexUrl": "/ready-application/affine/",
     "alt": "میزبانی ابری برنامه آماده Affine در پلتفرم ابری ایرانی چابکان"
   },
   "umami": {
     "label": "Umami",
     "logo": "https://s1.chabokan.net/docs/images/umami-logo.jpg",
-    "url": "/ready-application/umami/",
+    "deployUrl": "/ready-application/umami/",
+    "indexUrl": "/ready-application/umami/",
     "alt": "میزبانی ابری برنامه آماده Umami در پلتفرم ابری ایرانی چابکان"
   },
   "flowise": {
     "label": "Flowise",
     "logo": "https://s1.chabokan.net/docs/images/flowise-logo.jpg",
-    "url": "/ready-application/flowise/",
+    "deployUrl": "/ready-application/flowise/",
+    "indexUrl": "/ready-application/flowise/",
     "alt": "میزبانی ابری برنامه آماده Flowise در پلتفرم ابری ایرانی چابکان"
   }
 }

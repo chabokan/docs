@@ -2,121 +2,141 @@
   "django": {
     "label": "Django",
     "logo": "https://s1.chabokan.net/docs/images/django-platform.jpeg",
-    "url": "/simple-hosting/django/deploy/",
+    "deployUrl": "/simple-hosting/django/deploy/",
+    "indexUrl": "/simple-hosting/django/",
     "alt": "میزبانی آسان سرویس Django در پلتفرم ابری ایرانی چابکان"
   },
   "laravel": {
     "label": "Laravel",
     "logo": "https://s1.chabokan.net/docs/images/laravel-platform-1.jpeg",
-    "url": "/simple-hosting/laravel/deploy/",
+    "deployUrl": "/simple-hosting/laravel/deploy/",
+    "indexUrl": "/simple-hosting/laravel/",
     "alt": "میزبانی آسان سرویس Laravel در پلتفرم ابری ایرانی چابکان"
   },
   "docker": {
     "label": "Docker",
     "logo": "https://s1.chabokan.net/docs/images/registry-platform.jpeg",
-    "url": "/simple-hosting/docker/deploy/",
+    "deployUrl": "/simple-hosting/docker/deploy/",
+    "indexUrl": "/simple-hosting/docker/",
     "alt": "میزبانی آسان سرویس Docker در پلتفرم ابری ایرانی چابکان"
   },
   "nodejs": {
     "label": "NodeJs",
     "logo": "https://s1.chabokan.net/docs/images/node-platform.jpeg",
-    "url": "/simple-hosting/nodejs/deploy/",
+    "deployUrl": "/simple-hosting/nodejs/deploy/",
+    "indexUrl": "/simple-hosting/nodejs/",
     "alt": "میزبانی آسان سرویس NodeJs در پلتفرم ابری ایرانی چابکان"
   },
   "php": {
     "label": "PHP",
     "logo": "https://s1.chabokan.net/docs/images/php-logo-platform-1.jpg",
-    "url": "/simple-hosting/php/deploy/",
+    "deployUrl": "/simple-hosting/php/deploy/",
+    "indexUrl": "/simple-hosting/php/",
     "alt": "میزبانی آسان سرویس PHP در پلتفرم ابری ایرانی چابکان"
   },
   "nextjs": {
     "label": "NextJs",
     "logo": "https://s1.chabokan.net/docs/images/next-platform.jpeg",
-    "url": "/simple-hosting/nextjs/deploy/",
+    "deployUrl": "/simple-hosting/nextjs/deploy/",
+    "indexUrl": "/simple-hosting/nextjs/",
     "alt": "میزبانی آسان سرویس NextJs در پلتفرم ابری ایرانی چابکان"
   },
   "nuxtjs": {
     "label": "NuxtJs",
     "logo": "https://s1.chabokan.net/docs/images/nuxt-platform.jpeg",
-    "url": "/simple-hosting/nuxtjs/deploy/",
+    "deployUrl": "/simple-hosting/nuxtjs/deploy/",
+    "indexUrl": "/simple-hosting/nuxtjs/",
     "alt": "میزبانی آسان سرویس NuxtJs در پلتفرم ابری ایرانی چابکان"
   },
-  "nestjs": {
+  "nest": {
     "label": "NestJs",
     "logo": "https://s1.chabokan.net/docs/images/nest-platform.jpg",
-    "url": "/simple-hosting/nest/deploy/",
+    "deployUrl": "/simple-hosting/nest/deploy/",
+    "indexUrl": "/simple-hosting/nest/",
     "alt": "میزبانی آسان سرویس NestJs در پلتفرم ابری ایرانی چابکان"
   },
   "python": {
     "label": "Python",
     "logo": "https://s1.chabokan.net/docs/images/python-platform.jpeg",
-    "url": "/simple-hosting/python/deploy/",
+    "deployUrl": "/simple-hosting/python/deploy/",
+    "indexUrl": "/simple-hosting/python/",
     "alt": "میزبانی آسان سرویس Python در پلتفرم ابری ایرانی چابکان"
   },
   "flask": {
     "label": "Flask",
     "logo": "https://s1.chabokan.net/docs/images/flask-platform.jpeg",
-    "url": "/simple-hosting/flask/deploy/",
+    "deployUrl": "/simple-hosting/flask/deploy/",
+    "indexUrl": "/simple-hosting/flask/",
     "alt": "میزبانی آسان سرویس Flask در پلتفرم ابری ایرانی چابکان"
   },
   "react": {
     "label": "React",
     "logo": "https://s1.chabokan.net/docs/images/react-platform.jpeg",
-    "url": "/simple-hosting/react/deploy/",
+    "deployUrl": "/simple-hosting/react/deploy/",
+    "indexUrl": "/simple-hosting/react/",
     "alt": "میزبانی آسان سرویس React در پلتفرم ابری ایرانی چابکان"
   },
   "fastapi": {
     "label": "Fast API",
     "logo": "https://s1.chabokan.net/docs/images/fastapi-platform.jpeg",
-    "url": "/simple-hosting/fastapi/deploy/",
+    "deployUrl": "/simple-hosting/fastapi/deploy/",
+    "indexUrl": "/simple-hosting/fastapi/",
     "alt": "میزبانی آسان سرویس Fast API در پلتفرم ابری ایرانی چابکان"
   },
   "static": {
     "label": "Static (HTML)",
     "logo": "https://s1.chabokan.net/docs/images/static-platform.jpeg",
-    "url": "/simple-hosting/static/deploy/",
+    "deployUrl": "/simple-hosting/static/deploy/",
+    "indexUrl": "/simple-hosting/static/",
     "alt": "میزبانی آسان سرویس Static (HTML) "
   },
   "dotnetcore": {
     "label": "ASP.Net Core",
     "logo": "https://s1.chabokan.net/docs/images/dotnetcore-platform.jpeg",
-    "url": "/simple-hosting/dotnetcore/deploy/",
+    "deployUrl": "/simple-hosting/dotnetcore/deploy/",
+    "indexUrl": "/simple-hosting/dotnetcore/",
     "alt": "میزبانی آسان سرویس ASP.NET Core در پلتفرم ابری ایرانی چابکان"
   },
   "angular": {
     "label": "Angular",
     "logo": "https://s1.chabokan.net/docs/images/angular-platform_caT2AS5.jpeg",
-    "url": "/simple-hosting/angular/deploy/",
+    "deployUrl": "/simple-hosting/angular/deploy/",
+    "indexUrl": "/simple-hosting/angular/",
     "alt": "میزبانی آسان سرویس Angular در پلتفرم ابری ایرانی چابکان"
   },
   "express": {
     "label": "ExpressJs",
     "logo": "https://s1.chabokan.net/docs/images/express-platform.jpeg",
-    "url": "/simple-hosting/express/deploy/",
+    "deployUrl": "/simple-hosting/express/deploy/",
+    "indexUrl": "/simple-hosting/express/",
     "alt": "میزبانی آسان سرویس ExpressJs در پلتفرم ابری ایرانی چابکان"
   },
   "vue": {
     "label": "Vue",
     "logo": "https://s1.chabokan.net/docs/images/vue.jpeg",
-    "url": "/simple-hosting/vue/deploy/",
+    "deployUrl": "/simple-hosting/vue/deploy/",
+    "indexUrl": "/simple-hosting/vue/",
     "alt": "میزبانی آسان سرویس Vue در پلتفرم ابری ایرانی چابکان"
   },
   "adonis": {
     "label": "Adonis",
     "logo": "https://s1.chabokan.net/docs/images/adonis-ready-logo-1.jpg",
-    "url": "/simple-hosting/flutter/",
+    "deployUrl": "/simple-hosting/flutter/",
+    "indexUrl": "/simple-hosting/flutter/",
     "alt": "میزبانی آسان سرویس Adonis در پلتفرم ابری ایرانی چابکان"
   },
   "flutter": {
     "label": "Flutter",
     "logo": "https://s1.chabokan.net/docs/images/flutter-icon.jpg",
-    "url": "/simple-hosting/adonis/",
+    "deployUrl": "/simple-hosting/adonis/",
+    "indexUrl": "/simple-hosting/adonis/",
     "alt": "میزبانی آسان سرویس Flutter در پلتفرم ابری ایرانی چابکان"
   },
   "go": {
     "label": "Go",
     "logo": "https://s1.chabokan.net/docs/images/go-logo.jpg",
-    "url": "/simple-hosting/go/",
+    "deployUrl": "/simple-hosting/go/",
+    "indexUrl": "/simple-hosting/go/",
     "alt": "میزبانی آسان سرویس Go در پلتفرم ابری ایرانی چابکان"
   }
 }

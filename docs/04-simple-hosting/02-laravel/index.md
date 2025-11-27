@@ -1,7 +1,8 @@
 ---
+id: "laravel"
 title: "سرویس Laravel"
 icon: "faCode"
-parentId: "simple-hosting/php/index"
+parentId: "php"
 ---
 # سرویس Laravel
 

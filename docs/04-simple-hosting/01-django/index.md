@@ -1,7 +1,8 @@
 ---
+id: "django"
 title: "سرویس Django"
 icon: "faServer"
-parentId: "simple-hosting/python/index"
+parentId: "python"
 ---
 # سرویس Django
 
