@@ -1,7 +1,8 @@
 ---
+id: "nextjs"
 title: "سرویس NextJs"
 icon: "faArrowRight"
-parentId: "simple-hosting/react/index"
+parentId: "react"
 ---
 # سرویس NextJs
 

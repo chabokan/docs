@@ -1,4 +1,5 @@
 ---
+id: "python"
 title: "سرویس Python"
 icon: "faCode"
 ---

@@ -1,4 +1,5 @@
 ---
+id: "dotnetcore"
 title: "سرویس ASP.Net Core"
 icon: "faCircleDot"
 ---

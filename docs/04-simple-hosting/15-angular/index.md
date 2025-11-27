@@ -1,4 +1,5 @@
 ---
+id: "angular"
 title: "سرویس Angular"
 icon: "faAnglesUp"
 ---
