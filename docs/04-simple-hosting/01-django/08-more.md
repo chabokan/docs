@@ -67,6 +67,36 @@ GUNICORN_THREADS : 2
 GUNICORN_LOG_LEVEL : info
 ```
 
+## تغییر نوع Worker در Gunicorn
+
+درصورتی که می‌خواهید نوع `Worker` مورد استفاده در `Gunicorn` را تغییر دهید (برای مثال استفاده از `gevent`، `eventlet` یا `uvicorn workers`)، می‌توانید وارد تنظیمات سرویس خود شده و در بخش متغیرها، متغیر `GUNICORN_WORKER_CLASS` را با مقدار موردنظر مقداردهی کنید.
+
+```properties
+# name : value
+
+GUNICORN_WORKER_CLASS : gevent
+```
+
+## افزایش تعداد ارتباطات Worker در Gunicorn
+
+اگر از workerهای asynchronous مانند `gevent` یا `eventlet` استفاده می‌کنید و نیاز دارید که تعداد اتصال‌های همزمان بیشتری توسط هر worker مدیریت شود، می‌توانید با تنظیم متغیر `GUNICORN_WORKER_CONNECTIONS` مقدار موردنظر خود را مشخص کنید.
+
+```properties
+# name : value
+
+GUNICORN_WORKER_CONNECTIONS : 1000
+```
+
+## محدود کردن تعداد درخواست‌ها برای هر Worker در Gunicorn
+
+برای جلوگیری از افزایش مصرف حافظه (Memory Leak) یا تنظیم رفتار چرخش Workerها، می‌توانید تعداد درخواست‌هایی که هر worker قبل از ریست شدن پردازش می‌کند را با متغیر `GUNICORN_MAX_REQUESTS` مشخص کنید. با مقداردهی این متغیر، پس از رسیدن به سقف تعیین‌شده، worker به‌صورت کنترل‌شده ریست می‌شود.
+
+```properties
+# name : value
+
+GUNICORN_MAX_REQUESTS : 500
+```
+
 ## رفع مشکل CSRF Token
 
 در برنامه های Django برای رفع مشکل CSRF Token می بایست متغییر `CSRF_TRUSTED_ORIGINS` را در فایل `settings.py` با آدرس دامنه ای که استفاده می کنید مقدار دهی نمایید.
