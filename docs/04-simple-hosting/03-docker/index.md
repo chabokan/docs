@@ -12,3 +12,8 @@ import DocCardList from '@theme/DocCardList';
 ---
 :::info [مستندات رسمی Docker](https://docs.docker.com/)
 :::
+
+---
+import RelatedServices from '@site/src/components/RelatedServices';
+
+<RelatedServices />
