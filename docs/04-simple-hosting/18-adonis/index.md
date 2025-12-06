@@ -1,4 +1,5 @@
 ---
+id: "adonis"
 title: "آموزش استقرار Adonis"
 icon: "faFeatherPointed"
 ---

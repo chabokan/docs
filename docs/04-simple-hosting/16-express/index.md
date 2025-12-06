@@ -1,7 +1,8 @@
 ---
+id: "express"
 title: "سرویس Express"
 icon: "faRoad"
-parentId: "simple-hosting/nodejs/index"
+parentId: "nodejs"
 ---
 # سرویس Express
 

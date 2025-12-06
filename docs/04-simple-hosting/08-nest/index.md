@@ -1,7 +1,8 @@
 ---
+id: "nest"
 title: "سرویس Nest"
 icon: "faCircleNodes"
-parentId: "simple-hosting/nodejs/index"
+parentId: "nodejs"
 ---
 # سرویس Nest
 

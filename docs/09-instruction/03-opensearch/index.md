@@ -1,7 +1,9 @@
 ---
+id: "opensearch"
 title: "آموزش استقرار Opensearch"
 icon: "faMagnifyingGlass"
 description: " "
+parentId: "docker"
 ---
 
 # استقرار Opensearch

@@ -38,26 +38,24 @@ function getId(url) {
 }
 
 
-export default async function iconPlugin(context, options) {
+export default async function relatedDocsPlugin(context, options) {
     return {
         name: 'related-docs-plugin',
 
         async loadContent() {
             const docsPath = path.join(context.siteDir, options.path || 'docs');
             const files = await getAllMarkdownFiles(docsPath)
-            
+
             const children = {};
 
             for (const file of files) {
                 const content = await fs.promises.readFile(file, 'utf-8');
                 const {data: frontMatter} = matter(content);
-                const id = getId(file);
+                const id = frontMatter?.id;
 
                 if (frontMatter.parentId) {
-                    if (!children[frontMatter.parentId]) {
+                    if (!children[frontMatter.parentId])
                         children[frontMatter.parentId] = [];
-                    }
-
                     children[frontMatter.parentId].push(id);
                 }
             }

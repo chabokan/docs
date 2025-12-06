@@ -1,7 +1,9 @@
 ---
+id: "elk_stack"
 title: "استقرار استک ELK"
 icon: "faDatabase"
 description: "Elk Stack یک پلتفرم کامل برای جمع آوری، ذخیره سازی، تجزیه و تحلیل و نمایش داده های لاگ (Log) و اطلاعات است. این Stack شامل سه برنامه میباشد"
+parentId: "docker"
 ---
 
 # استقرار استک ELK
