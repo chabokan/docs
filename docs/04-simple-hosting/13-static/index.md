@@ -1,4 +1,5 @@
 ---
+id: "static"
 title: "سرویس Static"
 icon: "faFileCode"
 ---

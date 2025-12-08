@@ -1,4 +1,5 @@
 ---
+id: "vue"
 title: "سرویس Vue"
 icon: "faEye"
 ---

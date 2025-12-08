@@ -1,33 +1,33 @@
 import React from 'react';
 import {flatGlobalLogos, globalLogos} from "@site/src/data/logo/index.js";
 
-export default function ServiceLogo({id, category, linkMode, alt, galleryMode, iconData}) {
+export default function ServiceLogo({id, category, linkMode, alt, galleryMode, logoData}) {
     if (galleryMode)
         return <Gallery category={category} linkMode={linkMode}/>;
-    else if (iconData)
-        return <Element id={id} iconData={iconData} linkMode={linkMode}/>;
+    else if (logoData)
+        return <Element id={id} logoData={logoData} linkMode={linkMode}/>;
 
-    iconData = prepareIconData(category, iconData, id, alt);
+    logoData = prepareLogoData(category, id, alt);
 
-    return <Element id={id} iconData={iconData} linkMode={linkMode}/>;
+    return <Element id={id} logoData={logoData} linkMode={linkMode}/>;
 }
 
 function Gallery({category, linkMode}) {
-    const icons = globalLogos[category];
-    if (!icons) {
+    const logos = globalLogos[category];
+    if (!logos) {
         console.error(`gallery ${category} is not found`)
     }
-    return Object.entries(icons)
-        .map(([id, iconData]) => {
-            return <ServiceLogo key={id} id={id} iconData={iconData} linkMode={linkMode}/>
+    return Object.entries(logos)
+        .map(([id, logoData]) => {
+            return <ServiceLogo key={id} id={id} logoData={logoData} linkMode={linkMode}/>
         })
 }
 
-function Element({id, iconData, linkMode}) {
-    const {alt, label, logo, url} = iconData;
+function Element({id, logoData, linkMode}) {
+    const {alt, label, logo} = logoData;
     let content = <Content url={logo} alt={alt} title={label}/>
     if (linkMode) {
-        return <Link key={id} url={url}>
+        return <Link logoData={logoData} linkMode={linkMode}>
             {content}
         </Link>
     }
@@ -49,7 +49,8 @@ function Content({url, alt, title}) {
 }
 
 
-function Link({url, children}) {
+function Link({logoData, linkMode, children}) {
+    const url = linkMode === 'index' ? logoData.indexUrl : logoData.deployUrl;
     return (
         <a href={url} className="platform-icon">
             {children}
@@ -57,24 +58,24 @@ function Link({url, children}) {
     );
 }
 
-function prepareIconData(category, iconData, id, alt) {
-    let icons = flatGlobalLogos;
+function prepareLogoData(category, id, alt) {
+    let logos = flatGlobalLogos;
     if (category)
-        icons = globalLogos[category];
+        logos = globalLogos[category];
 
 
-    iconData = icons[id];
-    if (!iconData) {
-        console.error(`icon ${id} not found in category ${category}`)
+    let logoData = logos[id];
+    if (!logoData) {
+        console.error(`logo ${id} not found in category ${category}`)
     }
 
     if (alt) {
-        iconData = {
-            ...iconData,
+        logoData = {
+            ...logoData,
             alt: alt
         };
     }
-    return iconData;
+    return logoData;
 }
 
 

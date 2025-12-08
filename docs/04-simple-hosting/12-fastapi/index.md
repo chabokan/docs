@@ -1,7 +1,8 @@
 ---
+id: "fastapi"
 title: "سرویس FastAPI"
 icon: "faBolt"
-parentId: "simple-hosting/python/index"
+parentId: "python"
 ---
 # سرویس FastAPI
 

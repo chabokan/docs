@@ -1,7 +1,8 @@
 ---
+id: "flask"
 title: "سرویس Flask"
 icon: "faFlask"
-parentId: "simple-hosting/python/index"
+parentId: "python"
 ---
 # سرویس Flask
 

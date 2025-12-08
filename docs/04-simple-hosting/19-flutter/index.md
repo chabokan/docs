@@ -1,4 +1,5 @@
 ---
+id: "flutter"
 title: "آموزش استقرار Flutter"
 icon: "faMobileScreen"
 description: "در این بخش می خواهیم آموزش نحوه استقرار اولیه `Flutter` را در هاست Flutter به شما آموزش دهیم."

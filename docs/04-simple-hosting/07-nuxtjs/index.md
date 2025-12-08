@@ -1,7 +1,8 @@
 ---
+id: "nuxtjs"
 title: "سرویس NuxtJs"
 icon: "faMountain"
-parentId: "simple-hosting/vue/index"
+parentId: "vue"
 ---
 # سرویس NuxtJs
 
