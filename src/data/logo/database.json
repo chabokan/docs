@@ -1,0 +1,80 @@
+{
+  "mariadb": {
+    "label": "MariaDB",
+    "logo": "https://s1.chabokan.net/docs/images/mariadb.jpg",
+    "url": "/database/mariadb/install/",
+    "alt": "میزبانی دیتابیس ابری MariaDB در پلتفرم ابری ایرانی چابکان"
+  },
+  "mysql": {
+    "label": "Mysql",
+    "logo": "https://s1.chabokan.net/docs/images/mysql_kJwUntu-1.jpeg",
+    "url": "/database/mysql/install/",
+    "alt": "میزبانی دیتابیس ابری Mysql در پلتفرم ابری ایرانی چابکان"
+  },
+  "postgresql": {
+    "label": "PostgreSQL",
+    "logo": "https://s1.chabokan.net/docs/images/postgresql.jpeg",
+    "url": "/database/postgresql/install/",
+    "alt": "میزبانی دیتابیس ابری PostgreSQL در پلتفرم ابری ایرانی چابکان"
+  },
+  "mongodb": {
+    "label": "MongoDB",
+    "logo": "https://s1.chabokan.net/docs/images/mongodb-platform.jpeg",
+    "url": "/database/mongodb/install/",
+    "alt": "میزبانی دیتابیس ابری MongoDB در پلتفرم ابری ایرانی چابکان"
+  },
+  "redis": {
+    "label": "Redis",
+    "logo": "https://s1.chabokan.net/docs/images/redis-platform.jpeg",
+    "url": "/database/redis/install/",
+    "alt": "میزبانی دیتابیس ابری Redis در پلتفرم ابری ایرانی چابکان"
+  },
+  "sqlserver": {
+    "label": "SQL Server",
+    "logo": "https://s1.chabokan.net/docs/images/mssql-platfrom.jpeg",
+    "url": "/database/sql-server/install/",
+    "alt": "میزبانی دیتابیس ابری SQL Server در پلتفرم ابری ایرانی چابکان"
+  },
+  "prometheus": {
+    "label": "Prometheus",
+    "logo": "https://s1.chabokan.net/docs/images/prometeus-platform.jpg",
+    "url": "/database/prometheus/",
+    "alt": "میزبانی دیتابیس ابری Prometheus در پلتفرم ابری ایرانی چابکان"
+  },
+  "cassandra": {
+    "label": "Cassandra",
+    "logo": "https://s1.chabokan.net/docs/images/cassandra-platform.jpg",
+    "url": "/database/cassandra/install/",
+    "alt": "میزبانی دیتابیس ابری Cassandra در پلتفرم ابری ایرانی چابکان"
+  },
+  "couchdb": {
+    "label": "Couchdb",
+    "logo": "https://s1.chabokan.net/docs/images/couchdb-platform.jpg",
+    "url": "/database/couchdb/install/",
+    "alt": "میزبانی دیتابیس ابری Couchdb در پلتفرم ابری ایرانی چابکان"
+  },
+  "influxdb": {
+    "label": "Influxdb",
+    "logo": "https://s1.chabokan.net/docs/images/influxdb-platfrom.jpg",
+    "url": "/database/influxdb/install/",
+    "alt": "میزبانی دیتابیس ابری Influxdb در پلتفرم ابری ایرانی چابکان"
+  },
+  "neo4j": {
+    "label": "neo4j",
+    "logo": "https://s1.chabokan.net/docs/images/neo4j-platfrom.jpg",
+    "url": "/database/neo4j/install/",
+    "alt": "میزبانی دیتابیس ابری neo4j در پلتفرم ابری ایرانی چابکان"
+  },
+  "arangodb": {
+    "label": "Arangodb",
+    "logo": "https://s1.chabokan.net/docs/images/arangodb.jpg",
+    "url": "/database/arangodb/install/",
+    "alt": "میزبانی دیتابیس ابری Arangodb در پلتفرم ابری ایرانی چابکان"
+  },
+  "rethinkdb": {
+    "label": "Rethinkdb",
+    "logo": "https://s1.chabokan.net/docs/images/rethinkdb-platform.jpg",
+    "url": "/database/rethinkdb/install/",
+    "alt": "میزبانی دیتابیس ابری Rethinkdb در پلتفرم ابری ایرانی چابکان"
+  }
+}
