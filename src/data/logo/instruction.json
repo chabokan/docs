@@ -19,5 +19,12 @@
     "deployUrl": "/instruction/opensearch/",
     "indexUrl": "/instruction/opensearch/",
     "alt": "میزبانی آسان سرویس Opensearch در پلتفرم ابری ایرانی چابکان"
+  },
+  "deno": {
+    "label": "Deno",
+    "logo": "https://s1.chabokan.net/docs/images/deno-logo.png",
+    "deployUrl": "/instruction/deno/deploy",
+    "indexUrl": "/instruction/deno/",
+    "alt": "میزبانی آسان سرویس Deno در پلتفرم ابری ایرانی چابکان"
   }
 }
