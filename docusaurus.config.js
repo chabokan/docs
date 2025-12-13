@@ -299,7 +299,7 @@ const config = {
             prism: {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
-                additionalLanguages: ['bash','docker','php','log','ini','powershell','csharp','apacheconf','properties','nginx','typescript']
+                additionalLanguages: ['bash','docker','php','log','ini','powershell','csharp','apacheconf','properties','nginx','typescript','java']
             },
             docs: {
                 sidebar: {

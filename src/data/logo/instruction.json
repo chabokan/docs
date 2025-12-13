@@ -26,5 +26,12 @@
     "deployUrl": "/instruction/deno/deploy",
     "indexUrl": "/instruction/deno/",
     "alt": "میزبانی آسان سرویس Deno در پلتفرم ابری ایرانی چابکان"
+  },
+  "java": {
+    "label": "Java",
+    "logo": "https://s1.chabokan.net/docs/images/java-logo.png",
+    "deployUrl": "/instruction/java/deploy",
+    "indexUrl": "/instruction/java/",
+    "alt": "میزبانی آسان سرویس Java در پلتفرم ابری ایرانی چابکان"
   }
 }
