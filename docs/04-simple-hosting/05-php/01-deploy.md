@@ -30,8 +30,8 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="PHP"
 services={[
-"Mysql",
-"Mariadb"
+"mysql",
+"mariadb"
 ]}
 />
 

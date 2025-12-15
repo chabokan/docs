@@ -68,8 +68,8 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="Moodle"
 services={[
-"Mysql",
-"Mariadb"
+"mysql",
+"mariadb"
 ]}
 />
 

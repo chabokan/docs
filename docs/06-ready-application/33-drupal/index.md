@@ -48,8 +48,8 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="Drupal"
 services={[
-"Mysql",
-"Mariadb"
+"mysql",
+"mariadb"
 ]}
 />
 

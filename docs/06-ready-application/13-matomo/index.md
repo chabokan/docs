@@ -50,7 +50,7 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="Matomo"
 services={[
-"Mariadb"
+"mariadb"
 ]}
 />
 

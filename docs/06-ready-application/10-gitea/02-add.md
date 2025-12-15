@@ -43,8 +43,8 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="Gitea"
 services={[
-"Mysql",
-"Mariadb"
+"mysql",
+"mariadb"
 ]}
 />
 

@@ -51,8 +51,8 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="Flask"
 services={[
-"Mysql",
-"Mariadb"
+"mysql",
+"mariadb"
 ]}
 />
 

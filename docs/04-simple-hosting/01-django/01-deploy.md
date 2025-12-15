@@ -39,8 +39,8 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="Django"
 services={[
-"Mysql",
-"Mariadb"
+"mysql",
+"mariadb"
 ]}
 />
 

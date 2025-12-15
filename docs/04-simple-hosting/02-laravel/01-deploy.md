@@ -42,8 +42,8 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="Laravel"
 services={[
-"Mysql",
-"Mariadb"
+"mysql",
+"mariadb"
 ]}
 />
 
