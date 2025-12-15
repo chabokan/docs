@@ -31,8 +31,8 @@ import SharedServices from '/docs/_shared-services.mdx';
 <SharedServices
 platform="Ghost"
 services={[
-"Mysql",
-"Mariadb"
+"mysql",
+"mariadb"
 ]}
 />
 
