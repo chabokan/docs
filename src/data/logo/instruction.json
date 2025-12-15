@@ -26,5 +26,12 @@
     "deployUrl": "/instruction/deno/deploy",
     "indexUrl": "/instruction/deno/",
     "alt": "میزبانی آسان سرویس Deno در پلتفرم ابری ایرانی چابکان"
+  },
+  "streamlit": {
+    "label": "Streamlit",
+    "logo": "https://s1.chabokan.net/docs/images/streamlit-logo.png",
+    "deployUrl": "/instruction/streamlit/deploy",
+    "indexUrl": "/instruction/streamlit/",
+    "alt": "میزبانی آسان سرویس Streamlit در پلتفرم ابری ایرانی چابکان"
   }
 }
