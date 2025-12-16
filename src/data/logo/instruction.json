@@ -26,5 +26,12 @@
     "deployUrl": "/instruction/deno/deploy",
     "indexUrl": "/instruction/deno/",
     "alt": "میزبانی آسان سرویس Deno در پلتفرم ابری ایرانی چابکان"
+  },
+  "fastify": {
+    "label": "Fastify",
+    "logo": "https://s1.chabokan.net/docs/images/fastify-logo.png",
+    "deployUrl": "/instruction/fastify/deploy",
+    "indexUrl": "/instruction/fastify/",
+    "alt": "میزبانی آسان سرویس Fastify در پلتفرم ابری ایرانی چابکان"
   }
 }
