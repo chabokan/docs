@@ -28,6 +28,17 @@ n8n user-management:reset
 N8N_EDITOR_BASE_URL : https://your-domain
 ```
 
+## تغییر ورژن N8N
+
+در صورتی که قصد دارید ورژن برنامه N8N را تغییر دهید، می‌توانید در قسمت تنظیمات سرویس خود، اینکار را انجام دهید. بعد از
+انتخاب ورژن بر روی ذخیره ی تغییرات کلیک نمایید.
+
+import Versions from '/docs/06-ready-application/05-n8n/_versions.md';
+
+<Versions />
+
+![تغییر ورژن سرویس n8n چابکان](https://s1.chabokan.net/docs/images/n8n-version.png)
+
 ---
 import ServiceBanner from '@site/src/components/ServiceBanner';
 
