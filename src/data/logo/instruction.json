@@ -33,5 +33,12 @@
     "deployUrl": "/instruction/svelte/deploy",
     "indexUrl": "/instruction/svelte/",
     "alt": "میزبانی آسان سرویس Svelte در پلتفرم ابری ایرانی چابکان"
+  },
+  "qwik": {
+    "label": "Qwik",
+    "logo": "https://s1.chabokan.net/docs/images/qwik-logo.png",
+    "deployUrl": "/instruction/qwik/deploy",
+    "indexUrl": "/instruction/qwik/",
+    "alt": "میزبانی آسان سرویس Qwik در پلتفرم ابری ایرانی چابکان"
   }
 }
