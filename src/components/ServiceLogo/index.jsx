@@ -57,6 +57,8 @@ function Link({logoData, linkMode, children}) {
         url = logoData.indexUrl;
     else if (linkMode === 'nginx')
         url = logoData.indexUrl + 'nginx-config';
+    else if (linkMode === 'shared')
+        url = logoData.indexUrl + 'shared-setup';
     else url = linkMode;
 
     return (
