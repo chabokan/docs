@@ -2,15 +2,17 @@
   "mariadb": {
     "label": "MariaDB",
     "logo": "https://s1.chabokan.net/docs/images/mariadb.jpg",
-    "deployUrl": "/database/mariadb/install/",
     "indexUrl": "/database/mariadb/",
+    "deployUrl": "/database/mariadb/install/",
+    "sharedSetupUrl": "/database/mariadb/shared-setup",
     "alt": "میزبانی دیتابیس ابری MariaDB در پلتفرم ابری ایرانی چابکان"
   },
   "mysql": {
     "label": "Mysql",
     "logo": "https://s1.chabokan.net/docs/images/mysql_kJwUntu-1.jpeg",
-    "deployUrl": "/database/mysql/install/",
     "indexUrl": "/database/mysql/",
+    "deployUrl": "/database/mysql/install/",
+    "sharedSetupUrl": "/database/mysql/shared-setup",
     "alt": "میزبانی دیتابیس ابری Mysql در پلتفرم ابری ایرانی چابکان"
   },
   "postgresql": {
