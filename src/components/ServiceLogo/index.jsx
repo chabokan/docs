@@ -50,7 +50,17 @@ function Content({url, alt, title}) {
 
 
 function Link({logoData, linkMode, children}) {
-    const url = linkMode === 'index' ? logoData.indexUrl : logoData.deployUrl;
+    let url;
+    if (linkMode === true || linkMode === 'true')
+        url = logoData.deployUrl;
+    else if (linkMode === 'index')
+        url = logoData.indexUrl;
+    else if (linkMode === 'nginx')
+        url = logoData.indexUrl + 'nginx-config';
+    else if (linkMode === 'shared')
+        url = logoData.indexUrl + 'shared-setup';
+    else url = linkMode;
+
     return (
         <a href={url} className="platform-icon">
             {children}
