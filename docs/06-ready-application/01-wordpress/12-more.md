@@ -10,6 +10,24 @@ description: "نکات تکمیلی"
 
 در این بخش می خواهیم نکات تکمیلی `WordPress` را در [هاست WordPress](https://chabokan.net/cloud-hosting/php/wordpress/) به شما آموزش دهیم.
 
+## تغییر رمزعبور از PhpMyAdmin
+
+ابتدا وارد phpMyadmin خود شوید و در قسمت جداول دیتابیس خود wp_users (در صورتی که پیشفرض جداول خود را تغییر داده باشید
+قسمت پیشفرض جداولتان با نام انتخابی شما شروع می شود) را انتخاب نمایید.
+
+مانند تصویر زیر برای تغییر رمزعبور کاربر مورد نظر روی گزینه `Edit` کلیک کنید.
+
+![نکات تکمیلی سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/wordpress-phpmyadmin-users-01.png)
+
+سپس در فیلد‌های `user_login` و `user_pass` به ترتیب مقدار نام کاربری و رمزعبور جدید را قرار دهید. دقت کنید که برای
+`user_pass` حتما گزینه‌ی Function را روی `MD5` قرار دهید تا مقدار رمزعبور رمزنگاری شود.
+
+![نکات تکمیلی سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/wordpress-phpmyadmin-users-02.png)
+
+در پایان برای اعمال تغییرات در پایین صفحه روی دکمه Go کلیک کنید.
+
+![نکات تکمیلی سرویس Wordpress چابکان](https://s1.chabokan.net/docs/images/wordpress-phpmyadmin-users-03.png)
+
 ## ارور ERR_TOO_MANY_REDIRECTS
 
 در صورتی که با ارور ERR_TOO_MANY_REDIRECTS مواجه شدید، قطعه کد زیر را در wp-config.php اضافه نمایید. در صورتی که مورد رفع نشد از راهنمایی زیر مربوط به فایل .htaccess استفاده نمایید.
