@@ -61,5 +61,12 @@
     "deployUrl": "/instruction/fastify/deploy",
     "indexUrl": "/instruction/fastify/",
     "alt": "میزبانی آسان سرویس Fastify در پلتفرم ابری ایرانی چابکان"
+  },
+  "svelte": {
+    "label": "Svelte",
+    "logo": "https://s1.chabokan.net/docs/images/svelte-logo.png",
+    "deployUrl": "/instruction/svelte/deploy",
+    "indexUrl": "/instruction/svelte/",
+    "alt": "میزبانی آسان سرویس Svelte در پلتفرم ابری ایرانی چابکان"
   }
 }
