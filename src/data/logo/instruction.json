@@ -75,5 +75,12 @@
     "deployUrl": "/instruction/qwik/deploy",
     "indexUrl": "/instruction/qwik/",
     "alt": "میزبانی آسان سرویس Qwik در پلتفرم ابری ایرانی چابکان"
+  },
+  "hono": {
+    "label": "Hono",
+    "logo": "https://s1.chabokan.net/docs/images/hono-logo.png",
+    "deployUrl": "/instruction/hono/deploy",
+    "indexUrl": "/instruction/hono/",
+    "alt": "میزبانی آسان سرویس Hono در پلتفرم ابری ایرانی چابکان"
   }
 }
