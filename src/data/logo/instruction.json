@@ -54,5 +54,12 @@
     "deployUrl": "/instruction/blitzjs/deploy",
     "indexUrl": "/instruction/blitzjs/",
     "alt": "میزبانی آسان سرویس Blitz در پلتفرم ابری ایرانی چابکان"
+  },
+  "fastify": {
+    "label": "Fastify",
+    "logo": "https://s1.chabokan.net/docs/images/fastify-logo.png",
+    "deployUrl": "/instruction/fastify/deploy",
+    "indexUrl": "/instruction/fastify/",
+    "alt": "میزبانی آسان سرویس Fastify در پلتفرم ابری ایرانی چابکان"
   }
 }
