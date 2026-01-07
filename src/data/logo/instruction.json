@@ -82,5 +82,12 @@
     "deployUrl": "/instruction/hono/deploy",
     "indexUrl": "/instruction/hono/",
     "alt": "میزبانی آسان سرویس Hono در پلتفرم ابری ایرانی چابکان"
+  },
+  "nitro": {
+    "label": "Nitro",
+    "logo": "https://s1.chabokan.net/docs/images/nitro-logo.png",
+    "deployUrl": "/instruction/nitro/deploy",
+    "indexUrl": "/instruction/nitro/",
+    "alt": "میزبانی آسان سرویس Nitro در پلتفرم ابری ایرانی چابکان"
   }
 }
