@@ -96,5 +96,12 @@
     "deployUrl": "/instruction/yii/deploy",
     "indexUrl": "/instruction/yii/",
     "alt": "میزبانی آسان سرویس Yii در پلتفرم ابری ایرانی چابکان"
+  },
+  "nginx": {
+    "label": "Nginx",
+    "logo": "https://s1.chabokan.net/docs/images/nginx-logo.png",
+    "deployUrl": "/instruction/nginx/deploy",
+    "indexUrl": "/instruction/nginx/",
+    "alt": "میزبانی آسان سرویس Nginx در پلتفرم ابری ایرانی چابکان"
   }
 }
