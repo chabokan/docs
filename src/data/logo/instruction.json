@@ -103,5 +103,12 @@
     "deployUrl": "/instruction/nginx/deploy",
     "indexUrl": "/instruction/nginx/",
     "alt": "میزبانی آسان سرویس Nginx در پلتفرم ابری ایرانی چابکان"
+  },
+  "seq": {
+    "label": "Seq",
+    "logo": "https://s1.chabokan.net/docs/images/seq-logo.png",
+    "deployUrl": "/instruction/seq/deploy",
+    "indexUrl": "/instruction/seq/",
+    "alt": "میزبانی آسان سرویس Seq در پلتفرم ابری ایرانی چابکان"
   }
 }
