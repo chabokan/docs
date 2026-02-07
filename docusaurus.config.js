@@ -266,6 +266,30 @@ const config = {
                                 label: 'سرویس Sentry چابکان',
                                 href: 'https://sentry.chabokan.net/',
                             },
+                            {
+                                label: 'رادار چابکان',
+                                href: 'https://radar.chabokan.net/',
+                            },
+                            {
+                                label: 'میرور پکیج‌های چابکان',
+                                href: 'https://mirror.chabokan.net/#browse/browse',
+                            },
+                            {
+                                label: 'IP Lookup API چابکان',
+                                href: 'https://chabokan.net/ip/',
+                            },
+                            {
+                                label: 'مدیریت S3 چابکان',
+                                href: 'https://github.com/chabokan/chabok-s3-manager',
+                            },
+                            {
+                                label: 'افزونه Whois چابکان',
+                                href: 'https://chromewebstore.google.com/detail/chabok-whois/ooknaaobajkeagaighenoofpimedplcl',
+                            },
+                            {
+                                label: 'وضعیت سرویس‌های چابکان',
+                                href: 'https://status.chabokan.net/',
+                            }
                         ],
                     },
                     {
