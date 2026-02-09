@@ -260,3 +260,104 @@ sudo systemctl reload nginx
 ```
 
 :::
+
+## تغییر میرور‌های نصب بسته‌ها
+
+برای تغییر سرور‌های میرور بسته‌های لینوکسی، بر اساس نوع توزیع سیستم عامل سرور از دستورالعمل‌های زیر استفاده کنید.
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+    <TabItem value="Ubuntu">
+    برای تغییر میرور‌های APT در Ubuntu می‌بایست با دستور زیر فایل `sources.list` را ویرایش کنید:
+    ```shell
+    sudo nano /etc/apt/sources.list
+    ```
+    سپس تمامی آدرس‌ها را با آدرس سرور جدید جایگزین کنید. اگر قبلا این کار را انجام نداده باشید احتمالا آدرس‌هایی به این شکل در فایل خواهید دید:
+    ```
+    http://archive.ubuntu.com/ubuntu/
+    ```
+    که باید آنها را با آدرس سرور میرور مورد نظرتان جایگزین کنید. و در پایان با فشردن کلید‌های `CTRL + s` (برای ذخیره) و `CTRL + x` برای خروج، از ویرایشگر متنی `nano` خارج شوید. سپس ایندکس بسته‌های APT را با دستور زیر به‌روز کنید:
+    ```shell
+    sudo apt update
+    ```
+    برای تست درستی این عملیات دستور زیر را اجرا کنید و مطمئن شوید بسته‌ها از سرور جدید دانلود می‌شوند:
+    ```shell
+    sudo apt upgrade
+    ```
+    </TabItem>
+    <TabItem value="Debian">
+    برای تغییر میرور‌های APT در Debian می‌بایست با دستور زیر فایل `sources.list` را ویرایش کنید:
+    ```shell
+    sudo nano /etc/apt/sources.list
+    ```
+    سپس تمامی آدرس‌ها را با آدرس سرور جدید جایگزین کنید. اگر قبلا این کار را انجام نداده باشید احتمالا آدرس‌هایی به این شکل در فایل خواهید دید:
+    ```
+    http://deb.debian.org/debian/
+    ```
+    که باید آنها را با آدرس سرور میرور مورد نظرتان جایگزین کنید. و در پایان با فشردن کلید‌های `CTRL + s` (برای ذخیره) و `CTRL + x` برای خروج، از ویرایشگر متنی `nano` خارج شوید. سپس ایندکس بسته‌های APT را با دستور زیر به‌روز کنید:
+    ```shell
+    sudo apt update
+    ```
+    برای تست درستی این عملیات دستور زیر را اجرا کنید و مطمئن شوید بسته‌ها از سرور جدید دانلود می‌شوند:
+    ```shell
+    sudo apt upgrade
+    ```
+    </TabItem>
+    <TabItem value="Centos">
+    برای تغییر میرور‌ در CentOS می‌بایست با دستور زیر فایل `CentOS-Base.repo` را ویرایش کنید:
+    ```shell
+    sudo nano /etc/yum.repos.d/CentOS-Base.repo
+    ```
+    در این فایل مقدارهایی مانند مقدار زیر با کلید `baseurl` مشاهده می‌کنید.
+    ```properties
+    baseurl=http://mirror.centos.org/?release=$releaseever&arch=$basearch&repo=os
+    ```
+    که باید آنها را با آدرس سرور میرور مورد نظرتان جایگزین کنید. و در پایان با فشردن کلید‌های `CTRL + s` (برای ذخیره) و `CTRL + x` برای خروج، از ویرایشگر متنی `nano` خارج شوید. سپس ایندکس میرور را با دستور زیر به‌روز کنید:
+    ```shell
+    sudo dnf update
+    ```
+    برای تست درستی این عملیات دستور زیر را اجرا کنید و مطمئن شوید بسته‌ها از سرور جدید دانلود می‌شوند:
+    ```shell
+    sudo dnf upgrade
+    ```
+    </TabItem>
+    <TabItem value="Rocky">
+    برای تغییر میرور‌ در Rocky می‌بایست با دستور زیر فایل `Rocky-Base.repo` را ویرایش کنید:
+    ```shell
+    sudo nano /etc/yum.repos.d/Rocky-Base.repo
+    ```
+    در این فایل مقدارهایی مانند مقدار زیر با کلید `baseurl` مشاهده می‌کنید.
+    ```properties
+    baseurl=http://mirrors.rockylinux.org/rocky/$releasever/BaseOS/$basearch/os/
+    ```
+    که باید آنها را با آدرس سرور میرور مورد نظرتان جایگزین کنید. و در پایان با فشردن کلید‌های `CTRL + s` (برای ذخیره) و `CTRL + x` برای خروج، از ویرایشگر متنی `nano` خارج شوید. سپس ایندکس میرور را با دستور زیر به‌روز کنید:
+    ```shell
+    sudo dnf update
+    ```
+    برای تست درستی این عملیات دستور زیر را اجرا کنید و مطمئن شوید بسته‌ها از سرور جدید دانلود می‌شوند:
+    ```shell
+    sudo dnf upgrade
+    ```
+    </TabItem>
+    <TabItem value="AlmaLinux">
+    برای تغییر میرور‌ در AlmaLinux می‌بایست با دستور زیر فایل `AlmaLinux-Base.repo` را ویرایش کنید:
+    ```shell
+    sudo nano /etc/yum.repos.d/AlmaLinux-Base.repo
+    ```
+    در این فایل مقدارهایی مانند مقدار زیر با کلید `baseurl` مشاهده می‌کنید.
+    ```properties
+    baseurl=http://mirrors.almalinux.org/almalinux/$releasever/BaseOS/$basearch/os/
+    ```
+    که باید آنها را با آدرس سرور میرور مورد نظرتان جایگزین کنید. و در پایان با فشردن کلید‌های `CTRL + s` (برای ذخیره) و `CTRL + x` برای خروج، از ویرایشگر متنی `nano` خارج شوید. سپس ایندکس میرور را با دستور زیر به‌روز کنید:
+    ```shell
+    sudo dnf update
+    ```
+    برای تست درستی این عملیات دستور زیر را اجرا کنید و مطمئن شوید بسته‌ها از سرور جدید دانلود می‌شوند:
+    ```shell
+    sudo dnf upgrade
+    ```
+    </TabItem>
+
+</Tabs>
