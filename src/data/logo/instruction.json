@@ -117,5 +117,12 @@
     "deployUrl": "/instruction/gatsby/deploy",
     "indexUrl": "/instruction/gatsby/",
     "alt": "میزبانی آسان سرویس Gatsby در پلتفرم ابری ایرانی چابکان"
+  },
+  "gridsome": {
+    "label": "Gridsome",
+    "logo": "https://s1.chabokan.net/docs/images/gridsome-logo.png",
+    "deployUrl": "/instruction/gridsome/deploy",
+    "indexUrl": "/instruction/gridsome/",
+    "alt": "میزبانی آسان سرویس Gridsome در پلتفرم ابری ایرانی چابکان"
   }
 }
