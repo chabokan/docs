@@ -131,5 +131,12 @@
     "deployUrl": "/instruction/eleventy/deploy",
     "indexUrl": "/instruction/eleventy/",
     "alt": "میزبانی آسان سرویس Eleventy در پلتفرم ابری ایرانی چابکان"
+  },
+  "hugo": {
+    "label": "Hugo",
+    "logo": "https://s1.chabokan.net/docs/images/hugo-logo.png",
+    "deployUrl": "/instruction/hugo/deploy",
+    "indexUrl": "/instruction/hugo/",
+    "alt": "میزبانی آسان سرویس Hugo در پلتفرم ابری ایرانی چابکان"
   }
 }
