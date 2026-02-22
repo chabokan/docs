@@ -110,5 +110,12 @@
     "deployUrl": "/instruction/seq/deploy",
     "indexUrl": "/instruction/seq/",
     "alt": "میزبانی آسان سرویس Seq در پلتفرم ابری ایرانی چابکان"
+  },
+  "gatsby": {
+    "label": "Gatsby",
+    "logo": "https://s1.chabokan.net/docs/images/gatsby-logo.png",
+    "deployUrl": "/instruction/gatsby/deploy",
+    "indexUrl": "/instruction/gatsby/",
+    "alt": "میزبانی آسان سرویس Gatsby در پلتفرم ابری ایرانی چابکان"
   }
 }
