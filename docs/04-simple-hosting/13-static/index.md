@@ -12,3 +12,8 @@ import DocCardList from '@theme/DocCardList';
 ---
 :::info [مستندات رسمی HTML](https://html.spec.whatwg.org/)
 :::
+
+---
+import RelatedServices from '@site/src/components/RelatedServices';
+
+<RelatedServices />
