@@ -124,5 +124,12 @@
     "deployUrl": "/instruction/gridsome/deploy",
     "indexUrl": "/instruction/gridsome/",
     "alt": "میزبانی آسان سرویس Gridsome در پلتفرم ابری ایرانی چابکان"
+  },
+  "eleventy": {
+    "label": "Eleventy",
+    "logo": "https://s1.chabokan.net/docs/images/eleventy-logo.png",
+    "deployUrl": "/instruction/eleventy/deploy",
+    "indexUrl": "/instruction/eleventy/",
+    "alt": "میزبانی آسان سرویس Eleventy در پلتفرم ابری ایرانی چابکان"
   }
 }
