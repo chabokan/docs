@@ -8,7 +8,10 @@ export default function setIcon(item) {
         const icon = getIcon(item.href);
         item.iconIsSet = true;
         item.label = (
-            <div style={{display: 'inline-flex', alignItems: 'center', gap: '0.5em'}}>
+            <div
+                style={{display: 'inline-flex', alignItems: 'center', gap: '0.5em'}}
+                aria-label={item.label}
+            >
                 {icon}
                 {label}
             </div>
