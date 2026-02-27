@@ -138,5 +138,12 @@
     "deployUrl": "/instruction/hugo/deploy",
     "indexUrl": "/instruction/hugo/",
     "alt": "میزبانی آسان سرویس Hugo در پلتفرم ابری ایرانی چابکان"
+  },
+  "jekyll": {
+    "label": "Jekyll",
+    "logo": "https://s1.chabokan.net/docs/images/jekyll-logo.png",
+    "deployUrl": "/instruction/jekyll/deploy",
+    "indexUrl": "/instruction/jekyll/",
+    "alt": "میزبانی آسان سرویس Jekyll در پلتفرم ابری ایرانی چابکان"
   }
 }
