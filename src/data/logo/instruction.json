@@ -145,5 +145,12 @@
     "deployUrl": "/instruction/jekyll/deploy",
     "indexUrl": "/instruction/jekyll/",
     "alt": "میزبانی آسان سرویس Jekyll در پلتفرم ابری ایرانی چابکان"
+  },
+  "astro": {
+    "label": "Astro",
+    "logo": "https://s1.chabokan.net/docs/images/astro-logo.png",
+    "deployUrl": "/instruction/astro/deploy",
+    "indexUrl": "/instruction/astro/",
+    "alt": "میزبانی آسان سرویس Astro در پلتفرم ابری ایرانی چابکان"
   }
 }
